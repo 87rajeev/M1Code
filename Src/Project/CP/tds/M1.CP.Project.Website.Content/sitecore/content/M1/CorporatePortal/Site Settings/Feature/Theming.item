@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {426C7D35-C8FA-4BCE-BB40-9483800E08C7}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming
+parent: {FDFACE40-ACA4-43A5-BA4B-BEC658553D30}
+name: Theming
+master: {00000000-0000-0000-0000-000000000000}
+template: {F12319EF-7A30-4A63-AA22-050AB8962A2E}
+templatekey: TopBanner Folder
+created: 20180313T154640Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: b60c4ae0-4e46-47c3-840a-c717d19a883e
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180313T154640Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b60c4ae0-4e46-47c3-840a-c717d19a883e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180316T072133Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

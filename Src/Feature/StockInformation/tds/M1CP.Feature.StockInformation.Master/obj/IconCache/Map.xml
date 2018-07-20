@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP" ItemIcon="/temp/IconCache/Office/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/StockInformation" ItemIcon="/temp/IconCache/business/32x32/chart.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/StockInformation/StockInformation" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Profile" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Profile/Exchange" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Profile/Industry" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Profile/Issued Shares" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Profile/Issued Capital" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Major Shareholders/Axiata Investments" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Major Shareholders/Keppel  Telecoms" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Major Shareholders/SPH Multimedia" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/StockInformation/StockInformationQuotes" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP" ItemIcon="/temp/IconCache/BusinessV2/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation" ItemIcon="/temp/IconCache/business/32x32/chart.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation" ItemIcon="/temp/IconCache/Business/32x32/line-chart.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Major Shareholders" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Major Shareholders/Major Shareholder Last Updated" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/StockInformation/_StockInformation/Profile/Profile Last Updated" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

@@ -1,0 +1,61 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Feature.CategoryListing.Models
+@using M1CP.Foundation.Base.Helpers
+@model M1CP.Feature.CategoryListing.Models.ICyberGuardianComponentSection
+
+@if (Model != null)
+{
+    <div class="row cyber-background">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row cyber-gaurd-details">
+                <div class="col-md-6 equal-height">
+                    @using (Html.Glass().BeginEditFrame(Model, "editimage", m => m.Image_Desktop))
+                {
+                        @Html.Raw(HTMLHelper.BuildPictureTag(Model.Image_Desktop, "lazyload tablet-image"))
+                    }
+                </div>
+                <div class="col-md-6 equal-height">
+                    <div class="component-heading theme-dark left-align col-md-12 col-md-offset-1">
+                        @Html.Glass().Editable(x => x.Title)
+                        <p class="font-body1">@Html.Glass().Editable(x => x.Description)</p>
+                    </div>
+                    <div class="filter-type col-md-12 col-md-offset-1">
+                        <ul class="component-heading theme-dark left-align">
+                            @foreach (var item in Model.CyberGuardianCategoryList)
+                            {
+                                <li class="font-heading1">
+                                    @foreach (var color in item.SelectColor)
+                                    {
+                                        <span class="@Html.Glass().Editable(color, x => x.style)"></span>
+                                    }
+                                    @Html.Glass().Editable(item, x => x.CategoryName)
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    @if (Model.CyberGuardianSubCategoryList != null)
+                    {
+                        <ul class="sub-categories col-md-12 col-md-offset-1 padding-false">
+
+                            @foreach (var item in Model.CyberGuardianSubCategoryList)
+                            {
+                                <li class="sub-categories-item col-md-12 padding-false">
+                                    <div class="categoreis-icon text-right col-xs-4 col-md-3  padding-false">
+                                        @foreach (var color in item.SelectColor)
+                                        {
+                                            <span class="@Html.Glass().Editable(color, x => x.style)"></span>
+                                        }
+
+                                    </div>
+                                    <div class="col-xs-8  col-md-8">  @Html.Glass().Editable(item, x => x.SubCategoryName)</div>
+                                </li>
+                            }
+                        </ul>
+                    }
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+}

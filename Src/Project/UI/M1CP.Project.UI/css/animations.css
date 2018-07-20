@@ -1,0 +1,254 @@
+﻿/* ANIMATION A1 */
+/* css for Main slider orange line animation A1*/
+.orange-slider span {
+    background: #e75e0d;
+    height: 7px;
+    border-radius: 0px;
+    display: inline-block;
+    animation: slider-a1 1s ease forwards;
+}
+
+.white-slider span {
+    background: #ffffff;
+    height: 7px;
+    border-radius: 0px;
+    display: inline-block;
+    animation: slider-a1 1s ease forwards;
+}
+
+.orange-slider .slider-a1, .white-slider .slider-a1 {
+    width: 70%;
+}
+
+@keyframes slider-a1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+/*End of cssfor Main slider orange line animation A1*/
+/* ANIMATION A1 END */
+
+
+/* ANIMATION A2 */
+/* start of CSS for slide to section-animation */
+.mouse-wrapper {
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    width: 22px;
+    margin: 5px auto;
+}
+
+.mouse-icon {
+    height: 35px;
+    width: 22px;
+    border-radius: 12px;
+    border: 2px solid #E75E0D;
+    position: relative;
+}
+
+.mouse-icon:after {
+    content: '';
+    height: 3px;
+    width: 3px;
+    display: block;
+    margin: 5px auto;
+    border: 2px solid #E75E0D;
+    background: #E75E0D;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-animation: mouse-wheel 0.6s linear infinite;
+    -moz-animation: mouse-wheel 0.6s linear infinite;
+}
+
+.mouse-arrow {
+    display: block;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-right: 2px solid #E75E0D;
+    border-bottom: 2px solid #E75E0D;
+    margin: 2px 0 3px 8px;
+    width: 8px;
+    height: 8px;
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    -webkit-animation-delay: 100ms;
+    -moz-animation-delay: 100ms;
+    -webkit-animation-direction: alternate;
+}
+
+.mouse-arrow:after,
+.mouse-arrow:before {
+    position: absolute;
+    content: '';
+    display: block;
+    border-right: 2px solid #E75E0D;
+    border-bottom: 2px solid #E75E0D;
+    width: 8px;
+    height: 8px;
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+}
+
+.mouse-arrow:after {
+    margin: 7px 0 3px 7px;
+    -webkit-animation-delay: 200ms;
+    -moz-animation-delay: 200ms;
+    -webkit-animation-direction: alternate;
+}
+
+.mouse-arrow:before {
+    margin: 14px 0 3px 14px;
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes mouse-wheel {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(6px);
+        -ms-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+}
+
+@-webkit-keyframes mouse-scroll {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+/* End of CSS for Mouse Animation A2 */
+/* ANIMATION A2 END */
+
+
+/* ANIMATION A4 */
+/*CSS for A4 animation sliding top to bottom*/
+.animation-element {
+    opacity: 0;
+    position: relative;
+}
+
+.animation-element.slide-bottom {
+    opacity: 0;
+    -moz-transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+    -moz-transform: translate3d(0px, -30px, 0px);
+    -webkit-transform: translate3d(0px, -30px, 0px);
+    -o-transform: translate(0px, -30px);
+    -ms-transform: translate(0px, -30px);
+    transform: translate3d(0px, -30px, 0px);
+    opacity: 0;
+}
+
+.animation-element.slide-bottom.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+/*End of CSS for A4 animation sliding top to bottom*/
+/* ANIMATION A4 END */
+
+
+/* ANIMATION A8 */
+/* start of css for A8 Carousel slider arrow click behavior */
+.slick-arrow {
+     -webkit-transform: inherit; 
+    -ms-transform:inherit;
+     transform:inherit;     
+}
+
+.slick-arrow:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);    
+}
+/* End start of css for A8 Carousel slider arrow click behavior */
+/* ANIMATION A8 END */
+
+
+/* ANIMATION A10 */
+/*CSS for Button hover animation A10 */
+a.animated-button:link, a.animated-button:visited {
+    position: relative;
+    color: #fff;
+    border-radius: 0;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+/* button-animated Buttons */
+a.animated-button.button-animated {
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+    border: 2px solid #e75e0d;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+a.animated-button.button-animated:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+a.animated-button.button-animated:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+
+a.animated-button.button-animated:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 50%;
+    left: 50%;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.theme-light a.animated-button.button-animated:before {
+    background-color: #e75e0d;
+}
+
+.theme-dark a.animated-button.button-animated:before {
+    background-color: #ffffff;
+}
+/* End of CSS for Button hover animation A10*/
+/* ANIMATION A10 END */

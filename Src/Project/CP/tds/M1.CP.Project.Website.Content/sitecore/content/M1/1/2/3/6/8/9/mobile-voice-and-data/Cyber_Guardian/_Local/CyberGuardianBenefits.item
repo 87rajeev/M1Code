@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {6234CAB9-7CD1-4B2E-9030-4C317F831B8E}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/Cyber_Guardian/_Local/CyberGuardianBenefits
+parent: {EBB800C8-B078-4AD4-802C-A495981547E4}
+name: CyberGuardianBenefits
+master: {00000000-0000-0000-0000-000000000000}
+template: {300B8C0D-59DC-40A7-9380-E4F31E5ECF40}
+templatekey: IconThumbnail_list
+created: 20180507T080811Z
+
+----version----
+language: en
+version: 1
+revision: 44fbf1da-8bb3-4217-be2c-c7d2b4c8b70a
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 87
+
+<p class="font-heading5">Cyber Guardian</p>
+<p class="font-heading6">&nbsp;BENEFITS</p>
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+----field----
+field: {2185ACF9-1359-4194-8523-5F389036543E}
+name: ThumbnailListitems
+key: thumbnaillistitems
+content-length: 155
+
+{28E073AB-ABE5-4483-89E6-832CB662DE14}|{E4A2F1AB-558C-4251-B132-B0AB0C722109}|{93F3B463-F517-4C5B-AE8E-965F200D9247}|{78C79079-0816-4A7E-B976-E39426C937C5}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180418T073617Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44fbf1da-8bb3-4217-be2c-c7d2b4c8b70a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T105416Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

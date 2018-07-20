@@ -1,0 +1,60 @@
+----item----
+version: 1
+id: {B8A45890-F729-4C24-B33A-8CD28F372EF0}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/FBBSignUp
+parent: {6334B9BF-C4CC-4D47-A39E-DC51CB6E2882}
+name: FBBSignUp
+master: {00000000-0000-0000-0000-000000000000}
+template: {80B96A13-1EFD-429F-909E-BB934208421C}
+templatekey: CTAList
+created: 20180502T105611Z
+
+----version----
+language: en
+version: 1
+revision: 1a7d3d3a-f85a-482d-aaf6-80be8f69dcc8
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 38
+
+{441C7838-D805-496E-9B26-FC59C90EDB0E}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 84
+
+<p class="font-heading1">This plan comes</p>
+<p class="font-heading3">WITH THESE</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180419T095238Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1a7d3d3a-f85a-482d-aaf6-80be8f69dcc8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180502T105622Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

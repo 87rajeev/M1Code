@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal" ItemIcon="/temp/iconcache/network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource" ItemIcon="/temp/iconcache/office/16x16/magazine_folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Button Style" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group" ItemIcon="/temp/iconcache/office/32x32/tool_tip.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/24MonthContractSignUp" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/24MonthContractSignUp/SignUp" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/EntertainmentCTAList" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/EntertainmentCTAList/SignUp" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/EntertainmentCTAList/ViewAll" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/MySimeCTAList" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/MySimeCTAList/IDD" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/MySimeCTAList/NumberReservation" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/MySimeCTAList/TalkTimeAddOn" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/MySimeCTAList/View ALL" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/NetflixSignUp" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/NetflixSignUp/SignUp" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/TestPageCTAList" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/TestPageCTAList/LearnMore" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links/IDD" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links/LearnMore" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links/NumberReservation" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links/SignUp" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links/Signup SME" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links/TalktimeAddOn" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Links/ViewAll" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/New _CTAGroup" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CTA/Signup" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/FAQ" ItemIcon="/temp/iconcache/apps/32x32/question mark.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/FAQ/Fiber Home Broadband" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/FAQ/M1 Fiber Broadband" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide" ItemIcon="/temp/iconcache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation" ItemIcon="/temp/iconcache/office/32x32/graph_star.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Deals" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Deals/Business eShop" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Deals/Event Promotions" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Deals/Latest Deals" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Grow with us" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Grow with us/Awards" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Grow with us/Case Studies" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Grow with us/Events" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Grow with us/Grow Your Business" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Grow with us/Latest News" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Grow with us/Sales Enquiries" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Products" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Products/Broadband" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Products/Cloud Services" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Products/Data center" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Products/International call and roaming" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Products/Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Solutions" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Solutions/Enterprise Mobility" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Solutions/Internet of Things" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Solutions/Managed IT Services" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Solutions/Wholesale" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Support" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Support/FAQs" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Support/Online Business Directory" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Support/Plan your Bills" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Support/Service Announcements" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Support/Service Guides" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/business-header-navigation/Support/Terms and Conditions" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/Left-header-navigation" ItemIcon="/temp/iconcache/office/32x32/graph_star.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/Left-header-navigation/Business" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/Left-header-navigation/Personal" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation" ItemIcon="/temp/iconcache/office/32x32/graph_star.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/About us" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/About us/Careers" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/About us/Investors" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/About us/News" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/About us/Our Company" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/About us/Partnerships" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/About us/Regulatory information" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Broadband" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Broadband/Add-ons" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Broadband/Devices" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Broadband/Fixed Voice" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Broadband/Plans" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Deals" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Deals/Broadband" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Deals/Bundles" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Deals/Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Deals/Others" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Deals/Phones and Tablets" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Digital Services" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Digital Services/Finance" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Digital Services/Music and Entertainment" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Digital Services/Others" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Digital Services/Security" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Add-ons" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Devices" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Plans with Devices" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Prepaid" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/SIM-Only Plans" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Specials" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Travel" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Travel/Going Overseas" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Travel/Visiting Singapore" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation" ItemIcon="/temp/iconcache/office/32x32/graph_star.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us/Careers" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us/Investors" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us/News" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us/Our Company" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us/Partnerships" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us/Regulatory information" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Broadband" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Broadband/Add-ons" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Broadband/Devices" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Broadband/Fixed Voice" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Broadband/Plans" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Deals" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Deals/Broadband" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Deals/Bundles" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Deals/Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Deals/Others" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Deals/Phones and Tablets" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Digital Services" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Digital Services/Finance" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Digital Services/Music and Entertainment" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Digital Services/Others" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Digital Services/Security" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile/Add-ons" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile/Devices" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile/Plans with Devices" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile/Prepaid" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile/SIM-Only Plans" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile/Specials" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Travel" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Travel/Going Overseas" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Travel/Visiting Singapore" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/TextMedia" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/TextMedia/HomePageList" ItemIcon="/temp/iconcache/applications/16x16/preferences.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/TextMedia/HomePageList/Item1" ItemIcon="/temp/iconcache/multimedia/32x32/image.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/TextMedia/HomePageList/Item2" ItemIcon="/temp/iconcache/multimedia/32x32/image.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/TextMedia/HomePageList/Item3" ItemIcon="/temp/iconcache/multimedia/32x32/image.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Videos" ItemIcon="/temp/iconcache/multimedia/16x16/open_video_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home" ItemIcon="/temp/IconCache/Core3/16x16/home_yellow_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1" ItemIcon="/temp/iconcache/applicationsv2/16x16/information2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/our-company" ItemIcon="/temp/iconcache/applications/32x32/document_text.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Business" ItemIcon="/temp/iconcache/business/16x16/briefcase.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal" ItemIcon="/temp/iconcache/peoplev2/16x16/users.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile" ItemIcon="/temp/IconCache/Office/32x32/smartphone.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Accessories" ItemIcon="/temp/IconCache/SoftwareV2/16x16/headphones.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Phones" ItemIcon="/temp/IconCache/Business/16x16/mobilephone2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Tables" ItemIcon="/temp/IconCache/People/16x16/graphics-tablet.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/wearables" ItemIcon="/temp/IconCache/Office/16x16/timer.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Mobile Tablet Broadband" ItemIcon="/temp/iconcache/business/16x16/cabinet.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans" ItemIcon="/temp/iconcache/business/16x16/cabinet.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage" ItemIcon="/temp/iconcache/office/32x32/tab_pane.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/ImagePromo" ItemIcon="/temp/iconcache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeAccordion" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeAccordion/FAQSection" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeAccordion/FAQSection/FAQ" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeAccordion/FAQSection/FAQ/Fiber Home Broadband" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageCTAs" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageCTAs/IDD" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageCTAs/NumberReservation" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageCTAs/TalkTimeAddOn" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageCTAs/View ALL" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageTopBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeSignUp" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient" ItemIcon="/temp/iconcache/apps/32x32/shop (1).png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient/15GB" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient/30GB" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient/5GB" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient/Unlimited" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/PageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device" ItemIcon="/temp/iconcache/business/32x32/phone_conference.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Device Carousal" ItemIcon="/temp/iconcache/applications/32x32/text_rich_marked.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Device Carousal/Device Details" ItemIcon="/temp/iconcache/apps/32x32/hosting.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Device Carousal/Device Details 1" ItemIcon="/temp/iconcache/apps/32x32/hosting.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Device Carousal/Device Details 2" ItemIcon="/temp/iconcache/apps/32x32/hosting.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Device Carousal/Device Details3" ItemIcon="/temp/iconcache/apps/32x32/hosting.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/PageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/PageBanner 12 1" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/PageBanner 12 2" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Text Carousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Text Carousal/Cyber Guardian" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Text Carousal/Data Passport" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Text Carousal/Premium" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Text Carousal/Toggle Prime" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/TopBanner Plan with Device" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/TopBanner Plan with Device/Signup" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/TopBanner Plan with Device/Signup SME" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services" ItemIcon="/temp/iconcache/business/16x16/cabinet.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage" ItemIcon="/temp/iconcache/multimedia/32x32/film_clip.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixAccordion" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixAccordion/NetflixAccordionSection" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixAccordion/NetflixAccordionSection/NetflixFAQ" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixPageBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient" ItemIcon="/temp/iconcache/apps/32x32/shop.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Basic" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Copy of Basic" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Standard" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Ultra" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/NetflixTopBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/PageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/Promo" ItemIcon="/temp/iconcache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent1" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent2" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent3" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent4" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/TabLinksList" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Entertainment News/NetflixPage/_Local/TextContent" ItemIcon="/temp/iconcache/applications/16x16/edit.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons" ItemIcon="/temp/iconcache/network/32x32/node_add.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/KrisFlyer" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/Safra" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/Seniors" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/Youth" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/InternationalCall" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/MobileVoice" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/Music" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/Roaming" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/Security" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/TopBanner Pink" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/TopBanner Pink/Signup" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/Mobile Add Ons/_Local/TopBanner Pink/Signup SME" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Value Added Services/Mobile Voice And Data/New Postpaid Plans" ItemIcon="/temp/iconcache/office/32x32/tab_pane.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Travel" ItemIcon="/temp/iconcache/peoplev2/16x16/palm_tree.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings" ItemIcon="/temp/IconCache/Apps/16x16/setting.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Application Settings" ItemIcon="/temp/IconCache/Office/16x16/reset_settings.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Application Settings/CacheTimeOut" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Metadata" ItemIcon="/temp/iconcache/networkv2/16x16/key_information.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Navigation" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient" ItemIcon="/temp/iconcache/apps/32x32/umbrella.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Colour" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/MaxMin" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/MediaDimension" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Color" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Gradient" ItemIcon="/temp/iconcache/apps/32x32/umbrella.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Gradient/Blue" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Gradient/Grey" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Gradient/Orange" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Gradient/Purple" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Project" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/Global" ItemIcon="/temp/iconcache/applications/16x16/folder_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component2" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component1" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Pagebanner_IntialPromo" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Pagebanner_Promo" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Carousal Permium" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Cyber Guardian" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Data Passport" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail/Thumbnail Component" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail/Thumbnail Component1" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/TopBanner Content/Signup" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component3" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Toggle Prime" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail/Thumbnail Component2" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/TopBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/TopBanner Content/Signup SME" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource" ItemIcon="/temp/iconcache/office/16x16/magazine_folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource" ItemIcon="/temp/iconcache/office/16x16/magazine_folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home" ItemIcon="/temp/IconCache/Core3/16x16/home_yellow_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal" ItemIcon="/temp/iconcache/peoplev2/16x16/users.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile" ItemIcon="/temp/IconCache/Office/32x32/smartphone.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal" ItemIcon="/temp/iconcache/network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1" ItemIcon="/temp/iconcache/applicationsv2/16x16/information2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Business" ItemIcon="/temp/iconcache/business/16x16/briefcase.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/our-company" ItemIcon="/temp/iconcache/applications/32x32/document_text.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Phones" ItemIcon="/temp/IconCache/Business/16x16/mobilephone2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Accessories" ItemIcon="/temp/IconCache/SoftwareV2/16x16/headphones.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/investors" ItemIcon="/temp/iconcache/applications/32x32/document_text.png" />
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/content/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal" ItemIcon="/temp/iconcache/network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal" ItemIcon="/temp/iconcache/network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal" ItemIcon="/temp/iconcache/peoplev2/16x16/users.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/wearables" ItemIcon="/temp/IconCache/Office/16x16/timer.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Tables" ItemIcon="/temp/IconCache/People/16x16/graphics-tablet.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Phones" ItemIcon="/temp/IconCache/Business/16x16/mobilephone2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Devices/Accessories" ItemIcon="/temp/IconCache/SoftwareV2/16x16/headphones.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device" ItemIcon="/temp/iconcache/business/32x32/phone_conference.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device" ItemIcon="/temp/iconcache/business/32x32/phone_conference.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans" ItemIcon="/temp/iconcache/business/16x16/cabinet.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage" ItemIcon="/temp/iconcache/office/32x32/tab_pane.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient" ItemIcon="/temp/iconcache/apps/32x32/shop (1).png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/ImagePromo" ItemIcon="/temp/iconcache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/PageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageTopBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeAccordion" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeSignUp" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Mobile Tablet Broadband" ItemIcon="/temp/iconcache/business/16x16/cabinet.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimeSignUp" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageCTAs" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1" ItemIcon="/temp/iconcache/applicationsv2/16x16/information2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile" ItemIcon="/temp/IconCache/Office/32x32/smartphone.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource" ItemIcon="/temp/iconcache/office/16x16/magazine_folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Business" ItemIcon="/temp/iconcache/business/16x16/briefcase.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home" ItemIcon="/temp/IconCache/Core3/16x16/home_yellow_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component1" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component2" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal/Carousal Component3" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Carousal Permium" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Cyber Guardian" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Data Passport" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Toggle Prime" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail/Thumbnail Component" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail/Thumbnail Component1" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Carousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Pagebanner_IntialPromo" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Pagebanner_Promo" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/TopBanner Content" ItemIcon="/temp/iconcache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail/Thumbnail Component2" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/TopBanner Content/Signup SME" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/TopBanner Content/Signup" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/MLanding/_Local/Banner/Page Banner/PageBanner 12 1" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/MLanding/_Local/Banner/Page Banner/PageBanner 12 2" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixPageBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/TopBanner Pink" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ" ItemIcon="/temp/iconcache/applications/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/FAQTopBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Questions" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Questions/General Questions" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Questions/General Questions/FAQ" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Questions/General Questions/FAQ/Annual Report" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Questions/General Questions/FAQ/Financial statements" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Questions/General Questions/FAQ/Fiscal Year" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/QuickLinks" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Shares" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Shares/About M1 Shares" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Shares/About M1 Shares/FAQ1" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Shares/About M1 Shares/FAQ1/M1 Shares" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Shares/About M1 Shares/FAQ1/share holders" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand" ItemIcon="/temp/iconcache/businessv2/32x32/telephone.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand PageBanner content" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand TabLinksList" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand TabLinksList/Can i Recontract" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand TabLinksList/Is my home fiber ready" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand TabLinksList/Test Your M1 Fiber Speed" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand ThumbnailGradient" ItemIcon="/temp/iconcache/apps/32x32/shop (1).png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand ThumbnailGradient/10 Gbps" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand ThumbnailGradient/5 Gbps" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand ThumbnailGradient/Gamepro" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/BroadBand TopBanner content" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/FastPlansThumbnailGradient" ItemIcon="/temp/iconcache/apps/32x32/shop (1).png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/FastPlansThumbnailGradient/1 Gbps" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/FastPlansThumbnailGradient/2 Gbps" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/_Local/FastPlansThumbnailGradient/300 Mbps" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans" ItemIcon="/temp/iconcache/businessv2/32x32/telephone.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans/_Local/PageBanner AppleTv" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans/_Local/PageBanner UHD" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans/_Local/Plans ImageThumbnail" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans/_Local/Plans TextCarousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans/_Local/Plans TextContent" ItemIcon="/temp/iconcache/applications/16x16/edit.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Home BroadBand/Plans/_Local/Plans TopBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services" ItemIcon="/temp/iconcache/office/32x32/modem_earth.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_Music" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_Music/MUSIC" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_Music/MUSIC/Digital services ImageThumbnailCarousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_Music/MUSIC/Digital services ImageThumbnailCarousal/Connecting Tones" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_Music/MUSIC/Digital services ImageThumbnailCarousal/Netflix" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_Music/MUSIC/Digital services ImageThumbnailCarousal/Toggle Prime" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/FINANCE" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/OTHERS" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/SECURITY" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/SECURITY/ImageThumbnailCarousal_security" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/SECURITY/ImageThumbnailCarousal_security/CyberGuardian" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/SECURITY/ImageThumbnailCarousal_security/Mobile Guard" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/SECURITY/ImageThumbnailCarousal_security/Vsafe" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Digital Services TopBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage" ItemIcon="/temp/iconcache/multimedia/32x32/film_clip.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixAccordion" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixAccordion/NetflixAccordionSection" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixAccordion/NetflixAccordionSection/NetflixFAQ" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient" ItemIcon="/temp/iconcache/apps/32x32/shop.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Basic" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Copy of Basic" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Standard" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/NetflixThumbnailTextGradient/Ultra" ItemIcon="/temp/iconcache/apps/32x32/money.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/PageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/Promo" ItemIcon="/temp/iconcache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent1" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent2" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent3" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/Promo/ImagePromoContent4" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/TabLinksList" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/TextContent" ItemIcon="/temp/iconcache/applications/16x16/edit.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data" ItemIcon="/temp/iconcache/office/32x32/clients.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons" ItemIcon="/temp/iconcache/network/32x32/node_add.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/KrisFlyer" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/Safra" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/Seniors" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal/Youth" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/InternationalCall" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/MobileVoice" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/Music" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/Roaming" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/MobileAddon/Security" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/TopBanner Pink/Signup" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/TopBanner Pink/Signup SME" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/New Postpaid Plans" ItemIcon="/temp/iconcache/office/32x32/tab_pane.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals" ItemIcon="/temp/IconCache/Applications/32x32/text_lock.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian" ItemIcon="http://m1corporateportal/temp/iconcache/people/32x32/colors.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Ads Popups" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Adult content" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Anonymiser" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Cluts" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Dating" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Drugs alcohol" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Entertainment" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Forums" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Gambling" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Hate Intolerence" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Objectional content" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Online Game" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Politics" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Security threats" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Shopping" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Social network" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Sports" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Streaming Downloads" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Weapons Violence" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian/Web-base Email" ItemIcon="http://m1corporateportal/temp/iconcache/applications/32x32/bullet_ball_green.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions/Broadband" ItemIcon="/temp/iconcache/apps/32x32/paint.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions/Broadband/Fibre" ItemIcon="/temp/iconcache/imaging/32x32/layer_blend_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions/Broadband/soho" ItemIcon="/temp/iconcache/imaging/32x32/layer_blend_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions/Postpiad" ItemIcon="/temp/iconcache/apps/32x32/paint.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions/Postpiad/Free24GB" ItemIcon="/temp/iconcache/imaging/32x32/layer_blend_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions/Postpiad/MotoMods" ItemIcon="/temp/iconcache/imaging/32x32/layer_blend_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband" ItemIcon="/temp/iconcache/applications/32x32/diskdrive.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local" ItemIcon="/temp/iconcache/applications/16x16/folder_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion" ItemIcon="/temp/iconcache/applications/16x16/window_split_ver.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion/Accordion Section 2" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion/Accordion Section 2/FAQ" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion/Accordion Section1/FAQ Group" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion/Accordion Section3" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion/Accordion Section3/FAQ Group" ItemIcon="/temp/iconcache/business/32x32/up_down_question.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion/Accordion Section3/FAQ Group/FAQ" ItemIcon="/temp/iconcache/apps/32x32/help.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/BannerWithoutCTA" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/FBBSignUp" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImagePromo" ItemIcon="/temp/iconcache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImagePromo/4G Broadband" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImagePromo/Fixed Voice" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImagePromo/ImagePromoContent" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImageThumbnailCarousal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImageThumbnailCarousal/Carousal Component2" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImageThumbnailCarousal/Carousal Component3" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImageThumbnailCarousal/Carousal Component4" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImageThumbnailCarousal/Compoment1" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/TabLinksList" ItemIcon="/temp/iconcache/office/32x32/add_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Banner/BannerWithoutCTA" ItemIcon="/temp/IconCache/apps/32x32/page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Banner/Copy of PageBanner" ItemIcon="/temp/IconCache/apps/32x32/page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Banner/MySimePageBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Banner/NetflixPageBanner Content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/mobile-device-promotions" ItemIcon="/temp/IconCache/Apps/32x32/Calling.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/MLanding/_Local/Banner/page-banner/pagebanner-12-1" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/MLanding/_Local/Banner/page-banner/pagebanner-12-2" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/topbanner-content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/entertainment-news/NetflixPage/_Local/netflixpagebanner-content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/entertainment-news/NetflixPage/_Local/netflixtopbanner-content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/mobile-add-ons/_Local/topbanner-pink" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/phone-plans/Postpaid/MySimePage/_Local/mysimepagebanner-content" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/Accordion/accordion-section-2" ItemIcon="/temp/iconcache/software/32x32/element_copy.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Navigation/CSSClass/dark" ItemIcon="/temp/iconcache/office/32x32/painters_palette2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Banner/NavigationLinks/Connecting Tones" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Banner/NavigationLinks/Cyber Gaurdian" ItemIcon="/temp/iconcache/imaging/32x32/line_straight_red_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/CyberGuardian Categories/Lite" ItemIcon="http://m1corporateportal/temp/iconcache/applicationsv2/32x32/bullet_ball_glass_yellow.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/CyberGuardian Category Color/Lite" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Metadata/Corporate Portal/Iphon 8" ItemIcon="/temp/iconcache/office/32x32/graph.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Metadata/Corporate Portal/iPhone 7" ItemIcon="/temp/iconcache/office/32x32/graph.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Metadata/Corporate Portal/iPhone 7 Plus" ItemIcon="/temp/iconcache/office/32x32/graph.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming/Orientation/Horizontal Component" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming/Orientation/Left Alignment" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming/Orientation/Center Alignment" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming/Orientation/Vertical Component" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming/Orientation" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/Theming/Themes/DarkTheme" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/ThumbnailPromotionsCount/ThumbnailPromotionsCount/Four" ItemIcon="/temp/iconcache/office/32x32/sort_19_ascending.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature/ThumbnailPromotionsCount/ThumbnailPromotionsCount/Three" ItemIcon="/temp/iconcache/office/32x32/sort_19_ascending.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Colour/Black" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Colour/Blue" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Colour/Golden" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Colour/Grey" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/MaxMin/MaxMinDesktop/Four" ItemIcon="/temp/iconcache/office/32x32/sort_19_ascending.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/MaxMin/MaxMinDesktop/Three" ItemIcon="/temp/iconcache/office/32x32/sort_19_ascending.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/MaxMin/MaxMinDesktop" ItemIcon="/temp/iconcache/office/32x32/keyboard_key_1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/MaxMin/MaxMinMobile/One" ItemIcon="/temp/iconcache/office/32x32/sort_19_ascending.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Color/Text Theme Black" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/Blue" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/Dark Blue" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/DeepOrange" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/Green" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/LightOrange" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/Ocean Blue" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/pink" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/Purple" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/Red" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Background Gradient/Voilet" ItemIcon="/temp/iconcache/people/32x32/brush1.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/_Local/Banner/Page Banner/PageBanner 12 1" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/_Local/Banner/Page Banner/PageBanner 12 2" ItemIcon="/temp/IconCache/Apps/32x32/Page.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/_Local/Banner/TopBanner/TopBanner Pink" ItemIcon="/temp/IconCache/applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Plans with Devices/Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Plans with Devices/MySIMe" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile/Plans with Devices/MySIMs" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+</ItemIconCache>

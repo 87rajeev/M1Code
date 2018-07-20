@@ -1,0 +1,120 @@
+﻿/* start of css for Accordion */
+/*fix form dynamic conten t*/
+.accordion-properties .collapse {
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+
+.accordion-properties .collapse.in {
+    height: auto !important;
+    overflow: inherit;
+}
+/*end fix form dynamic content*/
+
+.accordion-properties .panel-title > a:before {
+    float: right !important;
+    font-family: 'Glyphicons Halflings';
+    content:"\002b";
+	transform: rotate(45deg);
+	transition: transform 0.5s ease;
+	
+}
+.accordion-properties .panel-title > a.collapsed:before {
+    float: right !important;
+	font-family: 'Glyphicons Halflings';
+    content:"\002b";
+	transform: rotate(0);
+	transition: transform 0.5s ease;
+}
+
+.accordion-properties .panel-group .panel+.panel {
+    margin-top: 0px; 
+}
+
+.accordion-properties .panel-default .panel-heading {
+    /* border-color: #ddd; */
+	background-color : transparent;
+}
+
+.accordion-properties .panel {
+	background-color: transparent;
+    border: 1px pink;
+    margin-bottom: 20px;
+    background-color: transparent;
+    /*border-top: 2px solid #f5f5f5;
+    border-left: 2px solid #f5f5f5;
+    border-right: 2px solid #f5f5f5;
+    border-bottom: 3px solid #D2691E;*/
+    /* border-radius: 4px; */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-properties .panel-group .panel-heading {
+	border-bottom: 2px solid #E75E0D;
+}
+
+.accordion-properties .panel-heading {
+	padding : 10px 0px 15px 0px;
+}
+
+.accordion-properties .panel-body {
+	color : #E75E0D;
+}
+
+.accordion-properties .panel-title {
+    font-weight: 800;
+    color: #E75E0D;
+}
+
+.accordion-properties .panel-title > a:hover, 
+.accordion-properties .panel-title > a:active, 
+.accordion-properties .panel-title > a:focus {
+    text-decoration:none;
+}
+
+.accordion-properties .crausel-type-2 .slick-slider {
+    padding: 0px;
+}
+.accordion-properties .panel-group {
+    margin-bottom: 0px;
+}
+
+.accordion-properties dd {
+    font-weight: normal;
+    color: #6e6e6e;
+    margin-bottom: 20px;
+}
+
+.accordion-properties dt {
+    font-family: Gotham-Black;
+    color: #6E6E6E;
+}
+
+.accodionPadding .panel-body {
+    /*background-color: #f7f7f7;*/
+    background: linear-gradient(#f7f7f7,#fff);
+}
+
+.accodionPadding .panel-heading {
+    margin: 0px 15px;
+}
+
+@media (max-width: 768px) {
+    #accordion > .accordion-properties {
+        padding: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .accordion-properties .font-body7 {
+        font-size: 1.00em;
+    }
+
+    .accordion-properties .accodionPadding {
+	    padding-left:8%;
+	    padding-right:8%;
+    }
+}
+/* end of css for Accordion*/

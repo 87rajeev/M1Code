@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {02B2BFA1-6984-4D3C-A2EE-124E630E4F37}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/CorporatePortal/Page Types/FAQ/__Standard Values/_Local
+parent: {BEADC557-0EA3-46F1-98A1-B1861636B0C1}
+name: _Local
+master: {00000000-0000-0000-0000-000000000000}
+template: {9669259C-6AB5-4626-B5B6-BA063C47C576}
+templatekey: Local Datasource Folder
+created: 20180502T151853Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 5
+
+-1000
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{2568749C-D4FF-4081-8ED2-3B87BD0E4E2F}
+----version----
+language: en
+version: 1
+revision: 3a9b4c3b-0d86-4c5b-a9da-9fdbb5b32997
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180502T151853Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3a9b4c3b-0d86-4c5b-a9da-9fdbb5b32997
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180502T151853Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

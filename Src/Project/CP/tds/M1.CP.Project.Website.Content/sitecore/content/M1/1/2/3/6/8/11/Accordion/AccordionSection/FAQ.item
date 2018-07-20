@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {B15422EF-9141-4887-8224-0D457A65BCAD}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/plan-with-device/Accordion/AccordionSection/FAQ
+parent: {F3618AB4-BC0A-4D9B-AB37-18EB26DA3755}
+name: FAQ
+master: {00000000-0000-0000-0000-000000000000}
+template: {CFF71D88-60BE-44BA-87BA-97A66C4C0950}
+templatekey: FAQ Group
+created: 20180413T152518Z
+
+----version----
+language: en
+version: 1
+revision: 1648cba7-51d4-44fe-9372-174e85404ff2
+
+----field----
+field: {C2914CE9-A86B-47FF-9DDB-CBEEE7E7A172}
+name: Group Member
+key: group member
+content-length: 77
+
+{C06B7F9A-1544-457C-B27C-8CF895D03F3E}|{C3E05E28-C7FF-4B47-9A6C-BE0912DAE0F6}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180411T124417Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1648cba7-51d4-44fe-9372-174e85404ff2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180412T032406Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {48AC9983-BCCD-4CAE-B595-2E8E84B8FA6C}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/Mobile
+parent: {0F458A57-E224-45B6-BEF0-3E2311385FCC}
+name: Mobile
+master: {00000000-0000-0000-0000-000000000000}
+template: {25DCF332-316C-4157-BF69-01EA7A9789CF}
+templatekey: Navigation Link
+created: 20180228T014923Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 0e9cb1d5-707c-4e60-af0e-cec0a2a8b677
+
+----field----
+field: {13F88561-E76E-463E-A19D-E97C0B1E9502}
+name: Navigation Title
+key: navigation title
+content-length: 6
+
+Mobile
+----field----
+field: {07C62E92-E84F-40EF-B5AF-CD7D89EF25FC}
+name: Navigation Link
+key: navigation link
+content-length: 0
+
+
+----field----
+field: {38C0DAC4-EB82-49BF-B801-EC903FEFC454}
+name: Child Navigation Items
+key: child navigation items
+content-length: 233
+
+{DA8EDC3A-8699-40E7-9B12-21328ED92867}|{F4FBE300-C36A-49AF-AD24-25A0B6E8EA71}|{EA44FD95-8F9A-4445-B918-2BD19A61D84A}|{EDFFCC0E-5A18-4935-855B-7F5BD0981FC4}|{4322186C-B358-4157-A68E-9822DDAABC2D}|{CECC03A4-58F3-478C-A921-2A9F5D5EA9A4}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180228T014923Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0e9cb1d5-707c-4e60-af0e-cec0a2a8b677
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180509T104835Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

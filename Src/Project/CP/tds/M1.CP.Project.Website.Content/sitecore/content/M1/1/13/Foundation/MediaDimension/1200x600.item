@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {F0D6EE37-8D79-487E-93BB-4A7159E003FF}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Site Settings/Foundation/MediaDimension/1200x600
+parent: {E2ACDF42-582C-4644-8DFC-4CF32A9ECCAB}
+name: 1200x600
+master: {00000000-0000-0000-0000-000000000000}
+template: {1DB3A772-DE5C-4660-86BD-2BA891FA1053}
+templatekey: MediaDimention
+created: 20180402T125643Z
+
+----version----
+language: en
+version: 1
+revision: 55718ea0-38c1-4526-9ceb-94c42d5db87a
+
+----field----
+field: {C005AC9D-29BC-444E-99A4-35B6E667E9A7}
+name: Dimension
+key: dimension
+content-length: 16
+
+max-width: 768px
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180402T125643Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55718ea0-38c1-4526-9ceb-94c42d5db87a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180405T091708Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

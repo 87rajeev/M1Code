@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {9382F99A-A6F2-4ADE-AAC0-A7AA8028C436}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/Plans/_Local/broadband-pagebanner-content
+parent: {D18AA34D-7D81-40BF-A462-9FE2057ABC40}
+name: broadband-pagebanner-content
+master: {00000000-0000-0000-0000-000000000000}
+template: {BC55ED8F-6D13-4313-8A82-0E90FF57CB0B}
+templatekey: PageBanner
+created: 20180503T140512Z
+
+----version----
+language: en
+version: 1
+revision: 4ee9e815-d51d-428a-b45e-d82a4e227b62
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 38
+
+{6BB51251-E4A9-4885-AAD5-845B1C1A63D2}
+----field----
+field: {D7D8F4D1-E72D-4873-8BCC-85FD33A1FF3D}
+name: Support Text
+key: support text
+content-length: 10
+
+WORKED OUT
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 17
+
+You've got it all
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 94
+
+Blazing speeds combined with a suite of business solutions. Who says you can't work from home?
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{78584CB1-B11E-46ED-BC69-1A97BE3D89D5}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+BroadBand PageBanner content
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T140512Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ee9e815-d51d-428a-b45e-d82a4e227b62
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T120034Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

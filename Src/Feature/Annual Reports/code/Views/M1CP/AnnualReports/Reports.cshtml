@@ -1,0 +1,44 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+
+@model M1CP.Feature.AnnualReports.Models.InvestorContentPage
+<style type="text/css">
+    
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    .pagination {
+        margin-bottom: 30px;
+    }
+</style>
+ 
+
+@{
+
+
+    <div class="row">
+        @if (Model != null)
+        {
+            foreach (var reports in Model.Select__Annual_Reports)
+             {
+                 <div class="col-lg-6 portfolio-item">
+                     <div class="card h-100">
+                         @Html.Glass().RenderImage(reports,x=>x.Images, new { Class = "card-img-top" })
+                         <div class="card-body">
+                             <h4 class="card-title">
+                                 <h4>@reports.Year</h4>
+                             </h4>
+                             <ul>
+                                 <li><a href="@reports.Annual_Report_PDF.Url" target="_blank">Annual Report (Pdf)</a></li>
+                                 <li><a href="@reports.Notice_Of_AGDM_PDF.Url" target="_blank">Notice of AGM</a></li>
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+             }
+        }
+    </div>
+    
+}
+<!-- /.row -->
+<!-- /.container -->

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {BEADC557-0EA3-46F1-98A1-B1861636B0C1}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/CorporatePortal/Page Types/FAQ/__Standard Values
+parent: {5838CBA6-A26A-4461-B1B4-5FFFB90B049D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {5838CBA6-A26A-4461-B1B4-5FFFB90B049D}
+templatekey: FAQ
+created: 20180502T113922Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+applications/32x32/help.png
+----version----
+language: en
+version: 1
+revision: 7edb0a64-3060-40b5-80ff-b0a164688e0b
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 2988
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A1589AA8-A14F-41C9-8539-E91A699C4522}"><r ds="" id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" par="" ph="header-top" uid="{55410A29-4AC3-4FBD-97EC-CD9FCA97A4B9}" /><r ds="{776F29AD-C5F9-404C-8B1C-212770699546}" id="{D0B2C8DD-9482-4F4B-A6A0-12DA0638C954}" par="CssClass Name=dark" ph="/header-top/col-huge" uid="{1C38A30D-A21C-4E1B-AE1D-FAEA9A511D16}" /><r ds="{49077E75-4DA3-46DF-9C22-C26059DB25B2}" id="{DA79D8CB-8FF1-4772-9F38-74A073C76908}" par="" ph="/header-top/col-huge/navbar-center" uid="{077B68DD-2F30-41DE-B9C0-22C7CBAE87B0}" /><r ds="" id="{5711BC29-234E-46A0-BFF3-99EEE3E98701}" par="" ph="/header-top/col-huge/navbar-right" uid="{369A3558-A388-4FAA-987B-09AE97A90D53}" /><r ds="" id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" par="" ph="page-layout" uid="{6E3233E6-9DED-4C5A-BBFA-C757A5A92096}" /><r ds="" id="{ED720781-0960-4EC9-A259-80DCFEE3F6D1}" par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;GradientColor=%7B95E5A44D-5B1C-464C-9DC9-3626253C6497%7D" ph="/page-layout/col-huge_1" uid="{1E8DCFD3-EDB3-454B-913C-49AEDB23D7A8}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="page-layout" uid="{11E87EE3-CE6B-42BC-A872-CABF2DA98E54}" /><r ds="" id="{04EBA3A5-92F0-400E-9AD4-3DAB5311DC65}" par="" ph="/page-layout/col-huge_2" uid="{E8F9DC68-CD62-42E2-BD3E-4B19EB3F2F3B}" /><r id="{446B92E4-B571-449C-9B1C-136DB9464117}" ph="/page-layout/col-huge_2/accordion-section" uid="{FD990874-669B-4362-B4AB-3323C5772895}" /><r id="{890F1B11-B358-4B40-A3C9-540CFF3F9AF6}" ph="/page-layout/col-huge_2/accordion-section/col-narrow-1" uid="{CE4671F5-C8AE-4B10-AA6E-40A2594A26E2}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="page-layout" uid="{70DA3F00-DA93-4450-A8A8-FDF2E8EA11D7}" /><r id="{04EBA3A5-92F0-400E-9AD4-3DAB5311DC65}" ph="/page-layout/col-huge_3" uid="{2A119CA1-53BB-4F6E-8B69-21D675584C36}" /><r ds="" id="{446B92E4-B571-449C-9B1C-136DB9464117}" par="" ph="/page-layout/col-huge_3/accordion-section_1" uid="{C884A353-24DE-4C2F-92B8-73FAAB45A0D8}" /><r ds="" id="{890F1B11-B358-4B40-A3C9-540CFF3F9AF6}" par="" ph="/page-layout/col-huge_3/accordion-section_1/col-narrow-1_1" uid="{AC506111-255B-4778-869D-1B2E10EABA4F}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="page-layout" uid="{0203BC29-73E1-4837-827F-CB889DAC9D73}" /><r id="{B6712199-D496-459C-90FE-417556FF8E1E}" ph="/page-layout/col-huge_4" uid="{5F284B56-0089-4FC9-9F1E-20554140FA5B}" /><r ds="" id="{795DE3F7-D054-4AE3-B936-23501BF94926}" par="DesktopCount=%7B8172D243-3E49-4DA8-A752-DCE5871F1DA7%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D&amp;Theme=%7B03E264C8-053C-4A4F-9C84-BB4BE0A380F0%7D&amp;TextColor" ph="/page-layout/col-huge_4/background-section " uid="{E01F6754-437F-451E-A265-692AAEF7BC11}" /><r ds="{0F458A57-E224-45B6-BEF0-3E2311385FCC}" id="{1E6EA42E-AE21-4ABE-8196-F9FBFB49B008}" ph="page-footer" uid="{93CEAD15-E128-4E28-9929-E462A372A561}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180424T112840Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7edb0a64-3060-40b5-80ff-b0a164688e0b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180503T132955Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

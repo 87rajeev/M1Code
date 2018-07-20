@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="m1app">
+<head>
+    <title>M1-Mobile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../scripts/slick-1.8.0/slick/slick.css">
+    <link rel="stylesheet" href="../../scripts/slick-1.8.0/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/header_footer.css">
+
+
+</head>
+<body>
+
+    <footer class="footer m1" ng-controller="footerController">
+        <div class="container-fluid">
+            <div class="row top-arrow">
+                <a href="javaScript:void(0);" target="_blank" ng-click="scrollToTop(1000)">
+                    <!--Pass time in milliseconds to set time taken to scroll to top of page-->
+                    <img src="../../images/BackToTop-1x.png" class="center-block img-responsive gotopButton" alt="go up">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-offset-1 col-md-10 col-md-offset-1 col-lg-10 hidden-xs">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="accordion-toggle collapsed">
+                                        Mobile
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Devices</a></li>
+                                        <li class="list-group-item"><a href="#">Plans with Devices</a></li>
+                                        <li class="list-group-item"><a href="#">SIM-Only Plans</a></li>
+                                        <li class="list-group-item"><a href="#">Specials</a></li>
+                                        <li class="list-group-item"><a href="#">Add-ons</a></li>
+                                        <li class="list-group-item"><a href="#">Prepaid</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="accordion-toggle collapsed">
+                                        Broadband
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Plans</a></li>
+                                        <li class="list-group-item"><a href="#">Devices</a></li>
+                                        <li class="list-group-item"><a href="#">Add-ons</a></li>
+                                        <li class="list-group-item"><a href="#">Fixed Voice</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="accordion-toggle collapsed">
+                                        Travel
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Going Overseas</a></li>
+                                        <li class="list-group-item"><a href="#">Visiting Singapore</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0" class="accordion-toggle collapsed">
+                                        Digital Services
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse0" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Music & Entertainment</li>
+                                        <li class="list-group-item"><a href="#">Security</a></li>
+                                        <li class="list-group-item"><a href="#">Finance</a></li>
+                                        <li class="list-group-item"><a href="#">Others</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default ">
+                            <div class="panel-heading accordion">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="accordion-toggle collapsed">
+                                        Deals
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Phones & Tablets</li>
+                                        <li class="list-group-item"><a href="#">Mobile</a></li>
+                                        <li class="list-group-item"><a href="#">Braodband</a></li>
+                                        <li class="list-group-item"><a href="#">Bundles</a></li>
+                                        <li class="list-group-item"><a href="#">others</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="accordion-toggle collapsed">
+                                        My Account
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Manage Account</a></li>
+                                        <li class="list-group-item"><a href="#">Bills & Payments</a></li>
+                                        <li class="list-group-item"><a href="#">Rewards</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="accordion-toggle collapsed">
+                                        About Us
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Our Company</a></li>
+                                        <li class="list-group-item"><a href="#">Investors</a></li>
+                                        <li class="list-group-item"><a href="#">News</a></li>
+                                        <li class="list-group-item"><a href="#">Patnerships</a></li>
+                                        <li class="list-group-item"><a href="#">Regulatory Information</a></li>
+                                        <li class="list-group-item"><a href="#">Careers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="accordion-toggle collapsed">
+                                        Support
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Tips & Tricks</a></li>
+                                        <li class="list-group-item"><a href="#">FAQ</a></li>
+                                        <li class="list-group-item"><a href="#">User Guides</a></li>
+                                        <li class="list-group-item"><a href="#">Contact US</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+
+                <div class="col-md-10 col-md-offset-1 padding-zero">
+
+                    <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 footer-download">
+                        <div class="col-xs-6 col-md-4 col-sm-4 padding-zero">
+                            <a href="javaScript:void(0);" >
+                                <img src='../../images/Footer-Download-icon-GooglePlay-1x.png' alt='Get it on Google Play' class="img img-responsive padding-zero">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-4 col-sm-4 padding-zero">
+                            <a href="javaScript:void(0);" >
+                                <img src='../../images/Footer-Download-icon-AppStore-1x.png' alt='Download on the App Store' class="img img-responsive padding-zero">
+                            </a>
+                        </div>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 pull-left footer-social col-md-6 col-lg-6'>
+                        <span> <a href="javaScript:void(0);"><img src='../../images/Social-Icon-Facebook-1x.png' alt='Facebook'></a></span>
+                        <span> <a href="javaScript:void(0);"><img src='../../images/Social-Icon-Youtube-1x.png' alt='YouTube'></a></span>
+                        <span> <a href="javaScript:void(0);"><img src='../../images/Social-Icon-Linkedin-1x.png' alt='LinkedIn'></a></span>
+                      
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script src="../../scripts/app.js"></script>
+
+</body>
+</html>

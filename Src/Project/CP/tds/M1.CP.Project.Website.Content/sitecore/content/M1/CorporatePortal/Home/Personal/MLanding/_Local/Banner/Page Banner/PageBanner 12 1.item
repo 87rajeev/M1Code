@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {2E632846-5EDA-4363-A2B5-8DA41C5B8A0A}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/MLanding/_Local/Banner/Page Banner/PageBanner 12 1
+parent: {6F450EA3-4627-4325-A1DE-C36B02381729}
+name: PageBanner 12 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {BC55ED8F-6D13-4313-8A82-0E90FF57CB0B}
+templatekey: PageBanner
+created: 20180425T062341Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 19
+
+Apps/32x32/Page.png
+----version----
+language: en
+version: 1
+revision: d8bb068d-7389-4240-a4ad-6c1f8bb3bf75
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 38
+
+{32F77CDC-AADD-47FA-BF9D-5A6DCD079C25}
+----field----
+field: {C9D2E949-30B9-4458-AC50-0D590B1C0333}
+name: Banner Main Heading
+key: banner main heading
+content-length: 90
+
+<p class="font-heading1">All your favourite</p>
+<p class="font-heading3">&nbsp;DEVICES</p>
+----field----
+field: {D7D8F4D1-E72D-4873-8BCC-85FD33A1FF3D}
+name: Support Text
+key: support text
+content-length: 75
+
+All latest devices in one place. Go on. Take a peek. You know you want to.1
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 18
+
+All your favourite
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 15
+
+  &nbsp;DEVICES
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{3A89B862-47B0-4827-B2B7-288E03242A9A}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180319T055723Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d8bb068d-7389-4240-a4ad-6c1f8bb3bf75
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180425T062621Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

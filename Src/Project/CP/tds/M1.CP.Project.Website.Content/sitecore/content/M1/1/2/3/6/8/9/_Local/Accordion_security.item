@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {D6084B20-90F0-471E-97EB-DAA4824188DF}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/_Local/Accordion_security
+parent: {B766D019-412A-4757-83D3-B772E5EEC811}
+name: Accordion_security
+master: {00000000-0000-0000-0000-000000000000}
+template: {9312022F-C2D2-44B0-802D-C502AB9AE87E}
+templatekey: Accordion
+created: 20180504T041452Z
+
+----version----
+language: en
+version: 1
+revision: fa2d82a7-8721-440c-9056-7ed376daddf6
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T041452Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fa2d82a7-8721-440c-9056-7ed376daddf6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T041637Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

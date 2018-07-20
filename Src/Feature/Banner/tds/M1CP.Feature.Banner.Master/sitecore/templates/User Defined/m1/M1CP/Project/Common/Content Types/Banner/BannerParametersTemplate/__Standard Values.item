@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {DF601E3C-D6CE-46BF-979E-A15D029903BD}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerParametersTemplate/__Standard Values
+parent: {6E4216DE-6085-410D-8E2A-417C3FEE33CC}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {6E4216DE-6085-410D-8E2A-417C3FEE33CC}
+templatekey: BannerParametersTemplate
+created: 20180330T072449Z
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 425
+
+<r  xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A1589AA8-A14F-41C9-8539-E91A699C4522}"><r ds="{97FC3AA3-09F4-40A6-9C88-936D937885AC}" id="{229DE4CF-1ABA-40F6-9287-975A4348E2D7}" par="ComponentOrientation=%7B244FF694-474B-41CB-83F5-FFDC1E67CF22%7D&amp;Theme=%7B03E264C8-053C-4A4F-9C84-BB4BE0A380F0%7D" ph="page-layout" uid="{75A897FE-F6FA-4372-B6BD-3B18246EA499}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 13f050e8-e792-4ffd-8208-355ef7f35783
+
+----field----
+field: {169B68C6-23C6-43FA-9860-FF19CB93C162}
+name: Theme
+key: theme
+content-length: 38
+
+{0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB}
+----field----
+field: {BBE3C460-C4BD-46E2-9389-617237EB8B30}
+name: ComponentOrientation
+key: componentorientation
+content-length: 38
+
+{E3EE61A6-49C7-4CD3-8175-B47185833B42}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180330T072449Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13f050e8-e792-4ffd-8208-355ef7f35783
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180405T044952Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,19 @@
+﻿
+@using Glass.Mapper.Sc.Web.Mvc
+
+
+@model M1CP.Feature.Roaming.Models.ICountryList
+
+
+<div>@Html.Glass().Editable(m => m.Title)</div>
+<div>@Html.Glass().Editable(m => m.Description)</div>
+<div>@Html.Glass().Editable(m => m.CallToActionField)</div>
+
+<div>
+    <select>
+        @foreach (var country in Model.CountryListField)
+        {
+            <option value="@Html.Raw(country.CountryName)">@Html.Raw(country.CountryName)</option>
+        }
+    </select>
+</div>

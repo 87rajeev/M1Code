@@ -1,0 +1,210 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model M1CP.Feature.Carousal.Models.IDeviceCarousal
+
+@if (Model != null)
+{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Carousal.Models.IDeviceCount>();
+    int Devicecount = RenderingParamaters.Count;
+    var count = 0;
+    <div class="row">
+        @if (Html.Glass().IsInEditingMode)
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Raw(Model.Title)
+            </div>
+        }
+        else if (!String.IsNullOrEmpty(Model.Title))
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Raw(Model.Title)
+            </div>
+        }
+        <div class="component-heading theme-dark1">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <!--Always MaxItem=3 and minItem=1 for this component -->
+                <!--repeat it from here based on noOfRows -->
+
+                <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xs-12 device-promotion  carousel-deviceDetails" maxItem="3" minItem="1">
+
+                    <div class="static-prmotion">
+                        @foreach (var device in Model.Devices)
+                        {
+                            count = count + 1;
+                            if (count <= Devicecount)
+                            {
+                                      <!--repeat it from here based on noOfItems -->
+                                <div class="thumbnail theme-light col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                    @using (Html.Glass().BeginEditFrame(device, "editimage", m => m.DeviceLink))
+                                    {
+                                        <a href="@(device.DeviceLink != null && device.DeviceLink.Url != null ? device.DeviceLink.Url : "#")" target="@(device.DeviceLink != null && device.DeviceLink.Target != null ? device.DeviceLink.Target : "_blank")" tabindex="-1">
+                                            <div class="newImageOuter">
+                                                @*if(@device.Featured==true)
+                                                    {
+                                                    <img ng-if="true" class="media-object newImageProperties" src="@Model.FeaturedProductLogo.Src">
+                                                    }
+                                                    else if(@device.New==true)
+                                                    {
+                                                    <img ng-if="true" class="media-object newImageProperties" src="@Model.NewProductLogo.Src">
+                                                    }
+                                                    else if(@device.Hotdeal==true)
+                                                    {
+                                                    <img ng-if="true" class="media-object newImageProperties" src="@Model.HotdealProductLogo.Src">
+                                                    }
+                                                    else
+                                                    break;*@
+                                                @*<img ng-if="true" class="media-object newImageProperties" src="@Model.NewProductLogo.Src">*@
+                                                @*@if (Model.NewProductLogo != null)
+                                                {
+                                                    if (@Html.Glass().IsInEditingMode)
+                                                    {
+                                                        @Html.Glass().RenderImage(Model, m => m.NewProductLogo, isEditable: true, parameters: new { @class = "media-object newImageProperties" })
+                                                    }
+                                                    else
+                                                    {
+                                                        <img src="@Model.NewProductLogo.Src" class="media-object newImageProperties" data-src="@Model.NewProductLogo.Src">
+                                                    }
+                                                }*@
+
+
+                                                @if (@Html.Glass().IsInEditingMode)
+                                                {
+                                                    @Html.Glass().RenderImage(device, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "Carousel-deviceDetailsImage" })
+                                                }
+                                                else
+                                                {
+                                                    <img src="@device.Image_Desktop.Src" class="Carousel-deviceDetailsImage" data-src="@device.Image_Desktop.Src">
+                                                }
+                                                <div class="dottedBackgroundImg"> </div>
+
+                                            </div>
+                                            <div class="caption-deviceDetails">
+                                                <div class="details">
+                                                    <h3 class="productName">@device.DeviceName</h3>
+                                                    <h2 class="productdisc">@device.DeviceModel</h2>
+                                                    <div class="priceDetails">
+                                                        <div class="margintop11">
+                                                            <span class="price">@device.Costofdevice</span>
+                                                        </div>
+                                                        <div class="horizontal-devider"></div>
+                                                        <div class="text-left">
+                                                            <p>@device.Costofdevicepermonth</p>
+                                                            <p>@Html.Raw(device.SIMDetails)</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text-center">
+                                                    @foreach (var colors in device.AvailableColours)
+                                                    {
+                                                        <div class="select-color" style="background: @colors.Color_Code"></div>
+                                                    }
+                                                </div>
+                                                <div class="center-align">@Html.Raw(device.Offers)</div>
+                                            </div>
+
+
+                                        </a>
+
+                                    }
+                                </div>
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+                    </div>
+
+
+                    <div class="dynamic-prmotion hide-device-promortion ">
+
+                        @foreach (var device in Model.Devices)
+                        {
+                                <!--repeat it from here based on noOfItems -->
+                            <div class="thumbnail theme-light col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                                @using (Html.Glass().BeginEditFrame(device, "editimage", m => m.DeviceLink))
+                                {
+                                    <a href="@(device.DeviceLink != null && device.DeviceLink.Url != null ? device.DeviceLink.Url : "#")" target="@(device.DeviceLink != null && device.DeviceLink.Target != null ? device.DeviceLink.Target : "_blank")" tabindex="-1">
+                                        <div class="newImageOuter">
+                                            @*if(@device.Featured==true)
+                                                {
+                                                <img ng-if="true" class="media-object newImageProperties" src="@Model.FeaturedProductLogo.Src">
+                                                }
+                                                else if(@device.New==true)
+                                                {
+                                                <img ng-if="true" class="media-object newImageProperties" src="@Model.NewProductLogo.Src">
+                                                }
+                                                else if(@device.Hotdeal==true)
+                                                {
+                                                <img ng-if="true" class="media-object newImageProperties" src="@Model.HotdealProductLogo.Src">
+                                                }
+                                                else
+                                                break;*@
+
+                                            @*<img ng-if="true" class="media-object newImageProperties" src="@Model.NewProductLogo.Src">*@
+                                            @*@if (Model.NewProductLogo != null)
+                                            {
+                                                if (@Html.Glass().IsInEditingMode)
+                                                {
+                                                    @Html.Glass().RenderImage(Model, m => m.NewProductLogo, isEditable: true, parameters: new { @class = "media-object newImageProperties" })
+                                                }
+                                                else
+                                                {
+                                                    <img src="@Model.NewProductLogo.Src" class="media-object newImageProperties" data-src="@Model.NewProductLogo.Src">
+                                                }
+                                            }*@
+
+                                            @if (@Html.Glass().IsInEditingMode)
+                                            {
+                                                @Html.Glass().RenderImage(device, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "Carousel-deviceDetailsImage" })
+                                            }
+                                            else
+                                            {
+                                                <img src="@device.Image_Desktop.Src" class="Carousel-deviceDetailsImage" data-src="@device.Image_Desktop.Src">
+                                            }
+                                            <div class="dottedBackgroundImg"> </div>
+
+                                        </div>
+                                        <div class="caption-deviceDetails">
+                                            <div class="details">
+                                                <h3 class="productName">@device.DeviceName</h3>
+                                                <h2 class="productdisc">@device.DeviceModel</h2>
+                                                <div class="priceDetails">
+                                                    <div class="margintop11">
+                                                        <span class="price">@device.Costofdevice</span>
+                                                    </div>
+                                                    <div class="horizontal-devider"></div>
+                                                    <div class="text-left">
+                                                        <p>@device.Costofdevicepermonth</p>
+                                                        <p>@Html.Raw(device.SIMDetails)</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                @foreach (var colors in device.AvailableColours)
+                                                {
+                                                    <div class="select-color" style="background: @colors.Color_Code"></div>
+                                                }
+                                            </div>
+                                            <div class="center-align">@Html.Raw(device.Offers)</div>
+                                        </div>
+
+                                    </a>
+                                }
+                            </div>
+
+                        }
+
+                    </div>
+                    <div class="view-all text-center component-viewall-Link" deviceview-all>
+                        <a class="viewall-link font-body8">@Model.Viewall</a>
+                    </div>
+                    <div class="view-less text-center component-viewall-Link hide-device-promortion" deviceview-all>
+                        <a class="viewall-link font-body8">@Model.Viewless</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+}

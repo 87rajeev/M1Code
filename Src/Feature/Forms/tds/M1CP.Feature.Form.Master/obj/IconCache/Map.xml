@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/content/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal" ItemIcon="/temp/iconcache/network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource" ItemIcon="/temp/iconcache/office/16x16/magazine_folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP" ItemIcon="/temp/IconCache/Office/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Forms" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/system" ItemIcon="/temp/IconCache/People/16x16/workstation1.png" />
+  <Item ItemPath="/sitecore/system/Modules" ItemIcon="/temp/IconCache/Software/16x16/jar.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP" ItemIcon="/temp/IconCache/BusinessV2/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Validation" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Forms/CustomMVCForm" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form" ItemIcon="/temp/IconCache/Office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements" ItemIcon="/temp/IconCache/Office/32x32/password_field.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Test" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Validation/Feedback Form" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Validation/Form" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/Captcha" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/Checkbox" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/DateTime" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/Disclaimer" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/File" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/HtmlContent" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/MultiSelectDropdown" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/Password" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/RadioButton" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/Select" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/TextArea" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FieldData" ItemIcon="/temp/IconCache/Office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButton" ItemIcon="/temp/IconCache/Applications/32x32/bullet_square_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButtonGroup" ItemIcon="/temp/IconCache/People/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField" ItemIcon="/temp/IconCache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormFieldGroup" ItemIcon="/temp/IconCache/Office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField" ItemIcon="/temp/IconCache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Base" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/window_dialog.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/UIElements" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/KeyValuePair/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Contact Number" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Documents" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Email" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Existing M1 Customer" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Gender" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/I have read all terms and conditions" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Name" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation/10MB JPEG JPG PNG Validation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation/Contact Number Regex" ItemIcon="/temp/iconcache/office/32x32/spellcheck.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation/Email Regex" ItemIcon="/temp/iconcache/office/32x32/spellcheck.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation/RequiredField" ItemIcon="/temp/iconcache/office/32x32/tool_tip.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Save Feedback" ItemIcon="/temp/iconcache/applications/32x32/disk_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/File Upload" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/FormButtonGroup" ItemIcon="/temp/iconcache/people/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/SaveFeedback" ItemIcon="/temp/iconcache/applications/32x32/disk_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Submit Feddback" ItemIcon="/temp/iconcache/people/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/SaveFeedback" ItemIcon="/temp/iconcache/applications/32x32/disk_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/DetailsofOrganization" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/DetailsofPerson" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/Reasonforcorrespondence" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/SaveFeedback" ItemIcon="/temp/iconcache/applications/32x32/disk_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm/ActionButtons" ItemIcon="/temp/iconcache/people/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm/Login" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform/Actions" ItemIcon="/temp/iconcache/people/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Test/Fields" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Test/Submit" ItemIcon="/temp/iconcache/people/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/disk_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FieldData/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButton/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButtonGroup/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormFieldGroup/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Submit Feedback" ItemIcon="/temp/iconcache/people/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListOptionsFormField/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/InputLengthFieldValidation" ItemIcon="/temp/IconCache/Office/32x32/markup.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RegexFieldValidation" ItemIcon="/temp/IconCache/Office/32x32/spellcheck.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Data/Field Groups" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Data/Button Groups" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Action/Redirect On Success" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Action/Redirect Page" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/UIElements/Class" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/UIElements/Id" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/UIElements/Help Text" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/UIElements/Placeholder Text" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/KeyValuePair/Data/Key" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Existing M1 Customer/No" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Existing M1 Customer/Yes" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Gender/Female" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Fields/Gender/Male" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Existing M1 Customer" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Company Name" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Email" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Contact Number" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Contract Expiry Date" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Name" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Expecting Recontract" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Promo Code" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Product Type" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Existing M1 Customer" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Company Name" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Email" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Contact Number" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Contract Expiry Date" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Name" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Expecting Recontract" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Promo Code" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Product Type" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/City" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Document Upload Doc" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Documents" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Emp 7" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/EMp Id" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Emp id 2" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Emp iD 3" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/EMp id 5" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Emp id 6" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Emploiyee Id" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Gender" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Name" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/UserId" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Submit Feddback/Submission" ItemIcon="/temp/iconcache/applications/32x32/bullet_square_blue.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Validation/Common" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Captcha" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/City" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Comments" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Disclaimer" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Documents" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/fileupload" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Html" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Password" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/UserId" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/DetailsofOrganization/AddressofOrg" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/DetailsofPerson/Contactnoofperson" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/DetailsofPerson/Emailofperson" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/Reasonforcorrespondence/BriefDescription" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm/Login/Email" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm/Login/FirstName" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm/Login/LastName" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform/AllFields/Aboutyourself" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform/AllFields/City" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform/AllFields/Dob" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform/AllFields/Gender" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform/AllFields/Languagesknown" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/Data/Provider" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/Data/Additional Parameters" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/Save Event/SQLTable" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FieldData/Data/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButton/Data/Type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/Data/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/Data/Is Required" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/Data/Type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField/Data/Items" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Base/FormValidationBase/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/InputLengthFieldValidation/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RegexFieldValidation/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RequiredFieldValidation/Required Field" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Existing M1 Customer/No" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Expecting Recontract/No" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Product Type/Broadband" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Product Type/Business Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Product Type/Business Renewal" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Product Type/Cloud" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Product Type/Data Center" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Existing M1 Customer/No" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Expecting Recontract/No" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Product Type/Broadband" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Product Type/Business Mobile" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Product Type/Business Renewal" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Product Type/Cloud" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Product Type/Data Center" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/City/Bangalore" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/City/Chennai" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/EMp Id/Iphone 10" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/EMp Id/IPhone 6" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/EMp Id/IPhone 7" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Gender/Female" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/Vehicle/Audi" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Validation/Common/RequiredField" ItemIcon="/temp/iconcache/office/32x32/tool_tip.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Validation/Common/Email Regex" ItemIcon="/temp/iconcache/office/32x32/spellcheck.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Captcha/Privatekey" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/City/Bangalore" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/City/Chennai" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/City/Hyderabad" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback/Vehiclesowned/Bike" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/Reasonforcorrespondence/ProposalorQuery/BusinessProposal" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Base/FormValidationBase/Data/Validation Message" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/InputLengthFieldValidation/Data/MinLength" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/InputLengthFieldValidation/Data/MaxLength" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/FileUploader/UploadFileValidation/File Size/MaximumUploadedFileSize" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Documents" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Existing M1 Customer/Yes" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Expecting Recontract/Yes" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/system/Modules/CustomForm/FieldTypes/Textbox" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FieldData/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/graph_node.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FieldData/Data/Html Tag Type" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButton/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/bullet_square_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButton/Data/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButtonGroup/__Standard Values" ItemIcon="/temp/iconcache/people/16x16/cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormButtonGroup/Data/Buttons" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/Data/Validation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/SQL Information" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/SQL Information/SQL ColoumnName" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormFieldGroup/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/elements.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormFieldGroup/Data/Fields" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField/Data/Validation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField/SQL Information" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField/SQL Information/SQL ColoumnName" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListOptionsFormField" ItemIcon="/temp/IconCache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListOptionsFormField/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListOptionsFormField/Data/Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Base/FormValidationBase" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Base/FormValidationBase/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Base/FormValidationBase/Data/Data Attribute" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/InputLengthFieldValidation/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/markup.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/InputLengthFieldValidation/Data/MaxLengthErrorMessage" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/InputLengthFieldValidation/Data/MinLengthErrorMessage" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RegexFieldValidation/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/spellcheck.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RegexFieldValidation/Data/Regex" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RequiredFieldValidation" ItemIcon="/temp/IconCache/Office/32x32/tool_tip.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RequiredFieldValidation/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/tool_tip.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/Common/RequiredFieldValidation/Required Field/IsRequired" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/FileUploader" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/FileUploader/UploadFileValidation" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/FileUploader/UploadFileValidation/File Size" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FieldValidation/FileUploader/UploadFileValidation/File Size/UploadedFileFormat" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent" ItemIcon="/temp/IconCache/Applications/32x32/disk_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/Data/Continue On Error" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/Save Event" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormEvent/FormEvent/Save Event/SQLFields" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Action" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Action/Form Events" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Action/SuccessMessage" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Form/Data/BackGroundImage" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/password_field.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/UIElements/Attributes" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/FormUIElements/UIElements/Parent Class" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/KeyValuePair" ItemIcon="/temp/IconCache/Office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/KeyValuePair/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/graph_connection.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/KeyValuePair/Data/Text" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField" ItemIcon="/temp/iconcache/office/32x32/element.png" />
+</ItemIconCache>

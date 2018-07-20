@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {2CF97421-0719-4EAE-8550-4189B2A4B08B}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/Plans/_Local/broadband-tablinkslist/test-your-m1-fiber-speed
+parent: {22C273E8-F8DA-4220-B17C-8AB32DBCA79B}
+name: test-your-m1-fiber-speed
+master: {00000000-0000-0000-0000-000000000000}
+template: {0BD7345A-485A-4012-B7F0-635C5D0523CB}
+templatekey: CTA
+created: 20180503T151913Z
+
+----version----
+language: en
+version: 1
+revision: 5ebf3983-2288-45e0-b7ae-9a18ed257ede
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 24
+
+Test Your M1 Fiber Speed
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 24
+
+Test Your M1 Fiber Speed
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T151913Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5ebf3983-2288-45e0-b7ae-9a18ed257ede
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180503T151913Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

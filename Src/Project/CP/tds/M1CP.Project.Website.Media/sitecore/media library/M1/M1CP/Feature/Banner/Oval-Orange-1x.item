@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {B68D585F-A919-4B25-B918-0F761FB4D2BF}
+database: master
+path: /sitecore/media library/M1/M1CP/Feature/Banner/Oval-Orange-1x
+parent: {82CDF1EF-8B2C-4477-A734-BF702CB6D4DD}
+name: Oval-Orange-1x
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+created: 20180420T093549Z
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 1428
+
+iVBORw0KGgoAAAANSUhEUgAAAGMAAACQCAYAAAAcPdUiAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOwwAADsMBx2+oZAAAA7VJREFUeF7t2EGq1FAUhOG3gOfEsVtTJ67NpT0nugZNhVsDSciJ8R8U
+Wh9cCJ3w3wPh0nS/VFX9Q75/ef/h7fPr17dP7972tV3rs3X7NqKTNIuRrUuKfvv4+uPbp3c/f1vb
+Z3+yIdFJmsXI1khv+bDRWrq3HhsRnaRZjGyNdOzONtLSvfXYiOgkzWJka0RtRnSSZjGyNaKOIdFJ
+msXI1oj6giI6SbMY2bpFUb1lHbt9bddPNiI6SbMY2aqqqqqqqqqqCNTPfaKTNIuRrUuKEn+EEZ2k
+WYxsjfSWDxutpXvrsRHRSZrFyNZIx+5sIy3dW4+NiE7SLEa2RtRmRCdpFiNbI+oYEp2kWYxsjagv
+KKKTNIuRrVsU1VvWsdvXdv1kI6KTNIuRraqqqqqqqqqKQP3cJzpJsxjZuqQo8UcY0UmaxcjWSG/5
+sNFaurceGxGdpFmMbI107M420tK99diI6CTNYmRrRG1GdJJmMbI1oo4h0UmaxcjWiPqCIjpJsxjZ
+ukVRvWUdu31t1082IjpJsxjZqqqqqqqqqv8Z9QuT6CTNYmTrkqLEfy9EJ2kWI1sjveXDRmvp3nps
+RHSSZjGyNdKxO9tIS/fWYyOikzSLka0RtRnRSZrFyNaIOoZEJ2kWI1sj6guK6CTNYmTrFkX1lnXs
+9rVdP9mI6CTNYmSrqqqqqqqqqiJQP/eJTtIsRrYuKUr8EUZ0kmYxsjXSWz5stJburcdGRCdpFiNb
+Ix27s420dG89NiI6SbMY2RpRmxGdpFmMbI2oY0h0kmYxsjWivqCITtIsRrZuUVRvWcduX9v1k42I
+TtIsRraqqqqqqqqqKgL1c5/oJM1iZOuSosQfYUQnaRYjWyO95cNGa+neemxEdJJmMbI10rE720hL
+99ZjI6KTNIuRrRG1GdFJmsXI1og6hkQnaRYjWyPqC4roJM1iZOsWRfWWdez2tV0/2YjoJM1iZKuq
+qqqqqqqqIlA/94lO0ixGti4pSvwRRnSSZjGyNdJbPmy0lu6tx0ZEJ2kWI1sjHbuzjbR0bz02IjpJ
+sxjZGlGbEZ2kWYxsjahjSHSSZjGyNaK+oIhO0ixGtm5RVG9Zx25f2/WTjYhO0ixGtqqqqqqqqqoq
+AvVzn+gkzWJk65KixB9hRCdpFiNbI73lw0Zr6d56bER0kmYxsjXSsTvbSEv31mMjopM0i5GtEbUZ
+0UmaxcjWiDqGRCdpFiNbI+oLiugkzWJk6xZF9ZZ17Pa1XT/ZiOgkzWJkq6qqqqqq6u+9vPwCyDUT
+TXcE97EAAAAASUVORK5CYII=
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 2
+
+99
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 3
+
+144
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+1043
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 8
+
+99 x 144
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/B68D585FA9194B25B9180F761FB4D2BF.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: fe3e32e9-38c8-4669-bce9-995fdd326296
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180420T093550Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fe3e32e9-38c8-4669-bce9-995fdd326296
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T124915Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

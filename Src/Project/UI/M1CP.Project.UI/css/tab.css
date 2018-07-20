@@ -1,0 +1,91 @@
+﻿/* css for tabs */
+.tbs .tab.border-dottedimage {
+    padding-bottom: 1%;
+    padding-right: 2%;
+    background-size: 45%;
+}
+
+.theme-light .btn.btn-default{
+    color: #212121;
+    border: 2px solid #E75E0D;
+}
+
+.theme-dark .btn.btn-default{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn.btn-default{
+    padding: 10px 0px;
+    font-weight: normal;
+    background-color: transparent;
+    font-size: 11px;
+    margin: 17px 0px 0px;
+    font-family: Gotham-Medium;
+    border-radius: 0px; 
+}
+
+.theme-light.text-theme-black .btn.btn-default, .theme-dark.text-theme-black .btn.btn-default{
+    max-width: 250px; 
+    min-width: 100px;
+}
+.theme-light.text-theme-black .tab .btn.btn-default, .theme-dark.text-theme-black .tab .btn.btn-default{
+    max-width: none !important; 
+   
+}
+
+.theme-light.text-theme-orange .btn.btn-default{
+    color: #e75e0d;  
+    padding: 22px 1px;
+	min-width: 160px;
+    height:79px;
+    white-space:inherit;
+}
+
+.theme-light .btn.btn-default:hover{
+    background-color: #e75e0d;
+    color: #ffffff;
+}
+
+.theme-dark .btn.btn-default:hover{
+    background-color: #ffffff ;
+    color: #e75e0d;
+}
+ 
+.tab .btn.btn-default {
+    max-width: 250px;
+    min-width: 100px;
+    margin: 10px auto;
+}
+
+
+
+.theme-light.text-theme-orange .btn.btn-default {
+    color: #e75e0d;
+    padding: 27px 0;
+    min-width: 160px;
+    max-width: none;
+} 
+ 
+
+
+@media (min-width: 768px) {
+    .btn.btn-default {
+        font-size: 15px; 
+        padding: 14px 0px;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    .theme-light.text-theme-orange .btn.btn-default {
+       height:45px;
+        padding: 26px 1px;
+    white-space:inherit;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1359px) {
+    .tbs.theme-light.text-theme-orange .btn.btn-default {
+        min-width: 20%;
+    }
+}
+/* end of css for tabs */

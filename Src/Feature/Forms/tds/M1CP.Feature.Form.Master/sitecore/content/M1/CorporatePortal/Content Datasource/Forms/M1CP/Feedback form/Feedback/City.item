@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {9523E9A6-1821-4FA8-AB63-928A5CE98FBF}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form/Feedback/City
+parent: {88E88D2B-EDBF-4C13-A1FD-D22475C0EDB7}
+name: City
+master: {00000000-0000-0000-0000-000000000000}
+template: {03B63407-7FAA-43F4-A7C2-926ED8E9B8CE}
+templatekey: FormField
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 5b054c39-c36b-4779-acfb-14e6a5592af5
+
+----field----
+field: {C571731C-BA08-406C-8648-EBC7237AABBD}
+name: Title
+key: title
+content-length: 4
+
+City
+----field----
+field: {0C07886D-701E-450D-927E-5B848200E205}
+name: Type
+key: type
+content-length: 38
+
+{8BDA47A6-CFC9-4B03-8F13-B946CE5C0E01}
+----field----
+field: {5F16EB8F-83DB-40D4-8B72-B372EDE8B13C}
+name: Validation
+key: validation
+content-length: 38
+
+{6A25E7DB-6B8F-43DA-967B-1502C19888ED}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180417T095051Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5b054c39-c36b-4779-acfb-14e6a5592af5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180417T095623Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {CEA406D7-074D-4452-9F76-AC26C6013DF8}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Existing M1 Customer
+parent: {98ECBC4B-34AC-4494-9E5D-F0F013D460F6}
+name: Existing M1 Customer
+master: {00000000-0000-0000-0000-000000000000}
+template: {3EC74F3E-E8BB-46A3-8E2A-6AEE60D63D61}
+templatekey: ListFormField
+created: 20180508T062554Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+62
+----version----
+language: en
+version: 1
+revision: 72f13449-9df9-4a58-a818-53a1d6b5f6e9
+
+----field----
+field: {0C07886D-701E-450D-927E-5B848200E205}
+name: Type
+key: type
+content-length: 38
+
+{65E46CB7-4567-4EF5-90F8-73C37BDA4D35}
+----field----
+field: {A9179DFA-AFA7-48D6-B12A-88D6997F0D59}
+name: Items
+key: items
+content-length: 77
+
+{FE541C24-C3D5-4A77-BD41-5380A7DA634E}|{62E65A82-A093-4B8B-B885-075EAA79F8D4}
+----field----
+field: {22846744-77DF-4498-8476-7CDC341C9FAB}
+name: Validation
+key: validation
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T074520Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72f13449-9df9-4a58-a818-53a1d6b5f6e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180522T105337Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

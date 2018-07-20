@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {15366B30-35EC-4901-8EE7-489E1A38881E}
+database: master
+path: /sitecore/layout/Renderings/M1/M1CP/Feature/Banner/ImagePageBanner
+parent: {307DF084-BC13-438E-ABF6-2353E4185B31}
+name: ImagePageBanner
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+created: 20180510T110641Z
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 69
+
+M1CP.Feature.Banner.Controllers.BannerController, M1CP.Feature.Banner
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 22
+
+GetImagePageBannerItem
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 92
+
+/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/ImagePageBanner
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 38
+
+{229DE4CF-1ABA-40F6-9287-975A4348E2D7}
+----version----
+language: en
+version: 1
+revision: a598884e-4e64-4a9b-a696-ec8705743783
+
+----field----
+field: {1C307764-806C-42F0-B7CE-FC173AC8372B}
+name: Supports Local Datasource
+key: supports local datasource
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180510T110641Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a598884e-4e64-4a9b-a696-ec8705743783
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180523T104651Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

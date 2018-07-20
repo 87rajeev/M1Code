@@ -1,0 +1,107 @@
+﻿@model M1CP.Feature.Banner.Models.IBannerWithoutCTA
+@using Glass.Mapper.Sc.Web.Mvc
+@if (Model != null)
+{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Banner.Models.IBannerParameterTemplateWithoutCTA>();
+    var color = RenderingParamaters != null && RenderingParamaters.GradientTheme != null && RenderingParamaters.GradientTheme.style != null ? RenderingParamaters.GradientTheme.style : "Blue";
+    var Slider = RenderingParamaters != null && RenderingParamaters.SliderColor != null && RenderingParamaters.SliderColor.style != null ? RenderingParamaters.SliderColor.style : "WhiteSlider";
+    var DotImageColor = RenderingParamaters != null && RenderingParamaters.DotImageColor != null && RenderingParamaters.DotImageColor.style != null ? RenderingParamaters.DotImageColor.style : "WhiteDotImage";
+    var Dottheme = Model.EnableDots ? "dots-show" : "dots-hide";
+    <div class="row">
+        <div class="topbanner topbanner-variant @color">
+                <div class="row theme-dark text-theme-black">
+                    <!-- Topbanner background -->
+                    <!-- Topbanner contents (left, right dots and text) -->
+                    <div class="col-xs-12 padding-false topbanner-contentvariant ">
+                            <!-- Left-side dots. An offset of 1 column to the left so as to provide a margin -->
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false topbanner-dots-left @Dottheme">
+                                @if (DotImageColor == "OrangeDotImage")
+                                {
+                                    <img src="~/Images/OrangeDotImage.png " alt="Dotted image" class="img-dots img-responsive pull-right">
+                                }
+                                else if (DotImageColor == "BlueDotImage")
+                                {
+                                    <img src="~/Images/BlueDotImage.png " alt="Dotted image" class="img-dots img-responsive pull-right">
+                                }
+                                else
+                                {
+                                    <img src="~/Images/WhiteDotImage.png " alt="Dotted image" class="img-dots img-responsive pull-right">
+                                } 
+                            </div>
+                            <!-- Category, title, description and buttons as a part of the top banner content -->
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 topbanner-text topbanner-text-@Dottheme">
+                                <!-- topbanner-text-left to align it to the left. topbanner-text-right to align it to the right. topbanner-text-center to align it to the center. -->
+                                <div class="col-xs-12 col-sm-4 padding-false">
+                                    <!-- change according to font-size -->
+                                    <div class="topbanner-caption">
+                                        @if (Html.Glass().IsInEditingMode)
+                                        {
+                                            <p class="font-heading1">@Html.Glass().Editable(x => x.Title)</p>
+                                            <p class="font-heading2">@Html.Glass().Editable(x => x.SubTitle)</p>
+                                                <div class="@Slider">
+                                                    <span class="slider-a1"></span>
+                                                </div>
+                                        }
+                                        else
+                                        {
+                                            if (!String.IsNullOrEmpty(Model.Title))
+                                            {
+                                                <p class="font-heading1">@Html.Glass().Editable(x => x.Title)</p>
+                                            }
+                                            if (!String.IsNullOrEmpty(Model.SubTitle))
+                                            {
+                                                <p class="font-heading2">@Html.Glass().Editable(x => x.SubTitle)</p>
+                                            }
+                                            <div class="@Slider">
+                                                <span class="slider-a1"></span>
+                                            </div>
+                                        }
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-8 padding-false">
+                                    <!-- change according to font-size -->
+
+                                    @if (Html.Glass().IsInEditingMode)
+                                    {
+
+                                            <p class="topbanner-description font-body1">@Html.Glass().Editable(x => x.Description)</p>
+
+                                    }
+                                    else
+                                    {
+                                        if (!String.IsNullOrEmpty(Model.Description))
+                                        {
+
+                                                <p class="topbanner-description font-body1">@Html.Glass().Editable(x => x.Description)</p>
+
+                                        }
+                                    }
+
+
+                                </div>
+                            </div>
+                            <!-- Right-side dots. An offset of 1 column to the right so as to provide a margin -->
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false @Dottheme">
+                                @if (@DotImageColor == "OrangeDotImage")
+                                {
+                                    <img src="~/Images/OrangeDotImage.png " alt="Dotted image" class="img-dots img-responsive pull-right">
+                                }
+                                else if (@DotImageColor == "BlueDotImage")
+                                {
+                                    <img src="~/Images/BlueDotImage.png " alt="Dotted image" class="img-dots img-responsive pull-right">
+                                }
+                                else
+                                {
+                                    <img src="~/Images/WhiteDotImage.png " alt="Dotted image" class="img-dots img-responsive pull-right">
+                                } 
+                            </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+        <!--End of topbanner-->
+}
+

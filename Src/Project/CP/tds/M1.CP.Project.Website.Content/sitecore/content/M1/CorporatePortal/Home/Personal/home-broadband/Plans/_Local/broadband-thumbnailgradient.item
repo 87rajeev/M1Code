@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {99033A59-3F71-4D13-8832-55299762F353}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/Plans/_Local/broadband-thumbnailgradient
+parent: {D18AA34D-7D81-40BF-A462-9FE2057ABC40}
+name: broadband-thumbnailgradient
+master: {00000000-0000-0000-0000-000000000000}
+template: {569BF43A-1585-4F30-B5AB-BDE5D85B57A3}
+templatekey: Thumbnail Gradient Component
+created: 20180503T144356Z
+
+----version----
+language: en
+version: 1
+revision: 27eef372-cd22-4283-b107-2f2bcee9f5fd
+
+----field----
+field: {847F816F-9FF1-43BF-B817-B31E45F93C77}
+name: Select Thumbnail List
+key: select thumbnail list
+content-length: 116
+
+{AE727B17-7AC7-4D83-B397-5B204A8BD94B}|{57DA49C8-F052-4A1C-84B4-2E7898099B3B}|{B13432CE-5280-4FFF-9EF5-63E09B96DDEB}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 64
+
+<p>Or go with full speed ahead with these blazing fast plans</p>
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 27
+
+BroadBand ThumbnailGradient
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T144356Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+27eef372-cd22-4283-b107-2f2bcee9f5fd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T120826Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

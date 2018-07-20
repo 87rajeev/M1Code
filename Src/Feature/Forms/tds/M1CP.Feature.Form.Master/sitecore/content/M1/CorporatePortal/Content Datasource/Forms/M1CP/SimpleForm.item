@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {6CCFD0D1-DC64-4F7B-957D-0556D67F9533}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm
+parent: {240BD572-8F1A-4153-8D40-1830A34E5668}
+name: SimpleForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {EE860BA8-C8F2-4F5A-A146-8A0E1A23E2AC}
+templatekey: Form
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 84668b4c-1486-4533-bb5e-f708591ab7d1
+
+----field----
+field: {709B0481-6690-4E72-AF08-1A3B7F2DFEE1}
+name: Field Groups
+key: field groups
+content-length: 38
+
+{5B706DAF-8CD5-4C16-B116-BF927BFC61B0}
+----field----
+field: {BC286FB0-C648-4E06-A6EF-11A0E6708539}
+name: Button Groups
+key: button groups
+content-length: 38
+
+{411E5E68-9132-43BA-A2F1-EEEC37C9AD50}
+----field----
+field: {9ED1F804-CC8E-4F4F-AE48-3143DB7F3DD4}
+name: SuccessMessage
+key: successmessage
+content-length: 34
+
+Thanks you for submitting the form
+----field----
+field: {A26A6B3B-C793-443C-B8D9-DAAC95CE39A8}
+name: Form Events
+key: form events
+content-length: 38
+
+{9669D225-7EEE-4F7D-A5FD-600D0A81C08D}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180128T115322Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+84668b4c-1486-4533-bb5e-f708591ab7d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180205T045339Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

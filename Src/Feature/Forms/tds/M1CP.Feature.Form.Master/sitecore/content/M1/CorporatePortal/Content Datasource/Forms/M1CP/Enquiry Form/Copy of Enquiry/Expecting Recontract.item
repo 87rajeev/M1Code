@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {3189D7A4-398F-406B-B0EB-ED256348CEF9}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Expecting Recontract
+parent: {E541D78A-92FC-4A46-A892-A84D7DD18153}
+name: Expecting Recontract
+master: {00000000-0000-0000-0000-000000000000}
+template: {3EC74F3E-E8BB-46A3-8E2A-6AEE60D63D61}
+templatekey: ListFormField
+created: 20180515T081338Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----version----
+language: en
+version: 1
+revision: 3a0ced9c-4f08-44c3-94dc-ec0203715e1c
+
+----field----
+field: {A9179DFA-AFA7-48D6-B12A-88D6997F0D59}
+name: Items
+key: items
+content-length: 77
+
+{8AC47F59-E0BE-458A-9870-0AC7A149234E}|{916DF44F-400F-4AA5-A975-FCFA1BDCF0D4}
+----field----
+field: {22846744-77DF-4498-8476-7CDC341C9FAB}
+name: Validation
+key: validation
+content-length: 38
+
+{73087064-BAF9-4EDA-BBD6-56673D4EA8DF}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T094649Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3a0ced9c-4f08-44c3-94dc-ec0203715e1c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180423T122005Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

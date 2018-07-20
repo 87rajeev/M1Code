@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="m1cp">
+<head>
+    <title>Icon Thumbnail</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/thumbnail.css">
+    <link rel="stylesheet" href="../../css/tab.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Start of thumbnail type 3 component -->
+            <!-- Inputs: theme-light or theme-dark, background-image if any, number of cols for desktop (numberOfCols_md) -->
+
+            <!-- Sitecore copy start -->
+            <!-- Sitecore: max = 1, 2, 3, 4; min = 1 (fixed) -->
+            <div class="col-xs-12 padding-false thumbnail-type3-component theme-dark theme-grey text-theme-black" ng-init="numberOfCols_md='4'">
+                <!-- Thumbnail type3 content -->
+                <div class="col-xs-offset-1 col-xs-10 col-sm-10 padding-false thumbnail-type3-content">
+
+                    <!-- Thumbnail type3 heading -->
+                    <div class="col-xs-12 padding-false thumbnail-type3-caption text-center component-heading">
+                        <p class="font-heading5">Cyber Guardian</p>
+                        <p class="font-heading6">&nbsp;BENEFITS</p>
+                        <p class="font-body1"></p>
+                    </div>
+
+                    <!-- Thumbnail type3 image and description -->
+                    <div class="col-xs-12 padding-false thumbnail-type3 thumbnail-type3-variant">
+
+                        <!-- Repeating content 1 -->
+                        <div class="col-xs-12 col-sm-6 col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="col-xs-12 thumbnail-type3-image">
+                                <img src="../../images/Feature-FreeCalls-icon-1x.png" alt="Thumbnail image" class="img-responsive">
+                            </div>
+                            <div class="col-xs-12 thumbnail-type3-text padding-false">
+                                <!-- Change classes for p tags based on style guide and change same in CSS -->
+                                <!-- CSS: check for resolution - 768px (min-height) after getting style guide -->
+                                <p class="font-heading8">CUSTOMISE</p>
+                                <p class="font-heading9">WHAT THEY SEE</p>
+                                <p class="font-body6">Block undesirable content with conveniently preset or customisable filters.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Repeating content 2 -->
+                        <div class="col-xs-12 col-sm-6 col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="col-xs-12 thumbnail-type3-image">
+                                <img src="../../images/Feature-FreeCalls-icon-1x.png" alt="Thumbnail image" class="img-responsive">
+                            </div>
+                            <div class="col-xs-12 thumbnail-type3-text padding-false">
+                                <p class="font-heading8">LIMIT</p>
+                                <p class="font-heading9">THEIR SCREEN TIME</p>
+                                <p class="font-body6">Decide when they can be online and how long for.</p>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 3 -->
+                        <div class="col-xs-12 col-sm-6 col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="col-xs-12 thumbnail-type3-image">
+                                <img src="../../images/Feature-FreeCalls-icon-1x.png" alt="Thumbnail image" class="img-responsive">
+                            </div>
+                            <div class="col-xs-12 thumbnail-type3-text padding-false">
+                                <p class="font-heading8">SCHEDULE</p>
+                                <p class="font-heading9">HOMEWORK TIME</p>
+                                <p class="font-body6">Restrict additional sites during your child's homework time.</p>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 4 -->
+                        <div class="col-xs-12 col-sm-6 col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="col-xs-12 thumbnail-type3-image">
+                                <img src="../../images/Feature-FreeCalls-icon-1x.png" alt="Thumbnail image" class="img-responsive">
+                            </div>
+                            <div class="col-xs-12 thumbnail-type3-text padding-false">
+                                <p class="font-heading8">BE IN CONTROL</p>
+                                <p class="font-heading9">AT ANY TIME</p>
+                                <p class="font-body6">Remotely manage and access reports on their online activities, anytime, anywhere.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- End of thumbnail type 4 component -->
+            <!-- Sitecore copy end -->
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
+    <script src="../../scripts/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    
+    <script src="../../scripts/app.js"></script>
+    <script src="../../scripts/app.common.js"></script>
+
+    <script src="../../scripts/core/app.core.js"></script>
+    <script src="../../scripts/core/app.core.directive.js"></script>
+    <script src="../../scripts/core/app.core.filter.js"></script>
+    <script src="../../scripts/core/app.core.service.js"></script>
+    <script src="../../scripts/core/app.core.controller.js"></script>
+
+    <script src="../../scripts/portal/app.portal.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.controller.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.directive.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.service.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.filter.js"></script>
+
+
+    <script src="../../scripts/portal/microsites/app.portal.microsites.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.controller.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.directive.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.service.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.filter.js"></script>
+
+    <script src="../../scripts/portal/microsites/app.portal.microsites.contactus.js"></script>
+
+</body>
+</html>

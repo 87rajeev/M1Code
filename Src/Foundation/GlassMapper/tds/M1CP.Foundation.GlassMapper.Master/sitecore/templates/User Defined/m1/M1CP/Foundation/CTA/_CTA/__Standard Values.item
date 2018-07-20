@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {78E4E098-74B1-45F0-B10A-B2CBE3CB33EC}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Foundation/CTA/_CTA/__Standard Values
+parent: {347443B8-A1DC-48B9-AE7D-34B3709DFC52}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {347443B8-A1DC-48B9-AE7D-34B3709DFC52}
+templatekey: _CTA
+created: 20180307T121637Z
+
+----version----
+language: en
+version: 1
+revision: 58db4973-1363-4a43-a0c0-f0a2dc2beb1c
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180307T121637Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+58db4973-1363-4a43-a0c0-f0a2dc2beb1c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180307T122015Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

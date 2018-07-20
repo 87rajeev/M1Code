@@ -1,0 +1,88 @@
+----item----
+version: 1
+id: {13C37156-D19A-4BC4-8D58-2D459B7CE51F}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/plan-with-device/local-datasource/Carousal/Carousal
+parent: {BB57ACE4-6087-4AFE-AA79-47F84767882F}
+name: Carousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180413T152517Z
+
+----version----
+language: en
+version: 1
+revision: d0a107b4-24ee-48f3-aaec-34667e4a7ba5
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 155
+
+{08297B7F-E9C3-4B48-A0AB-7547AAB85E82}|{16D2C956-7B86-4524-AC4A-0EA0B086388A}|{FB037DED-643A-4B29-B6C0-9CD2FDAB1D22}|{1918E976-0264-41E8-BB39-0AEBCCDC647C}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 16
+
+VIEW ALL SPECIAL
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 129
+
+<link text="VIEW ALL SPECIAL" linktype="external" url="https://google.com" anchor="" class="viewall-link font-body8" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 99
+
+ <h1 class="font-heading1">Special benefits</h1>
+ <h3 class="font-heading3">&nbsp;JUST FOR YOU</h3>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180309T085503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d0a107b4-24ee-48f3-aaec-34667e4a7ba5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180413T130121Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,60 @@
+----item----
+version: 1
+id: {F9D48E75-873E-4EFE-BD7B-53B14F9CC7AC}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient
+parent: {4D3182E9-48B0-4EE8-AC9B-D81AA1CC5512}
+name: MySimPageThumbnailGradient
+master: {00000000-0000-0000-0000-000000000000}
+template: {569BF43A-1585-4F30-B5AB-BDE5D85B57A3}
+templatekey: Thumbnail Gradient Component
+created: 20180419T072258Z
+
+----version----
+language: en
+version: 1
+revision: 83cdc5c8-ec80-4397-81c4-7c2821aef463
+
+----field----
+field: {847F816F-9FF1-43BF-B817-B31E45F93C77}
+name: Select Thumbnail List
+key: select thumbnail list
+content-length: 155
+
+{ECDC6625-30C8-41FB-9142-D7172DAFEF4C}|{0207DA0D-0D3E-4CE4-874A-2CC56089FED5}|{9B98B7D4-E05E-41C5-9752-8FDE8024535D}|{F708D2A8-ED21-4503-B5E5-BF275865A9FE}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 81
+
+<p class="font-heading1">24-month</p>
+<p class="font-heading3">&nbsp;Contract</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180419T072258Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+83cdc5c8-ec80-4397-81c4-7c2821aef463
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180419T075725Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

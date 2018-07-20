@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-ng-app="m1cp">
+<head>
+    <title>M1-Mobile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        body {
+            padding: 30px;
+        }
+
+        /*CSS for the textarea component*/
+        .textarea_charactersleft {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+
+        <!-- textareaId1 will be the unique id for the element -->
+        <!-- data-ng-model must be assigned to the textareaId1 -->
+        <!-- textareaId1 = pre-filled text - This needs to be assigned in data-ng-init for the working of 'characters left' functionality of the textarea (For no text to be pre-filled, assign textareaId1 to '') -->
+        <!-- 'characters left' funtionality will only work if maxlength is specified -->
+        <!-- textareaId1Label holds the label name -->
+        <!-- textareaId1Maxlength holds the maxlength value -->
+        <!-- textareaId1IsRequired holds true/false to determine if this is a required field -->
+
+        <div data-ng-init="textareaId1Label='Address'; textareaId1Maxlength='3000'; textareaId1=''; textareaId1IsRequired='true'">
+            <p>{{ textareaId1Label }}: <span data-ng-if="isrequired">*</span></p>
+            <textarea class="form-control" rows="5" data-ng-trim="false" maxlength="{{ textareaId1Maxlength }}" data-ng-model="textareaId1" data-ng-required="{{ textareaId1IsRequired }}" placeholder="Type here">{{ textareaId1 }}</textarea>
+            <p class="textarea_charactersleft" data-ng-if="textareaId1Maxlength !== ''">{{ textareaId1Maxlength - textareaId1.length }}/{{ textareaId1Maxlength }}</p>
+        </div>
+
+
+
+
+
+
+        <!--<div data-ng-init="textareaId2Label='Address2'; textareaId2Maxlength='3000'; textareaId2='Same as above'; textareaId2IsRequired='true'">
+            <p>{{ textareaId2Label }}: <span data-ng-if="isrequired">*</span></p>
+            <textarea class="form-control" rows="5" data-ng-trim="false" maxlength="{{ textareaId2Maxlength }}" data-ng-model="textareaId2" data-ng-required="{{ textareaId2IsRequired }}">{{ textareaId2 }}</textarea>
+            <p data-ng-if="textareaId1Maxlength !== ''">{{ textareaId2Maxlength - textareaId2.length }}/{{ textareaId2Maxlength }}</p>
+        </div>
+
+        <button type="submit">Submit</button>-->
+
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="../../scripts/slick-1.8.0/slick/slick.min.js"></script>
+    <script src="../../scripts/jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script src="../../scripts/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
+
+    <script src="../../scripts/app.js"></script>
+    <script src="../../scripts/app.common.js"></script>
+
+    <script src="../../scripts/core/app.core.js"></script>
+    <script src="../../scripts/core/app.core.directive.js"></script>
+    <script src="../../scripts/core/app.core.filter.js"></script>
+    <script src="../../scripts/core/app.core.service.js"></script>
+    <script src="../../scripts/core/app.core.controller.js"></script>
+
+    <script src="../../scripts/portal/app.portal.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.controller.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.directive.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.service.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.filter.js"></script>
+
+
+    <script src="../../scripts/portal/microsites/app.portal.microsites.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.controller.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.directive.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.service.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.filter.js"></script>
+
+    <script src="../../scripts/portal/microsites/app.portal.microsites.contactus.js"></script>
+
+</body>
+</html>

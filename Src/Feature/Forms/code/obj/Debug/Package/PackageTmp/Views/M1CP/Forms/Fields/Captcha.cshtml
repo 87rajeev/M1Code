@@ -1,0 +1,41 @@
+﻿@*<script src="~/Scripts/jquery-2.1.4.js"></script>*@
+@*<script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>*@
+@*<script>var correctCaptcha = function (response) {
+    alert(response);
+};</script>*@
+@*<div>
+    <label for="" class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+        @Html.Raw(Model.IsRequired ? "<span class='req-field'>* </span>" : string.Empty)
+        @*Html.MathCaptcha()
+      
+      
+    </label>
+    <div>@Html.Recaptcha()</div>
+  
+</div>*@
+
+
+    @*@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")*@
+
+    <div class="row">
+        <div class="col-md-12">
+            <form action="Forms/ValidateCaptcha" method="POST">
+                <div class="g-recaptcha" data-sitekey="6LfknEwUAAAAAOJmXvDBBeDHEfoCeSG2u0KHTE4A"></div>
+                <br />
+                <input type="submit" value="Submitcap">
+            </form>
+        </div>
+
+    </div>
+
+@*<div class="g-recaptcha" data-sitekey="6LfknEwUAAAAAOJmXvDBBeDHEfoCeSG2u0KHTE4A" data-callback="correctCaptcha"></div>*@
+
+
+
+@section scripts{
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+@*<script src="~/Scripts/googleapi.js"></script>*@
+@*<script src="~/Scripts/bootstrap.js"></script>
+<script src="~/Scripts/jquery-1.10.2.js"></script>*@
+}

@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {C2260EDB-C322-486A-80D0-5FCD29C20EDD}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Terms and condition disclamer
+parent: {98ECBC4B-34AC-4494-9E5D-F0F013D460F6}
+name: Terms and condition disclamer
+master: {00000000-0000-0000-0000-000000000000}
+template: {03B63407-7FAA-43F4-A7C2-926ED8E9B8CE}
+templatekey: FormField
+created: 20180508T062554Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1000
+----version----
+language: en
+version: 1
+revision: c22c0d43-ec58-4b3e-a6b8-bca46bc63174
+
+----field----
+field: {C571731C-BA08-406C-8648-EBC7237AABBD}
+name: Title
+key: title
+content-length: 37
+
+I have read all terms and conditions.
+----field----
+field: {0C07886D-701E-450D-927E-5B848200E205}
+name: Type
+key: type
+content-length: 38
+
+{9582D001-00C9-4ACB-A3DC-812E51B0C868}
+----field----
+field: {08B562FA-7EBF-43A4-8569-32514105108E}
+name: Is Required
+key: is required
+content-length: 1
+
+1
+----field----
+field: {5F16EB8F-83DB-40D4-8B72-B372EDE8B13C}
+name: Validation
+key: validation
+content-length: 38
+
+{73087064-BAF9-4EDA-BBD6-56673D4EA8DF}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T074620Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c22c0d43-ec58-4b3e-a6b8-bca46bc63174
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180423T122020Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

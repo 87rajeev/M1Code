@@ -1,0 +1,83 @@
+----item----
+version: 1
+id: {7E282E0C-8770-42A2-B7D1-FC8E1080686A}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/entertainment-news/NetflixPage/_Local/NetflixThumbnailTextGradient/Ultra
+parent: {34793295-2AA2-47C7-89CA-B18BFBA7FDBD}
+name: Ultra
+master: {00000000-0000-0000-0000-000000000000}
+template: {28508DAD-7C48-4963-9D00-662CEE842507}
+templatekey: Thumbnail Gradient Item
+created: 20180419T123517Z
+
+----version----
+language: en
+version: 1
+revision: 0c49e294-2aa9-4805-a683-33162df1fc76
+
+----field----
+field: {69D5A12B-8123-4708-84D4-66248267874C}
+name: GradientColor
+key: gradientcolor
+content-length: 38
+
+{4837A098-BC92-46B1-BEA6-BA4DAD4083D0}
+----field----
+field: {DC583DF5-E7D1-484E-BA6F-26B599FF4DED}
+name: Title
+key: title
+content-length: 7
+
+PREMIUM
+----field----
+field: {3D312E90-BED8-4F93-88D1-C9EBF7727B85}
+name: ShortSummary
+key: shortsummary
+content-length: 45
+
+<p class="text-gradient-price">$16.98/mth</p>
+----field----
+field: {54849339-4A7D-4E8D-914B-9AB2725B1E18}
+name: Description
+key: description
+content-length: 132
+
+<ul class="ticked-list">
+    <li class="font-body9">Watch on 4 Screens</li>
+    <li class="font-body9">Ultra HD Available</li>
+</ul>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180418T050829Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c49e294-2aa9-4805-a683-33162df1fc76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T062228Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

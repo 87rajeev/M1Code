@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {98ECBC4B-34AC-4494-9E5D-F0F013D460F6}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry
+parent: {4E70FA5D-942B-41CE-B925-EAC9DBFB3957}
+name: Enquiry
+master: {00000000-0000-0000-0000-000000000000}
+template: {D104A865-50AA-426A-BAEC-A551F01204C8}
+templatekey: FormFieldGroup
+created: 20180508T062554Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en
+version: 1
+revision: 1e831504-252e-4e9f-897c-5b1965e249c2
+
+----field----
+field: {306C830A-D8FB-45C9-973D-ED9F6B837B7F}
+name: Fields
+key: fields
+content-length: 38
+
+{D22FB6A7-4DF9-4E88-8673-3D33F1F4BAC0}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T082554Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1e831504-252e-4e9f-897c-5b1965e249c2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180524T082553Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

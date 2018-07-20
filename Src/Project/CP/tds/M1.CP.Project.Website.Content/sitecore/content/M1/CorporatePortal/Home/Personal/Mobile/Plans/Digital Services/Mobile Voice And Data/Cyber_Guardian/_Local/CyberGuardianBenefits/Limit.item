@@ -1,0 +1,74 @@
+----item----
+version: 1
+id: {93F3B463-F517-4C5B-AE8E-965F200D9247}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Cyber_Guardian/_Local/CyberGuardianBenefits/Limit
+parent: {6234CAB9-7CD1-4B2E-9030-4C317F831B8E}
+name: Limit
+master: {00000000-0000-0000-0000-000000000000}
+template: {BFCA30A6-4A9A-4FCD-8A39-AF402438195D}
+templatekey: _ImagePromoContent
+created: 20180507T080811Z
+
+----version----
+language: en
+version: 1
+revision: 3f257171-196f-439a-83a6-24f02996e0be
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 19
+
+Limit_IconThumbnail
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 81
+
+<p class="font-heading8">LIMIT</p>
+<p class="font-heading9">THEIR SCREEN TIME</p>
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 76
+
+<p class="font-body6">Decide when and how long your child can be online.</p>
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{08835FFE-96AF-40E4-917C-09F86933099D}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180418T074217Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3f257171-196f-439a-83a6-24f02996e0be
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180509T051701Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,1264 @@
+/* ==========================================================================
+CSS for M1 Project
+========================================================================== */
+
+/*Staring of Gotham font Integration*/
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamBook.eot');
+    src: url('../fonts/GothamBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamBook.woff2') format('woff2'),
+        url('../fonts/GothamBook.woff') format('woff'),
+        url('../fonts/GothamBook.svg#GothamBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Italic';
+    src: url('../fonts/Gotham-BookItalic.eot');
+    src: url('../fonts/Gotham-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff'),
+        url('../fonts/Gotham-BookItalic.svg#Gotham-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../fonts/GothamBlack.eot');
+    src: url('../fonts/GothamBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamBlack.woff2') format('woff2'),
+        url('../fonts/GothamBlack.woff') format('woff'),
+        url('../fonts/GothamBlack.svg#GothamBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-BlackItalic';
+    src: url('../fonts/Gotham-BlackItalic.eot');
+    src: url('../fonts/Gotham-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BlackItalic.woff') format('woff'),
+        url('../fonts/Gotham-BlackItalic.svg#Gotham-BlackItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/GothamBold.eot');
+    src: url('../fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamBold.woff2') format('woff2'),
+        url('../fonts/GothamBold.woff') format('woff'),
+        url('../fonts/GothamBold.svg#GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-BoldItalic';
+    src: url('../fonts/Gotham-BoldItalic.eot');
+    src: url('../fonts/Gotham-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BoldItalic.woff') format('woff'),
+        url('../fonts/Gotham-BoldItalic.svg#Gotham-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* End of Gotham font integration*/
+
+
+
+
+/* start of Common CSS Properties */
+
+html, body {
+    font-family: Gotham, Arial;
+    font-size: 1em;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+body {
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+/* sets padding-top, padding-bottom, padding-right and padding-left to zero */
+.padding-false {
+    padding: 0px;
+}
+
+.img-thumbnail {
+    padding: 0px;
+    border: 0;
+    border-radius: 0px;
+}
+.marginTop{
+    margin-top: 15px;
+}
+
+/* End of Common CSS Properties */
+
+
+
+/*------------For screen width < 768px------------*/ 
+
+/* start of CSS for font body properties for screen width < 768px */
+.theme-light .font-body1 {
+    font-weight: normal;
+    color: #6e6e6e;
+}
+
+.theme-dark .font-body1 {
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.font-body2 {
+    font-weight: normal;
+    color: #e75e0d;
+}
+
+.theme-dark .font-body3 {
+    font-family: Gotham-Black;
+    color: #ffffff;
+}
+
+.theme-light .font-body3 {
+    font-family: Gotham-Black;
+    color: #212121;
+}
+
+.font-body4 {
+    font-size: 1em; /* 16px */
+    font-weight: normal;
+    color: #6e6e6e;
+}
+
+.font-body5 {
+    font-weight: normal;
+    color: #212121;
+}
+
+.font-body6 {
+    font-weight: normal;
+    color: #6e6e6e;
+}
+
+.font-body7 {
+    font-family: Gotham-Black;
+    color: #e75e0d;
+}
+
+.font-body8 {
+    font-size: 0.75em;  /* 12px */
+    font-weight: normal;
+    color: #212121;
+}
+
+.font-body9 {
+    font-family: Gotham-Black;
+    color: #212121;
+}
+
+/* End of CSS for font body properties */
+
+
+/* Start of CSS for font heading properties*/
+
+.theme-dark .font-heading1 {
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #ffffff;
+}
+.theme-dark1 .font-heading1 {
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #1f1b1b;
+}
+
+.theme-light .font-heading1 {
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #212121;
+}
+
+.theme-dark .font-heading2 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.theme-light .font-heading2 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.font-heading3 {
+    margin: 0px;
+    font-size: 1.313em; /* 21px */
+    font-weight: normal; 
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.font-heading4 {
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #212121;
+}
+/* End of CSS for font heading properties*/
+
+
+
+/* Start of CSS for button properties*/
+
+.font-button {
+    font-size: 0.938em; /* 15px */
+    font-weight: normal;
+    background-color: transparent;
+    border-radius: 0px;
+	min-width: 200px;
+}
+
+.theme-dark .font-button { 
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.theme-dark .font-button:hover {
+    background-color: #ffffff;
+    color: #e75e0d;
+}
+
+.theme-light .font-button {
+    color: #212121;
+    border: 2px solid #e75e0d;
+}
+
+.theme-light .font-button:hover {
+    background-color: #e75e0d;
+    color: #ffffff;
+}
+
+.font-button:disabled {
+    border-color: #c6510c;
+    color: #000;
+}
+
+.font-button:active {
+    fill: transparent;
+    border-color: #6e6e6e;
+    color: #6e6e6e;
+}
+
+/* End of CSS for button properties */
+
+
+
+
+/*--------------For screen width >= 768px (only desktop  above Tabs )------------------------*/
+/* start of CSS for font body properties for screen width >= 768px */
+ 
+
+
+@media (min-width: 768px) {
+
+    /* start of CSS for font body properties */
+    .font-body1, .font-body5 {
+        font-size: 1.063em; /* 17px */
+    }
+    
+    .font-body2 {
+        font-size: 1.125em; /* 18px */
+    }
+    
+    .font-body6 {
+        font-size: 1em; /* 16px */
+    }
+    
+    .font-body7 {
+        font-size: 1.25em;  /* 20px */
+    }
+    
+    .font-body9 {
+        font-size: 0.875em; /* 14px */
+    }
+
+    /* End of CSS for font body properties for screen width >= 768px */
+    
+    
+    /* Start of CSS for font heading properties for screen width >= 768px */
+    .font-heading1 {
+        font-size: 2.5em; /* 40px */
+    }
+    
+    .font-heading2 {
+        font-size: 3.125em; /* 50px */
+    }
+    
+    .font-heading3 {
+        font-size: 2.125em; /* 34px */
+    }
+    
+    .font-heading4 {
+        font-size: 1.5em; /* 24px */
+    }
+    /* End of CSS for font heading properties for screen width >= 768px */
+
+	.font-button {
+		padding: 14px 0;
+	}
+}
+
+/* css for tabs and mobile */
+@media only screen and (max-width : 767px){
+
+    /* sets padding-top, padding-bottom, padding-right and padding-left to zero only for mobile screens */
+    .padding-zero {
+        padding: 0;
+    }
+
+
+    /* start of CSS for font body properties for screen width < 768px */
+    .font-body1, .font-body2, .font-body5, .font-body7 {
+        font-size: 0.813em; /* 13px */
+    }
+
+    .font-body6, .font-body9 {
+        font-size: 0.75em;  /* 12px */
+    }
+
+    /* End of CSS for font body properties for screen width < 768px */
+
+
+    /* Start of CSS for font heading properties for screen width < 768px */
+    .font-heading1 {
+        font-size: 1.125em; /* 18px */
+    }
+
+    .font-heading2 {
+        font-size: 1.438em; /* 23px */
+    }
+
+    .font-heading3 {
+        font-size: 1.25em;  /* 20px */
+    }
+
+    .font-heading4 {
+        font-size: 0.813em; /* 13px */
+    }
+    
+	
+	.font-button {
+		padding: 8px 0;
+	}
+
+}
+   /* End of CSS for font heading properties for screen width < 768px */
+   
+   
+   
+
+/* Device = Desktops, Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) { 
+  
+ 
+  
+}
+
+
+/* Device = Laptops, Desktops, Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  
+}
+
+
+/* Device = Tablets, Ipads (portrait); Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  
+}
+
+
+/* Device = Tablets, Ipads (landscape); Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape); Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+
+  
+}
+
+
+/* Device = Most of the Smartphones Mobiles (Portrait); Screen = B/w 31.25em to 479px */
+@media (min-width: 31.25em) and (max-width: 480px) {
+  
+
+}
+
+
+
+.component-heading{
+   text-align: center;	
+   text-align: center;
+   margin-top: 5%;
+   margin-bottom: 2%;
+}
+.component-heading h1,h3{
+  display:inline;	
+}
+.component-viewall-Link{
+ text-align: center;	
+}
+.component-viewall-Link .viewall-link{
+	position:relative;
+border-bottom:1px solid #E75E0D;
+padding: 4px 10px;	
+text-transform: uppercase;
+}
+.component-viewall-Link .viewall-link::after{
+    border-top: 10px solid #f56510;
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    bottom: -10px;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; 
+    height: 0;
+}
+a:focus, a:hover {
+    text-decoration: none; 
+	outline:none;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom:0px;
+}
+.slick-dots {
+ bottom:0;  
+}
+.slick-arrow{
+	height: 50px;
+	width: 50px;
+	z-index:5;
+	border-radius: 26px;
+}
+.image-crausel-type-1 .slick-arrow{
+	
+	top:35%;
+}
+.slick-prev {
+    left: -5%;
+}
+.slick-next{
+  right: -5%;	
+}
+.slick-dots li button {
+    width: 15px;
+    height: 15px;
+    background-color: #FF9454;
+    border-radius: 50%;
+    border: 1px solid #FF9454;
+}
+
+.slick-dots .slick-active button {
+    width: 15px;
+    height: 15px;
+    background-color: #e6c9b8;
+    border-radius: 50%;
+    border: 1px solid #e6c9b8;
+}
+.slick-dots li button::before {
+    font-family: slick;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: transparent;
+}
+.slick-dots li button::before {
+    font-family: slick;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+.thumbnail{
+border: 0;
+padding: 10px;
+}
+.thumbnail img{
+	width:100%;
+}
+
+.padding-zero {
+    padding: 0px;
+}
+.marginbottom-zero{
+margin-bottom:0px;	
+}
+
+
+
+.btn-default, .btn-default:hover, .btn-default:active:hover, .btn.active, .btn:active {
+    background-color: transparent;
+    border-color: #d43f3a;
+    border-width: 2px;
+    box-shadow: none;
+}
+
+/*css for header Component*/
+.m1-header .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: text-top;
+    background-color:#E75E0D;
+    border-radius: 10px;
+	margin-left: -10px;
+}
+.m1-header.black.navbar-default .navbar-nav>li>a {
+    padding: 10px 13px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #373737;
+}
+.m1-header.white.navbar-default .navbar-nav>li>a {
+    padding: 10px 7px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav.toplinksheader>li>a {
+    font-size: 20px;
+}
+.m1-header .navbar-header .navbar-brand{
+	padding:0px;
+}
+.m1-header .toplinksheader {
+    display: inline-flex;
+    position: absolute;
+    right: 8.33%;
+    }
+.m1-header.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+	padding: 0 8.33%;
+}
+.m1-header.navbar-default.active {
+    background-color: #178fd6;
+    border-color: #178fd6;
+}
+.m1-header .peronalbussiness{
+margin-top:14px;
+margin-left: -14%;	
+}
+.m1-header .peronalbussiness li:first-child {
+    border-right: 1px solid black;
+}
+.m1-header .peronalbussiness > li {
+    display: inline-block;
+    padding: 0px;
+}
+
+.m1-header.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.m1-header .peronalbussiness > li>a{
+	padding:0px 5px !important;
+}
+
+
+.m1-header.navbar-default .navbar-nav>.open>a,.m1-header.navbar-default .navbar-nav>.open>a:focus, .m1-header.navbar-default .navbar-nav>.open>a:hover,.m1-header{
+    background-color: transparent;	
+}
+.m1-header .peronalbussiness > li>a.inactive{
+   font-weight:normal !important;
+}
+.dropdown:hover .dropdown-menu{
+	display:block;
+}
+
+
+/*close icon transistion*/
+
+.navbar-toggle {
+    border: none;
+    background: transparent !important;
+}
+
+    .navbar-toggle:hover {
+        background: transparent !important;
+    }
+
+    .navbar-toggle .icon-bar {
+        width: 22px;
+        transition: all 0.2s;
+    }
+
+    .navbar-toggle .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+
+    .navbar-toggle .middle-bar {
+        opacity: 0;
+    }
+
+    .navbar-toggle .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+
+    .navbar-toggle.collapsed .top-bar {
+        transform: rotate(0);
+    }
+
+    .navbar-toggle.collapsed .middle-bar {
+        opacity: 1;
+    }
+
+    .navbar-toggle.collapsed .bottom-bar {
+        transform: rotate(0);
+    }
+/*end of close icon transistion*/	
+
+/*end of header Component*/
+
+
+/* Start topbanner css */
+.topbanner {
+    position: relative;
+}
+
+/* Setting width to 100% for topbanner background so that it fits the entire screen */
+.topbanner .topbanner-background {
+    width: 100%; /* common css ? */
+}
+
+.topbanner .topbanner-content {
+    position: absolute;
+    width: 100%; /* common css ? */
+    top: 0;
+    margin-top: 75px; /* change - depending on placement of header */
+}
+
+.topbanner .topbanner-dots-left, .topbanner .topbanner-text {
+    margin-top: 7%; /* change as per requirement */
+}
+
+.topbanner .topbanner-content .img-dots {
+    min-width: 35px; /* to be checked */
+}
+
+.topbanner .topbanner-text {
+    position: relative;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-left {
+    position: absolute;
+    left: 0;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-right {
+    position: absolute;
+    right: 0;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.topbanner .topbanner-text .topbanner-caption {
+    display: table;
+    border-bottom: 7px solid #e75e0d;
+}
+
+.topbanner .topbanner-text .topbanner-caption .topbanner-category {
+    display: inline-block;
+    margin-bottom: 14px;
+    background: #fff;
+    padding: 10px;
+}
+
+.topbanner .topbanner-text .topbanner-caption h2 {
+    margin-bottom: 17px;
+}  
+
+.topbanner .topbanner-text .topbanner-description {
+    margin-top: 17px;
+}
+.imageFill{
+    height: -webkit-fill-available;
+	width: -webkit-fill-available;
+}
+/* remove - use common css */
+.topbanner .topbanner-text .btn {
+    margin-top: 17px;
+    /* width to be changed accordingly */
+    max-width: 300px;
+}
+
+@media (min-width: 768px) {
+	.topbanner .topbanner-text .topbanner-caption h2 {
+		margin-bottom: 29px;
+	}
+}
+/*End of top-banner CSS*/
+
+
+/*css for footer Component*/
+footer.footer.m1{
+    background-color: #164194;
+    position: relative;
+	margin-top:8%;
+}
+footer.footer.m1 .panel-group .panel{
+    border:0;
+    background-color: #164194;	
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+footer.footer.m1 .panel-default > .panel-heading{
+    background-color: #164194;
+    border-color: #164194;
+}
+
+footer.footer.m1 .panel-default > .panel-heading .panel-title{
+	font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+footer.footer.m1 .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body .list-group .list-group-item{
+position: relative;
+display: block;
+background-color: #164194;
+border: 0;
+font-size: 12px;	
+padding: 5px 0px;
+}
+footer.footer.m1 .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body .list-group .list-group-item a{
+	color: #ffffffb3;
+}
+footer.footer.m1 .footer-social, footer.footer.m1 .footer-download {
+    text-align: center;
+}
+footer.footer.m1 .footer-download img {
+    width: 120px;
+}
+footer.footer.m1 .footer-social img, footer.footer.m1 .footer-download img {
+    height: 50px;
+    padding: 0 5px;
+}
+footer.footer.m1 .footer-social img {
+    width: auto;
+}
+footer.footer.m1 .footer-download{
+	margin-bottom:25px;
+}
+footer.footer.m1 .toparrowrow{
+	margin-bottom: 25px;
+}
+footer.footer.m1 .gotopButton{
+	position: absolute;
+    left: 44%;
+    z-index: 99;
+    border-radius: 23px;
+    top: -32px;
+    width:50px;
+	height:50px;
+}
+/*end of fotter Component*/
+
+
+/*css for top-Banner Component*/
+
+/*end of top-Banner  Component*/
+
+
+
+/*css for thumbnailComponent-type1 Component*/
+page-banner .thumbnail img{
+min-height:200px;	
+}	
+thumbnail-component .thumbnail{
+position:relative;
+border:0;
+text-align:center;	
+}
+
+thumbnail-component .thumbnail .caption {
+   position: absolute;
+    text-align: center;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    top:65%;
+    left: 50%;
+	color:white;
+}
+thumbnail-component .description{
+	padding:15px;
+}
+
+
+/*end of thumbnailComponent-type1  Component*/
+
+
+/*css for page-Banner Component*/
+  page-banner .thumbnail .caption.align-left {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+	color:white;
+	padding:0 20px;
+}
+page-banner .thumbnail .caption.align-right{
+	position: absolute;
+    text-align: left;
+    top: 0;
+    color: white;
+    top: 50%;
+    padding: 0 20px;
+    transform: translateY(-50%);
+    right: 16%;
+}
+
+/*end of page-Banner  Component*/
+
+
+/*css for page-Banner2 Component*/
+page-banner2 .thumbnail,page-banner .thumbnail{
+position:relative;
+border:0;	
+}
+page-banner2 .thumbnail .caption {
+  position: absolute;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    /*left: 10%;*/
+	color:black;
+	padding:0 20px;
+}
+page-banner2 .thumbnail .caption .h1, .h2, .h3, h1, h2, h3 , page-banner .thumbnail .caption .h1, .h2, .h3, h1, h2, h3{
+	margin-top: 0px;
+}
+	
+page-banner2 .btn{
+color:black;
+padding:6px 70px;	
+}
+/*end of page-Banner  Component*/
+
+/*css for main page-Banner Component*/
+.mainpage-banner .thumbnail{
+position:relative;
+border:0;	
+}
+.mainpage-banner .thumbnail .caption {
+  position: absolute;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    /*left: 10%;*/
+	color: black;
+	padding:0 35px;
+}
+.pageBanner-margin-Top .pageBanner-backGround
+{
+position:relative;
+padding:0px;
+}
+.mainpage-banner .caption p
+{
+margin-bottom:14px;
+}
+.mainpage-banner .caption.left
+{
+position:absolute;
+top:50%;
+}
+.mainpage-banner .caption.center
+{
+position:absolute;
+top:50%;
+left:25%;
+}
+
+.mainpage-banner .caption.right
+{
+position:absolute;
+top:50%;
+right:0%;
+
+}
+.mainpage-banner .caption .font-button
+{
+min-width:100%;
+}
+.component-heading
+{
+margin: 20px 0px;
+}
+/*.mainpage-banner .thumbnail .caption .h1, .h2, .h3, h1, h2, h3 , page-banner .thumbnail .caption .h1, .h2, .h3, h1, h2, h3{
+	margin-top: 0px;
+}
+	
+.mainpage-banner .btn{
+color:black;
+padding:6px 70px;	
+}*/
+
+/*end of main page-Banner  Component*/
+
+
+/*css for Image-Crausel-type1 Component*/
+.image-crausel-type-1 .caption .heading{
+	font-size: 21px;
+    font-weight: bold;
+    color: #212121;
+    margin: 0;
+	
+}
+.image-crausel-type-1 .caption .description{
+	
+	Font-size: 13px ;
+	Font-weight: normal;
+	color: #6E6E6E;
+
+}
+/*end of Image-Crausel-type1  Component*/
+
+
+
+/*css for Image-Crausel-type2 Component*/
+.image-crausel-type-text .caption{
+ border:1px solid #E75E0D;
+ padding:40px 25px;
+	
+}
+
+/*end of Image-Crausel-type2  Component*/
+
+
+/*css for text-Crausel Component*/
+
+/*end of text-Crausel  Component*/
+
+
+
+/*css for only desktop  above Tabs*/
+@media (min-width: 768px) {
+	/*css for header Component*/
+    
+	.m1-header .navHeaderLinksCenetr {
+    position: absolute;
+    left: 49%;
+    top: 50%;
+    transform: translate(-36%,-50%);
+}
+.m1-header .dropdown-menu {
+ 
+    background-color: #c6cfd4;
+   
+}
+.m1-header.navbar-default .navbar-nav>.opened>a,.m1-header.navbar-default .navbar-nav>.opened>a:focus, .m1-header.navbar-default .navbar-nav>.opened>a:hover,.m1-header{
+    color: #E75E0D  !important;
+    background-color: transparent;	
+}
+	/*end of header Component*/
+	
+	
+	
+/* CSS for page-banner*/
+.pagebanner-text {
+	position: absolute;
+	min-height: 100px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+}
+.pagebanner-left{   
+/* padding-bottom: 80px; */
+	transform: translateX(0%);
+}
+.pagebanner-right{
+	transform: translateX(85%);
+}	
+.pagebanner-center{
+	transform: translateX(50%);
+}	
+/* End of CSS for page-banner*/
+	
+
+	
+/*css for footer Component*/
+footer.footer.m1 .panel-default > .panel-heading{
+	pointer-events: none;
+}
+footer.footer.m1 .panel-group{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;	
+}	
+footer.footer.m1 .panel-group .panel + .panel {
+    margin-top: 0px;
+}
+footer.footer.m1 .panel-default > .panel-collapse.collapse {
+    display: block !important;
+}
+footer.footer.m1 .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body{
+	border-top: none;
+}
+footer.footer.m1 .footer-download {
+    text-align: left;
+    padding-left: 10px;
+}
+footer.footer.m1 .footer-download img {
+    margin-bottom: 0px;
+	width: 120px;
+	height: 50px;
+    padding: 0 5px;
+}
+footer.footer.m1 .footer-social {
+    text-align: right;
+   /* padding-right: 0px;*/
+	
+}
+footer.footer.m1 .footer-social img {
+    width: auto;
+	height: 50px;
+    padding: 0 5px;
+	height: 50px;
+    padding: 0 5px
+}
+footer.footer.m1 .gotopButton{
+	position: absolute;
+    left: 48%;
+    z-index: 99;
+    border-radius: 23px;
+    top: -32px;
+    width:50px;
+	height:50px;
+}
+
+    /*end of fotter Component*/
+	
+	
+	
+	/*css for top-Banner Component*/
+
+   /*end of top-Banner  Component*/
+   
+   
+   /*css for page-Banner Component*/
+
+  /*end of page-Banner  Component*/
+  
+  
+  
+	
+}
+
+
+/*css for tabs and mobile*/
+@media only screen and (max-width : 767px) {
+	
+	/*common css*/
+	
+	.component-heading h1,h3{
+      display:block;	
+   }
+	
+	
+	/*end of common css*/
+	
+	
+	/*css for header Component*/
+
+.m1-header #myNavbar{
+position:fixed;
+width:100%;
+min-height:100%;
+background-color:white;
+top:0;
+padding-top:15px;
+	
+}
+.m1-header.navbar-default {
+    padding: 0;
+}
+.m1-header .navbar-header{
+	padding-left:8.33%;
+}
+.m1-header .toplinksheader {
+    display: inline-flex;
+    position: absolute;
+    right: 16.33%;
+ }
+ .m1-header .peronalbussiness{
+	    margin-left: 0px; 
+ }
+ .m1-header .navbar-header .navbar-toggle{
+	padding: 11px 10px; 
+	/*z-index:99;*/
+ }
+ .m1-header.black.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1d1d13;;
+ 
+}
+.m1-header.white.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+ 
+}
+
+/*styling menue in Mobile device*/
+
+.m1-header.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color:transparent;
+}
+.m1-header	.nav.navbar-nav.navHeaderLinksCenetr>li>a{
+    font-size: 19px;
+    font-weight: 700;
+    color:#343434 ;	
+	border-bottom: 1px solid #ddd;
+}
+.m1-header.navbar-default .navbar-nav .dropdown-menu>li>a {
+    color: #E75E0D;
+	font-size: 14px;
+	border-bottom: 1px solid #ddd;
+	padding: 12px 20px;
+}
+.m1-header .navbar-nav .dropdown-menu{
+	display: block;
+	 position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.m1-header .navbar-nav .dropdown-menu {
+   /*background-color: #f7f4f1;*/
+}
+.m1-header.navbar-default .navbar-nav.navHeaderLinksCenetr>li>a{
+    padding: 10px 20px;	
+}
+
+.m1-header #myNavbar .navbar-toggle[aria-expanded="true"]{
+	border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #212121;
+    padding: 0px 10px;
+}
+
+
+	/*end of header Component*/
+	
+	
+	/*css for footer Component*/
+    footer.footer.m1 {
+    background-color: #164194;
+    position: relative;
+    margin-top: 15%;
+   }
+   /*end of fotter Component*/
+   
+   
+   
+   /*css for top-Banner Component*/
+
+   /*end of top-Banner  Component*/
+   
+   
+   
+   /*css for crausel-type-text Component*/
+       .image-crausel-type-text .slick-slide{
+	filter: blur(1px);
+    }
+  .image-crausel-type-text .slick-slide.slick-current.slick-active{
+	filter: blur(0px);
+   }
+   /*end of crausel-type-text Component*/
+	
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+     	/*css for header Component*/
+	.m1-header.navbar-default .navbar-nav>li>a {
+    padding: 10px 6px !important;
+    font-size: 12px !important;
+    font-weight: 700;
+    color: #1d1d13;
+}
+.m1-header .peronalbussiness > li>a{
+	padding:0px 5px;
+}
+	/*end of header Component*/
+}  
+
+    }

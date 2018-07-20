@@ -1,0 +1,37 @@
+﻿@model M1CP.Feature.Banner.Models.IPageBanner
+@using Glass.Mapper.Sc.Web.Mvc
+
+
+
+@{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Banner.Models.IDataBannerParameterTemplate>();
+    var theme = RenderingParamaters != null && RenderingParamaters.SelectedTheme != null && RenderingParamaters.SelectedTheme.style != null ? RenderingParamaters.SelectedTheme.style : "theme-light";
+    var orientation = RenderingParamaters != null && RenderingParamaters.SelectedOrientation != null && RenderingParamaters.SelectedOrientation.style != null ? RenderingParamaters.SelectedOrientation.style : "";
+    var bgcolor = RenderingParamaters != null && RenderingParamaters.GradientTheme != null && RenderingParamaters.GradientTheme.style != null ? RenderingParamaters.GradientTheme.style : "theme-transparent";
+}
+
+<div class="row">
+    <div class="halftile @theme text-theme-black textcontent-@orientation textcontent-background-@bgcolor" equal-height>
+        <div class="textcontent col-md-6 col-sm-12 col-xs-12 padding-false equal-component">
+            <div class="row">
+                <div class="col-md-9 col-sm-9  col-xs-12 mainbody">
+                    <p class="font-heading1">@Html.Glass().Editable(Model, x => x.Title)</p>
+                    <p class="font-heading3">@Html.Glass().Editable(x => x.Description)</p>
+                    <p class="font-body1">@Html.Glass().Editable(Model, x => x.SupportText)</p>
+                    @foreach (var CTAmodel in Model.CTATitle)
+                    {
+                        using (Html.Glass().BeginEditFrame(CTAmodel, "EditLink", m => m.CTATitle, m => m.CTALink))
+                        {
+                            <a role="button" href="@((CTAmodel!=null && CTAmodel.CTALink!=null)?CTAmodel.CTALink.Url:" #")" class="btn btn-default btn-block font-button halfbtn animated-button button-animated">@CTAmodel.CTATitle</a>
+                        }
+                    }
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 padding-false image-content equal-component">
+            @Html.Glass().RenderImage(Model, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "img-responsive" })
+
+        </div>
+    </div>
+</div>

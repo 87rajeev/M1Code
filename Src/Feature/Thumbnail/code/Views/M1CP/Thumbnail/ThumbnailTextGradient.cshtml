@@ -1,0 +1,29 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Feature.Thumbnail.Models
+@model M1CP.Feature.Thumbnail.Models.IThumbnailGroup
+@{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<IThumbnailGradientRenderingParamater>();
+}
+<div class="row">
+    <section class="text-gradient">
+        <div class="col-xs-12 col-md-10 col-lg-10 col-md-offset-1  padding-false text-center">
+            <div class="text-gradient-component align-item-center-desktop">
+                @if (Model.ThumbnailList != null)
+                {
+                    var maxItem = ((RenderingParamaters != null && RenderingParamaters.desktopCount.value != 0) ? RenderingParamaters.desktopCount.value : 3);
+                    var minItem = ((RenderingParamaters != null && RenderingParamaters.mobileCount.value != 0) ? RenderingParamaters.mobileCount.value : 1);
+
+                    foreach (var item in Model.ThumbnailList)
+                    {
+                        <div class="col-xs-@(12/minItem) col-sm-@(12/minItem) col-lg-@(12/maxItem) col-md-@(12/maxItem) padding-false text-gradient-item @item.GradientTheme.style">
+                            @Html.Glass().Editable(item, i => i.ThumbnailTitle)
+                            @Html.Glass().Editable(item, i => i.ThumbnailShortSummary)
+                            @Html.Glass().Editable(item, i => i.ThumbnailDescription)
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </section>
+</div>
+

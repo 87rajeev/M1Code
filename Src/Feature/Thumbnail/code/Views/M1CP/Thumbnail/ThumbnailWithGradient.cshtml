@@ -1,0 +1,44 @@
+﻿@using M1CP.Feature.Thumbnail
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using M1CP.Feature.Thumbnail.Models
+
+@model M1CP.Feature.Thumbnail.Models.IThumbnailGroup
+
+@{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<IThumbnailGradientRenderingParamater>();
+}
+<div class="row">
+    <div class="content">
+        <div class="component-heading theme-dark1 animation-element slide-bottom">
+            <div>@Html.Glass().Editable(Model, i => i.Title)</div>
+            <div>@Html.Glass().Editable(Model, i => i.Description)</div>
+        </div>
+    </div>
+    @if (Model.ThumbnailList != null)
+            {
+        <div class="gradient-thumbnail align-item-center-desktop col-lg-offset-2 col-md-offset-2 col-md-8 col-lg-8 col-xs-12 col-sm-12">
+            @{ var maxItem = ((RenderingParamaters != null && RenderingParamaters.desktopCount.value != 0) ? RenderingParamaters.desktopCount.value : 3);
+                var minItem = ((RenderingParamaters != null && RenderingParamaters.mobileCount.value != 0) ? RenderingParamaters.mobileCount.value : 1);
+            }
+            @foreach (var item in Model.ThumbnailList)
+                {
+                <div class="thumbnail col-md-@(12/maxItem) col-lg-@(12/maxItem) col-sm-@(12/minItem) col-xs-@(12/minItem)">
+                    <div class="linear-background @item.GradientTheme.style">
+                        <a href="#" class="">
+                            <div class="content animation-element slide-bottom">
+                                @Html.Glass().Editable(item, i => i.ThumbnailTitle)
+                                @Html.Glass().Editable(item, i => i.ThumbnailShortSummary)
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            }
+        </div>
+                }
+</div>

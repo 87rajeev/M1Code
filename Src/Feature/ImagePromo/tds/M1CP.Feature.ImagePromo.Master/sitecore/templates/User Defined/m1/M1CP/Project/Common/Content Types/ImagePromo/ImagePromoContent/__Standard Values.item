@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {2497FE97-909F-41DD-B396-D536C3F1EBB7}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo/ImagePromoContent/__Standard Values
+parent: {5A4FA8DD-C870-45AC-B68D-9D0293269799}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {5A4FA8DD-C870-45AC-B68D-9D0293269799}
+templatekey: ImagePromoContent
+created: 20180316T131322Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{788701F1-4DC1-4384-84E8-F99680501DB2}
+----version----
+language: en
+version: 1
+revision: 83c963ec-93d1-4d37-95c0-46682a5485d8
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 39
+
+Enter description about $name promotion
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180309T063208Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+83c963ec-93d1-4d37-95c0-46682a5485d8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180320T130809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

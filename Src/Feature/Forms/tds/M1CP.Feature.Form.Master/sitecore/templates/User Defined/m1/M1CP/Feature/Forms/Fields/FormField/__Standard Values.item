@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {07FE1DE0-CEF6-407D-96F1-B57CD17C675C}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/FormField/__Standard Values
+parent: {03B63407-7FAA-43F4-A7C2-926ED8E9B8CE}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {03B63407-7FAA-43F4-A7C2-926ED8E9B8CE}
+templatekey: FormField
+created: 20180128T112609Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{4F526D34-7DFE-4444-8B89-0616DE873203}
+----version----
+language: en
+version: 1
+revision: e18c5eb9-45ad-4a7f-a1b8-2b10a672c0bd
+
+----field----
+field: {C571731C-BA08-406C-8648-EBC7237AABBD}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {0C07886D-701E-450D-927E-5B848200E205}
+name: Type
+key: type
+content-length: 38
+
+{417E94EA-090F-4C30-9F57-A6A842D1B5AA}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180128T112609Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e18c5eb9-45ad-4a7f-a1b8-2b10a672c0bd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180128T132506Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

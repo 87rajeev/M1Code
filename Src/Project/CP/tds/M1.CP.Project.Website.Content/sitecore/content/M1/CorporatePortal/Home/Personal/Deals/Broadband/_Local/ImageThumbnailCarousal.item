@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {95902575-AFB9-469F-ACA2-6D2DFD25C06A}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImageThumbnailCarousal
+parent: {6334B9BF-C4CC-4D47-A39E-DC51CB6E2882}
+name: ImageThumbnailCarousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180502T104332Z
+
+----version----
+language: en
+version: 1
+revision: 54a1bcd9-ded4-4430-930e-4e54775c27cf
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 155
+
+{2049BEC0-9503-4BCE-A9E4-2A063C830DCA}|{97D487C3-7170-46A4-AAC4-F46ED529F91E}|{F993BC8B-EF68-4D32-913A-3F78D1F3228E}|{6E73B8D3-851B-4AD6-BFB1-B3602128C3B5}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 22
+
+ImageThumbnailCarousal
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 72
+
+<link linktype="external" url="http://google.com" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 96
+
+<span style="font-size: 24px;"><strong>Maximise connectivity</strong> WITH THESE UPGRADES</span>
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 93
+
+say goodbye to dropped connections and enjoy full-strength Wi-Fi in every corner of your home
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180502T053053Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54a1bcd9-ded4-4430-930e-4e54775c27cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T110553Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

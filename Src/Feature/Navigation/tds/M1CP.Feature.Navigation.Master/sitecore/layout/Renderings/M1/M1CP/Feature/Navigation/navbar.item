@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {D0B2C8DD-9482-4F4B-A6A0-12DA0638C954}
+database: master
+path: /sitecore/layout/Renderings/M1/M1CP/Feature/Navigation/navbar
+parent: {96A35697-CB74-4AB6-9B6B-23726CC52FDA}
+name: navbar
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20180410T053003Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 37
+
+~/Views/M1CP/Navigation/navbar.cshtml
+----field----
+field: {36E3E51C-5E13-4938-A07A-0DBD877A5640}
+name: Form Controller Name
+key: form controller name
+content-length: 81
+
+M1CP.Feature.Navigation.Controllers.NavigationController, M1CP.Feature.Navigation
+----field----
+field: {8FC23A62-6B1F-4B6A-B910-30D38DF54617}
+name: Form Controller Action
+key: form controller action
+content-length: 14
+
+MainNavigation
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{D397FAE1-861C-4C78-B200-D737BA6001EC}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+1
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 66
+
+/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation
+----version----
+language: en
+version: 1
+revision: b1500146-8743-43ec-865b-963d0d320ff3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180410T053003Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b1500146-8743-43ec-865b-963d0d320ff3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180410T163310Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

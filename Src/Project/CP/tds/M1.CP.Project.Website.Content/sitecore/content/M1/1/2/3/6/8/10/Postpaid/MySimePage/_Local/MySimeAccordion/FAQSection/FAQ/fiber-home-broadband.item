@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {906DA060-4013-4D44-BA2E-1C76D9DEA543}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/phone-plans/Postpaid/MySimePage/_Local/MySimeAccordion/FAQSection/FAQ/fiber-home-broadband
+parent: {18941FF6-BBFB-4824-86FA-12B6378E9ACF}
+name: fiber-home-broadband
+master: {00000000-0000-0000-0000-000000000000}
+template: {7E49A1C2-026D-45BA-BE98-494B17D798B5}
+templatekey: FAQ
+created: 20180419T100718Z
+
+----version----
+language: en
+version: 1
+revision: 2ecc40c1-4735-4841-b4ba-ff921f15df81
+
+----field----
+field: {B050FA74-5407-49C3-8347-4ED7FB5E4A59}
+name: Question
+key: question
+content-length: 35
+
+Why do I need Fiber Home Broadband?
+----field----
+field: {B1D3456E-65E1-4F88-8648-AB7C159C0025}
+name: Answer
+key: answer
+content-length: 236
+
+High speed upto 10Gbps fro all your surfing needs. With increasing availability of high bandwidth applications such as HD video streaming. M1 Fiber Home broadband will be able to provide you with just the speed to meet your needs.&nbsp;
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+Fiber Home Broadband
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180314T061224Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2ecc40c1-4735-4841-b4ba-ff921f15df81
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180417T101438Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

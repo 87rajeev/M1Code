@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {297C919C-987A-49AC-A92B-6498D6462DFF}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm/Save
+parent: {6CCFD0D1-DC64-4F7B-957D-0556D67F9533}
+name: Save
+master: {00000000-0000-0000-0000-000000000000}
+template: {3AFC52D4-9298-47ED-83B6-21AD8FD2BD0F}
+templatekey: FormEvent
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: dfa0d495-0fb8-4306-bcb5-818a7484774f
+
+----field----
+field: {1A867597-71C7-4D67-A626-3019D172340D}
+name: Class
+key: class
+content-length: 74
+
+M1CP.Feature.Form.Repository.FormRepository , M1CP.Feature.Form.Repository
+----field----
+field: {93705333-2FCD-41E0-A4DA-0702A60F733B}
+name: SQLTable
+key: sqltable
+content-length: 5
+
+Login
+----field----
+field: {AE778F35-997A-40EC-95B9-80584CC93C9D}
+name: SQLFields
+key: sqlfields
+content-length: 155
+
+{2C0A1641-3CA8-4124-B5B0-69D50576AC29}|{D14DF27B-3F0E-424C-BAC3-834FE8512E83}|{B2A4E21E-8221-42B0-8384-E8874475B0CA}|{7E49AB64-6165-4642-955C-ED17E2C214E6}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180128T124035Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dfa0d495-0fb8-4306-bcb5-818a7484774f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180205T091238Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,16 @@
+﻿@using M1CP.Feature.IFrame.Models
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+
+
+@model M1CP.Feature.IFrame.Models.IIFrame
+
+
+@if (Model != null)
+{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<IIFrameParameter>();
+    <div>
+        <iframe id="@RenderingParamaters.Id" class="@RenderingParamaters.Class" scrolling="@RenderingParamaters.Scrolling" frameborder="@RenderingParamaters.Frameborder" height="@RenderingParamaters.Height" src=@Html.Glass().Editable(x => x.URL, new { DisableWebEdit = true })></iframe>
+    </div>
+}

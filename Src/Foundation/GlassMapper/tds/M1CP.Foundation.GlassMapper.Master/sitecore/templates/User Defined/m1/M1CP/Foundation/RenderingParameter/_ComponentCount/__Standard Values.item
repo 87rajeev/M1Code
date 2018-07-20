@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {1C2705F0-30EF-4E73-928C-7E0C00C62EA9}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Foundation/RenderingParameter/_ComponentCount/__Standard Values
+parent: {D0206659-A9D2-4B0B-8E3F-C449F3685FA4}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {D0206659-A9D2-4B0B-8E3F-C449F3685FA4}
+templatekey: _ComponentCount
+created: 20180419T054451Z
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 93b5d166-04dc-4b3d-83ab-440b7d271632
+
+----field----
+field: {ACA48CF2-FB45-4275-8DBD-5C7E0DB5D904}
+name: DesktopCount
+key: desktopcount
+content-length: 38
+
+{8172D243-3E49-4DA8-A752-DCE5871F1DA7}
+----field----
+field: {C0D8CA35-9DAF-4B8C-BC66-E6C9DDB69831}
+name: MobileCount
+key: mobilecount
+content-length: 38
+
+{A9E21C39-23E5-401A-86B8-FC3169826B72}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180419T054451Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+93b5d166-04dc-4b3d-83ab-440b7d271632
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180419T054507Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

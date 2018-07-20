@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {753D67F8-C0F2-453E-8D3D-7AF51EE9FC04}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/SECURITY/ImageThumbnailCarousal_security/Vsafe
+parent: {FA7859D3-AE96-4387-A927-63E93E3D4428}
+name: Vsafe
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180504T050149Z
+
+----version----
+language: en
+version: 1
+revision: f259af4f-9641-414f-bbc9-2b6a18dbf063
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 5
+
+Vsafe
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 86
+
+<link text="vsafe" linktype="external" url="https://google.com" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 5
+
+Vsafe
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 78
+
+Watch Nettlix & TV shows online stream right to your personal devices and mare
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{CE4BC140-C8C9-4F69-83C1-6640998C7B0B}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T050149Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f259af4f-9641-414f-bbc9-2b6a18dbf063
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T050805Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

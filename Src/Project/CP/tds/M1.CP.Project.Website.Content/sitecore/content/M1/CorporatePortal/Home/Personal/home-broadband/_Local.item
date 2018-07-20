@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {31EA608E-B828-42E5-BB7F-C180DE43C59D}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/_Local
+parent: {5ABAEDC6-10EF-441B-93A6-B968FC87A83F}
+name: _Local
+master: {00000000-0000-0000-0000-000000000000}
+template: {9669259C-6AB5-4626-B5B6-BA063C47C576}
+templatekey: Local Datasource Folder
+created: 20180503T153511Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 5
+
+-1000
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 194
+
+{7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}|{6B5DDC1F-0239-4BA3-BCB2-0665159FE3B9}|{BC55ED8F-6D13-4313-8A82-0E90FF57CB0B}|{D84A6C34-2F1F-426D-8620-C36948C4A9E7}|{8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+----version----
+language: en
+version: 1
+revision: 7b79c313-75eb-4664-9751-9a3e2b7120eb
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T153511Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7b79c313-75eb-4664-9751-9a3e2b7120eb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180503T161928Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

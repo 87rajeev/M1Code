@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {B4B1EA70-978D-4591-A86D-6374F9F7110C}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/_Local/Accordion_Music/MUSIC/digital-services-imagethumbnailcarousal
+parent: {4A9C1CD8-B8C3-45D5-925C-3EC4E0C4C5DA}
+name: digital-services-imagethumbnailcarousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180504T035056Z
+
+----version----
+language: en
+version: 1
+revision: 1c525ada-866f-47cf-a431-94fc0cc9bf8c
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 116
+
+{1E78244B-96A2-46F3-9C33-967923426AB6}|{74539AF8-E86A-4BA5-92EE-842E99646AAF}|{5F5F2C02-C0BF-43AE-8CB3-AF2161ECB791}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 39
+
+Digital services ImageThumbnailCarousal
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 71
+
+<link text="View All" linktype="external" url="" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 6
+
+&nbsp;
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 39
+
+Digital services ImageThumbnailCarousal
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T035056Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1c525ada-866f-47cf-a431-94fc0cc9bf8c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T061539Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

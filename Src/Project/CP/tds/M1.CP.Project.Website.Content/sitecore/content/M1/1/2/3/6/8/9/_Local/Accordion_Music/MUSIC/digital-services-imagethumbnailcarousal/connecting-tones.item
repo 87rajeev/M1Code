@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {1E78244B-96A2-46F3-9C33-967923426AB6}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/_Local/Accordion_Music/MUSIC/digital-services-imagethumbnailcarousal/connecting-tones
+parent: {B4B1EA70-978D-4591-A86D-6374F9F7110C}
+name: connecting-tones
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180504T035152Z
+
+----version----
+language: en
+version: 1
+revision: 2ed42495-dabd-4076-842d-eaa674d57003
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 10
+
+Learn More
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 91
+
+<link text="Learn More" linktype="external" url="https://google.com" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 17
+
+Connections Tones
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 70
+
+Entertain your callers and express your individuality with latest hits
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{700E8063-4701-4786-8326-D58E415F9ABB}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Connecting Tones
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T035152Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2ed42495-dabd-4076-842d-eaa674d57003
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180518T062259Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

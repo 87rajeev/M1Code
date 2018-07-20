@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {7127D0D2-73AD-474B-A44A-482BA6F9C7C1}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/site-footer-navigation/About us/Partnerships
+parent: {4262083D-037C-4D41-8909-6BB28751C9A3}
+name: Partnerships
+master: {00000000-0000-0000-0000-000000000000}
+template: {25DCF332-316C-4157-BF69-01EA7A9789CF}
+templatekey: Navigation Link
+created: 20180228T141508Z
+
+----version----
+language: en
+version: 1
+revision: d8b3eb8c-ecc8-4710-a90d-248dc735b4c7
+
+----field----
+field: {13F88561-E76E-463E-A19D-E97C0B1E9502}
+name: Navigation Title
+key: navigation title
+content-length: 12
+
+Partnerships
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180228T141508Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d8b3eb8c-ecc8-4710-a90d-248dc735b4c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180228T141508Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

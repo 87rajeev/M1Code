@@ -1,0 +1,36 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IListFormField
+@if (Model.Items != null)
+{
+    <label>
+        @Html.Raw(Model.Is_Required ? "<span class='req-field'>* </span>" : string.Empty)
+        @Html.Raw(Model.Title)
+    </label>
+
+    <h2>@Model.ValidationMessage</h2>
+    @*if (Model.Validations != null)
+    {
+        foreach (var validation in Model.Validations)
+        {
+            <span class="error-message @validation.Class">@validation.Validation_Message</span>
+        }
+    }*@
+    foreach (var item in Model.Items)
+    {
+        @*<div class="radio" @Model.Validations.ToUIAttributes()>*@
+            <div class="radio">
+                <label>
+                    @if (Request.Form[Model.SitecoreItemId.ToString()] != null && Request.Form[Model.SitecoreItemId.ToString()] == item.Title)
+                    {
+                        <input type="radio" name="@Model.SitecoreItemId.ToString()" value="@item.Title" checked="checked">
+                    }
+
+                    else
+                    {
+                        <input type="radio"  name="@Model.SitecoreItemId.ToString()" value="@item.Title">
+                    }
+                    @item.Title
+                </label>
+            </div>
+    }
+}
+

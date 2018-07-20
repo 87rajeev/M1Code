@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {D22FB6A7-4DF9-4E88-8673-3D33F1F4BAC0}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Company Name
+parent: {98ECBC4B-34AC-4494-9E5D-F0F013D460F6}
+name: Company Name
+master: {00000000-0000-0000-0000-000000000000}
+template: {03B63407-7FAA-43F4-A7C2-926ED8E9B8CE}
+templatekey: FormField
+created: 20180508T062554Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+125
+----version----
+language: en
+version: 1
+revision: e70ab86c-1792-4580-b08d-055633dbc271
+
+----field----
+field: {C571731C-BA08-406C-8648-EBC7237AABBD}
+name: Title
+key: title
+content-length: 12
+
+Company Name
+----field----
+field: {08B562FA-7EBF-43A4-8569-32514105108E}
+name: Is Required
+key: is required
+content-length: 1
+
+1
+----field----
+field: {5F16EB8F-83DB-40D4-8B72-B372EDE8B13C}
+name: Validation
+key: validation
+content-length: 77
+
+{A68E6D70-CD9B-45CC-AB23-E4C5BBE4E566}|{CF153B21-14A4-4EEA-BE5F-E63DC6FCC507}
+----field----
+field: {678A9A3A-20C4-4CAD-9C0C-B2C9C1FAAEB7}
+name: Placeholder Text
+key: placeholder text
+content-length: 12
+
+Compnay Name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T082812Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e70ab86c-1792-4580-b08d-055633dbc271
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180524T081010Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

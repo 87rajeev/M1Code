@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {EE756A9A-EAD6-4C9C-971A-4BC278DA4F32}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/SaveFeedback
+parent: {09F83708-EB7D-45E9-869B-538A2C63386E}
+name: SaveFeedback
+master: {00000000-0000-0000-0000-000000000000}
+template: {3AFC52D4-9298-47ED-83B6-21AD8FD2BD0F}
+templatekey: FormEvent
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: c102fb52-33da-44c6-870b-cf4a2e976494
+
+----field----
+field: {93705333-2FCD-41E0-A4DA-0702A60F733B}
+name: SQLTable
+key: sqltable
+content-length: 9
+
+Groupform
+----field----
+field: {AE778F35-997A-40EC-95B9-80584CC93C9D}
+name: SQLFields
+key: sqlfields
+content-length: 272
+
+{D6954C93-0535-4527-B9FD-7D1F1CA0252A}|{96888291-5E40-4E87-8E45-FBA8E31FDB78}|{88E27580-140D-4645-A54D-E27DD5ADBBEA}|{F2E53F7C-47D1-4D1F-BA40-E089F036CB49}|{D0F5393C-F0CB-4236-8468-42E5AA1FCEE6}|{EB9EF6D2-4FA3-4A70-AF6E-73E537D203F1}|{A229D86D-FCFE-45CE-A080-ED8FF99BF0E4}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180328T103441Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c102fb52-33da-44c6-870b-cf4a2e976494
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180328T113058Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

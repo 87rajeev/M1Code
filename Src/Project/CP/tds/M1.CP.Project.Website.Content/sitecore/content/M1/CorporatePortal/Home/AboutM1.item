@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {1B4D27E4-CF84-4120-9118-5E2E0214B670}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/AboutM1
+parent: {7485367C-99EA-4E7D-A31C-1EED32FF235A}
+name: AboutM1
+master: {00000000-0000-0000-0000-000000000000}
+template: {94F603AF-8771-4576-AB34-C378772ADFA5}
+templatekey: AboutM1
+created: 20180225T135343Z
+
+----version----
+language: en
+version: 1
+revision: ff31b8a4-b653-4650-8c30-e442902c29af
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180225T135343Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff31b8a4-b653-4650-8c30-e442902c29af
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180225T152142Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

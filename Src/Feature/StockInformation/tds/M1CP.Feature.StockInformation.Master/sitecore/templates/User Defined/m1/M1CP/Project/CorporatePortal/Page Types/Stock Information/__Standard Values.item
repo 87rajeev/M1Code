@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {D49F44AB-8E3F-416D-88DE-7D9A2DDDB0F2}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/CorporatePortal/Page Types/Stock Information/__Standard Values
+parent: {3718FC68-8C12-4DB0-BD34-C090A21DAA69}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3718FC68-8C12-4DB0-BD34-C090A21DAA69}
+templatekey: Stock Information
+created: 20180517T145337Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 480
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A1589AA8-A14F-41C9-8539-E91A699C4522}"><r id="{6715E5CD-2F6A-444E-A447-D0F42B343515}" ph="page-layout" uid="{BC22A5C7-D68F-428A-81E0-EF21CED75E10}" /><r id="{5F4C5660-BC4D-428F-BEA2-D5D3FE4345D2}" ph="page-layout" uid="{84BF9BC9-9385-4F63-B761-138C2E8A03EC}" /><r id="{8CB5FA39-F242-4924-8535-BFB09ADE1C3C}" ph="page-layout" uid="{0C48DCC2-1132-4E08-942C-30B2ACC7056C}" /></d></r>
+----version----
+language: en
+version: 1
+revision: ac6aae9a-7a52-44c8-8dc7-73f03b5f2f59
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180517T145337Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ac6aae9a-7a52-44c8-8dc7-73f03b5f2f59
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180517T150049Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {4BF490CE-E7A1-4ACA-A18B-34E866168B0E}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/CorporatePortal/Page Types/Business/__Standard Values
+parent: {CCFADC93-A426-4A91-896E-9CD83DCD657C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {CCFADC93-A426-4A91-896E-9CD83DCD657C}
+templatekey: Business
+created: 20180224T153152Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 419
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A1589AA8-A14F-41C9-8539-E91A699C4522}"><r ds="{07A4BCE4-B2BB-49C7-A9A4-7C34DA37F44C}" id="{5DFCAA8B-F098-43A3-AE82-45D3EBB2C88E}" par="" ph="header-top" uid="{6C9412FE-9AE7-4CCC-B26C-0FDF8E4CC418}" /><r id="{1E6EA42E-AE21-4ABE-8196-F9FBFB49B008}" ph="page-footer" uid="{3608D20B-EC19-455B-BDCB-F027CC9F7E73}" /></d></r>
+----version----
+language: en
+version: 1
+revision: fdbca9a2-e164-416f-8c69-ccd3d7746130
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180224T153152Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fdbca9a2-e164-416f-8c69-ccd3d7746130
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180305T162328Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

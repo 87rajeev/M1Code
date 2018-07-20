@@ -1,0 +1,26 @@
+﻿
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Sitecore.Mvc
+
+    <div class="row">
+        <section background-img="/images/BG-Gray2-1x.png" ng-init="dots_variation='type1'" class="background-image-container">
+
+            <!--Background Dynamic Placeholder-->
+            @Html.Sitecore().DynamicPlaceholder("background-section")
+            
+            <!-- Dotted image. classes : dots-top-right, dots-top-left, dots-bottom-left, dots-bottom-right -->
+            <div class="hidden-xs hidden-sm dots-top-left" ng-if="dots_variation=='type1'">
+                <img src="/images/Oval-LightBlue-1x.png" alt="" class="img-responsive img-dots">
+            </div>
+            <div class="hidden-xs hidden-sm dots-bottom-right" ng-if="dots_variation=='type1'">
+                <img src="/images/Oval-LightBlue-1x.png" alt="" class="img-responsive img-dots">
+            </div>
+            <div class="hidden-xs hidden-sm dots-top-right" ng-if="dots_variation=='type2'">
+                <img src="/images/Oval-LightBlue-1x.png" alt="" class="img-responsive img-dots">
+            </div>
+            <div class="hidden-xs hidden-sm dots-bottom-left" ng-if="dots_variation=='type2'">
+                <img src="/images/Oval-LightBlue-1x.png" alt="" class="img-responsive img-dots">
+            </div>
+        </section>
+    </div>

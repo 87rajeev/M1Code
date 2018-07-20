@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {F708D2A8-ED21-4503-B5E5-BF275865A9FE}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimPageThumbnailGradient/Unlimited
+parent: {F9D48E75-873E-4EFE-BD7B-53B14F9CC7AC}
+name: Unlimited
+master: {00000000-0000-0000-0000-000000000000}
+template: {28508DAD-7C48-4963-9D00-662CEE842507}
+templatekey: Thumbnail Gradient Item
+created: 20180419T075540Z
+
+----version----
+language: en
+version: 1
+revision: 24875ec7-c900-47c3-87d5-6ff8d4654fc8
+
+----field----
+field: {69D5A12B-8123-4708-84D4-66248267874C}
+name: GradientColor
+key: gradientcolor
+content-length: 38
+
+{2DCB75E7-6FB3-4BD0-9281-36E1A06100D8}
+----field----
+field: {DC583DF5-E7D1-484E-BA6F-26B599FF4DED}
+name: Title
+key: title
+content-length: 54
+
+<span class="gradient-thumb-heading2">UNLIMITED</span>
+----field----
+field: {3D312E90-BED8-4F93-88D1-C9EBF7727B85}
+name: ShortSummary
+key: shortsummary
+content-length: 50
+
+<p class="gradient-thumb-description">$118/mth</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180314T142400Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24875ec7-c900-47c3-87d5-6ff8d4654fc8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180419T075621Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

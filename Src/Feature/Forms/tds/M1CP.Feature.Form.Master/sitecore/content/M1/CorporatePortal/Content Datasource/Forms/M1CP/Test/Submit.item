@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {B01B6513-9898-45DA-B917-27CF41F98F58}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Test/Submit
+parent: {015F2E1D-4CF3-4526-82FE-0D8551D5E533}
+name: Submit
+master: {00000000-0000-0000-0000-000000000000}
+template: {C30649B4-1E4C-4647-B011-F07AEA0E4CFA}
+templatekey: FormButtonGroup
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 0c0be07e-8265-42de-8948-8e072d860b99
+
+----field----
+field: {7E8831C0-B470-4BAF-A022-BF04490C3E5A}
+name: Buttons
+key: buttons
+content-length: 38
+
+{0943860F-A9C1-4322-8071-AFE0490A04B3}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180404T082329Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c0be07e-8265-42de-8948-8e072d860b99
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180404T082718Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

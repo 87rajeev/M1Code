@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {62512C5C-3C87-4ECC-B9B0-62C18820B0FA}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Site Settings/Feature/Metadata/Corporate Portal
+parent: {D693318C-F886-4028-9CD9-EF1791E0BAE2}
+name: Corporate Portal
+master: {00000000-0000-0000-0000-000000000000}
+template: {62335172-7B41-4620-8511-98E430300201}
+templatekey: MetaKeyword Folder
+created: 20180225T144510Z
+
+----version----
+language: en
+version: 1
+revision: 6baf9acd-ec7b-4bc7-9bf4-7f09d39f5ad8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180225T144510Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6baf9acd-ec7b-4bc7-9bf4-7f09d39f5ad8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180225T144551Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

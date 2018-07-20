@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Websites\SSP\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="css/style.css">
+      <publishTime>04/04/2018 17:29:02</publishTime>
+    </File>
+    <File Include="Views/M1CP/Thumbnail/DeviceThumbnail.cshtml">
+      <publishTime>04/11/2018 18:49:25</publishTime>
+    </File>
+    <File Include="Views/M1CP/Thumbnail/ImageThumbnail.cshtml">
+      <publishTime>04/11/2018 18:49:25</publishTime>
+    </File>
+    <File Include="Views/M1CP/Thumbnail/ThumbnailTextGradient.cshtml">
+      <publishTime>04/19/2018 14:58:35</publishTime>
+    </File>
+    <File Include="Views/M1CP/Thumbnail/ThumbnailWithBg.cshtml">
+      <publishTime>04/04/2018 12:14:02</publishTime>
+    </File>
+    <File Include="Views/M1CP/Thumbnail/ThumbnailWithGradient.cshtml">
+      <publishTime>04/17/2018 16:18:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

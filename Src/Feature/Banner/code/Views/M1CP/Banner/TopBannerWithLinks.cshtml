@@ -1,0 +1,113 @@
+﻿@model M1CP.Feature.Banner.Models.HeroBannerWithLinks
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.Base.Helpers
+
+@if (Model != null)
+{
+    
+        var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Banner.Models.IBannerParameterTemplateFields>();
+        var orientation = RenderingParamaters != null && RenderingParamaters.SelectedOrientation != null && RenderingParamaters.SelectedOrientation.style != null ? RenderingParamaters.SelectedOrientation.style : "left";
+        var dottheme = Model.EnableDotTheme ? "dots-show" : "dots-hide";
+    
+    <div class="row">
+        <div class="topbanner topbanner-landing">
+
+            @if (!Model.IsVideo)
+            {
+        <!-- If the topbanner background is an image -->
+                <div class="theme-light text-theme-black">
+                    <!-- Topbanner background -->
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        @using (Html.Glass().BeginEditFrame(Model, "editimage", m => m.Image_Desktop))
+                    {
+                            @Html.Raw(HTMLHelper.BuildPictureTag(Model.Image_Desktop,null,true))
+                        }                       
+                    </div>
+
+
+                    <!-- Topbanner contents (left, right dots and text) -->
+                    <div class="col-xs-12 padding-false topbanner-content">
+                        <div class="row">
+
+                            <!-- Landing page links -->
+                            <div class="col-xs-12 landing-banner-links">
+                                <p class="font-body6">@Html.Glass().Editable(x => x.NavigationHeader)</p>
+                                <ul>
+                                    @foreach (var Link in Model.NavigationLinks)
+                                          {
+                                          <li>
+                                              @using (Html.Glass().BeginEditFrame(Link, "EditLink", m => m.CTALink))
+                                              {
+                                              <a href="@((Link != null && Link.CTALink != null && Link.CTALink.Url != null) ? Link.CTALink.Url : "#")" target="@((Link != null && Link.CTALink != null && Link.CTALink.Target != null) ? Link.CTALink.Target : "_blank")" class="font-body2">@(Link.CTALink!=null && Link.CTALink.Text!=null ? Link.CTALink.Text:"")</a>
+                                              }
+                                        </li>
+                                          }
+                                </ul>
+                            </div>
+
+                            <!-- An offset of 1 column to the left so as to provide a margin -->
+                            <div class="col-xs-1"></div>
+
+                            <!-- Left-side dots -->
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false topbanner-dots-left @dottheme">
+                                @using (Html.Glass().BeginEditFrame(Model, "UpdateImage", m => m.DotImage))
+                                {
+                                    <img src="@Model.DotImage.Src" alt="" class="img-dots img-responsive pull-right">
+                                }
+                            </div>
+
+                            <!-- Category, title, description and buttons as a part of the top banner content -->
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 topbanner-text topbanner-text-@dottheme">
+                                <!-- topbanner-text-left to align it to the left. topbanner-text-right to align it to the right. topbanner-text-center to align it to the center. -->
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 topbanner-text-@orientation">
+                                    <!-- change according to font-size -->
+                                    <div class="topbanner-caption">
+                                        <p class="font-heading1">@Html.Glass().Editable(x => x.BannerHeading)</p>
+                                        <p class="font-heading2">@Html.Glass().Editable(x => x.BannerSubHeading)</p>
+                                        <div class="orange-slider">
+                                            <span class="slider-a1"></span>
+                                        </div>
+                                    </div>
+                                    @foreach (var CTASection in Model.CTATitle)
+                                    {
+                                        <p class="topbanner-description font-body1">@Html.Glass().Editable(CTASection,x => x.CTATitle)</p>
+                                        using (Html.Glass().BeginEditFrame(CTASection, "EditLink", m => m.CTALink))
+                                        {
+                                            <a href="@((CTASection != null && CTASection.CTALink != null && CTASection.CTALink.Url != null) ? CTASection.CTALink.Url : "#")" target="@((CTASection != null && CTASection.CTALink != null && CTASection.CTALink.Target != null) ? CTASection.CTALink.Target : "_blank")" class="btn btn-block btn-default animated-button button-animated">@(CTASection.CTALink != null && CTASection.CTALink.Text != null ? CTASection.CTALink.Text : "")</a>
+                                        }
+
+                                    }
+
+                                </div>
+                            </div>
+
+                            <!-- Right-side dots. An offset of 1 column to the right so as to provide a margin -->
+                            <div class="col-xs-1 visible-xs padding-false @dottheme">
+                                @using (Html.Glass().BeginEditFrame(Model, "UpdateImage", m => m.DotImage))
+                                {
+                                    <img src="@Model.DotImage.Src" alt="" class="img-dots img-responsive pull-right">
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+        <!-- If the topbanner background is a video -->
+                <div ng-if="backgroundType==='video'" class="row">
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        <video class="topbanner-background" poster="../../images/hero-visual-Mobile-2x.jpg" controls loop>
+                            <source src="video/vid1.mp4" type="video/mp4">
+                            <source src="video/vid1.ogg" type="video/ogg">  <!-- any other type of video file -->
+                            <img src="../../images/hero-visual-Mobile-2x.jpg" alt="Video default image" class="img-responsive"> <!-- fallback image -->
+                        </video>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div> 
+}
+

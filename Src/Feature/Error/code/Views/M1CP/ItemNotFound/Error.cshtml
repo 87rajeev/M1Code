@@ -1,0 +1,20 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model M1CP.Feature.Error.Models.PageNotFound
+
+<section class="h-section">
+    <div>
+        <div class="row">
+
+            <div>
+                <h1>
+                    @Html.Glass().Editable(x => x.Summary)
+                </h1>
+
+                <p>
+                    @Html.Raw(Html.Glass().Editable(x => x.Description))
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>

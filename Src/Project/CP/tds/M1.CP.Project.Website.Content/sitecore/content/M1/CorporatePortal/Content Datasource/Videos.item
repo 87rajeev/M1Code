@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {F6875557-1509-4020-A2CC-4D910C673E4F}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Videos
+parent: {E93E08FD-4A90-44B3-8C25-B21685F07D0A}
+name: Videos
+master: {00000000-0000-0000-0000-000000000000}
+template: {8EF2B7D6-8D61-40EC-9FB9-85E5D3FAD31B}
+templatekey: Video Folder
+created: 20180224T155501Z
+
+----version----
+language: en
+version: 1
+revision: c91ee57d-b3ba-4b86-a155-da38b50da8ba
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180224T155501Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c91ee57d-b3ba-4b86-a155-da38b50da8ba
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180224T155501Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

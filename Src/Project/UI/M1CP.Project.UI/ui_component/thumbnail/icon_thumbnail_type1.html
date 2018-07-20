@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="m1app">
+<head>
+    <title>Icon Thumbnail</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/thumbnail.css">
+    <link rel="stylesheet" href="../../css/tab.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Start of thumbnail type 3 component -->
+            <!-- Inputs: theme-light or theme-dark, background-image if any, number of cols for desktop (numberOfCols_md), number of cols for mobile (numberOfCols_sm) -->
+            <section class="thumbnail-type3-component theme-light text-theme-black" ng-init="numberOfCols_md='4'; numberOfCols_sm='2'">
+
+                <!-- Thumbnail type3 content -->
+                <div class="col-xs-12 col-sm-10 col-md-10 col-md-offset-1 col-sm-offset-1 col-lg-10 thumbnail-type3-content">
+
+                    <!-- Thumbnail type3 heading -->
+                    <div class="thumbnail-type3-caption">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center component-heading">
+                            <p class="font-heading1">Psst.</p>
+                            <p class="font-heading3">Over here</p>
+                            <p class="font-body1">Tempted, aren't we? Well, here's a taste of what you're getting with mySim<sup>e</sup> on a 24-month contract.</p>
+                        </div>
+                    </div>
+
+                    <!-- Thumbnail type3 image and description -->
+                    <div class="thumbnail-type3">
+
+                        <!-- Repeating content 1 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-FreeCalls-icon-1x.png" alt="Thumbnail image" class="media-object">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="font-body7">Free calls</p>
+                                    <p class="font-body1">Unlimited free calls to 3 M1 numbers.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 2 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-TalkandText-icon-1x.png" alt="Thumbnail image" class="media-object">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="font-body7">Talk and Text</p>
+                                    <p class="font-body1">100 mins Talktime and 100 SMS/MMS.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 3 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}}  thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-UnlimitedData-icon-1x.png" alt="Thumbnail image" class="media-object">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="font-body7">Upgrade Your phone</p>
+                                    <p class="font-body1">Replace your old phone with a brand new one.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 4 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}}  thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-UpgradeyourPhone-icon-1x.png" alt="Thumbnail image" class="media-object">
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="font-body7">Unlimited Data</p>
+                                    <p class="font-body1">Do it all with our mySIMe 118 plan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- List with tick marks -->
+                    <div class="col-xs-12 ticked-list list-horizontal">
+                        <ul>
+                            <li class="font-body9">Free incoming calls</li>
+                            <li class="font-body9">Free 4G VAS</li>
+                            <li class="font-body9">Voicemail Service</li>
+                            <li class="font-body9">Unlimited free calls to 3 M1 numbers</li>
+                            <li class="font-body9">100 mins and 100 SMS/MMS</li>
+                            <li class="font-body9">Share plan with up to 2 mySIM<sup>s</sup> plans<sup>*</sup> at $12/mth each</li>
+                            <li class="font-body9">Add 200 min ($5/mth), 800 min ($10/mth), and Unlimited Talktime ($15/mth)</li>
+                        </ul>
+                    </div>
+
+                    <!-- PROMO code and button -->
+                    <div class="col-xs-12 text-center">
+                        <p class="promo-text"><span class="promo" style="font-size:14px">PROMO</span><span class="promo-details font-body8">&nbsp;Lorem ipsum dolor sit amet, consectetur</span></p>
+                        <a href="" class="btn btn-block btn-default animated-button button-animated centered-align">Sign Up Now</a>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- End of thumbnail type 3 component -->
+
+        </div>
+    </div>
+
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
+    <script src="../../scripts/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script src="../../scripts/app.js"></script>
+
+</body>
+</html>

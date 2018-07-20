@@ -1,0 +1,112 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc
+@using M1CP.Foundation.AssetsIncludes.Models
+@using M1CP.Foundation.AssetsIncludes.Services
+
+@inherits WebViewPage
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en" ng-app="m1app">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@Html.Sitecore().CurrentItem.Name</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/css/bundled.css">
+    <link rel="stylesheet" href="~/Js/libraries/slick-1.8.0/slick/slick.css">
+    <link rel="stylesheet" href="~/Js/libraries/slick-1.8.0/slick/slick-theme.css">
+    @*<link rel="stylesheet" href="~/css/bundled.css">*@
+
+    <link rel="stylesheet" href="~/CSS/common.css">
+    <link rel="stylesheet" href="~/CSS/accordion.css">
+    <link rel="stylesheet" href="~/CSS/animations.css">
+    <link rel="stylesheet" href="~/CSS/breadcrumb.css">
+    <link rel="stylesheet" href="~/CSS/carousel.css">
+    <link rel="stylesheet" href="~/CSS/CategoriesFilter.css">
+    <link rel="stylesheet" href="~/CSS/header_footer.css">
+    <link rel="stylesheet" href="~/CSS/page_banner.css">
+    <link rel="stylesheet" href="~/CSS/tab.css">
+    <link rel="stylesheet" href="~/CSS/table.css">
+    <link rel="stylesheet" href="~/CSS/text_component.css">
+    <link rel="stylesheet" href="~/CSS/thumbnail.css">
+    <link rel="stylesheet" href="~/CSS/top_banner.css">
+  
+    @*@Html.Raw(SquishIt.Framework.Bundle.Css()
+        .Add("~/css/common.css")
+        .Add("~/css/tab.css")
+        .Add("~/css/accordion.css")
+        .Add("~/css/breadcrumb.css")
+        .Add("~/css/carousel.css")
+        .Add("~/css/CategoriesFilter.css")
+        .Add("~/css/table.css")
+        .Add("~/css/page_banner.css")
+        .Add("~/css/text_component.css")
+        .Add("~/css/thumbnail.css")
+        .Add("~/css/top_banner.css")
+        .Add("~/css/animations.css")
+        .Render("~/bundles/M1CP/css/bundled_#.css"))*@
+
+
+    @{
+        if (Html.Glass().IsInEditingMode)
+        {
+            <link href="~/Css/ExperienceEditor.css" rel="stylesheet" />
+        }
+
+    }
+
+    @Html.Raw(@Html.Sitecore().Field("CSS", new { DisableWebedit = "true" }))
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+    @RenderAssetsService.Current.RenderStyles()
+    @Html.Sitecore().VisitorIdentification()
+</head>
+<body class="@(Sitecore.Context.PageMode.IsExperienceEditor ? "edit-mode" : string.Empty)">
+    <nav class="m1-header  navbar navbar-default navbar-fixed-top " ng-controller="headerController">
+        <div class="container-fluid">
+            @Html.Sitecore().Placeholder(M1CP.Project.Website.Constants.HeaderTop)
+        </div>
+    </nav>
+
+    <div class="container-fluid mainContainer">
+        @Html.Sitecore().Placeholder(M1CP.Project.Website.Constants.PageLayout)
+
+    </div>
+    <footer class="footer m1" ng-controller="footerController">
+        @Html.Sitecore().Placeholder(M1CP.Project.Website.Constants.PageFooter)
+    </footer>
+
+    <!--UI Script start-->
+	
+    <script src="~/Js/libraries/picturefill.js"></script>
+    <script src="~/JS/jquery-3.3.1.min.js"></script>
+    <script src="~/JS/libraries/slick-1.8.0/slick/slick.min.js"></script>
+    <script src="~/JS/libraries/angular.min.js"></script>
+	<script src="~/JS/libraries/angular.min.js"></script>
+    <script src="~/JS/libraries/angular-sanitize.min.js"></script>
+	<script src="~/JS/libraries/bootstrap.min.js"></script>
+    <script src="~/JS/libraries/ui-bootstrap.min.js"></script>
+    <script src="~/Js/jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script src="~/Js/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+
+    @*@Html.Raw(SquishIt.Framework.Bundle.JavaScript()
+        .Add("~/Js/app.js")
+        .Render("~/bundles/M1CP/js/bundled_#.js"))*@
+
+    
+    <script src="~/Js/app.js"></script>
+ 
+
+    @if (!@Html.Glass().IsInEditingMode)
+    {
+        @Html.Raw(Html.Sitecore().Field("JS", new { DisableWebedit = "true" }))
+    }
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
+    <!--UI Script end-->
+</body>
+</html>

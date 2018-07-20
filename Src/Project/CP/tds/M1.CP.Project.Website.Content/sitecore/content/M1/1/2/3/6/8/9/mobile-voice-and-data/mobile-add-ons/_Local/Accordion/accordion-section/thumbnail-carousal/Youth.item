@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {3103DE43-A8F6-4527-9BF3-839C2789F9F2}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/mobile-add-ons/_Local/Accordion/accordion-section/thumbnail-carousal/Youth
+parent: {8211191C-DE67-4CC0-A771-34FB72B90148}
+name: Youth
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180427T042552Z
+
+----version----
+language: en
+version: 1
+revision: f609387e-8677-4379-9901-e386b6713cb6
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 5
+
+Youth
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 53
+
+<link linktype="external" url="https://google.com" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 5
+
+Youth
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 72
+
+Bored?You won't be if you could call for free on campus or in army camps
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1A72C03E-2275-4E21-92C0-068C6BFD124E}" ></image>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180427T042552Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f609387e-8677-4379-9901-e386b6713cb6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T042954Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

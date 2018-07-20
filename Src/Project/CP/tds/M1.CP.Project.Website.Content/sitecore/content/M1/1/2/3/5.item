@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {5ABAEDC6-10EF-441B-93A6-B968FC87A83F}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband
+parent: {CBB39CC7-0314-4CB3-8978-C30C5617981F}
+name: home-broadband
+master: {00000000-0000-0000-0000-000000000000}
+template: {A7E4B036-59FD-417F-A6D4-2A890AB78CA5}
+templatekey: Broadband
+created: 20180503T153244Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 4c8cc436-7f17-4726-ac1a-8897bcdada21
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Home BroadBand
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1540
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1C38A30D-A21C-4E1B-AE1D-FAEA9A511D16}" s:par="CssClass Name=light" /><r uid="{D89C7A1D-B468-4A4F-B732-D53EA938445E}" s:ds="{70317B20-FB57-44D2-8829-7CC9B0942D10}" s:par="Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}&amp;ComponentOrientation={E3EE61A6-49C7-4CD3-8175-B47185833B42}" /><r uid="{95EB7C4C-6FE6-4B72-AF00-B04A9565E815}" s:ds="{3B5B3E6D-E07B-476F-A8CD-6AC30233675E}" s:par="DesktopCount={362027BF-6F8A-401C-9DE3-2744775F8BA8}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}&amp;ComponentOrientation={244FF694-474B-41CB-83F5-FFDC1E67CF22}" /><r uid="{73E0CE50-7058-45A2-956D-414501F92BD4}" s:ds="{429DA7EC-E75C-4727-8D5C-792A6B4C217F}" /><r uid="{77F5B69A-A3E1-41C4-8390-7EC2F873D69A}" s:ds="{BBA62459-C343-464A-8D50-C2024DBC929B}" s:par="Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}&amp;ComponentOrientation={E3EE61A6-49C7-4CD3-8175-B47185833B42}" /><r uid="{2D5DE2F0-2389-42C6-9F26-AA3940E35158}" s:ds="{9FCF00AD-DF03-4711-A2F5-6A216EF662B5}" s:par="Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}&amp;ComponentOrientation={E3EE61A6-49C7-4CD3-8175-B47185833B42}" /><r uid="{0EA14D0E-0ED3-4611-82C5-36F8F609EE54}" s:ds="{7B11EAEC-34A3-48B1-9101-E89AD19752DD}" s:par="DesktopCount={F5793236-BBE7-455A-9675-5F55CA331563}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Enable Auto Scroll=1&amp;Carousal Speed=1000&amp;Enable Infinite Scroll=1&amp;AutoPlay Speed=1000" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T153244Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4c8cc436-7f17-4726-ac1a-8897bcdada21
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T133516Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

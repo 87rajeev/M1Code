@@ -1,0 +1,21 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IListFormField
+
+<div>
+    @*<div @Model.Validations.ToUIAttributes()>*@
+        <label for="" class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+            @Html.Raw(Model.Is_Required ? "<span class='req-field'>* </span>" : string.Empty)
+            @Html.Raw(Model.Title)
+        </label>
+        <div class="col-lg-4 col-md-4 col-sm-7 col-xs-12">
+            <input type="file" name="@Model.SitecoreItemId.ToString()">
+            @if (Model.Validations != null)
+            {
+                @*foreach (var item in Model.Validations)
+                {
+                    <span class="error-message @item.Class">@item.Validation_Message</span>
+                }*@
+            }
+
+        </div>
+    <h5>@Model.ValidationMessage</h5>
+    </div>

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {64ABC2AB-D7E6-4217-86A0-637669D96ECB}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Entertainment News/NetflixPage/_Local/PageBanner
+parent: {01BCAA77-DC5E-4601-BD0B-0A4B706E69C7}
+name: PageBanner
+master: {00000000-0000-0000-0000-000000000000}
+template: {BC55ED8F-6D13-4313-8A82-0E90FF57CB0B}
+templatekey: PageBanner
+created: 20180424T115743Z
+
+----version----
+language: en
+version: 1
+revision: 9dde51ee-fb74-4537-958d-770cade777c9
+
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{05BE2C37-97C8-4D35-9249-258D8611B89F}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180424T115743Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9dde51ee-fb74-4537-958d-770cade777c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180424T115937Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

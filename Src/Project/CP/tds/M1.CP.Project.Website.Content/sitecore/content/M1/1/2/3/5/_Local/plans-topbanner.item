@@ -1,0 +1,109 @@
+----item----
+version: 1
+id: {70317B20-FB57-44D2-8829-7CC9B0942D10}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/_Local/plans-topbanner
+parent: {31EA608E-B828-42E5-BB7F-C180DE43C59D}
+name: plans-topbanner
+master: {00000000-0000-0000-0000-000000000000}
+template: {7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}
+templatekey: HeroBanner
+created: 20180503T153532Z
+
+----version----
+language: en
+version: 1
+revision: f39efa00-ca13-4412-aae5-9b534b885ba5
+
+----field----
+field: {DEFE043D-E4AB-4D7D-8DF1-27CD3D4E5785}
+name: Banner Heading
+key: banner heading
+content-length: 32
+
+<strong>Get Up To Speed</strong>
+----field----
+field: {0217E3D6-12EF-45B9-93D5-480841400D91}
+name: Banner Sub Heading
+key: banner sub heading
+content-length: 8
+
+QUICKLY.
+----field----
+field: {9B3EC423-1B54-4C55-BC3E-2C6F26B2C374}
+name: Enable Dot Theme
+key: enable dot theme
+content-length: 1
+
+1
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 38
+
+{B8E9346C-53FC-4FC3-BA4E-3C59CC713E50}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 65
+
+<span style="background:transparent!important;">BroadBand</span>
+
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 144
+
+Are you moving fast enough to keep up? <br />With HD streaming and even Virtual gaming; snooze and you lose Guess what? From S39/mth, you won't!
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{EBE1DD45-B073-4C7A-9608-EE64CEF9D77B}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+Plans TopBanner
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T153532Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f39efa00-ca13-4412-aae5-9b534b885ba5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T133209Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

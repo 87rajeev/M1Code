@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP" ItemIcon="/temp/IconCache/BusinessV2/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Type" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Type/ImagePromoContent" ItemIcon="/temp/IconCache/Office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Type/ImagePromoInfo" ItemIcon="/temp/IconCache/Office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types/Image Promo Folder" ItemIcon="/temp/IconCache/Business/32x32/wallet_open.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Type/ImagePromoContent/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Type/ImagePromoInfo/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types/Image Promo Folder/__Standard Values" ItemIcon="/temp/iconcache/business/32x32/wallet_open.png" />
+  <Item ItemPath="/sitecore/content" ItemIcon="/temp/IconCache/People/16x16/cubes_blue.png" />
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP" ItemIcon="/temp/IconCache/Office/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/content/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/content/SSP" ItemIcon="/temp/IconCache/network/32x32/earth.png" />
+  <Item ItemPath="/sitecore/content/Shared Data" ItemIcon="/temp/IconCache/Applications/32x32/folder_green.png" />
+  <Item ItemPath="/sitecore/content/Shared Setting" ItemIcon="/temp/IconCache/Applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal" ItemIcon="/temp/iconcache/network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/content/M1/Global" ItemIcon="/temp/iconcache/applications/16x16/folder_green.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common" ItemIcon="/temp/IconCache/network/32x32/earth.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer" ItemIcon="/temp/IconCache/Network/32x32/earth.png" />
+  <Item ItemPath="/sitecore/content/SSP/Corporate" ItemIcon="/temp/IconCache/network/32x32/earth.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData" ItemIcon="/temp/IconCache/Applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/content/Shared Data/Dictionary" ItemIcon="/temp/IconCache/Applications/32x32/form_red.png" />
+  <Item ItemPath="/sitecore/content/Shared Data/SSP Email Templates" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Shared Setting/Certificate Settings" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Shared Setting/Service Settings" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Shared Setting/Smtp Details" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home" ItemIcon="/temp/IconCache/Core3/16x16/home_yellow_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource" ItemIcon="/temp/iconcache/office/16x16/magazine_folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings" ItemIcon="/temp/IconCache/Apps/16x16/setting.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/NotificationCenter" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/AccessDeny" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/AccountDashboard" ItemIcon="/temp/IconCache/network/16x16/id_card.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/AccountSetting" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/BillPayment" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/BillPaymentHistory" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/ChangeBillingAddress" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/OneloginHelper" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/Quickpaybill" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/SearchResult" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/TermsandCondition" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/AccessControl" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/Auction" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/BillCheckUsage" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/BillCreditTransfer" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/BillPayment" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/ChangeConsent" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/ChangeFriendsList" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/ContractsRetrieval" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/Dashboard" ItemIcon="/temp/IconCache/Applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/FriendsList" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/Multi-ServiceSaver" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/PayYourBill" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/ReserveOrChangeNumber" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/Rewards" ItemIcon="/temp/IconCache/Network/16x16/certificate.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/Roaming" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/SubscribeVases" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/BillChangePlan" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/CoriConversion" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/CoriCompanyTransfer" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Consumer/CoriRenewal" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Corporate/UserLanding" ItemIcon="/temp/IconCache/applications/16x16/photo_portrait.png" />
+  <Item ItemPath="/sitecore/content/SSP/Corporate/AccessControl" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Corporate/BillViewUsages" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Corporate/RecontractEligibility" ItemIcon="/temp/IconCache/Applications/16x16/edit.png" />
+  <Item ItemPath="/sitecore/content/SSP/Corporate/SubscribeVases" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Corporate/SuspensionReactivation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Consumer" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Shared" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/UserTypes" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Shared Data/Dictionary/Consumer" ItemIcon="/temp/IconCache/http://m1telecom.local/temp/iconcache/applications/32x32/form_red.png" />
+  <Item ItemPath="/sitecore/content/Shared Data/Dictionary/Corporate" ItemIcon="/temp/IconCache/http://m1telecom.local/temp/iconcache/applications/32x32/form_red.png" />
+  <Item ItemPath="/sitecore/content/Shared Setting/Certificate Settings/Auth Ticket Certificate Details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Personal" ItemIcon="/temp/iconcache/peoplev2/16x16/users.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/AboutM1" ItemIcon="/temp/iconcache/applicationsv2/16x16/information2.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Business" ItemIcon="/temp/iconcache/business/16x16/briefcase.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/SampleForm" ItemIcon="/temp/iconcache/business/16x16/briefcase.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Home/Sitemap" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Navigation" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Custom Forms" ItemIcon="/temp/iconcache/office/16x16/magazine_folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Image Promo" ItemIcon="/temp/iconcache/business/32x32/wallet_open.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/TextMedia" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Content Datasource/Videos" ItemIcon="/temp/iconcache/multimedia/16x16/open_video_h.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Application Settings" ItemIcon="/temp/IconCache/Office/16x16/reset_settings.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Feature" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Foundation" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/AccountDashboard" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/AccessControl" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/AccessModules" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/BillPaymentUsage" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/ChangeBillingAddress" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/Landing" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/PlanUsageTypes" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/RecontractEligibilitySetting" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/Services" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/SubscribeVases" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/UserManagement" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/UserSetting" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Consumer/AccessControl" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Consumer/AccountDashboard" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Consumer/Auction" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Consumer/BillPaymentUsage" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Consumer/ReserveOrChangeNumber" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Consumer/MSS" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/M1/CorporatePortal/Site Settings/Project" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Shared Data/Dictionary/Shared" ItemIcon="/temp/IconCache/http://m1telecom.local/temp/iconcache/applications/32x32/form_red.png" />
+  <Item ItemPath="/sitecore/content/Shared Setting/Certificate Settings/M1 Data Services Certificate Details" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/Shared Setting/Service Settings/ServiceSettings" ItemIcon="/~/icon/Applications/16x16/gears.png.aspx" />
+  <Item ItemPath="/sitecore/content/Shared Setting/Smtp Details/SmtpServerDetails" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/404" ItemIcon="/temp/iconcache/applications/32x32/document_error.png" />
+  <Item ItemPath="/sitecore/content/SSP/Common/TransactionHistory" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Content Type" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Corporate/VasesControl" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/SSP/ComponentData/Workflow Approvers" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo" ItemIcon="/temp/iconcache/business/32x32/wallet_open.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoContent" ItemIcon="/temp/IconCache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoInfo" ItemIcon="/temp/IconCache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoRenderingParameter" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo/ImagePromoInfo" ItemIcon="/temp/IconCache/Office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoRenderingParameter/Image Promo Parameters" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoRenderingParameter/Image Promo Parameters/Min Value" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoRenderingParameter/Image Promo Parameters/Max Value" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo/ImagePromoContent" ItemIcon="/temp/IconCache/Office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/ImagePromo" ItemIcon="/temp/IconCache/business/32x32/wallet_open.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/ImagePromo/ImagePromo" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoInfo/Select Promo Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/ImagePromo/_ImagePromoInfo/Select Promo Content/Select" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo/ImagePromoContent/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/html_tag.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo/ImagePromoInfo/__Standard Values" ItemIcon="/temp/iconcache/office/32x32/monitor_test_card.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo/ImagePromoParameter" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/ImagePromo/ImagePromoParameter/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

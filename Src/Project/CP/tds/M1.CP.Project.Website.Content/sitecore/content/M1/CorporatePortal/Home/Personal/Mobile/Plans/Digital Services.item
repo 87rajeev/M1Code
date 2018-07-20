@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {B1F33B82-D681-4B49-A630-4F394FB5F651}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services
+parent: {8E0029B1-868A-4F2D-8E06-A833F70608C1}
+name: Digital Services
+master: {00000000-0000-0000-0000-000000000000}
+template: {9BF1A4E5-A5B0-4F0B-B554-FA243E866BFC}
+templatekey: Digital Services
+created: 20180504T034123Z
+
+----version----
+language: en
+version: 1
+revision: e2efa0a9-e20f-4871-99e8-cf8f0c271e93
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+Value Added Services
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1550
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D89C7A1D-B468-4A4F-B732-D53EA938445E}" s:ds="{5CCE5BFC-FCAB-43FA-B599-CA79FD1EBFAF}" s:par="Theme={0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB}&amp;ComponentOrientation={1F2CA12C-5F3C-46B2-9805-A6F2EA286655}" /><r uid="{B750BE81-E68C-4788-AB1E-BC54EEC2EBF8}" s:ds="{39A8FF03-F7D6-4E6C-B30D-A66F64247F7C}" s:par="" /><r uid="{46AF62FB-596B-402E-AA66-663C17FCDAAB}" s:ds="{4A9C1CD8-B8C3-45D5-925C-3EC4E0C4C5DA}" s:par="" /><r uid="{46E5A701-F96B-4FAA-AD03-437BC32FA8C6}" s:ds="{B4B1EA70-978D-4591-A86D-6374F9F7110C}" s:par="DesktopCount={8172D243-3E49-4DA8-A752-DCE5871F1DA7}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Enable Auto Scroll=1&amp;Carousal Speed=1000&amp;Enable Infinite Scroll=1&amp;AutoPlay Speed=1000" /><r uid="{1F6276A0-D038-4A93-AC24-029BBA2CC2B7}" s:ds="{D6084B20-90F0-471E-97EB-DAA4824188DF}" s:par="" /><r uid="{7EEF19DA-1BDC-48D0-90D8-DE4F834B0C2C}" s:ds="{7A119B3C-3248-4450-B64F-554131F470AA}" s:par="" /><r uid="{691DA8BE-3377-4038-AF18-93A5DEEEDDFC}" s:ds="{FA7859D3-AE96-4387-A927-63E93E3D4428}" s:par="DesktopCount={8172D243-3E49-4DA8-A752-DCE5871F1DA7}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Enable Auto Scroll=1&amp;Carousal Speed=1000&amp;Enable Infinite Scroll=1&amp;AutoPlay Speed=1000" /><r uid="{78D5540B-BC8C-4316-BB34-EB91027EF010}" s:ds="{052639DD-2F4A-4D54-B599-9875C8CF7F9E}" /><r uid="{4B1E03A7-69F7-4E53-8CFF-AF9672686B5C}" s:ds="{5D192E9A-B0B6-4499-B519-35E3C2DFACBB}" s:par="" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T034124Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e2efa0a9-e20f-4871-99e8-cf8f0c271e93
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T113741Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

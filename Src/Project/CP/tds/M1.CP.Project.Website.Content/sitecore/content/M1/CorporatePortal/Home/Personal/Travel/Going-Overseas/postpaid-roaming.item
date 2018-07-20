@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {81222953-B951-432D-8F98-35F4331B8D06}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/postpaid-roaming
+parent: {ECFCBB35-4A12-4A56-BBEF-D6EA1C2F0C12}
+name: postpaid-roaming
+master: {00000000-0000-0000-0000-000000000000}
+template: {812B6C4F-69B6-46A8-BC40-19CBE6D3909C}
+templatekey: Roaming
+created: 20180518T062320Z
+
+----version----
+language: en
+version: 1
+revision: ddf5cb51-f2b3-44db-9f72-161ec42a8ca4
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+Postpaid Roaming
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 2194
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{ABF324BA-BA76-439F-80C3-0C4437542075}" s:ds="" s:par="" s:ph="header-top" /><r uid="{19314D1E-D805-420A-99C2-7C9C9D44126B}" s:ds="{776F29AD-C5F9-404C-8B1C-212770699546}" s:par="CssClass Name=dark" s:ph="/header-top/col-huge" /><r uid="{83ED5BEA-0F3A-4BFA-A63E-7BAE60FBB307}" s:ds="{49077E75-4DA3-46DF-9C22-C26059DB25B2}" s:par="" s:ph="/header-top/col-huge/navbar-center" /><r uid="{D7FC9535-212E-4814-A697-1E1855DE79CF}" s:ds="" s:par="" s:ph="/header-top/col-huge/navbar-right" /><r uid="{5EF0BDA1-1FC2-4087-BD21-2B3A56D86EA2}" s:ds="{42FEEB9B-B174-4CC6-852B-73556DF0B5EC}" s:par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;ComponentOrientation=%7BE3EE61A6-49C7-4CD3-8175-B47185833B42%7D" s:ph="/page-layout/col-huge_1" /><r uid="{B0335E4B-7147-4823-A01F-16B2898063DA}" s:ds="{2B2897EE-F0AA-4325-8EDA-531F72A1674E}" s:par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;ComponentOrientation=%7BE3EE61A6-49C7-4CD3-8175-B47185833B42%7D" s:ph="/page-layout/col-huge_2" /><r uid="{EC857B4E-1E15-4C69-A642-DFDE26C19F6A}" s:ds="{9DA18337-D01D-49E0-87A3-D51DD2BEBED3}" s:par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;ComponentOrientation=%7B1F2CA12C-5F3C-46B2-9805-A6F2EA286655%7D" s:ph="/page-layout/col-huge_3" /><r uid="{8211C5B6-74AE-4708-935A-2758E3147A03}" s:ds="{3ECBE1F3-1D34-46DF-912D-34E531914525}" s:par="DesktopCount=%7B362027BF-6F8A-401C-9DE3-2744775F8BA8%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D&amp;Theme=%7B03E264C8-053C-4A4F-9C84-BB4BE0A380F0%7D&amp;TextColor" s:ph="/page-layout/col-huge_4" /><r uid="{873695BE-B576-4918-BB03-435EFFB589D0}"><p:d /></r><r uid="{418EB35D-600D-4021-BD31-6542D5BBF5DE}" p:after="r[@uid='{DB472BB6-846C-4347-AAFF-6CE20F143B11}']" s:ds="{363BBA1F-147A-4931-8FA2-23B0416103E7}" s:id="{FA58D747-8A7D-40AD-A1A5-55C9B902BE24}" s:par="Theme=%7B03E264C8-053C-4A4F-9C84-BB4BE0A380F0%7D&amp;ComponentOrientation=%7BE3EE61A6-49C7-4CD3-8175-B47185833B42%7D" s:ph="/page-layout/col-huge_5" /><r uid="{8D7C38B3-18F4-4C54-BC2F-F92920E7F722}" s:ds="{0F458A57-E224-45B6-BEF0-3E2311385FCC}" s:par="" s:ph="page-footer" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180518T062320Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ddf5cb51-f2b3-44db-9f72-161ec42a8ca4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180518T114526Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

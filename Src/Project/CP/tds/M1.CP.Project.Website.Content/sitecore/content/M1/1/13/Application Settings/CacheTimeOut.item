@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {8B60371F-F8CE-4FAF-BCDF-D8FF737CFF0C}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Site Settings/Application Settings/CacheTimeOut
+parent: {A14BE531-119F-4D5F-9766-D03E3DAC8619}
+name: CacheTimeOut
+master: {00000000-0000-0000-0000-000000000000}
+template: {6D1CD897-1936-4A3A-A511-289A94C2A7B1}
+templatekey: Dictionary entry
+created: 20180225T143647Z
+
+----version----
+language: en
+version: 1
+revision: d399ecc5-0fb7-4502-bcde-24fab652e992
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180225T143647Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d399ecc5-0fb7-4502-bcde-24fab652e992
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180225T143647Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

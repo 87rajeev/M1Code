@@ -1,0 +1,50 @@
+﻿
+/* css for tabs */
+.theme-light .btn.btn-default{
+    color: #212121;
+    border:2px solid #E75E0D ;
+}
+.theme-dark .btn.btn-default{
+    border: 2px solid #ffffff;
+    color:#ffffff
+}
+.btn.btn-default{
+    padding: 14px 0px;
+    font-weight: normal;
+    background-color: transparent;
+    font-size: 15px;
+    margin: 18px 0px;
+    font-family: Gotham-Medium;
+    border-radius: 0px;
+   
+}
+.theme-light.text-theme-black .btn.btn-default,.theme-dark.text-theme-black .btn.btn-default{
+ max-width: 250px; 
+ min-width: 100px;
+}
+.theme-light.text-theme-orange .btn.btn-default{
+    color: #e75e0d;  
+    padding: 20px 0;
+}
+.theme-light.text-theme-black .btn.btn-default{
+   color: #212121;
+}
+
+@media (max-width: 768px){
+.btn.btn-default {
+     font-size: 11px; 
+     padding: 10px 0px;
+}
+}
+
+
+.theme-light .btn.btn-default:hover{
+background-color: #e75e0d;
+ color: #ffffff;
+} 
+.theme-dark .btn.btn-default:hover{
+    background-color: #FFFFFF ;
+    color: #E75E0D;
+}
+ 
+/* end of css for tabs */	

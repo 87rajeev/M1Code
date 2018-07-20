@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {BC2C3012-E410-45B4-B7F6-73A64412BB67}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImagePromo
+parent: {6334B9BF-C4CC-4D47-A39E-DC51CB6E2882}
+name: ImagePromo
+master: {00000000-0000-0000-0000-000000000000}
+template: {C3666A8C-E579-4EFD-B200-51191BC01DD1}
+templatekey: ImagePromoInfo
+created: 20180502T104332Z
+
+----version----
+language: en
+version: 1
+revision: b27a3fe1-ea72-4e7a-a105-2e3deaa94142
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 10
+
+ImagePromo
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 6
+
+&nbsp;
+----field----
+field: {CE928FB3-E18C-48DD-B983-956CA7BB6E36}
+name: Select
+key: select
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180427T063703Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b27a3fe1-ea72-4e7a-a105-2e3deaa94142
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180509T120630Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

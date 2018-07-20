@@ -1,0 +1,99 @@
+----item----
+version: 1
+id: {EB959B79-7F74-429E-8509-2BDF65056052}
+database: master
+path: /sitecore/system/Modules/Sitemap/m1corporate
+parent: {0C974E5E-6080-4128-B12A-1D3B4AC06397}
+name: m1corporate
+master: {00000000-0000-0000-0000-000000000000}
+template: {5D98D5E9-B02A-45B6-A9C1-BA449AA4F5A3}
+templatekey: Sitemap Configuration
+created: 20180404T163757Z
+
+----version----
+language: en
+version: 1
+revision: 2056d342-1b34-435a-8e69-0f9e665d85d9
+
+----field----
+field: {C0008432-DF53-40B1-AFB6-D4FDCE9427A4}
+name: Search Engines
+key: search engines
+content-length: 116
+
+{2F39B18F-8B9A-4E34-B17F-3669ACCBFA12}|{4A7F5C00-0072-4188-8DCF-BF619F587009}|{56346DBD-CDBB-4C17-BC72-C87A7A66E13F}
+----field----
+field: {DA312203-C425-4347-8D97-B80349BEDBDE}
+name: Enabled Templates
+key: enabled templates
+content-length: 311
+
+{94F603AF-8771-4576-AB34-C378772ADFA5}|{CCFADC93-A426-4A91-896E-9CD83DCD657C}|{CCB43648-51ED-4192-9835-AC4AFE403589}|{6738635B-DA43-435B-8933-9C5F45996360}|{B6804E76-47F2-4919-821D-51D535AB4D4E}|{21DFD307-8233-414F-8CF1-972363004700}|{C4660CF1-C07B-4408-9709-7CCD00B1891D}|{3A2B18B6-480B-4961-A9EA-1D807B63D627}
+----field----
+field: {0030AF3B-16ED-4EB2-8CA0-BDF035D12FD2}
+name: File Name
+key: file name
+content-length: 14
+
+sitemap_cp.xml
+----field----
+field: {885F129B-8AE8-486E-804C-AED0D0D8AB7C}
+name: Server Url
+key: server url
+content-length: 21
+
+http://www.m1.com.sg/
+----field----
+field: {4CA12AD7-0566-4DC9-9BA2-CABB8E4A6EBA}
+name: Cleanup Bucket Path
+key: cleanup bucket path
+content-length: 1
+
+1
+----field----
+field: {7F9BDF2E-EB73-4A55-BA1D-2D3A49899614}
+name: Site Robots Txt
+key: site robots txt
+content-length: 244
+
+User-agent: *
+
+Disallow: /sitecore
+Disallow: /Sitecore
+Disallow: /sitecore_files/
+Disallow: /sitecore modules/
+Disallow: /App_Browsers/
+Disallow: /App_config/
+Disallow: /App_Data/
+Disallow: /temp/
+Disallow: /upload/
+Disallow: /xsl/
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180404T163758Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2056d342-1b34-435a-8e69-0f9e665d85d9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180517T153235Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

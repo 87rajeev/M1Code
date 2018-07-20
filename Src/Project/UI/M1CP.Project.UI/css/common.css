@@ -1,0 +1,655 @@
+﻿/* ==========================================================================
+CSS for M11 Project
+=========================================================================== */
+
+/*Staring of Gotham font Integration*/
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/GothamBook.eot');
+    src: url('../fonts/GothamBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamBook.woff2') format('woff2'),
+        url('../fonts/GothamBook.woff') format('woff'),
+        url('../fonts/GothamBook.svg#GothamBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Gotham-Medium.woff2') format('woff2'), url('../fonts/Gotham-Medium.woff') format('woff'), url('../fonts/Gotham-Medium.ttf') format('truetype'), url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Italic';
+    src: url('../fonts/Gotham-BookItalic.eot');
+    src: url('../fonts/Gotham-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff'),
+        url('../fonts/Gotham-BookItalic.svg#Gotham-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../fonts/GothamBlack.eot');
+    src: url('../fonts/GothamBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamBlack.woff2') format('woff2'),
+        url('../fonts/GothamBlack.woff') format('woff'),
+        url('../fonts/GothamBlack.svg#GothamBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-BlackItalic';
+    src: url('../fonts/Gotham-BlackItalic.eot');
+    src: url('../fonts/Gotham-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BlackItalic.woff') format('woff'),
+        url('../fonts/Gotham-BlackItalic.svg#Gotham-BlackItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../fonts/GothamBold.eot');
+    src: url('../fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamBold.woff2') format('woff2'),
+        url('../fonts/GothamBold.woff') format('woff'),
+        url('../fonts/GothamBold.svg#GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-BoldItalic';
+    src: url('../fonts/Gotham-BoldItalic.eot');
+    src: url('../fonts/Gotham-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BoldItalic.woff') format('woff'),
+        url('../fonts/Gotham-BoldItalic.svg#Gotham-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+/* End of Gotham font integration*/
+
+
+/* start of Common CSS Properties */
+html, body {
+    font-family: Gotham, Arial;
+    font-size: 1em;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+
+body {
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+/* sets padding-top, padding-bottom, padding-right and padding-left to zero */
+.padding-false {
+    padding: 0px;
+}
+
+.img-thumbnail {
+    padding: 0px;
+    border: 0;
+    border-radius: 0px;
+}
+
+.marginTop{
+    margin-top: 15px;
+}
+
+p.font-heading1, p.font-heading2, p.font-heading3, p.font-heading4 {
+    line-height: 1.1
+}
+/* End of Common CSS Properties */
+
+
+
+/*------------For screen width < 768px------------*/ 
+/* start of CSS for font body properties for screen width < 768px */
+.theme-light .font-body1 {
+    font-weight: normal;
+    color: #6e6e6e;
+}
+
+.theme-dark .font-body1 {
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.font-body2 {
+    font-weight: normal;
+    color: #e75e0d;
+}
+
+.theme-dark .font-body3 {
+    font-family: Gotham-Black;
+    color: #ffffff;
+	font-size:21px;
+}
+
+.theme-light .font-body3 {
+    font-family: Gotham-Black;
+    color: #212121;
+	font-size:21px;
+}
+
+.font-body4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #6e6e6e;
+}
+
+.font-body5 {
+    font-weight: normal;
+    color: #212121;
+}
+
+.font-body6 {
+    font-weight: normal;
+    color: #6e6e6e;
+}
+
+.font-body7 {
+    font-family: Gotham-Black;
+    color: #e75e0d;
+}
+
+.font-body8 {
+    font-size: 12px;
+    font-weight: normal;
+    color: #212121;
+}
+
+.font-body9 {
+    font-family: Gotham-Black;
+    color: #212121;
+}
+/* End of CSS for font body properties */
+
+
+/* Start of CSS for font heading properties*/
+.theme-dark .font-heading1{
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #ffffff;
+}
+.theme-dark1 .font-heading1 {
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #1f1b1b;
+}
+
+.theme-light .font-heading1{
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #212121;
+}
+
+.theme-dark .font-heading2 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #ffffff;
+}
+
+.theme-light .font-heading2 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #212121;
+}
+
+.theme-light .font-heading3 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #212121;
+}
+
+.theme-dark .font-heading3 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #ffffff;
+}
+
+.font-heading4 {
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #212121;
+}
+
+.theme-light .font-heading5 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #212121;
+}
+
+.theme-dark .font-heading5 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #ffffff;
+}
+
+.theme-light .font-heading6 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #212121;
+}
+
+.theme-dark .font-heading6 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #ffffff;
+}
+.font-heading7 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #212121;
+}
+
+.theme-light .font-heading9 {
+    margin: 0px;
+    font-weight: normal; 
+    color: #212121;
+}
+
+.font-heading8{
+    margin: 0px;
+    font-family: Gotham-Black;
+    color: #ffffff;
+}
+
+.font-heading9{
+    margin: 0px;
+    font-weight: normal; 
+    color: #ffffff;
+}
+/* End of CSS for font heading properties*/
+
+
+/*--------------For screen width >= 768px (only desktop  above Tabs )------------------------*/
+/* start of CSS for font body properties for screen width >= 768px */
+ @media (min-width: 768px) {
+
+    /* start of CSS for font body properties */
+    .font-body1, .font-body5 {
+        font-size: 17px;
+    }
+
+    .font-body2 {
+        font-size: 18px;
+    }
+
+
+    .font-body6 {
+        font-size: 16px;
+    }
+
+    .font-body7 {
+        font-size: 20px;
+    }
+
+    .font-body9 {
+        font-size: 14px;
+    }
+    /* End of CSS for font body properties for screen width >= 768px */
+
+
+    /* Start of CSS for font heading properties for screen width >= 768px */
+    .font-heading1 {
+        font-size: 40px;
+    }
+
+    .font-heading2 {
+        font-size: 50px;
+    }
+
+    .font-heading3 {
+        font-size: 34px;
+    }
+
+    .font-heading4 {
+        font-size: 24px;
+    }
+     .font-heading5 {
+        font-size: 35px;
+    }
+    .font-heading6 {
+        font-size: 29px;
+    }
+    .font-heading7 {
+        font-size: 25px;
+    }
+    .font-heading8 {
+        font-size: 15px;
+    }
+    .font-heading9 {
+        font-size: 15px;
+    }
+    /* End of CSS for font heading properties for screen width >= 768px */
+}
+
+
+/* css for tabs and mobile */
+@media only screen and (max-width : 767px){
+
+    /* sets padding-top, padding-bottom, padding-right and padding-left to zero only for mobile screens */
+    .padding-zero , .padding-zero-mobile {
+        padding: 0px;
+    }
+
+    /* start of CSS for font body properties for screen width < 768px */
+    .font-body1, .font-body2, .font-body5, .font-body7 {
+        font-size: 13px;
+    }
+
+    .font-body6, .font-body9 {
+        font-size: 12px;
+    }
+    /* End of CSS for font body properties for screen width < 768px */
+
+
+    /* Start of CSS for font heading properties for screen width < 768px */
+    .font-heading1 {
+        font-size: 18px;
+    }
+
+    .font-heading2 {
+        font-size: 23px;
+    }
+
+    .font-heading3 {
+        font-size: 20px;
+    }
+
+    .font-heading4 {
+        font-size: 13px;
+    }
+     .font-heading5 {
+        font-size: 16px;
+    }
+    .font-heading6 {
+        font-size: 18px;
+    }
+    .font-heading7 {
+        font-size: 18px;
+    }
+    .font-heading8 {
+        font-size: 13px;
+    }
+    .font-heading9 {
+        font-size: 13px;
+    }
+}
+   /* End of CSS for font heading properties for screen width < 768px */
+   
+.background-image-container{
+    padding:0px;
+    position:relative;
+    overflow:hidden;
+}
+
+.component-heading {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.component-viewall-Link{
+    text-align: center;	
+}
+
+.component-viewall-Link .viewall-link{
+    position:relative;
+    border-bottom:1px solid #E75E0D;
+    padding: 4px 10px;	
+}
+
+.component-viewall-Link .viewall-link.expand-below::after{
+    border-top: 10px solid #f56510;
+    border-left: 5px solid transparent; 
+    border-right: 5px solid transparent; 
+    bottom: -10px;
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; 
+    height: 0;
+}
+
+a:focus, a:hover {
+    text-decoration: none; 
+	outline:none;
+}
+
+.thumbnail{
+    border: 0;
+    padding: 10px;
+}
+
+.marginbottom-zero{
+    margin-bottom:0px;	
+}
+
+.btn-default, .btn-default:hover, .btn-default:active:hover, .btn.active, .btn:active {
+    background-color: transparent;
+    border-color: #d43f3a;
+    border-width: 2px;
+    box-shadow: none;
+}
+
+/* common CSS for promo!!! */
+.promo-text {
+    margin: 0;
+}
+
+.promo-text .promo {
+    font-family: Gotham-Bold;
+    font-size: 14px;
+    color: #fff;
+    background: #e75e0d;
+    padding: 3px 10px;
+    margin-right: 5px;
+}
+/* end of common CSS for promo!!! */
+
+
+@media (min-width: 768px) {
+   .component-heading .font-heading1, .component-heading .font-heading3 {
+        display:inline;	
+    }
+}
+
+/* start of ticked-list */
+.ticked-list {
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.ticked-list ul {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ticked-list ul li {
+    text-align: left;
+    background: url('../images/Feature-CheckMark-icon-1x.png') no-repeat 0px 3px;
+    padding: 0 0 15px 35px;
+}
+
+@media (min-width: 768px) {
+    .list-horizontal ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+/* end of ticked-list*/
+
+/* end of common css */
+
+
+
+/*css for backfround placeholder*/
+.equal-height-parent {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.equal-height-child {
+    position: relative;
+    -webkit-flex: 1;
+}
+
+/* common CSS for dotts !!! */
+.dots-top-left {
+    position: absolute;
+    bottom: 20%;
+}
+
+.dots-top-right {
+    position: absolute;
+    top: 20%;
+}
+
+.dots-bottom-left {
+    position: absolute;
+    bottom: 10%;
+    right: 15px;
+}
+
+.dots-bottom-right {
+    position: absolute;
+    top: 20%;
+    right: 15px;
+}
+@media (min-width: 768px) {
+    .equal-height-parent .thumbnailbottomMargin, .equal-height-parent .thumbnail {
+        margin-bottom: 0px;
+    }
+}
+
+.align-item-center-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-align-center-child {
+    display:inline-block;
+    float:none;
+}
+
+.thumbnail{
+    background-color:transparent;
+}
+
+.thumbnailoverride {
+    background-color: transparent !important;
+}
+
+.centered-align {
+    display: inline-block;
+    float: none;
+}
+
+.image-centered {
+    margin: 0 auto;
+}
+
+.expanded-content{
+	display:none;
+}
+
+.hide-content, .hide-content-beforeload {
+    display:none;
+}
+
+.imagewidthloader{
+    width:60px !important;
+    height:60px;
+    margin: 0 auto;	
+}
+
+.border-dottedimage {
+    width: 100%;
+    background-image: url(../images/thumbnail-dots.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+/* start of backgorund colors for top-banner*/
+.theme-blue {
+    background-color: #2c5aa5;
+}
+
+.theme-green {
+    background-color: #50E3C2;
+}
+
+.theme-purple {
+    background-color: #3023ae;
+}
+
+.theme-pink {
+    background-color: #b24592;
+}
+
+.theme-light-orange {
+    background-color: #e75e0d;
+}
+
+.theme-dark-blue {
+    background-color: #09203f;
+}
+
+.theme-dark-yellow {
+    background-color: #ffa751;
+}
+
+.theme-dark-orange {
+    background-color: #e44d26;
+}
+
+.theme-ocean-blue {
+    background-color: #2193b0;
+}
+
+.theme-grey {
+    background-color: #2B303A;
+}
+.theme-white {
+    background-color: #ffffff;
+}
+
+.view-all,.view-less {
+    margin-bottom: 20px;
+    margin: 0 auto;
+    clear: both;
+}
+
+/* css for background image */
+section.background-image-container .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* end of css for background image */

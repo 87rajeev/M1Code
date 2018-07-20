@@ -1,0 +1,198 @@
+----item----
+version: 1
+id: {B10013F2-C6AA-4098-BAA0-57C2597270EB}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Shares/About M1 Shares/FAQ1/share holders
+parent: {9F7BD900-DF4E-4CAD-8ADF-3B920F8216FB}
+name: share holders
+master: {00000000-0000-0000-0000-000000000000}
+template: {7E49A1C2-026D-45BA-BE98-494B17D798B5}
+templatekey: FAQ
+created: 20180503T095051Z
+
+----version----
+language: en
+version: 1
+revision: 709fa900-42dd-4375-86d1-3d9e6c2f94d8
+
+----field----
+field: {B050FA74-5407-49C3-8347-4ED7FB5E4A59}
+name: Question
+key: question
+content-length: 39
+
+where is M1's history of share holders?
+----field----
+field: {B1D3456E-65E1-4F88-8648-AB7C159C0025}
+name: Answer
+key: answer
+content-length: 3811
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../scripts/slick-1.8.0/slick/slick.css" />
+<link rel="stylesheet" href="../scripts/slick-1.8.0/slick/slick-theme.css" />
+<link rel="stylesheet" href="../css/bundled.css" />
+<link rel="stylesheet" href="../css/FAQ Table.css" />
+<link rel="stylesheet" href="../css/common.css" />
+<div class="container-fluid">
+<table class="customers">
+    <tbody>
+        <tr class="font-body2 text-center">
+            <th>Year</th>
+            <th>Interim Dividend(Cents)</th>
+            <th>Final Dividend(Cents)</th>
+            <th>Special Dividend(Cents)</th>
+            <th>Other Distributions(Cents)*</th>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2017</td>
+            <td>3.2</td>
+            <td>3.2^</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2016</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2015</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2014</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2013</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2012</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2011</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2010</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2009</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2008</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2007</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2006</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>N.A</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2005</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>N.A</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2004</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>N.A</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2003</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>N.A</td>
+        </tr>
+        <tr class="font-body4 text-center">
+            <td>2002</td>
+            <td>-</td>
+            <td>3.2</td>
+            <td>3.2</td>
+            <td>N.A</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T095051Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+709fa900-42dd-4375-86d1-3d9e6c2f94d8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180503T111122Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,134 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.Base.Helpers
+@using Sitecore.Common
+@using Sitecore.Mvc.Presentation
+@using Log = Sitecore.Diagnostics.Log
+@model M1CP.Feature.Navigation.Models.NavigationGroup
+
+@{
+    var cssClass = RenderingContext.Current.Rendering.Parameters["CssClass Name"];
+    var cssClassVariation = cssClass ?? string.Empty;
+}
+@helper GetLeftNavInfo()
+{
+
+if (Model == null)
+{
+    Log.SingleError("Navigation Model is Null" + Environment.StackTrace, this);
+    return;
+}
+if (Model.Select_Navigation_Links != null)
+{
+
+    foreach (var item in Model.Select_Navigation_Links)
+    {
+
+        var link = item.Navigation_Link != null ? item.Navigation_Link.Url : "#";
+        var active = (item.Navigation_Link != null && Sitecore.Context.Item.Paths.LongID.Contains(item.Navigation_Link.TargetId.ToString().ToUpper()))
+            ? " active"
+            : string.Empty;
+            <li class="">
+                <a class="peronalbussinesslink @active" href="@link">@Html.Glass().Editable(item, x => x.Navigation_Title)</a>
+            </li>
+    }
+}
+}
+
+<nav class="m1-header  navbar navbar-default navbar-fixed-top " ng-controller="headerController">
+    <div class="side-images">
+
+        <img src="~/Images/Nav-logoShadowDesktop-1x.png" class="hidden-xs" alt="logoshadow">
+
+
+        <img src="~/Images/Nav-logoShadowmobile.png" class="visible-xs" alt="logoshadow">
+
+    </div>
+    <div class="container-fluid">
+
+        <!-- HEADER -->
+
+        <div class="navbar-header desktop  left col-lg-4 col-md-4 col-sm-4 padding-zero">
+            <a class="navbar-brand" href="/">
+                @Html.Sitecore().Rendering(M1CP.Feature.Navigation.Constants.RenderingItemIDs.Logo)
+            </a>
+            <ul class="nav navbar-nav list-inline peronalbussiness hidden-xs">
+                @GetLeftNavInfo()
+            </ul>
+        </div>
+
+        <div class="collapse navbar-collapse center" id="myNavbar">
+            <button type="button" class="navbar-toggle collapsed modale" data-toggle="collapse" data-target="#myNavbar" data-label-expanded="Close" aria-expanded="false">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+            <ul class="nav navbar-nav list-inline peronalbussiness hidden-md hidden-lg hidden-sm">
+                @GetLeftNavInfo()
+            </ul>
+            <!--End HEADER -->
+            <!--Main Menu-->
+            <ul class="nav navbar-nav navHeaderLinksCenetr @cssClassVariation">
+                @Html.Sitecore().DynamicPlaceholder(M1CP.Feature.Navigation.Constants.Placeholder.CenterNavigation)
+            </ul>
+            <div class="row hidden-md hidden-lg hidden-sm">
+
+                <div class="mobile-mega-menu-icons">
+                    <div class="col-xs-12">
+                        <a href="#">
+                            <div class="col-xs-3 icon-container">
+
+                                <img src="~/Images/Nav-Locator-icon-1x.png" alt="Locator Icon" />
+                            </div>
+                            <div class="col-xs-9 text-container">
+                                <span>Store Locator</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12">
+                        <a href="#">
+                            <div class="col-xs-3 icon-container">
+                                <img src="~/Images/Nav-Search-icon-1x.png" alt="Search">
+                            </div>
+                            <div class="col-xs-9 text-container">
+                                <span>Search</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <a href="#">
+                            <div class="col-xs-3 icon-container">
+                                <img src="~/Images/Nav-ShoppingCart-icon-1x.png" alt="cart"><sup class="badge">5</sup>
+                            </div>
+                            <div class="col-xs-9 text-container">
+                                <span>Cart</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <a href="#">
+                            <div class="col-xs-3 icon-container">
+                                <img src="~/Images/Nav-Login-icon-1x.png" alt="user"><sub class="user-indicator"></sub>
+                            </div>
+                            <div class="col-xs-9 text-container">
+                                <span>Your Profile</span>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+
+            <!--End Main Menu-->
+        </div>
+        <div class="navbar-header mobile right  @cssClassVariation">
+            @Html.Sitecore().DynamicPlaceholder(M1CP.Feature.Navigation.Constants.Placeholder.rightNavigation)
+        </div>
+    </div>
+</nav>

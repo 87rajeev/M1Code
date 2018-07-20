@@ -1,0 +1,25 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IListFormField
+<div class="@Model.Class">
+    
+    @*<div class="@Model.UIElements.Class" @Model.Validations.ToUIAttributes()>*@
+        <label>
+            @*@if (Request.Form[Model.UIElements.Name] != null)
+            {
+                <input type="checkbox" @Model.UIElements.ToUIAttributes("singleChk") name="@Model.UIElements.Name" value="@Model.UIElements.Name" checked="checked">@Html.Raw(Model.IsRequired ? "<span class='req-field'>* </span>" : string.Empty) @Html.Raw(Model.Title)
+            }*@
+            @*else
+            {*@
+                <input type="checkbox" name="@Model.SitecoreItemId.ToString()">@Html.Raw(Model.Is_Required ? "<span class='req-field'>* </span>" : string.Empty)<span class='req-field'>* </span>" : string.Empty) @Html.Raw(Model.Title)
+            @*<input type="checkbox" @Model.UIElements.ToUIAttributes("singleChk") name="@Model.UIElements.Name" value="@Model.UIElements.Name">@Html.Raw(Model.IsRequired ? "<span class='req-field'>* </span>" : string.Empty)<span class='req-field'>* </span>" : string.Empty) @Html.Raw(Model.Title)*@
+            @*}*@
+        </label>
+    </div>
+
+@if (Model.Validations != null)
+{
+    foreach (var validation in Model.Validations)
+    {
+        <span class="error-message @validation.Class">@validation.Validation_Message</span>
+    }
+}
+

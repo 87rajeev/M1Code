@@ -1,0 +1,122 @@
+----item----
+version: 1
+id: {C5CCCAF1-1804-49F0-96FD-30C684079613}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/MySimePageTopBanner Content
+parent: {4D3182E9-48B0-4EE8-AC9B-D81AA1CC5512}
+name: MySimePageTopBanner Content
+master: {00000000-0000-0000-0000-000000000000}
+template: {7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}
+templatekey: HeroBanner
+created: 20180416T111716Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+applications/16x16/photo_scenery.png
+----version----
+language: en
+version: 1
+revision: 04c149fe-bea1-44bd-ace8-21e8207bfdfb
+
+----field----
+field: {DEFE043D-E4AB-4D7D-8DF1-27CD3D4E5785}
+name: Banner Heading
+key: banner heading
+content-length: 29
+
+<strong>All the fun.</strong>
+----field----
+field: {0217E3D6-12EF-45B9-93D5-480841400D91}
+name: Banner Sub Heading
+key: banner sub heading
+content-length: 13
+
+All the time.
+----field----
+field: {F8E22791-9719-4312-AE4F-FF18FEE45476}
+name: Banner Promo Text
+key: banner promo text
+content-length: 5
+
+PROMO
+----field----
+field: {8F00C23B-7EBE-4B9F-B262-841652D0889A}
+name: Banner Promo SubText
+key: banner promo subtext
+content-length: 0
+
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 38
+
+{441C7838-D805-496E-9B26-FC59C90EDB0E}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 17
+
+mySIM<sup>e</sup>
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 86
+
+Games? Movies? And a brand-new phone? Indulge in all of them with bigger data bundles!
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{A75CEC35-8E52-4142-84D6-AFB5ABB8E656}" />
+----field----
+field: {15197F74-BE43-4301-8192-2FD22280F837}
+name: Video URL
+key: video url
+content-length: 89
+
+<link linktype="external" url="/sitecore/media library/M1/M1CP/Feature/Banner/mov_bbb" />
+----field----
+field: {6EF85F21-B413-4F6B-80D0-1F88CCAD6E78}
+name: IsVideo
+key: isvideo
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180306T123101Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+04c149fe-bea1-44bd-ace8-21e8207bfdfb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180427T071759Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

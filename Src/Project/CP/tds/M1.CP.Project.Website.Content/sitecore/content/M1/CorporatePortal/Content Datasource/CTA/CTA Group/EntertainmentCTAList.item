@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {0E08C647-F81E-4B0A-BD47-4ED14470EB56}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/EntertainmentCTAList
+parent: {97E92410-36AD-4C10-A2EA-A9CAE27CD1C9}
+name: EntertainmentCTAList
+master: {00000000-0000-0000-0000-000000000000}
+template: {80B96A13-1EFD-429F-909E-BB934208421C}
+templatekey: CTAList
+created: 20180314T111221Z
+
+----version----
+language: en
+version: 1
+revision: 99578a94-67a5-4880-af7b-05b93fe2903c
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 77
+
+{A3FCA104-291B-4717-82B8-DEF97512DF20}|{7743ED43-245B-45A6-B661-FC02C87762F6}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180314T111221Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+99578a94-67a5-4880-af7b-05b93fe2903c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180412T140538Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

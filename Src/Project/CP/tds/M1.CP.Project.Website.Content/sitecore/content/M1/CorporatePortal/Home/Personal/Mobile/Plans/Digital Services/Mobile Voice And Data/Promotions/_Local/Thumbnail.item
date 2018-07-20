@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {682BEE3F-ACAE-4696-B081-8CD5478B3109}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Promotions/_Local/Thumbnail
+parent: {0D90A3F0-9C36-42FF-8C3C-B71E6751989F}
+name: Thumbnail
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B5DDC1F-0239-4BA3-BCB2-0665159FE3B9}
+templatekey: Thumbnail
+created: 20180504T133544Z
+
+----version----
+language: en
+version: 1
+revision: 4ed34013-f990-41ea-af59-234260f9f66b
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 9
+
+Thumbnail
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 55
+
+<link linktype="external" url="" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 84
+
+<p class="font-heading1">Be rewarded </p>
+<p class="font-heading3">&nbsp;WITH M1</p>
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {7F951ECA-B94D-4A2D-B481-C42C1C3D51A3}
+name: Thumbnail Component Items
+key: thumbnail component items
+content-length: 155
+
+{0F1F04F9-ACF4-4246-AA6B-532EF7C71DB9}|{FDA8D1E9-EF5A-44EA-81E4-A5B79C86ECCE}|{B869815D-EDAB-4A25-B6CC-7BFC1ABEB5A2}|{D3BD6E6B-A171-41CA-9D43-72A87482DD40}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180329T112732Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ed34013-f990-41ea-af59-234260f9f66b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T153211Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {70002C8D-1B2E-44BD-AD6C-8656F81F4481}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/CTA/New _CTAGroup
+parent: {58ED1D11-A082-4A1C-9864-1C235955663D}
+name: New _CTAGroup
+master: {00000000-0000-0000-0000-000000000000}
+template: {2BA5B662-561B-4095-A6CB-FAA1ED3DC8BA}
+templatekey: _CTAGroup
+created: 20180313T100221Z
+
+----version----
+language: en
+version: 1
+revision: ef231d01-336d-40be-be13-4e2892a1e6a7
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 77
+
+{469D01B1-DB06-44BD-A9A9-19AB32CC8CA4}|{32F77CDC-AADD-47FA-BF9D-5A6DCD079C25}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180313T100221Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ef231d01-336d-40be-be13-4e2892a1e6a7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180314T040956Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

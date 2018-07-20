@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {FCAC9F11-593F-40A1-9685-D28A618EB093}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback form
+parent: {240BD572-8F1A-4153-8D40-1830A34E5668}
+name: Feedback form
+master: {00000000-0000-0000-0000-000000000000}
+template: {EE860BA8-C8F2-4F5A-A146-8A0E1A23E2AC}
+templatekey: Form
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: f55e5446-0f9c-4809-9c16-6caf68c0a89d
+
+----field----
+field: {709B0481-6690-4E72-AF08-1A3B7F2DFEE1}
+name: Field Groups
+key: field groups
+content-length: 38
+
+{DC406A99-1D5C-4873-AF4E-C7B86F26915B}
+----field----
+field: {BC286FB0-C648-4E06-A6EF-11A0E6708539}
+name: Button Groups
+key: button groups
+content-length: 38
+
+{1D838A5D-DF53-45FB-BDD6-1D8C497AA663}
+----field----
+field: {A26A6B3B-C793-443C-B8D9-DAAC95CE39A8}
+name: Form Events
+key: form events
+content-length: 38
+
+{8A60DAEC-7270-4B4F-8B94-60EE8769A838}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180205T035705Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f55e5446-0f9c-4809-9c16-6caf68c0a89d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180420T101041Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

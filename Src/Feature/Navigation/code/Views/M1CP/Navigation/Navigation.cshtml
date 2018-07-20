@@ -1,0 +1,75 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model M1CP.Feature.Navigation.Models.NavigationGroup
+
+@{
+
+
+    
+        if (Model.Select_Navigation_Links != null)
+        {
+            foreach (var item in Model.Select_Navigation_Links)
+            {
+                var navlink = item.Navigation_Link != null ? item.Navigation_Link.Url : "#";
+
+                var active = (item.Navigation_Link != null && Sitecore.Context.Item.Paths.LongID.Contains(item.Navigation_Link.TargetId.ToString().ToUpper()))
+                    ? " active"
+                    : string.Empty;
+                <li class="dropdown  mega-dropdown @active">
+
+                   
+                    <a href="@navlink">@Html.Glass().Editable(item, x => x.Navigation_Title)</a>
+                    <span class="dropdown-toggle glyphicon glyphicon-chevron-right hidden-sm hidden-md hidden-lg pull-right" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></span>
+                    @if (item.Child_Navigation_Items != null)
+                    {
+                        <ul class="dropdown-menu mega-dropdown-menu" role="menu">
+                            @foreach (var submenu in item.Child_Navigation_Items)
+                            {
+
+                            var link = submenu.Navigation_Link != null ? submenu.Navigation_Link.Url : "#";
+                            if (!Html.Glass().IsInEditingMode)
+                            {
+                                <li class="dropdown second-level col-sm-2">
+                                    <a href="@link" class="header-second-level">@submenu.Navigation_Title</a>
+                                    <span data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="glyphicon glyphicon-chevron-right hidden-sm hidden-md hidden-lg pull-right" megamenu-arrow></span>
+
+                                    <ul class="dropdown-sub-menu dropdown-menu" role="menu">
+                                        @foreach (var level3 in submenu.Child_Navigation_Items)
+                                        {
+                                            var links = level3.Navigation_Link != null ? level3.Navigation_Link.Url : "#";
+                                            var activeInner = (level3.Navigation_Link != null && Sitecore.Context.Item.Paths.LongID.Contains(level3.Navigation_Link.TargetId.ToString().ToUpper()))
+                                                ? " active"
+                                                : string.Empty;
+                                            if (!Html.Glass().IsInEditingMode)
+                                            {
+
+                                                <li class="@activeInner">
+                                                    <a href="@links">@level3.Navigation_Title</a>
+                                                    <ul class="dropdown-fourth-level">
+                                                      @foreach (var level4 in level3.Child_Navigation_Items)
+                                                      {
+                                                          var level4Link = level4.Navigation_Link != null ? level4.Navigation_Link.Url : "#";
+                                                          if (!Html.Glass().IsInEditingMode)
+                                                          {
+                                                              <li><a href="@level4Link">@level4.Navigation_Title</a></li>
+                                                          }
+                                                      }
+                                                    </ul>
+
+                                                </li>
+                                            }
+                                        }
+                                    </ul>
+                                </li>
+
+                            }}
+
+                        </ul>
+                    }
+                </li>
+            }
+        }
+  
+}
+
+
+

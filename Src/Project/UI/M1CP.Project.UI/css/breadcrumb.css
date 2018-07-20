@@ -1,0 +1,43 @@
+/* start of css for breadcrumb component */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: transparent;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #C8C8C8;
+    content: ">";
+}
+
+ul.breadcrumb li a {
+    color: #6E6E6E;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color:#E75E0D;
+    text-decoration: none;
+}
+
+.breadcrumb li:last-child a{
+    color:#E75E0D;
+    text-decoration: none;
+	pointer-events: none;
+}
+
+.breadcrumb {
+    margin-top:40px;
+}
+
+.breadcrumb-body {
+    text-align:left;
+    background-color: transparent;
+ }
+/* end of css for breadcrumb component */

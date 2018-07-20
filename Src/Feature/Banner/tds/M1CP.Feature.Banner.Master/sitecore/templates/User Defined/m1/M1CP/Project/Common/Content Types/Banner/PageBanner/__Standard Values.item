@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {09B9705B-38C6-4884-9F3E-F339029123E7}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/PageBanner/__Standard Values
+parent: {BC55ED8F-6D13-4313-8A82-0E90FF57CB0B}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {BC55ED8F-6D13-4313-8A82-0E90FF57CB0B}
+templatekey: PageBanner
+created: 20180418T092208Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}
+----version----
+language: en
+version: 1
+revision: 18d9a4fe-92a2-44ca-b487-804fa74379dd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180306T120833Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+18d9a4fe-92a2-44ca-b487-804fa74379dd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180418T092255Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

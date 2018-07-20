@@ -1,0 +1,16 @@
+﻿@using M1CP.Feature.Content
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@using Glass.Mapper.Sc.Web.Mvc
+
+
+@model M1CP.Feature.Content.Models.IImageContent
+
+<div>@Html.Glass().Editable(Model, i => i.Title)</div>
+<div>@Html.Glass().Editable(Model, i => i.Description)</div>
+@Html.Glass().RenderImage(Model, x => x.Image_Desktop, isEditable: true, parameters: new {  }, outputHeightWidth: true)
+

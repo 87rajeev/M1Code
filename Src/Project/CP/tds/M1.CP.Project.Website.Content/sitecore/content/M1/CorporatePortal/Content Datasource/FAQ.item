@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {FCD6C5B5-02B4-4390-BDE0-B3324693409C}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/FAQ
+parent: {E93E08FD-4A90-44B3-8C25-B21685F07D0A}
+name: FAQ
+master: {00000000-0000-0000-0000-000000000000}
+template: {77B31FF0-90A9-4E3C-93CD-1472B01782CA}
+templatekey: FAQ Folder
+created: 20180313T090646Z
+
+----version----
+language: en
+version: 1
+revision: ff460168-cf56-41eb-bfa8-fdf4fb044530
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180313T090646Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff460168-cf56-41eb-bfa8-fdf4fb044530
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180402T122952Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

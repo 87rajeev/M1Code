@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {AC60FDC2-476F-4AD8-82B5-AEF8810B5B21}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Submitform/AllFields
+parent: {59114EEF-D767-4881-B9BB-E4C949E22B5E}
+name: AllFields
+master: {00000000-0000-0000-0000-000000000000}
+template: {D104A865-50AA-426A-BAEC-A551F01204C8}
+templatekey: FormFieldGroup
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 8d771704-5f85-429e-a156-a3a71c86fd0d
+
+----field----
+field: {306C830A-D8FB-45C9-973D-ED9F6B837B7F}
+name: Fields
+key: fields
+content-length: 233
+
+{BCBB1D37-AF68-448F-8031-DD6E24F3B2ED}|{7DF3B12C-A90B-48E2-808B-45D557750762}|{CA646733-DBB8-40BE-9663-43EA4B01D0F5}|{83A1A3AC-8BE9-4400-B5D6-64278128E23A}|{CC201819-F6B6-48D1-A968-B5BF008A47FF}|{4BDE6567-6C32-4238-A24C-CDE5B8F04A76}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180316T064544Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8d771704-5f85-429e-a156-a3a71c86fd0d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180316T065302Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

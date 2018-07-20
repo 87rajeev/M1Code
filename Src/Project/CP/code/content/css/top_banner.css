@@ -1,0 +1,230 @@
+﻿/* css for topbanner component */
+.topbanner-background {
+    position: relative;
+}
+
+.topbanner .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Setting width to 100% for topbanner background so that it fits the entire screen */
+.topbanner-background, .topbanner-background img {
+    width: 100%;
+}
+
+.topbanner .topbanner-content {
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
+}
+
+.topbanner .topbanner-dots-left, .topbanner .topbanner-text {
+    margin-top: 4%; /* change as per requirement */
+}
+
+.topbanner .topbanner-content .img-dots {
+    min-width: 40px; /* to be checked */
+}
+
+.topbanner .topbanner-text {
+    position: relative;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-left {
+    position: absolute;
+    left: 0;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-right {
+    position: absolute;
+    right: 0;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.topbanner .topbanner-text .topbanner-caption {
+    display: table;
+    line-height: 1.1;
+}
+
+.topbanner .topbanner-text .topbanner-caption .topbanner-category {
+    display: inline-block;
+    background: #fff;
+}
+
+.topbanner .topbanner-text .topbanner-caption .font-heading2 {
+    margin: 0 0 4px 0;
+}  
+
+.topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn {
+    margin: 10px 0 0 0;
+}
+
+
+@media (min-width: 320px) and (max-width: 440px) {
+    .topbanner .topbanner-text .topbanner-caption .topbanner-category {
+        display: inline-block;
+        margin-bottom: 8px;
+        background: #fff;
+        padding: 5px;
+    }
+
+    .topbanner .topbanner-text .topbanner-text-left, .topbanner .topbanner-text .topbanner-text-right, .topbanner .topbanner-text .topbanner-text-center {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .topbanner .topbanner-background img {
+        min-height: 420px;
+    }
+
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 5px 7px;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .topbanner .topbanner-text .font-heading1 {
+        font-size: 20px;
+    }
+
+    .topbanner .topbanner-text .font-heading2 {
+        font-size: 25px;
+    }
+
+    .topbanner .topbanner-text .font-body1 {
+        font-size: 13px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        font-size: 13px;
+        padding: 6px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 3px 0;
+    }  
+    
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 9px 0 0 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 7px;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .topbanner .topbanner-text .font-heading1 {
+        font-size: 28px;
+    }
+
+    .topbanner .topbanner-text .font-heading2 {
+        font-size: 35px;
+    }
+
+    .topbanner .topbanner-text .font-body1 {
+        font-size: 13px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        font-size: 13px;
+        padding: 8px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 5px 0;
+    }  
+    
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 10px 0 0 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {    
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 13px 0 0 0;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 8px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .topbanner .topbanner-text .font-heading1 {
+        font-size: 35px;
+    }
+
+    .topbanner .topbanner-text .font-heading2 {
+        font-size: 43px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 11px 0;
+    }  
+    
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 15px 0 0 0;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .topbanner .topbanner-text .font-body1 {
+        font-size: 16px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        padding: 10px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 13px 0;
+    }  
+    
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 15px 0 0 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 10px;
+        margin-bottom: 13px;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 22px 0;
+    }  
+    
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 17px 0 0 0;
+    }
+}
+
+/* end of css for topbanner component */

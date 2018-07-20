@@ -1,0 +1,1153 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="m1cp">
+<head>
+       <title>M1-Mobile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../scripts/slick-1.8.0/slick/slick.css">
+    <link rel="stylesheet" href="../../scripts/slick-1.8.0/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../css/bundled.css">
+    <link rel="stylesheet" href="../../css/header_footer.css">
+
+    <style>
+
+  #loader-container {  
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
+    background-color:#fff;
+    opacity: .75;
+ }
+
+.loader-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px; /* -1 * image width / 2 */
+    margin-top: -30px;  /* -1 * image height / 2 */
+    display: block;     
+}
+    </style>
+    
+</head>
+<body>
+    <!--Stating of header code-->
+    <nav class="m1-header navbar navbar-default navbar-fixed-top " ng-controller="headerController">
+        <div class="container-fluid">
+            <div class="side-images">
+                <img src="../../Images/Nav-logoBgwoShadow-1x.png" alt="logoshadow">
+            </div>
+            <div class="navbar-header desktop col-xs-4 left">
+                <a class="navbar-brand" href="javaScript:void(0);">
+                    <img src="../../images/M1-logo-1x.png" class="img-circle img-responsive" alt="M1 Logo">
+                </a>
+                <ul class="nav navbar-nav list-inline peronalbussiness hidden-xs">
+                    <li class=""><a class="peronalbussinesslink active" href="javaScript:void(0)">Personal</a></li>
+                    <li class=""><a class="peronalbussinesslink" href="javaScript:void(0)">Business</a></li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="collapse navbar-collapse center" id="myNavbar">
+                <button type="button" class="navbar-toggle collapsed modale" data-toggle="collapse" data-target="#myNavbar" data-label-expanded="Close" aria-expanded="false">
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+                <ul class="nav navbar-nav list-inline peronalbussiness hidden-md hidden-lg hidden-sm">
+                    <li class=""><a class="peronalbussinesslink active" href="javaScript:void(0)">Personal</a></li>
+                    <li class=""><a class="peronalbussinesslink" href="javaScript:void(0)">Business</a></li>
+                </ul>
+
+
+                <ul class="nav navbar-nav navHeaderLinksCenetr dark navpersonal">
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mobile </a>
+                        <!--<span class="caret hidden-sm hidden-md hidden-lg pull-right"></span></a>-->
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="second-level">
+                                <a href="#">Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="second-level">
+                                <a href="#">Plans with Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li>
+                                        <a href="#">More Data</a>
+                                        <ul>
+                                            <li><a href="#">-MySIMe</a></li>
+                                            <li><a href="#">-MySIMs</a></li>
+                                            <li><a href="#">-Mobile Broadband</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">More Voice</a>
+                                        <ul>
+                                            <li><a href="#">-Voice Plus</a></li>
+                                            <li><a href="#">-SurfShare</a></li>
+
+                                        </ul>
+
+
+                                    </li>
+
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">SIM-Only Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">MySIM3</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Special Benefits</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Promotions</a></li>
+                                    <li><a href="#">Youths</a></li>
+                                    <li><a href="#">Corporate Individuals</a></li>
+                                    <li><a href="#">NTUC</a></li>
+                                    <li><a href="#">KrisFlyer</a></li>
+                                    <li><a href="#">Corporate Individuals</a></li>
+                                    <li><a href="#">Straits Times</a></li>
+                                    <li><a href="#">Person with Disabilities</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Add-Ons</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Prepaid Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Broadband </a>
+                        <!--<span class="caret hidden-sm hidden-md hidden-lg pull-right"></span></a>-->
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="second-level">
+                                <a href="#">Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="second-level">
+                                <a href="#">Plans with Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">SIM-Only Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Special Benefits</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Add-Ons</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Prepaid Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Travel</a>
+                        <!--<span class="caret hidden-sm hidden-md hidden-lg pull-right"></span></a>-->
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="second-level">
+                                <a href="#">Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="second-level">
+                                <a href="#">Plans with Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">SIM-Only Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Special Benefits</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Add-Ons</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Prepaid Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Digital Services</a>
+                        <!--<span class="caret hidden-sm hidden-md hidden-lg pull-right"></span></a>-->
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="second-level">
+                                <a href="#">Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="second-level">
+                                <a href="#">Plans with Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">SIM-Only Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Special Benefits</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Add-Ons</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Prepaid Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Deals</a>
+                        <!--<span class="caret hidden-sm hidden-md hidden-lg pull-right"></span></a>-->
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="second-level">
+                                <a href="#">Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="second-level">
+                                <a href="#">Plans with Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">SIM-Only Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Special Benefits</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Add-Ons</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Prepaid Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                        <!--<span class="caret hidden-sm hidden-md hidden-lg pull-right"></span></a>-->
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="second-level">
+                                <a href="#">Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="second-level">
+                                <a href="#">Plans with Devices</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">SIM-Only Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Special Benefits</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Add-Ons</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="second-level">
+                                <a href="#">Prepaid Plans</a>
+                                <ul class="dropdown-sub-menu">
+                                    <li><a href="#">Phones</a></li>
+                                    <li><a href="#">Tablets</a></li>
+                                    <li><a href="#">Wearables</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Prepaid</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+
+
+            </div>
+            <div class="navbar-header mobile right dark">
+                <ul class="nav navbar-nav toplinksheader dark">
+                    <li><a href="#"><img src="../../images/Nav-Locator-icon-1x.png" alt="Smiley face" class="hidden-xs hidden-sm"></a></li>
+                    <li><a href="#"><img src="../../images/Nav-Login-icon-1x.png" alt="Smiley face"><sub class="user-indicator"></sub></a></li>
+                    <li><a href="#"><img src="../../images/Nav-ShoppingCart-icon-1x.png" alt="Smiley face"><sup class="badge">5</sup></a></li>
+                    <li><a href="#"><img src="../../images/Nav-Search-icon-1x.png" alt="Smiley face"></a></li>
+
+                </ul>
+                <ul class="nav navbar-nav toplinksheader light">
+                    <li><a href="#"><img src="../../images/Nav-Locator-icon-white-1x.png" alt="Smiley face" class="hidden-xs hidden-sm"></a></li>
+                    <li><a href="#"><img src="../../images/Nav-Login-icon-white-1x.png" alt="Smiley face"><sub class="user-indicator"></sub></a></li>
+                    <li><a href="#"><img src="../../images/Nav-ShoppingCart-icon-white-1x.png" alt="Smiley face"><sup class="badge">5</sup></a></li>
+                    <li><a href="#"><img src="../../images/Nav-Search-icon-white-1x.png" alt="Smiley face"></a></li>
+
+                </ul>
+
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" data-label-expanded="Close" aria-expanded="false">
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+
+            </div>
+        </div>
+
+    </nav>
+    <!--End header code-->
+    <div class="container-fluid">
+        <!--Starting of Top banner content-->
+        <div class="row">
+            <div class="topbanner" ng-init="align='left'; backgroundType='image'; dotTheme='dots-show';">
+                <!-- If the topbanner background is an image -->
+                <div ng-if="backgroundType==='image'" class="theme-dark text-theme-black">
+                    <!-- Topbanner background -->
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="../../images/hero-visual-img-mySims-M1x.jpg"> <!-- Image for mobile screens (width less than 767px) -->
+                            <source media="(min-width: 768px)" srcset="../../images/hero-visual-img-mySims-1x.jpg"> <!-- Image for tablets, desktops and larger screens (width greater than 767px) -->
+                            <img src="../../Images/hero-visual-img-mySims-1x.jpg" alt="Topbanner background"> <!-- Fallback image. Preferrably a desktop image. (for IE 11 and older browsers) -->
+                        </picture>
+                    </div>
+                    <!-- Topbanner contents (left, right dots and text) -->
+                    <div class="col-xs-12 padding-false topbanner-content">
+                        <div class="row">
+                        <!-- Left-side dots. An offset of 1 column to the left so as to provide a margin -->
+                        <div class="col-xs-1"></div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false topbanner-dots-left {{ dotTheme }}">
+                            <img src="../../Images/Oval-Orange-1x.png" alt="Dotted image" class="img-dots img-responsive pull-right">
+                        </div>
+
+                        <!-- Category, title, description and buttons as a part of the top banner content -->
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 topbanner-text topbanner-text-{{ dotTheme }}">
+
+                            <!-- topbanner-text-left to align it to the left. topbanner-text-right to align it to the right. topbanner-text-center to align it to the center. -->
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 topbanner-text-{{align}}">
+                                <!-- change according to font-size -->
+                                <div class="margin-false topbanner-caption">
+                                    <p class="margin-false topbanner-category font-body2">Mobile Add-Ons</p>
+                                    <p class="font-heading1">Add some sunshine</p>
+                                    <p class="font-heading2">TO YOUR LIFE</p>
+                                    <div class="orange-line">
+                                        <span class="orange-line-a1 "></span>
+                                    </div>
+                                </div>
+                                <p class="topbanner-description font-body1">Wanna spice up your life? You've come to the right place. From music to news to security, we've got somrthing for everyone</p>
+                                <!-- <a href="" class="btn btn-block btn-default font-button animated-button button-animated">Sign up for mySIMe</a>
+                            <a href="" class="btn btn-block btn-default font-button animated-button button-animated">Sign up for mySIM3</a>
+                            <p class="promo-text"><span class="promo">PROMO</span><span class="promo-details font-body8">&nbsp;Lorem ipsum dolor sit amet, consectetur</span></p> -->
+                            </div>
+
+                        </div>
+
+                        <!-- Right-side dots. An offset of 1 column to the right so as to provide a margin -->
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false {{ dotTheme }}">
+                            <img src="../../images/Oval-Orange-1x.png" alt="Dotted image" class="img-dots img-responsive pull-right">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If the topbanner background is a video -->
+                <div ng-if="backgroundType==='video'">
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        <video class="topbanner-background" poster="../../images/hero-visual-Mobile-2x.jpg" controls loop>
+                            <source src="video/vid1.mp4" type="video/mp4">
+                            <source src="video/vid1.ogg" type="video/ogg">  <!-- any other type of video file -->
+                            <img src="../../images/hero-visual-Mobile-2x.jpg" alt="Topbanner background" class="img-responsive"> <!-- fallback image -->
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Top-banner content-->
+        <!-- Start of thumbnail gradient -->
+        <div class="row">
+            <div class="component-heading theme-dark1">
+                <p class="font-heading1">24-month</p>
+
+                <p class="font-heading3">&nbsp;Contract</p>
+                <p class="font-body1"></p>
+            </div>
+            <div class="gradient-thumbnail align-item-center-desktop col-lg-offset-1 col-md-offset-1 col-md-10 col-lg-10 col-xs-12 col-sm-12" ng-init="maxitem='3' ; minItem='2'">
+
+
+
+                <div class="thumbnail col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                    <div class="linear-background theme-green">
+                        <a href="#" class="">
+                            <div class="content">
+                                <span class="gradient-thumb-heading1 animation-element slide-bottom">15<sup>GB</sup></span>
+
+                                <p class="gradient-thumb-description animation-element slide-bottom">$70/mth</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="thumbnail col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                    <div class="linear-background theme-yellow">
+                        <a href="#" class="">
+                            <div class="content">
+                                <span class="main-text-title animation-element slide-bottom">30<sup>GB</sup></span>
+
+                                <p class="gradient-thumb-description animation-element slide-bottom">$90/mth</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="thumbnail col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                    <div class="linear-background theme-ocean-blue">
+                        <a href="#" class="">
+                            <div class="content">
+                                <span class="main-text-title animation-element slide-bottom">30<sup>GB</sup></span>
+
+                                <p class="gradient-thumb-description animation-element slide-bottom">$90/mth</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="thumbnail col-md-3 col-lg-3 col-sm-6 col-xs-6">
+                    <div class="linear-background theme-red">
+                        <a class="" href="#">
+                            <div class="content">
+                                <span class="gradient-thumb-heading2 animation-element slide-bottom">UNLIMITED</span>
+                                <p class="gradient-thumb-description animation-element slide-bottom">$30/mth</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- End of thumbnail gradient -->
+        <!-- Start of Psst-over component -->
+
+        <div class="row">
+            <!-- Start of thumbnail type 3 component -->
+            <!-- Inputs: theme-light or theme-dark, background-image if any, number of cols for desktop (numberOfCols_md), number of cols for mobile (numberOfCols_sm) -->
+            <section class="thumbnail-type3-component theme-light text-theme-black" ng-init="numberOfCols_md='4'; numberOfCols_sm='2'">
+
+                <!-- Thumbnail type3 content -->
+                <div class="col-xs-12 col-sm-10 col-md-10 col-md-offset-1 col-sm-offset-1 col-lg-10 thumbnail-type3-content">
+
+                    <!-- Thumbnail type3 heading -->
+                    <div class="thumbnail-type3-caption">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center component-heading">
+                            <p class="font-heading1">Psst.</p>
+                            <p class="font-heading3">Over here</p>
+                            <p class="font-body1">Tempted, aren't we? Well, here's a taste of what you're getting with mySim<sup>e</sup> on a 24-month contract.</p>
+                        </div>
+                    </div>
+
+                    <!-- Thumbnail type3 image and description -->
+                    <div class="thumbnail-type3">
+
+                        <!-- Repeating content 1 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-FreeCalls-icon-1x.png" alt="" class="media-object">
+                                </div>
+                                <div class="media-body text-left media-middle">
+                                    <p class="font-body7">Free calls</p>
+                                    <p class="font-body1">Unlimited free calls to 3 M1 numbers.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 2 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}} thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-TalkandText-icon-1x.png" alt="" class="media-object">
+                                </div>
+                                <div class="media-body text-left media-middle">
+                                    <p class="font-body7">Talk and Text</p>
+                                    <p class="font-body1">100 mins Talktime and 100 SMS/MMS.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 3 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}}  thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-UnlimitedData-icon-1x.png" alt="" class="media-object">
+                                </div>
+                                <div class="media-body text-left media-middle">
+                                    <p class="font-body7">Upgrade Your phone</p>
+                                    <p class="font-body1">Replace your old phone with a brand new one.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Repeating content 4 -->
+                        <div class="col-xs-{{12/numberOfCols_sm}} col-md-{{12/numberOfCols_md}}  thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">
+                                    <img src="../../images/Feature-UpgradeyourPhone-icon-1x.png" alt="" class="media-object">
+                                </div>
+                                <div class="media-body text-left media-middle">
+                                    <p class="font-body7">Unlimited Data</p>
+                                    <p class="font-body1">Do it all with our mySIMe 118 plan.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- List with tick marks -->
+                    <div class="row1 ticked-list">
+                        <div class="col-xs-12">
+                            <ul>
+                                <li class="font-body9">Free incoming calls</li>
+                                <li class="font-body9">Free 4G VAS</li>
+                                <li class="font-body9">Voicemail Service</li>
+                                <li class="font-body9">Unlimited free calls to 3 M1 numbers</li>
+                                <li class="font-body9">100 mins and 100 SMS/MMS</li>
+                                <li class="font-body9">Share plan with up to 2 mySIM<sup>s</sup> plans<sup>*</sup> at $12/mth each</li>
+                                <li class="font-body9">Add 200 min ($5/mth), 800 min ($10/mth), and Unlimited Talktime ($15/mth)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- PROMO code and button -->
+                    <div class="text-center">
+                        <p class="promo-text"><span class="promo" style="font-size:14px">PROMO</span><span class="promo-details font-body8">&nbsp;Lorem ipsum dolor sit amet, consectetur</span></p>
+                        <a href="" class="btn btn-block btn-default animated-button button-animated centered-align">Sign Up Now</a>
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- End of thumbnail type 3 component -->
+
+        </div>
+        <!-- End of thumbnail type 3 component -->
+        <!-- End of Psst-over component -->
+        <!--Start of main page banner-->
+      
+        <div class="row">
+            <section class="padding-false pagebanner">
+                <!-- Pagebanner component heading -->
+                <div class="col-xs-12 component-heading theme-light">
+                    <p class="font-heading1">All your favourite</p>
+                    <p class="font-heading3">&nbsp;DEVICES</p>
+                    <p class="font-body1"></p>
+                </div>
+
+                <!-- pagebanner -->
+                <!-- Pass pagebanner-half or pagebanner-full -->
+
+                <div class="col-xs-12 col-sm-12 padding-false">
+                    <div class="pagebanner theme-dark text-theme-black">
+                        <div class="col-xs-12 padding-false pagebanner-background">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="../../images/Promo3-mobile.jpg"> <!-- Image for mobile screens (width less than 767px) -->
+                                <source media="(min-width: 768px)" srcset="../../images/Promo3-desktop.jpg"> <!-- Image for tablets, desktops and larger screens (width greater than 767px) -->
+                                <img src="../../images/Promo3-desktop.jpg" alt="" class="img-responsive" style="width:100%"> <!-- Fallback image. Preferrably a desktop image. (for IE 11 and older browsers) -->
+                            </picture>
+                        </div>
+
+                        <div class="col-xs-6 padding-false pagebanner-content pagebanner-left">
+                            <p class="font-heading1">It's okay to drool</p>
+                            <p class="font-heading3">A LITTLE</p>
+                            <p class="font-body1">All latest devices in one place. Go on. Take a peek. You know you want to.</p>
+                            <a role="button" href="#" class="btn btn-default btn-block font-button">Discover Latest Devices</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!--End of main page banner-->
+        <!--Start of tabs -->
+        <div class="row">
+            <div class="col-md-10 col-lg-10 col-md-offset-1  col-lg-offset-1 col-xs-12 ">
+                <div>
+                    <div class="component-heading theme-dark1">
+                        <p class="font-heading1">Other services related to</p>
+
+                        <p class="font-heading3">&nbsp;this plan</p>
+                    </div>
+                    <div class="col-md-12 col-lg-12  col-xs-12 align-item-center-desktop theme-light text-theme-orange">
+                        <div class="col-md-3 col-sm-6 col-xs-12 item-align-center-child">
+                            <div class="tab">
+                                <a role="button" href="#" class="btn btn-default btn-block animated-button button-animated">IDD 02 Saver</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 item-align-center-child">
+                            <div class="tab">
+                                <a role="button" href="#" class="btn btn-default btn-block animated-button button-animated">IDD 02 Saver</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 item-align-center-child">
+                            <div class="tab">
+                                <a role="button" href="#" class="btn btn-default btn-block animated-button button-animated">Talktime Add-on</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 item-align-center-child">
+                            <div class="tab">
+                                <a role="button" href="#" class="btn btn-default btn-block animated-button button-animated">Talktime Add-on</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of tabs-->
+        <!--Start of accordion FAQ-->
+        <div class="row">
+            <div class="col-md-12 col-lg-12  col-xs-12 accordion-properties">
+                <div class="panel-group accodionPadding " role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title font-body7">
+                                <a class="collapsed " data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    FREQUENTLY ASKED QUESTIONS
+                                </a>
+                            </h4>
+
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+
+                            <div class="panel-body" style="border : none">
+                                <dl>
+                                    <dt>Do you do back orders ?</dt>
+                                    <dd>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</dd>
+                                    <dt>Do you have a catalog</dt>
+                                    <dd>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of accordion FAQ-->
+        <!-- Start of T&C component -->
+        <div class="row">
+            <div class="col-md-12 col-xs-12 component-viewall-Link">
+                <a class="viewall-link font-body8" href="javaScript:void(0);">TERMS & CONDITIONS</a>
+            </div>
+        </div>
+
+       <!-- <div id="loader-container">
+            <img src="../../images/loader_icon.gif" class="loader-img" />
+        </div>-->
+
+        <div id="loader-container" loader-icon>
+            <img src="../../images/loader_icon.gif" class="loader-img" />
+        </div>
+    
+    <div ng-controller="FormController1" ></div>
+
+        <div ng-controller="FormControllers"></div>
+
+    <!-- End of T&C component-->
+</div><!-- end of container fluid-->
+    <!--Starting of footer code-->
+    <footer class="footer m1" ng-controller="footerController">
+        <div class="container-fluid">
+            <div class="row top-arrow">
+                <a href="javaScript:void(0);" target="_blank" ng-click="scrollToTop(1000)">
+                    <!--Pass time in milliseconds to set time taken to scroll to top of page-->
+                    <img src="../../images/BackToTop-1x.png" class="center-block img-responsive gotopButton" alt="go up">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg-offset-1 col-md-10 col-md-offset-1 col-lg-10 hidden-xs">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="accordion-toggle collapsed">
+                                        Mobile
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Devices</li>
+                                        <li class="list-group-item"><a href="#">Plans with Devices</a></li>
+                                        <li class="list-group-item"><a href="#">SIM-Only Plans</a></li>
+                                        <li class="list-group-item"><a href="#">Specials</a></li>
+                                        <li class="list-group-item"><a href="#">Add-ons</a></li>
+                                        <li class="list-group-item"><a href="#">Prepaid</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="accordion-toggle collapsed">
+                                        Broadband
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Plans</a></li>
+                                        <li class="list-group-item"><a href="#">Devices</a></li>
+                                        <li class="list-group-item"><a href="#">Add-ons</a></li>
+                                        <li class="list-group-item"><a href="#">Fixed Voice</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="accordion-toggle collapsed">
+                                        Travel
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Going Overseas</a></li>
+                                        <li class="list-group-item"><a href="#">Visiting Singapore</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0" class="accordion-toggle collapsed">
+                                        Digital Services
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse0" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Music & Entertainment</li>
+                                        <li class="list-group-item"><a href="#">Security</a></li>
+                                        <li class="list-group-item"><a href="#">Finance</a></li>
+                                        <li class="list-group-item"><a href="#">Others</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default ">
+                            <div class="panel-heading accordion">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="accordion-toggle collapsed">
+                                        Deals
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Phones & Tablets</li>
+                                        <li class="list-group-item"><a href="#">Mobile</a></li>
+                                        <li class="list-group-item"><a href="#">Braodband</a></li>
+                                        <li class="list-group-item"><a href="#">Bundles</a></li>
+                                        <li class="list-group-item"><a href="#">others</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="accordion-toggle collapsed">
+                                        My Account
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Manage Account</a></li>
+                                        <li class="list-group-item"><a href="#">Bills & Payments</a></li>
+                                        <li class="list-group-item"><a href="#">Rewards</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="accordion-toggle collapsed">
+                                        About Us
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Our Company</a></li>
+                                        <li class="list-group-item"><a href="#">Investors</a></li>
+                                        <li class="list-group-item"><a href="#">News</a></li>
+                                        <li class="list-group-item"><a href="#">Patnerships</a></li>
+                                        <li class="list-group-item"><a href="#">Regulatory Information</a></li>
+                                        <li class="list-group-item"><a href="#">Careers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default  ">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="accordion-toggle collapsed">
+                                        Support
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="#">Tips & Tricks</a></li>
+                                        <li class="list-group-item"><a href="#">FAQ</a></li>
+                                        <li class="list-group-item"><a href="#">User Guides</a></li>
+                                        <li class="list-group-item"><a href="#">Contact US</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+
+                <div class="col-md-10 col-md-offset-1 padding-zero">
+
+                    <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 footer-download">
+                        <div class="col-xs-6 col-md-4 col-sm-4 padding-zero">
+                            <a href="javaScript:void(0);">
+                                <img src='../../images/Footer-Download-icon-GooglePlay-1x.png' alt='Get it on Google Play' class="img img-responsive padding-zero">
+                            </a>
+                        </div>
+                        <div class="col-xs-6 col-md-4 col-sm-4 padding-zero">
+                            <a href="javaScript:void(0);">
+                                <img src='../../images/Footer-Download-icon-AppStore-1x.png' alt='Download on the App Store' class="img img-responsive padding-zero">
+                            </a>
+                        </div>
+                    </div>
+                    <div class='col-xs-12 col-sm-6 pull-left footer-social col-md-6 col-lg-6'>
+                        <span> <a href="javaScript:void(0);"><img src='../../images/Social-Icon-Facebook-1x.png' alt='Facebook'></a></span>
+                        <span> <a href="javaScript:void(0);"><img src='../../images/Social-Icon-Youtube-1x.png' alt='YouTube'></a></span>
+                        <span> <a href="javaScript:void(0);"><img src='../../images/Social-Icon-Linkedin-1x.png' alt='LinkedIn'></a></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <!--End of footer code-->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="../../scripts/slick-1.8.0/slick/slick.min.js"></script>
+    <script src="../../scripts/jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script src="../../scripts/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
+
+    <script src="../../scripts/app.js"></script>
+    <script src="../../scripts/app.common.js"></script>
+    <script src="../../scripts/app.config.js"></script>
+
+    <script src="../../scripts/core/app.core.js"></script>
+    <script src="../../scripts/core/app.core.directive.js"></script>
+    <script src="../../scripts/core/app.core.filter.js"></script>
+    <script src="../../scripts/core/app.core.service.js"></script>
+    <script src="../../scripts/core/app.core.controller.js"></script>
+
+    <script src="../../scripts/portal/app.portal.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.controller.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.directive.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.service.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.filter.js"></script>
+
+
+    <script src="../../scripts/portal/microsites/app.portal.microsites.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.controller.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.directive.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.service.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.filter.js"></script>
+
+    <script src="../../scripts/portal/microsites/app.portal.microsites.contactus.js"></script>
+
+
+</body>
+</html>

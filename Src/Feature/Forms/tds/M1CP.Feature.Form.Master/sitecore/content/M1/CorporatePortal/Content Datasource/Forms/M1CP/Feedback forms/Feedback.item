@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {A474F46C-81B2-421B-BED8-DE95D91D0428}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Feedback
+parent: {D5A2EDFE-8808-4134-87D4-418257EA45C8}
+name: Feedback
+master: {00000000-0000-0000-0000-000000000000}
+template: {D104A865-50AA-426A-BAEC-A551F01204C8}
+templatekey: FormFieldGroup
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: f6b0377f-904e-4285-ab08-27b9ad335379
+
+----field----
+field: {306C830A-D8FB-45C9-973D-ED9F6B837B7F}
+name: Fields
+key: fields
+content-length: 467
+
+{44D53776-D510-4561-AA0E-C80E0BFCD879}|{6ECFC417-A7BB-4227-91D8-4602A658ABFD}|{295B1202-099E-48AE-8BF2-07EA8E81AB41}|{9FD43F64-FF78-44AE-8C97-C1860FE25D07}|{DF9DC046-F63D-464C-A853-3CA647897160}|{720C2EA8-2C54-4D71-BA33-CC63FEEBA7FA}|{778CD387-424A-423A-A032-8A08BD11E9ED}|{7CB6905E-2AAA-4604-A169-A756980B465D}|{729AEE18-AE13-4333-9D9D-DFC47D677E04}|{95E175E8-B598-4845-B3B6-AC605EB8D3A1}|{E9DF0087-2E52-4B0C-8F5D-A936920245D2}|{25FC74DE-464A-4CC0-B765-E92025997603}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180205T035811Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f6b0377f-904e-4285-ab08-27b9ad335379
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180403T060007Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

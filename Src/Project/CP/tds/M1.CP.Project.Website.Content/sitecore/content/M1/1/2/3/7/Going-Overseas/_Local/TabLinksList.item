@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {B5A01519-1E4A-4B55-8960-14AF4E2050B1}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/_Local/TabLinksList
+parent: {2B86CA0D-5163-4035-83F2-309108D80C21}
+name: TabLinksList
+master: {00000000-0000-0000-0000-000000000000}
+template: {80B96A13-1EFD-429F-909E-BB934208421C}
+templatekey: CTAList
+created: 20180504T052930Z
+
+----version----
+language: en
+version: 1
+revision: e08296dd-f015-447b-bcaf-135229f23389
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 155
+
+{2FA7CE12-9B7F-4014-98A4-9525E219EA98}|{1725204C-3C80-48F0-85B8-D84F274F586E}|{222FC861-67A2-4E69-8AB7-332EBC481A92}|{3C6A87D5-6B1E-449C-9904-EA026F9B53EA}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 55
+
+ <p class="font-heading1">Postpaid Roaming Services</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T052930Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e08296dd-f015-447b-bcaf-135229f23389
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T063240Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

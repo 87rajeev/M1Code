@@ -1,0 +1,153 @@
+﻿@model M1CP.Feature.Banner.Models.IBannerModel
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.Base.Helpers
+
+@if (Model != null)
+{
+
+
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Banner.Models.IBannerParameterTemplateFields>();
+    var orientation = RenderingParamaters != null && RenderingParamaters.SelectedOrientation != null && RenderingParamaters.SelectedOrientation.style != null ? RenderingParamaters.SelectedOrientation.style : "left";
+    var dottheme = Model.EnableDotTheme ? "dots-show" : "dots-hide";
+
+    <div class="row">
+        <div class="topbanner">
+            <!-- If the topbanner background is an image -->
+            @if (!Model.IsVideo)
+            {
+                <div class="text-theme-black @(RenderingParamaters != null && RenderingParamaters.SelectedTheme != null && RenderingParamaters.SelectedTheme.style != null ? RenderingParamaters.SelectedTheme.style : "")">
+                    <!-- Topbanner background -->
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        @using (Html.Glass().BeginEditFrame(Model, "editimage", m => m.Image_Desktop))
+                    {
+                            @Html.Raw(HTMLHelper.BuildPictureTag(Model.Image_Desktop, "topbanner-background",true))
+                        }
+                    </div>
+                    <!-- Topbanner contents (left, right dots and text) -->
+                    <div class="col-xs-12 padding-false topbanner-content">
+                        <div class="row">
+                            <!-- Left-side dots. An offset of 1 column to the left so as to provide a margin -->
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false topbanner-dots-left @dottheme">
+                                @using (Html.Glass().BeginEditFrame(Model, "UpdateImage", m => m.DotImage))
+                    {
+                                    <img src="@Model.DotImage.Src" alt="" class="img-dots img-responsive pull-right">
+                                }
+
+                            </div>
+
+
+                            <!-- Category, title, description and buttons as a part of the top banner content -->
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 topbanner-text topbanner-text-@dottheme">
+                                <!-- topbanner-text-left to align it to the left. topbanner-text-right to align it to the right. topbanner-text-center to align it to the center. -->
+                                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 topbanner-text-@orientation">
+                                    <!-- change according to font-size -->
+                                    <div class="margin-false topbanner-caption">
+                                        @if (Html.Glass().IsInEditingMode)
+                                        {
+                                            <p class="topbanner-category font-body2">@Html.Glass().Editable(x => x.Title)</p>
+                                            <p class="font-heading1">@Html.Glass().Editable(x => x.BannerHeading)</p>
+                                            <p class="font-heading2">@Html.Glass().Editable(x => x.BannerSubHeading)</p>
+
+                                                <div class="orange-slider">
+                                                    <span class="slider-a1"></span>
+                                                </div>
+                                        }
+                                        else
+                                        {
+                                            if (!String.IsNullOrEmpty(Model.Title))
+                                            {
+                                                <p class="topbanner-category font-body2">@Html.Glass().Editable(x => x.Title)</p>
+                                            }
+                                            if (!String.IsNullOrEmpty(Model.BannerHeading))
+                                            {
+                                                <p class="font-heading1">@Html.Glass().Editable(x => x.BannerHeading)</p>
+                                            }
+                                            if (!String.IsNullOrEmpty(Model.BannerSubHeading))
+                                            {
+                                                <p class="font-heading2">@Html.Glass().Editable(x => x.BannerSubHeading)</p>
+                                            }
+                                            <div class="orange-slider">
+                                                <span class="slider-a1"></span>
+                                            </div>
+                                        }
+                                    </div>
+                                    @if (Html.Glass().IsInEditingMode)
+                                    {
+                                        <p class="topbanner-description font-body1">@Html.Glass().Editable(x => x.Description)</p>
+                                    }
+                                    else
+                                    {
+                                        if (!String.IsNullOrEmpty(Model.Description))
+                                        {
+                                            <p class="topbanner-description font-body1">@Html.Glass().Editable(x => x.Description)</p>
+                                        }
+                                    }
+
+
+                                    @foreach (var CTAmodel in Model.CTATitle)
+                                    {
+                                        @*@Html.Glass().RenderLink(CTAmodel, x => x.CTALink, isEditable: true)*@
+
+
+                                    using (Html.Glass().BeginEditFrame(CTAmodel, "EditLink", m => m.CTALink))
+                                    {
+                                        <a href="@((CTAmodel!=null && CTAmodel.CTALink!=null && CTAmodel.CTALink.Url != null) ?CTAmodel.CTALink.Url:"#")" target="@((CTAmodel!=null && CTAmodel.CTALink!=null && CTAmodel.CTALink.Target!=null)?CTAmodel.CTALink.Target:"_blank")" class="btn btn-block btn-default animated-button button-animated" data-goal="@CTAmodel.TrackingID">@(CTAmodel.CTALink!=null && CTAmodel.CTALink.Text !=null ? CTAmodel.CTALink.Text:"")</a>
+                                        }
+                                    }
+                                    <p class="promo-text">
+                                        @if (Html.Glass().IsInEditingMode)
+                                        {
+                                            <span class="promo">@Html.Glass().Editable(x => x.BannerPromoText)</span>
+                                            <span class="promo-details font-body8">@Html.Glass().Editable(x => x.BannerPromoSubText)</span>
+                                        }
+                                        else
+                                        {
+                                            if (!String.IsNullOrEmpty(Model.BannerPromoText))
+                                            {
+                                                <span class="promo">@Html.Glass().Editable(x => x.BannerPromoText)</span>
+                                            }
+                                            if (!String.IsNullOrEmpty(Model.BannerPromoSubText))
+                                            {
+                                                <span class="promo-details font-body8">@Html.Glass().Editable(x => x.BannerPromoSubText)</span>
+                                            }
+                                        }
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Right-side dots. An offset of 1 column to the right so as to provide a margin -->
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false @dottheme">
+
+                                @using (Html.Glass().BeginEditFrame(Model, "UpdateImage", m => m.DotImage))
+                    {
+                                    <img src="@Model.DotImage.Src" alt="" class="img-dots img-responsive pull-left">
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+            <!-- If the topbanner background is a video -->
+                <div class="row">
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        <video class="topbanner-background" poster="../Images/hero-visual-Mobile-2x.jpg" controls loop>
+                            <source src="video/vid1.mp4" type="video/mp4">
+                            <source src="video/vid1.ogg" type="video/ogg">  <!-- any other type of video file -->
+                            <img src="../Images/hero-visual-Mobile-2x.jpg" alt="" class="img-responsive"> <!-- fallback image -->
+                        </video>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+
+

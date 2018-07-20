@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP" ItemIcon="/temp/IconCache/Office/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/IFrame" ItemIcon="/temp/IconCache/business/32x32/blackboard.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP" ItemIcon="/temp/IconCache/BusinessV2/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame" ItemIcon="/temp/IconCache/business/32x32/blackboard.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/IFrame/IFrame" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrame" ItemIcon="/temp/IconCache/Applications/32x32/fit_to_size.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/IFrame/IFrame" ItemIcon="/temp/IconCache/applications/32x32/fit_to_size.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrameRenderingParameter/IFrame Rendering Parameters/Id" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrameRenderingParameter/IFrame Rendering Parameters/Class" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrameRenderingParameter/IFrame Rendering Parameters/Frameborder" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrame/IFrame" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrame/IFrame/URL" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrameRenderingParameter" ItemIcon="/temp/IconCache/Applications/32x32/magic-wand.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/IFrame/_IFrameRenderingParameter/IFrame Rendering Parameters" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

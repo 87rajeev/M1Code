@@ -1,0 +1,576 @@
+﻿
+/*start of Gradient-thumbnail css*/
+.gradient-thumbnail .thumbnail {
+    padding: 5px;
+    border: 0;
+    margin-bottom: inherit;
+}
+
+.gradient-thumbnail .linear-background {
+    padding: 45px 0px;
+    min-height: 230px;
+    max-height: 230px;
+}
+
+.gradient-thumbnail .thumbnail a {
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.gradient-thumbnail .thumbnail .content {
+    line-height: 1;
+}
+
+.gradient-thumbnail .thumbnail .content span {
+    display: inline-block;
+    font-size: 80px;
+    line-height: 1;
+    font-family: Gotham-Bold;
+}
+
+.gradient-thumbnail .thumbnail .content span sup {
+    font-size: 32px;
+    vertical-align: super;
+    line-height: 1.7;
+    font-family: Gotham-Bold;
+}
+
+.gradient-thumbnail .thumbnail .content p {
+    font-size: 25px;
+    font-family: Gotham;
+}
+
+.gradient-thumbnail .thumbnail .content .gradient-thumb-heading2 {
+    font-size: 31px;
+    padding: 25px 0px;
+}
+
+.gradient-thumbnail .linear-background.theme-blue {
+    background: linear-gradient(to bottom right,#2C5AA5,#4088FF);
+}
+
+.gradient-thumbnail .linear-background.theme-green {
+    background: linear-gradient(to bottom right,#17B9B4,#78CFAA);
+}
+
+.gradient-thumbnail .linear-background.theme-purple {
+    background: linear-gradient(to bottom right,#3023AE,#C86DD7);
+}
+
+.gradient-thumbnail .linear-background.theme-red {
+    background: linear-gradient(to bottom right,#B24592,#F15F79);
+}
+
+.gradient-thumbnail .linear-background.theme-yellow {
+    background: linear-gradient(to bottom right,#FFA751,#FFE259);
+}
+
+.gradient-thumbnail .linear-background.theme-light-orange {
+    background: linear-gradient(to bottom right,#E75E0D,#FF9454);
+}
+
+.gradient-thumbnail .linear-background.theme-dark-orange {
+    background: linear-gradient(to bottom right,#E44D26,#F16529);
+}
+
+.gradient-thumbnail .linear-background.theme-ocean-blue {
+    background: linear-gradient(to bottom right,#2193B0,#6DD5ED);
+}
+
+.gradient-thumbnail .linear-background.theme-dark-blue {
+    background: linear-gradient(to bottom right,#09203F,#537895);
+}
+
+.gradient-thumbnail .thumbnail:nth-child(1) .linear-background {
+    border-radius: 43px 0px 0px 43px;
+}
+
+.gradient-thumbnail .thumbnail:nth-last-child(1) .linear-background {
+    border-radius: 0px 43px 43px 0px;
+}
+
+.thumbnail-component-col3 .caption-Image {
+    position: absolute;
+    left: 44%;
+    transform: translateX(-45%);
+    color: #ffffff;
+    bottom: 10%;
+}
+
+@media only screen and (max-width : 767px) {
+    .gradient-thumbnail .thumbnail.col-xs-12 .linear-background {
+        min-height: 110px;
+        max-height: 110px;
+        padding: 5px 0px;
+        box-sizing: border-box;
+    }
+
+    .gradient-thumbnail .thumbnail.col-sm-6.col-xs-6 .linear-background {
+        min-height: 130px;
+        max-height: 130px;
+        padding: 15px 0px;
+        box-sizing: border-box;
+    }
+
+    .gradient-thumbnail .thumbnail .content span {
+        font-size: 70px;
+    }
+
+    .gradient-thumbnail .thumbnail .content span sup {
+        font-size: 21px;
+        vertical-align: super;
+        line-height: 1.7;
+        font-family: Gotham-Bold;
+    }
+
+    .gradient-thumbnail .thumbnail .content p.gradient-thumb-description {
+        font-size: 14px;
+        font-family: Gotham;
+    }
+
+    .gradient-thumbnail .thumbnail .content .gradient-thumb-heading2 {
+        font-size: 21px;
+        padding: 25px 0px;
+    }
+
+    .gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(1) .linear-background {
+        border-radius: 23px 0px 0px 0px;
+    }
+
+    .gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(2) .linear-background {
+        border-radius: 0px 23px 0px 0px;
+    }
+
+    .gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(3) .linear-background {
+        border-radius: 0px 0px 0px 23px;
+    }
+
+    .gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(4) .linear-background {
+        border-radius: 0px 0px 23px 0px;
+    }
+
+    .gradient-thumbnail .thumbnail.col-sm-12.col-xs-12:nth-child(1) .linear-background {
+        border-radius: 23px 23px 0px 0px;
+    }
+
+    .gradient-thumbnail .thumbnail.col-sm-12.col-xs-12:nth-last-child(1) .linear-background {
+        border-radius: 0px 0px 23px 23px;
+    }
+}
+
+/*End of Gradient-thumbnail css*/
+
+
+/* start of thumbnail type3 component */
+/* start of css for icon_thumbnail_type1 component */
+.thumbnail-type3-component .row1 {
+    padding: 10px 0;
+}
+
+.thumbnail-type3-component .thumbnail-type3-caption .font-body1 {
+    margin: 10px 0 0 0; /* CSS to be provided ? */
+}
+
+.thumbnail-type3-item {
+    padding: 10px;
+}
+
+.thumbnail-type3-item-image img {
+    height: 85px;
+}
+
+.thumbnail-type3-item .font-body7 {
+    margin-bottom: 3px;
+}
+
+.thumbnail-type3-component .media-body {
+    width: 100%;
+    word-break: break-word;
+}
+/* end of css for icon_thumbnail_type1 component */
+
+/* start of css for icon_thumbnail_type2 component */
+.thumbnail-type3 .thumbnail-type3-image img {
+    margin: 0 auto 15px;
+}
+
+.thumbnail-type3 .thumbnail-type3-text .font-heading8, .thumbnail-type3 .thumbnail-type3-text .font-heading9 {
+    display: inline;
+}
+
+.thumbnail-type3 .thumbnail-type3-text .font-body6 {
+    margin-top: 6px;
+}
+/* end of css for icon_thumbnail_type2 component */
+
+@media (max-width: 767px) {
+    .thumbnail-type3-content {
+        padding: 0 10px;
+    }
+
+    .thumbnail-type3 .thumbnail-type3-item .thumbnail-type3-item-image {
+        display: block;
+        min-height: 100px;
+    }
+
+    .thumbnail-type3 .thumbnail-type3-item .thumbnail-type3-item-image img {
+        margin: auto;
+        display :block;
+    }
+
+    /* check */
+    /*.thumbnail-type3 .thumbnail-type3-item {
+        min-height: 230px;
+    }*/
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .thumbnail-type3 {
+        padding: 10px 55px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .thumbnail-type3-variant .thumbnail-type3-item:nth-child(3) {
+        clear: both;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .thumbnail-type3-component .font-body7 {
+        font-size: 14px;
+    }
+
+    .thumbnail-type3-component .font-body1 {
+        font-size: 13px;
+    }
+
+    .thumbnail-type3-item {
+        padding: 10px 5px;
+    }
+
+    .thumbnail-type3-item-image img {
+        height: 45px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .thumbnail-type3-component .font-body7 {
+        font-size: 17px;
+    }
+
+    .thumbnail-type3-component .font-body1 {
+        font-size: 15px;
+    }
+}
+/* end of thumbnail type3 component */
+
+
+/* start of thumbnail_3col component */
+.thumbnail-component-col3 .thumbnail .caption-bottom {
+    margin-top: -30px;
+}
+
+.thumbnail-component-col3 .thumbnail img {
+    width: 100%;
+}
+
+.thumbnail-component-col3 .border-dottedimage {
+    padding-bottom: 6%;
+    padding-right: 5%;
+    background-size: 90%;
+}
+
+.thumbnail-component-col3 .description {
+    padding-top: 11px;
+}
+
+.thumbnail-component-col3 .description .btn.btn-default {
+    margin-top: 11px;
+}
+
+.thumbnail-component-col3 .description p {
+    margin-bottom: 0px;
+}
+
+@media(min-width: 768px) {
+    .thumbnail-component-col3 .description {
+        padding-top: 25px;
+    }
+
+    .thumbnail-component-col3 .description .btn.btn-default {
+        margin-top: 18px;
+    }
+}
+/* end of thumbnail_3col component */
+
+
+/*start of text-gradient component css*/
+.text-gradient .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.text-gradient .text-gradient-item {
+    padding: 20px 0;
+}
+
+.text-gradient .text-gradient-heading {
+    font-family: Gotham-Black;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin: 0px;
+}
+
+.text-gradient .text-gradient-description {
+    font-family: Gotham;
+    font-size: 25px;
+}
+
+/* start of common gradient heading colors  */
+.text-gradient-item.theme-pink,.text-gradient-item.theme-blue,.text-gradient-item.theme-green,.text-gradient-item.theme-purple,.text-gradient-item.theme-light-orange,.text-gradient-item.theme-dark-orange,.text-gradient-item.theme-yellow,.text-gradient-item.theme-dark-blue,.text-gradient-item.theme-ocean-blue {
+    background-color:transparent;
+}
+
+.theme-blue .text-gradient-heading span {
+    background: linear-gradient(to right, #2c5aa5, #4088ff);
+	background: -webkit-linear-gradient(to right, #2c5aa5, #4088ff);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #2c5aa5; /* fallback color */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='transparent',GradientType=0);
+}
+
+.theme-green .text-gradient-heading span {
+    background: linear-gradient(to right, #17b9b4 , #78cfaa);
+	background: -webkit-linear-gradient(to right, #17b9b4 , #78cfaa);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #17b9b4; /* fallback color */
+}
+
+.theme-purple .text-gradient-heading span {
+    background: linear-gradient(to right, #3023ae , #c86dd7);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #3023ae; /* fallback color */
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='transparent',GradientType=0);
+    zoom: 1;*/
+}
+
+.theme-yellow .text-gradient-heading span {
+    background: linear-gradient(to right,#ffa751, #ffe259);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #ffa751; /* fallback color */
+}
+
+.theme-pink .text-gradient-heading span {
+    background: linear-gradient(to right,#b24592 , #f15f79);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #b24592; /* fallback color */
+}
+
+.theme-dark-orange .text-gradient-heading span {
+    background: linear-gradient(to right,#e44d26 , #f16529);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #e44d26; /* fallback color */
+}
+
+.theme-ocean-blue .text-gradient-heading span {
+    background: linear-gradient(to right,#2193b0, #6dd5ed);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #2193b0; /* fallback color */
+}
+
+.theme-light-orange .text-gradient-heading span {
+    background: linear-gradient(to right, #e75e0d , #ff9454);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #e75e0d; /* fallback color */
+}
+
+.theme-dark-blue .text-gradient-heading span {
+    background: linear-gradient(to right, #09203f,#537895);
+    background: -ms-linear-gradient(left,transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    color: #09203f; /* fallback color */
+}
+/* end of common gradient heading colors */
+.text-gradient-item.theme-pink,.text-gradient-item.theme-blue,.text-gradient-item.theme-green,.text-gradient-item.theme-purple,.text-gradient-item.theme-light-orange,.text-gradient-item.theme-dark-orange,.text-gradient-item.theme-yellow,.text-gradient-item.theme-dark-blue,.text-gradient-item.theme-ocean-blue {
+background-color:transparent;}
+
+/* start of common gradient price colors */
+.theme-blue .text-gradient-price {
+    color: #2c5aa5;
+}
+
+.theme-green .text-gradient-price {
+    color: #17b9b4;
+}
+
+.theme-purple .text-gradient-price {
+    color: #3023ae;
+}
+
+.theme-pink .text-gradient-price {
+    color: #b24592;
+}
+
+.theme-light-orange .text-gradient-price {
+    color: #e75e0d;
+}
+
+.theme-dark-blue .text-gradient-price {
+    color: #09203f;
+}
+
+.theme-yellow .text-gradient-price {
+    color: #ffa751;
+}
+
+.theme-dark-orange .text-gradient-price {
+    color: #e44d26;
+}
+
+.theme-ocean-blue .text-gradient-price {
+    color: #2193b0;
+}
+/* start of common gradient price colors */
+
+@media (max-width: 767px) {
+    .text-gradient {
+        margin: 0 10px;
+    }
+
+    .text-gradient .text-gradient-item {
+        border-bottom: 2px solid #f6f7f9;
+    }
+
+    .text-gradient-item:last-child {
+        border: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-gradient .text-gradient-item {
+        border-right: 2px solid #f6f7f9;
+    }
+
+    .text-gradient-item:last-child {
+        border: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-gradient .text-gradient-heading {
+        font-size: 40px
+    }
+}
+/*end of text-gradient component css*/
+
+/*css for thumbnailComponent*/
+.thumbnail .col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.thumbnail .centered-align {
+    display: inline-block;
+    float: none;
+}
+
+.thumbnailTopMargin {
+    margin-top: 15%;
+}
+
+.thumbnailbottomMargin {
+    margin-bottom: 4%;
+}
+/*end of  thumbnailComponent*/
+
+
+/* Start of postpaid promo css */
+.postpaid-promotion .caption .btn {
+    padding: 6px 0;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .postpaid-promotion .font-body7 {
+        font-size: 13px !important;
+    }
+
+    .postpaid-promotion .font-body6 {
+        font-size: 11px !important;
+    }
+}
+.hide-device-promortion {
+    display: none !important;
+}
+
+@media (min-width: 768px) {
+    .postpaid-promotion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .postpaid-promotion.promotions-half .col-sm-3, .postpaid-promotion.promotions-half .col-sm-9, .col-sm-12.postpaid-promotion.promotions-half {
+        width: 50%;
+    }
+
+    .col-sm-12.postpaid-promotion.promotions-full {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .postpaid-promotion .caption {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .postpaid-promotion img {
+        margin: 0 auto;
+    }
+
+    .postpaid-promotion .caption .btn {
+        display: inline-block;
+        float: none;
+    }
+}
+/* End of postpaid promo css */

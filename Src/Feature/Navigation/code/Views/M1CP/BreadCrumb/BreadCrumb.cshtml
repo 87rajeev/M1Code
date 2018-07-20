@@ -1,0 +1,28 @@
+﻿@model List<M1CP.Feature.Navigation.Models.URLDetails>
+
+
+<div class="row">
+    <!--Start of breadcrumb -->
+
+    <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 theme-light  text-theme-orange">
+        <ul class="breadcrumb font-body6">
+            @{
+                var Count = Model.Count;
+                for (int iteration = 1; iteration <= Model.Count; iteration++)
+                {
+                    var bread = Model[iteration-1];
+                    if (iteration == Count)
+                    {
+                        <li class="active"><a href="#">@bread.LinkName</a></li>
+                    }
+                    else
+                    {
+                        <li><a href="@bread.LinkURL">@bread.LinkName</a></li>
+                    }
+                }
+            }                
+          </ul>
+    </div>
+    </div>
+    <!--End of breadcrumb-->
+

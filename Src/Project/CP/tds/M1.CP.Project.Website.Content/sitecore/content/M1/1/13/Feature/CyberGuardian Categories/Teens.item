@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {4820553A-C883-414F-A34B-75A3E950ECE5}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Site Settings/Feature/CyberGuardian Categories/Teens
+parent: {8EEDE98B-9870-4668-8E27-E9BFD357297B}
+name: Teens
+master: {00000000-0000-0000-0000-000000000000}
+template: {54BC2F7A-C862-4698-8747-2453269A8C3F}
+templatekey: CyberGuardian Categories
+created: 20180515T103710Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: 9b7e4474-9b7b-4fe9-b144-216c6d7f5d1b
+
+----field----
+field: {B691CCEC-4C1D-4EB1-994F-3B94542F0DE2}
+name: Category Color
+key: category color
+content-length: 38
+
+{8C96009C-791C-46D9-9E0C-DEBC96E5283C}
+----field----
+field: {5C0832C9-FB68-4305-B58C-DA5A84281DC3}
+name: Category Name
+key: category name
+content-length: 5
+
+Teens
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180515T103710Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9b7e4474-9b7b-4fe9-b144-216c6d7f5d1b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180515T123228Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

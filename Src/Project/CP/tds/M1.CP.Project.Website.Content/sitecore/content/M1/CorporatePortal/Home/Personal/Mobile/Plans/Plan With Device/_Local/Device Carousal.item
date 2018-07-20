@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {262D46CF-D4FA-43EA-8FDF-0BA03D23B468}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Device Carousal
+parent: {8F0E88EE-7128-4723-929D-9604E87FE889}
+name: Device Carousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {28336C18-2098-4530-AF87-1EA37046416F}
+templatekey: Device Carousal
+created: 20180410T102946Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{042CBBAA-754F-43BC-B872-BF7ABE17686E}
+----version----
+language: en
+version: 1
+revision: 4593bbf8-0f93-41e5-9d31-2e3271cb66af
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 121
+
+  <h1 class="font-heading1">Hey! Check these</h1>
+
+                <h3 class="font-heading3">&nbsp;PROMOTIONS OUT!</h3>
+
+
+----field----
+field: {E0F181F9-5708-4A59-955F-339084ABD546}
+name: Devices
+key: devices
+content-length: 155
+
+{409D4B8B-0222-4130-8C21-E5F08817C3F9}|{A00AA047-72BF-4652-BFD2-EF924ED03DB0}|{3DF34B89-61EC-451D-B8C7-D51DDF1C3C8E}|{7DB61499-940F-4D30-8209-2358727FA50C}
+----field----
+field: {1C2E6556-7956-47FF-B335-4C36393A04FA}
+name: New Product Logo
+key: new product logo
+content-length: 58
+
+<image mediaid="{4DB90133-83E4-4AFE-88F8-D7E514E37E69}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180410T102946Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4593bbf8-0f93-41e5-9d31-2e3271cb66af
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180426T123821Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

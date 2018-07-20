@@ -1,0 +1,33 @@
+﻿/* start of css for FAQ table */
+.customers {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customers th {
+    border: 1px solid #E75E0D;
+    padding: 10px;
+}
+
+.customers td {
+    border-right: 1px solid #E75E0D;
+    border-left: 1px solid #E75E0D;
+    padding: 10px;
+}
+
+.customers tr:last-child {
+    border-bottom: 1px solid #E75E0D;
+}
+
+.customers tr:hover {
+    background-color: #ddd;
+}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: white;
+    color: #E75E0D;
+}
+/* end of css for FAQ table */

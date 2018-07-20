@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap XML" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/media library/M1/M1CP/Feature/Sitemap XML" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML" ItemIcon="/temp/IconCache/Apps/32x32/Routes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap XML/Sitemap" ItemIcon="/temp/iconcache/software/32x32/element.png" />
+  <Item ItemPath="/sitecore/media library/M1/M1CP/Feature/Sitemap XML/sitemap rendering thumbnail" ItemIcon="/temp/IconCache/~/media/60427ac1fc374f3fa2db3e5222fa3936.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies" ItemIcon="/temp/IconCache/Applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Search Engines" ItemIcon="/temp/IconCache/applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/M1CPWebsite" ItemIcon="/temp/iconcache/apps/32x32/map.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies/always" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies/hourly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies/daily" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies/weekly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies/monthly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies/yearly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Change Frequencies/never" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Search Engines/Bing" ItemIcon="/temp/iconcache/apps/32x32/search.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap XML/Search Engines/Google" ItemIcon="/temp/iconcache/apps/32x32/search.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Exclude From Sitemap" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Sitemap Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/__Standard Values" ItemIcon="/~/icon/Apps/32x32/Codes.png.aspx" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Change Frequency" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Priority" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap XML/Sitemap" ItemIcon="/~/icon/Software/32x32/element.png.aspx" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap XML/Sitemap" ItemIcon="/temp/iconcache/software/32x32/element.png" />
+  <Item ItemPath="/sitecore/media library/M1/M1CP/Feature/Sitemap XML/sitemap rendering thumbnail" ItemIcon="/temp/IconCache/~/media/60427ac1fc374f3fa2db3e5222fa3936.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/__Standard Values" ItemIcon="/temp/iconcache/apps/32x32/codes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Change Frequency" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Exclude From Sitemap" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Priority" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings/Sitemap Settings/Sitemap Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap XML" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap XML" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap XML Page Settings" ItemIcon="/temp/IconCache/Apps/32x32/Codes.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Configuration/Excluded Items" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP" ItemIcon="/temp/IconCache/BusinessV2/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Data/Search Engines" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP" ItemIcon="/temp/IconCache/Office/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Sitemap/Sitemap" ItemIcon="/temp/iconcache/software/32x32/element.png" />
+  <Item ItemPath="/sitecore/media library" ItemIcon="/temp/IconCache/Applications/16x16/photo_scenery.png" />
+  <Item ItemPath="/sitecore/media library/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/media library/M1/M1CP" ItemIcon="/temp/IconCache/BusinessV2/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/media library/M1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/media library/M1/M1CP/Feature/Sitemap" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/media library/M1/M1CP/Feature/Sitemap/sitemap rendering thumbnail" ItemIcon="/temp/IconCache/~/media/60427ac1fc374f3fa2db3e5222fa3936.ashx?h=16&amp;thn=1&amp;w=16" />
+  <Item ItemPath="/sitecore/system" ItemIcon="/temp/IconCache/People/16x16/workstation1.png" />
+  <Item ItemPath="/sitecore/system/Modules" ItemIcon="/temp/IconCache/Software/16x16/jar.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Website" ItemIcon="/temp/iconcache/apps/32x32/map.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies/always" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies/daily" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies/hourly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies/monthly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies/never" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies/weekly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies/yearly" ItemIcon="/temp/iconcache/apps/32x32/test.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Search Engines/Bing" ItemIcon="/temp/iconcache/apps/32x32/search.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Search Engines/Google" ItemIcon="/temp/iconcache/apps/32x32/search.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Search Engines/Yahoo" ItemIcon="/temp/iconcache/apps/32x32/search.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Change Frequencies" ItemIcon="/temp/iconcache/applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/Search Engines" ItemIcon="/temp/iconcache/applications/32x32/folder_gear.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap" ItemIcon="/temp/IconCache/Apps/32x32/Routes.png" />
+  <Item ItemPath="/sitecore/system/Modules/Sitemap/M1CPWebsite" ItemIcon="/temp/iconcache/apps/32x32/map.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap" ItemIcon="/temp/IconCache/apps/32x32/routes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Change Frequency" ItemIcon="/temp/IconCache/Apps/32x32/Test.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Shared Content Definition" ItemIcon="/temp/IconCache/apps/32x32/dna.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Shared Content Definition/__Standard Values" ItemIcon="/temp/iconcache/apps/32x32/dna.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Shared Content Definition/Shared Content" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Shared Content Definition/Shared Content/Content Location" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Shared Content Definition/Shared Content/Parent Item" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration" ItemIcon="/temp/IconCache/Apps/32x32/Map.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/__Standard Values" ItemIcon="/temp/iconcache/apps/32x32/map.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Configuration" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Configuration/Cleanup Bucket Path" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Configuration/Enabled Templates" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Configuration/File Name" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Configuration/Server Url" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Data/Search Engines" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Robots Txt settings" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Configuration/Robots Txt settings/Site Robots Txt" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings" ItemIcon="/temp/IconCache/Apps/32x32/Codes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings/__Standard Values" ItemIcon="/temp/iconcache/apps/32x32/codes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings/Sitemap Settings" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings/Sitemap Settings/Change Frequency" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings/Sitemap Settings/Exclude From Sitemap" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings/Sitemap Settings/Priority" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings/Sitemap Settings/Sitemap Title" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Search Engine" ItemIcon="/temp/IconCache/apps/32x32/search.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Search Engine/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Search Engine/Data/Sitemap Submission Uri" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

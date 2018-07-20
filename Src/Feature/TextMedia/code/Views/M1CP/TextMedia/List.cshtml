@@ -1,0 +1,21 @@
+﻿@model M1CP.Feature.TextMedia.Models.TextMediaModelList
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Extensions
+@using Glass.Mapper.Sc.Web.Mvc
+<div>
+    <h4>@Html.Glass().Editable(x => x.Title)</h4>
+    <p>@Html.Glass().Editable(x => x.Description)</p>
+    @if (null != Model.Items)
+    {
+        <ul>
+            @foreach (var item in Model.Items)
+            {
+                <li>
+                    @Html.Glass().RenderImage(item, x => x.Image,true)
+                    <strong>@Html.Glass().Editable(item, x => x.Title)</strong>
+                    <p>@Html.Glass().Editable(item, x => x.Description)</p>
+                </li>
+            }
+        </ul>
+    }
+</div>

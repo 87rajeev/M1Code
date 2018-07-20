@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {712574F8-785E-4DAD-B332-1F4A40A523DC}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/mobile-add-ons/_Local/Accordion/accordion-section/thumbnail-carousal/carousal-component
+parent: {8211191C-DE67-4CC0-A771-34FB72B90148}
+name: carousal-component
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180413T110346Z
+
+----version----
+language: en
+version: 1
+revision: 79b26c32-6aa6-4a82-8edc-5fdeb444b50c
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 0
+
+
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 109
+
+<link text="View" linktype="external" url="https://google.com" anchor="" class="btn btn-default" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 5
+
+Safra
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 56
+
+Enjoy free calls to more numbers,because you deserve it.
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{BDE007C3-FEF2-452B-A1C3-AACDAD7006F5}" ></image>
+----field----
+field: {15197F74-BE43-4301-8192-2FD22280F837}
+name: Video URL
+key: video url
+content-length: 57
+
+<link linktype="external" url="https://www.google.com" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Carousal Component
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180309T125129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79b26c32-6aa6-4a82-8edc-5fdeb444b50c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180413T125953Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

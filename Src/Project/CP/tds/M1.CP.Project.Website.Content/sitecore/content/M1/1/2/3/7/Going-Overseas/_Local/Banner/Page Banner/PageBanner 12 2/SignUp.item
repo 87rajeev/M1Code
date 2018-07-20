@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {6D76A01D-2E85-4942-A197-036BD422CBB7}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/_Local/Banner/Page Banner/PageBanner 12 2/SignUp
+parent: {4BCEAA7E-164D-4D78-B5CD-669DAC06DB15}
+name: SignUp
+master: {00000000-0000-0000-0000-000000000000}
+template: {0BD7345A-485A-4012-B7F0-635C5D0523CB}
+templatekey: CTA
+created: 20180504T065632Z
+
+----version----
+language: en
+version: 1
+revision: 007fea58-5def-4a28-82d7-c7c4a0e5414c
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 11
+
+Sign Up Now
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 89
+
+<link text="google" linktype="external" url="https://google.co.in" anchor="" target="" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180314T110913Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+007fea58-5def-4a28-82d7-c7c4a0e5414c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180404T102349Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

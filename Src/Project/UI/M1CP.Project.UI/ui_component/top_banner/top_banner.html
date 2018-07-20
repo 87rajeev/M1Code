@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="m1app">
+<head>
+    <title>M1-Mobile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/top_banner.css">
+    <link rel="stylesheet" href="../../css/tab.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+
+</head>
+<body>
+   
+
+    <div class="container-fluid">
+        <!-- Topbanner component -->
+
+        <div class="row">
+            <div class="topbanner" ng-init="align='left'; backgroundType='image'; dotTheme='dots-show';">
+                <!-- If the topbanner background is an image -->
+                <div ng-if="backgroundType==='image'" class="theme-light text-theme-black">
+                    <!-- Topbanner background -->
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="../../images/hero-visual-Mobile-M1x.jpg"> <!-- Image for mobile screens (width less than 767px) -->
+                            <source media="(min-width: 768px)" srcset="../../images/hero-visual-Mobile-1x.jpg"> <!-- Image for tablets, desktops and larger screens (width greater than 767px) -->
+                            <img src="../../Images/hero-visual-Mobile-1x.jpg" alt="Topbanner background"> <!-- Fallback image. Preferrably a desktop image. (for IE 11 and older browsers) -->
+                        </picture>
+                    </div>
+                    <!-- Topbanner contents (left, right dots and text) -->
+                    <div class="col-xs-12 padding-false topbanner-content">
+                        <div class="row">
+                            <!-- An offset of 1 column to the left so as to provide a margin -->
+                            <div class="col-xs-1"></div>
+
+                            <!-- Left-side dots -->
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false topbanner-dots-left {{ dotTheme }}">
+                                <img src="../../Images/Oval-Orange-1x.png" alt="Dotted image" class="img-dots img-responsive pull-right">
+                            </div>
+
+                            <!-- Category, title, description and buttons as a part of the top banner content -->
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 topbanner-text topbanner-text-{{ dotTheme }}">
+                                <!-- topbanner-text-left to align it to the left. topbanner-text-right to align it to the right. topbanner-text-center to align it to the center. -->
+                                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 topbanner-text-{{align}}">
+                                    <!-- change according to font-size -->
+                                    <div class="topbanner-caption">
+                                        <p class="topbanner-category font-body2">Mobile</p>
+                                        <p class="font-heading1">For whatever plans</p>
+                                        <p class="font-heading2">you may have</p>
+                                        <div class="orange-line">
+                                            <span class="orange-line-a1"></span>
+                                        </div>
+                                    </div>
+                                    <p class="topbanner-description font-body1">Thinking of getting the latest devices with one of our plans?Wanna stay faithful and do more on our SIM-only plans?Do it,Either way,you'll never run out of data again.</p>
+                                    <a href="" class="btn btn-block btn-default animated-button button-animated">Sign up for mySIMe</a>
+                                    <a href="" class="btn btn-block btn-default animated-button button-animated">Sign up for mySIM3</a>
+                                    <p class="promo-text"><span class="promo">PROMO</span><span class="promo-details font-body8">&nbsp;Lorem ipsum dolor sit amet, consectetur</span></p>
+                                </div>
+                            </div>
+
+                            <!-- Right-side dots. An offset of 1 column to the right so as to provide a margin -->
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false {{ dotTheme }}">
+                                <img src="../../images/Oval-Orange-1x.png" alt="Dotted image" class="img-dots img-responsive pull-right">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If the topbanner background is a video -->
+                <div ng-if="backgroundType==='video'" class="row">
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        <video class="topbanner-background" poster="../../images/hero-visual-Mobile-2x.jpg" controls loop>
+                            <source src="video/vid1.mp4" type="video/mp4">
+                            <source src="video/vid1.ogg" type="video/ogg">  <!-- any other type of video file -->
+                            <img src="../../images/hero-visual-Mobile-2x.jpg" alt="Video default image" class="img-responsive"> <!-- fallback image -->
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of topbanner-->
+
+    </div>
+
+
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
+    <script src="../../scripts/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script src="../../scripts/app.js"></script>
+
+</body>
+</html>

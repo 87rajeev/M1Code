@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {589C5263-4EE1-4DF8-AAEB-AB19A94A5BD4}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local
+parent: {70360971-7670-4D3A-A1FB-8E7261A1D7E0}
+name: _Local
+master: {00000000-0000-0000-0000-000000000000}
+template: {9669259C-6AB5-4626-B5B6-BA063C47C576}
+templatekey: Local Datasource Folder
+created: 20180502T152442Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 5
+
+-1000
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 194
+
+{2568749C-D4FF-4081-8ED2-3B87BD0E4E2F}|{7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}|{9312022F-C2D2-44B0-802D-C502AB9AE87E}|{533A169B-E03D-4883-801B-0FFE5373EC88}|{80B96A13-1EFD-429F-909E-BB934208421C}
+----version----
+language: en
+version: 1
+revision: ff705716-0463-41a1-b8f1-590af2d69f19
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180502T152442Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff705716-0463-41a1-b8f1-590af2d69f19
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180503T110906Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

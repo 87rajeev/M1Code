@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {C81A4B4F-2146-4DD1-8F15-588C9C238BB6}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Feature/Forms/Fields/ListFormField/__Standard Values
+parent: {3EC74F3E-E8BB-46A3-8E2A-6AEE60D63D61}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3EC74F3E-E8BB-46A3-8E2A-6AEE60D63D61}
+templatekey: ListFormField
+created: 20180423T072453Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{4F526D34-7DFE-4444-8B89-0616DE873203}
+----version----
+language: en
+version: 1
+revision: 0f4586c3-f5cb-47ba-b1f2-de0f0e60f2c9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180128T112609Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0f4586c3-f5cb-47ba-b1f2-de0f0e60f2c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180423T072454Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

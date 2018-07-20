@@ -1,0 +1,70 @@
+----item----
+version: 1
+id: {3E896BD9-BED4-4796-95C4-5E873DCAEE85}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/_Local/plans-textcarousal/mSquad
+parent: {7B11EAEC-34A3-48B1-9101-E89AD19752DD}
+name: mSquad
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180521T133252Z
+
+----version----
+language: en
+version: 1
+revision: 5a3c5dd6-8612-417f-8949-9ced73c3691b
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 6
+
+mSquad
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 6
+
+mSquad
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 90
+
+Use our one-stop
+integration service to have
+your home network up and
+running in no time.
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180521T133252Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5a3c5dd6-8612-417f-8949-9ced73c3691b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T133335Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

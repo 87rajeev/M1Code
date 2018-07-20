@@ -1,0 +1,21 @@
+﻿@using M1CP.Feature.FAQ
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+
+@model M1CP.Feature.FAQ.Models.IFAQGroup
+
+<dl>
+    @foreach (var item in Model.GroupMember)
+    {
+        <dt>
+            @Html.Glass().Editable(item, x => x.Question)
+        </dt>
+        <dd>
+            @Html.Glass().Editable(item, x => x.Answer)
+        </dd>
+    }
+</dl>
+

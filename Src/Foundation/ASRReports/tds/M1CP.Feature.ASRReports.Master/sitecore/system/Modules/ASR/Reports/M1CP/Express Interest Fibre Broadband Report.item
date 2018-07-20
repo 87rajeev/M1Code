@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {4BCF7145-2244-4CF5-BA63-FD00806E1CF7}
+database: master
+path: /sitecore/system/Modules/ASR/Reports/M1CP/Express Interest Fibre Broadband Report
+parent: {8C0B98F2-B11F-4488-9733-3B26259E6CF8}
+name: Express Interest Fibre Broadband Report
+master: {00000000-0000-0000-0000-000000000000}
+template: {55ECC766-BF85-4E85-92CB-53AE306F0414}
+templatekey: Report
+created: 20180320T055736Z
+
+----version----
+language: en
+version: 1
+revision: 78f9ff4e-4750-4eff-8cfb-a9f2ca413b29
+
+----field----
+field: {F4033239-E21D-488D-990D-78E45760FCE3}
+name: Scanners
+key: scanners
+content-length: 38
+
+{809A5FF6-17D2-4097-AEEF-19733BFCCD24}
+----field----
+field: {9DE630AE-6A85-4821-9842-E90D900769B0}
+name: Viewers
+key: viewers
+content-length: 38
+
+{80C0887A-EE94-4D1A-A533-D40CBFE4717C}
+----field----
+field: {B5EBDC93-C3AB-4438-89FB-A8D7F5552110}
+name: Filters
+key: filters
+content-length: 38
+
+{000FDF48-2E85-4720-A77F-EDCC94DE2DE9}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180320T055737Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+78f9ff4e-4750-4eff-8cfb-a9f2ca413b29
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180320T060604Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,88 @@
+----item----
+version: 1
+id: {557D67AD-29D9-403E-8D62-BCB093743F8A}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Thumbnail
+parent: {ACFD320E-7D55-42A7-B184-882D71C59D2F}
+name: Thumbnail
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B5DDC1F-0239-4BA3-BCB2-0665159FE3B9}
+templatekey: Thumbnail
+created: 20180329T112732Z
+
+----version----
+language: en
+version: 1
+revision: 09620fb0-9419-4ef9-98e3-277725469fd6
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 9
+
+Thumbnail
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 65
+
+<link text="sd" linktype="external" url="" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 91
+
+ <h1 class="font-heading1">We've got you</h1>
+ <h3 class="font-heading3">&nbsp;COVERED</h3>
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 100
+
+We get it. Some of you are data junkies while others are a little chatty. Just&nbsp; what suits you!
+----field----
+field: {7F951ECA-B94D-4A2D-B481-C42C1C3D51A3}
+name: Thumbnail Component Items
+key: thumbnail component items
+content-length: 116
+
+{6BCC7722-14E1-4B12-BA5A-CBD469D68157}|{37B57A38-919C-4277-857D-E1C1B7544D76}|{F656BDB2-6905-4AEB-BDE7-473B34FFE2B1}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180329T112732Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09620fb0-9419-4ef9-98e3-277725469fd6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180522T061746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

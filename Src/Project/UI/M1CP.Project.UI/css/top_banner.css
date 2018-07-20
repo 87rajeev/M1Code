@@ -1,0 +1,419 @@
+﻿/* css for topbanner component */
+.topbanner-background {
+    position: relative;
+}
+
+.topbanner .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Setting width to 100% for topbanner background so that it fits the entire screen */
+.topbanner-background, .topbanner-background img {
+    width: 100%;
+}
+
+.topbanner .topbanner-content {
+    position: absolute;
+    top: 0;
+}
+
+.topbanner .topbanner-content, .topbanner .topbanner-contentvariant {
+    margin-top: 105px;
+}
+
+.topbanner .topbanner-dots-left, .topbanner .topbanner-text {
+    margin-top: 4%; /* change as per requirement */
+}
+
+.topbanner .topbanner-content .img-dots, .topbanner .topbanner-contentvariant .img-dots {
+    min-width: 40px; /* to be checked */
+}
+
+.topbanner .topbanner-text {
+    position: relative;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-left {
+    position: absolute;
+    left: 0;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-right {
+    position: absolute;
+    right: 0;
+}
+
+/* common css ? */
+.topbanner .topbanner-text .topbanner-text-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.topbanner .topbanner-text .topbanner-caption {
+    display: table;
+    line-height: 1.1;
+}
+
+.topbanner .topbanner-text .topbanner-caption .topbanner-category {
+    display: inline-block;
+    background: #fff;
+}
+
+.topbanner .topbanner-text .topbanner-caption .font-heading2 {
+    margin: 0 0 4px 0;
+}
+
+.topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+    margin: 10px 0 0 0;
+}
+
+.topbanner .dots-hide {
+    display: none;
+}
+
+.topbanner .topbanner-text.topbanner-text-dots-hide .topbanner-text-right {
+    transform: translateX(50%);
+}
+
+.topbanner .topbanner-text.topbanner-text-dots-hide .topbanner-text-center {
+    left: 0;
+    transform: translateX(50%);
+}
+
+/* landing page topbanner css */
+.topbanner.topbanner-landing .topbanner-text.topbanner-text-dots-hide .topbanner-text-center {
+    left: 0;
+    transform: translateX(75%);
+}
+
+.topbanner .topbanner-content .landing-banner-links .font-body6 {
+    display: inline-block;
+}
+
+.topbanner .topbanner-content .landing-banner-links ul li a.font-body2 {
+    background: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+/* end of landing page topbanner css */
+
+/* topbanner variant type css */
+.topbanner .topbanner-contentvariant {
+    display: block;
+    overflow: -webkit-paged-x;
+}
+
+.topbanner.topbanner-variant .topbanner-text {
+    margin-bottom: 40px;
+}
+
+.topbanner.topbanner-variant .topbanner-text .topbanner-description .font-body1 {
+    margin: 0;
+}
+/* end of topbanner variant type css */
+
+@media (max-width: 768px) {
+    .topbanner .topbanner-text-dots-hide {
+        width: 83.33%;
+    }
+
+    /* landing page topbanner css */
+    .topbanner .topbanner-text .col-xs-12 {
+        width: 100%;
+    }
+
+    .topbanner .topbanner-content .landing-banner-links {
+        text-align: center;
+    }
+    
+    .topbanner .topbanner-content .landing-banner-links ul li {
+        display: inline-block;
+        margin-right: 3%;
+        margin-bottom: 10px;
+    }
+    /* end of landing page topbanner css */
+
+    /* topbanner variant type css */
+    .topbanner.topbanner-variant {
+        min-height: 310px;
+    }
+    /* end of topbanner variant type css */
+}
+
+@media (min-width: 320px) and (max-width: 440px) {
+    .topbanner .topbanner-text .topbanner-caption .topbanner-category {
+        display: inline-block;
+        margin-bottom: 8px;
+        background: #fff;
+        padding: 5px;
+    }
+
+    .topbanner .topbanner-text .topbanner-text-left, .topbanner .topbanner-text .topbanner-text-right, .topbanner .topbanner-text .topbanner-text-center {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    /* topbanner variant type css */
+    .topbanner.topbanner-variant .topbanner-text {
+        padding: 0 8px;
+    }
+    /* end of topbanner variant type css */
+}
+
+@media (min-width: 769px) {
+    .topbanner .topbanner-content, .topbanner .topbanner-contentvariant {
+        margin-top: 100px;
+    }
+    
+    /* landing page topbanner css */
+    .topbanner .topbanner-content .row {
+        position: relative;
+    }
+
+    .topbanner .topbanner-content .landing-banner-links {
+        position: absolute;
+        right: 0;
+        padding-right: 8.33%;
+        text-align: right;
+        width: 30%;
+    }
+        
+    .topbanner .topbanner-content .landing-banner-links ul li {
+        margin-bottom: 6%;
+    }
+    /* end of landing page topbanner css */
+
+    /* topbanner variant type css */
+    .topbanner.topbanner-variant .topbanner-text {
+        display: table;
+    }
+
+    .topbanner.topbanner-variant .topbanner-text .col-sm-4 {
+        display: table-cell;
+        width: auto;
+        max-width: 35%;
+    }
+
+    .topbanner.topbanner-variant .topbanner-text .topbanner-description {
+        padding-left: 15px;
+        margin: 0px;
+        display: table-cell;
+        width: auto;
+        max-width: 65%;
+    }
+    /* end of topbanner variant type css */
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .topbanner .topbanner-background img {
+        min-height: 420px;
+    }
+
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 5px 7px;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .topbanner .topbanner-text .font-heading1 {
+        font-size: 20px;
+    }
+
+    .topbanner .topbanner-text .font-heading2 {
+        font-size: 25px;
+    }
+
+    .topbanner .topbanner-text .font-body1 {
+        font-size: 13px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        font-size: 13px;
+        padding: 6px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 3px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 9px 0 0 0;
+    }
+
+    /* landing page topbanner css */
+    .topbanner .topbanner-content .landing-banner-links .font-body6 {
+        font-size: 12px;
+    }
+
+    .topbanner .topbanner-content .landing-banner-links .font-body2 {
+        font-size: 13px;
+    }
+
+    .topbanner .topbanner-content .landing-banner-links ul li a.font-body2 {
+        padding: 5px;
+    }
+    /* end of landing page topbanner css */
+
+    /* topbanner variant type css */
+    .topbanner .topbanner-contentvariant .topbanner-text .font-heading2, .topbanner.topbanner-variant .topbanner-text .topbanner-description {    
+        margin-bottom: 10px;
+    }
+    /* end of topbanner variant type css */
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 7px;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .topbanner .topbanner-text .font-heading1 {
+        font-size: 28px;
+    }
+
+    .topbanner .topbanner-text .font-heading2 {
+        font-size: 35px;
+    }
+
+    .topbanner .topbanner-text .font-body1 {
+        font-size: 13px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        font-size: 13px;
+        padding: 8px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 5px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 10px 0 0 0;
+    }
+    
+    /* landing page topbanner css */
+    .topbanner .topbanner-content .landing-banner-links .font-body6 {
+        font-size: 15px;
+    }
+
+    .topbanner .topbanner-content .landing-banner-links .font-body2 {
+        font-size: 16px;
+    }
+
+    .topbanner .topbanner-content .landing-banner-links ul li a.font-body2 {
+        padding: 5px 6px;
+    }
+    /* end of landing page topbanner css */
+
+    /* topbanner variant type css */
+    .topbanner .topbanner-contentvariant .topbanner-text .font-heading2, .topbanner.topbanner-variant .topbanner-text .topbanner-description {    
+        margin-bottom: 15px;
+    }
+    /* end of topbanner variant type css */
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 13px 0 0 0;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 8px;
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .topbanner .topbanner-text .font-heading1 {
+        font-size: 35px;
+    }
+
+    .topbanner .topbanner-text .font-heading2 {
+        font-size: 43px;
+    }
+
+    .topbanner .topbanner-text .font-body1 {
+        font-size: 15px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 11px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 15px 0 0 0;
+    }
+
+    /* topbanner variant type css */
+    .topbanner .topbanner-contentvariant .topbanner-text .font-heading2, .topbanner.topbanner-variant .topbanner-text .topbanner-description {    
+        margin-bottom: 20px;
+    }
+    /* end of topbanner variant type css */
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .topbanner .topbanner-text .font-body1 {
+        font-size: 16px;
+    }
+
+    .topbanner .topbanner-text .btn.btn-default {
+        padding: 10px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 13px 0;
+    }
+
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 15px 0 0 0;
+    }
+
+    /* topbanner variant type css */
+    .topbanner .topbanner-contentvariant .topbanner-text .font-heading2 {    
+        margin-bottom: 25px;
+    }
+    /* end of topbanner variant type css */
+}
+
+@media (min-width: 1440px) {
+    .topbanner .topbanner-text .topbanner-category {
+        padding: 10px;
+        margin-bottom: 13px;
+    }
+
+    .topbanner .topbanner-text .topbanner-caption .font-heading2 {
+        margin: 0 0 22px 0;
+    }
+    
+    .topbanner .topbanner-text .topbanner-description, .topbanner .topbanner-text .btn, .topbanner .topbanner-text .promo-text {
+        margin: 17px 0 0 0;
+    }
+
+    /* topbanner variant type css */
+    .topbanner.topbanner-variant {
+        min-height: 355px;
+    }
+
+    .topbanner .topbanner-contentvariant .topbanner-text .font-heading2 {    
+        margin-bottom: 30px;
+    }
+    /* end of topbanner variant type css */
+}
+/* end of css for topbanner component */

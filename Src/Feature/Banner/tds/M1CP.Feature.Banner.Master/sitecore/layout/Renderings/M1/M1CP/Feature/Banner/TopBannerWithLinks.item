@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {7ACA7C6D-CC8B-47FB-9461-EB1C7D29BE53}
+database: master
+path: /sitecore/layout/Renderings/M1/M1CP/Feature/Banner/TopBannerWithLinks
+parent: {307DF084-BC13-438E-ABF6-2353E4185B31}
+name: TopBannerWithLinks
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+created: 20180423T120208Z
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 69
+
+M1CP.Feature.Banner.Controllers.BannerController, M1CP.Feature.Banner
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 21
+
+GetTopBannerWithLinks
+----field----
+field: {1C0AF338-70A8-455F-8366-173135E03BE6}
+name: Placeholder
+key: placeholder
+content-length: 11
+
+page-layout
+----field----
+field: {13F89250-AD6B-4548-882E-118A12C18094}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{6E4216DE-6085-410D-8E2A-417C3FEE33CC}
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 81
+
+/sitecore/content/M1/CorporatePortal/Content Datasource/Banner/TopBannerWithLinks
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 96
+
+/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/HeroBannerWithLinks
+----field----
+field: {E441ABE7-2CA3-4640-AE26-3789967925D7}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 0
+
+
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 58
+
+<image mediaid="{C3A74535-5CDB-4B6C-9811-A56B9FD2B24A}" />
+----version----
+language: en
+version: 1
+revision: d5e454e6-a7b4-4910-8be7-1ff9fb3cab78
+
+----field----
+field: {1C307764-806C-42F0-B7CE-FC173AC8372B}
+name: Supports Local Datasource
+key: supports local datasource
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180307T030849Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d5e454e6-a7b4-4910-8be7-1ff9fb3cab78
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180425T095608Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

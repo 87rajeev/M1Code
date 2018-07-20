@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {8211191C-DE67-4CC0-A771-34FB72B90148}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Mobile Add Ons/_Local/Accordion/Accordion Section/Thumbnail Carousal
+parent: {4F8D24AD-B875-432E-BC85-A42D408833A9}
+name: Thumbnail Carousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180413T110345Z
+
+----version----
+language: en
+version: 1
+revision: 5ed386aa-8289-43db-9d99-449d285dd0d7
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 155
+
+{68E08919-A634-488B-AE91-CFD162141C16}|{33AA21F8-B056-48DB-8CCC-B87508C24BBD}|{6CD71C24-F5F8-4716-8F7B-96677912EA7B}|{3103DE43-A8F6-4527-9BF3-839C2789F9F2}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 16
+
+VIEW ALL SPECIAL
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 124
+
+<link text="VIEW ALL add-ons" linktype="external" url="" anchor="" class="viewall-link font-body8 expand-below" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180309T085503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5ed386aa-8289-43db-9d99-449d285dd0d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180427T043221Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

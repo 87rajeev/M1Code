@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemIconCache>
+  <Item ItemPath="/sitecore/layout" ItemIcon="/temp/IconCache/Applications/16x16/windows.png" />
+  <Item ItemPath="/sitecore/layout/Renderings" ItemIcon="/temp/IconCache/Software/16x16/elements1.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP" ItemIcon="/temp/IconCache/Office/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates" ItemIcon="/temp/IconCache/Applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1" ItemIcon="/temp/IconCache/Custom/32x32/mOne.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature" ItemIcon="/temp/IconCache/applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/PageBanner" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/TopBanner" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/HeroBanner" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP" ItemIcon="/temp/IconCache/BusinessV2/16x16/office_building.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Sub Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project" ItemIcon="/temp/IconCache/applications/32x32/folder_window.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerParametersTemplate" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerParametersTemplate/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/HeroBanner/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types/TopBanner" ItemIcon="/temp/iconcache/applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types/TopBanner/TopBanner Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types/TopBanner/TopBanner Folder/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/folder_document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/HeroBannerWithLinks" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/PageBanner" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/BannerWithoutCTA" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/TopBannerWithLinks" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Main Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Promo SubText" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Promo Text" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Dot Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Enable Dot Theme" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation/Navigation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation/Navigation/NavigationHeader" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation/Navigation/NavigationLinks" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Banner Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Banner Sub Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Dot Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Enable Dot Theme" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/Data/Banner Main Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/Data/Support Text" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerParametersTemplateWithoutCTA" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerParametersTemplateWithoutCTA/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/HeroBannerWithLinks/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/PageBanner/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/ImagePageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/ImagePageBanner/PageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/HeroBannerWithLinks" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/PageBanner" ItemIcon="/temp/IconCache/Applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/DataPassportPageBanner" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/TopBannerWithLinks" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Main Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Promo SubText" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Banner Promo Text" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Dot Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Banner/Banner/Enable Dot Theme" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation/Navigation" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation/Navigation/NavigationHeader" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerNavigation/Navigation/NavigationLinks" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Banner Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Banner Sub Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Dot Image" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithLinks/Banner/Enable Dot Theme" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/Data" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/Data/Banner Main Heading" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_PageBanner/Data/Support Text" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/HeroBannerWithLinks/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/PageBanner/__Standard Values" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/ImagePageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/ImagePageBanner" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/ImagePageBanner/PageBanner" ItemIcon="/temp/iconcache/applications/16x16/form_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BackgroundDotImage/DotImage" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BackgroundDotImage" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithoutCTA" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/layout/Renderings/M1/M1CP/Feature/Banner/BannerWithoutCTA" ItemIcon="/temp/iconcache/software/16x16/element.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BackgroundDotImage/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BackgroundDotImage/DotImage/DotImageColor" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithoutCTA/Bannersection" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithoutCTA/Bannersection/SubTitle" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Slider" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerParametersTemplateWithoutCTA" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerParametersTemplateWithoutCTA/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerWithOutCTA" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/BannerWithOutCTA/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Slider/SliderColor" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Project/Common/Content Types/Banner/DataPassportBannerParametersTemplate" ItemIcon="/temp/iconcache/applications/16x16/form_blue.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Slider/__Standard Values" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_Slider/SliderColor/SliderColor" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/m1/M1CP/Feature/Banner/_BannerWithoutCTA/Bannersection/EnableDots" ItemIcon="/temp/iconcache/applications/32x32/document.png" />
+</ItemIconCache>

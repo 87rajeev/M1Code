@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {ECFCBB35-4A12-4A56-BBEF-D6EA1C2F0C12}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas
+parent: {8CF5929E-83EE-4FC7-B752-0E49CD83FE2C}
+name: Going-Overseas
+master: {00000000-0000-0000-0000-000000000000}
+template: {D567934E-4005-4AE1-9055-835BA7F7E20C}
+templatekey: Going Overseas
+created: 20180504T041028Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 626
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{879286DC-56F6-4024-8DF2-8F80C98C3832}"><p:d /></r><r uid="{5F2D133A-42DB-43E4-9062-37D7AD750CCF}" s:par="DesktopCount=%7B8172D243-3E49-4DA8-A752-DCE5871F1DA7%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D&amp;Theme&amp;TextColor" /><r uid="{24433C0A-DCF2-4F5B-B9CD-58B76A1B5462}" s:par="DesktopCount=%7B8172D243-3E49-4DA8-A752-DCE5871F1DA7%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D&amp;Theme&amp;TextColor" /><r uid="{DD419BFD-6CED-4F30-9A80-66B2D8A47669}" s:ph="/page-layout/col-wide-1_2" /></d></r>
+----version----
+language: en
+version: 1
+revision: b1cf026e-02ce-404e-9a8b-1ba4ff40ef7d
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1657
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{07DB06D9-79C9-418A-895A-FD6C67C3F5DC}" s:ds="{FE136710-A21A-400D-A624-8F5A89B028D3}" s:par="Theme={0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB}&amp;ComponentOrientation={E3EE61A6-49C7-4CD3-8175-B47185833B42}" /><r uid="{ABD63121-56D0-420B-970D-24C8901B06C1}" s:ds="{95E8BF89-B725-4473-85B6-C195C6B7178D}" s:par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;ComponentOrientation=%7B1F2CA12C-5F3C-46B2-9805-A6F2EA286655%7D" /><r uid="{5F2D133A-42DB-43E4-9062-37D7AD750CCF}" s:ds="{B5A01519-1E4A-4B55-8960-14AF4E2050B1}" s:par="DesktopCount=%7BF5793236-BBE7-455A-9675-5F55CA331563%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D&amp;Theme&amp;TextColor" /><r uid="{775EB178-72C0-49F5-B96E-F1B10BA009CE}" s:ds="{4BCEAA7E-164D-4D78-B5CD-669DAC06DB15}" s:par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;ComponentOrientation=%7BE3EE61A6-49C7-4CD3-8175-B47185833B42%7D" /><r uid="{24433C0A-DCF2-4F5B-B9CD-58B76A1B5462}" s:ds="{01A780FA-8A1D-4D63-8158-59084EAAE24E}" s:par="DesktopCount=%7B8172D243-3E49-4DA8-A752-DCE5871F1DA7%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D&amp;Theme&amp;TextColor" /><r uid="{DD419BFD-6CED-4F30-9A80-66B2D8A47669}" s:ds="{F8317CFA-2E59-4630-825E-68484CC16223}" s:par="Theme={0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB}&amp;ComponentOrientation={E3EE61A6-49C7-4CD3-8175-B47185833B42}" /><r uid="{9AA27B03-AF8B-4275-BA8A-50EB454BFBBF}" s:ds="{6CA0FDB5-4F87-41BB-AA38-5A93FD52865D}" s:par="Theme={0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB}&amp;ComponentOrientation={E3EE61A6-49C7-4CD3-8175-B47185833B42}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T041028Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b1cf026e-02ce-404e-9a8b-1ba4ff40ef7d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T073633Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

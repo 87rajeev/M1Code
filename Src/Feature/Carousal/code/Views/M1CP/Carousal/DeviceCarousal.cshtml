@@ -1,0 +1,82 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+
+@model M1CP.Feature.Carousal.Models.IDeviceCarousal
+
+@if (Model != null)
+{
+
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Carousal.Models.ICarousalParameter>();
+    <!--Carousel with device details starting-->
+    <!--Limitations:- This component only for 12 column and all image sizes should be same height-->
+    <div class="row">
+        @if (Html.Glass().IsInEditingMode)
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Glass().Editable(Model, x => x.Title)              
+            </div>
+        }
+        else if (!String.IsNullOrEmpty(Model.Title))
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Raw(Model.Title)
+            </div>
+        }
+        <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-xs-12 padding-zero-mobile">
+
+            <!--Always MaxItem=3 and minItem=1 for this component -->
+            <div class="slider carousel-deviceDetails" carousel-component maxItem="@((RenderingParamaters!=null && RenderingParamaters.desktopCount.value!=0)?RenderingParamaters.desktopCount.value:1)" minItem="@((RenderingParamaters!=null && RenderingParamaters.mobileCount.value!=0)?RenderingParamaters.mobileCount.value:1)" speed="@((RenderingParamaters!=null && RenderingParamaters.Carousal_Speed!=0)?RenderingParamaters.Carousal_Speed : 0)" autoplay="@((RenderingParamaters.AutoScroll.Equals(true)) ? "true" : "false")" infinite="@((RenderingParamaters.InfiniteScroll.Equals(true)) ? "true" : "false")" autoplaySpeed="@((RenderingParamaters!=null && RenderingParamaters.AutoPlaySpeed!=0)?RenderingParamaters.AutoPlaySpeed:0)" dots="true" slidesToScroll="@RenderingParamaters.desktopCount.value">
+
+                @foreach (var device in Model.Devices)
+                {
+                    var maxValue = 12 / RenderingParamaters.desktopCount.value;
+                    var minValue = 12 / RenderingParamaters.mobileCount.value;
+
+                    <div class="slick-slide thumbnail arrow-position theme-light col-md-@maxValue col-sm-@minValue col-lg-@maxValue col-xs-@minValue">
+                    @using (Html.Glass().BeginEditFrame(device, "editimage", m => m.DeviceLink))
+                    {
+                            <a href="@(device.DeviceLink!=null && device.DeviceLink.Url!=null?device.DeviceLink.Url:"#")" target="@(device.DeviceLink!=null && device.DeviceLink.Target!=null?device.DeviceLink.Target:"_blank")" tabindex="-1">
+                                <div class="newImageOuter">
+                                    <img ng-if="true" class="media-object newImageProperties" src="@Model.NewProductLogo.Src">
+                                    @if (@Html.Glass().IsInEditingMode)
+                        {
+                                        @Html.Glass().RenderImage(device, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "Carousel-deviceDetailsImage" })
+                                    }
+                                    else
+                                    {
+                                        <img data-lazy="@device.Image_Desktop.Src" class="Carousel-deviceDetailsImage slick-loading" alt="Lights" src="/images/thumb.gif">
+                                    }
+
+                                    
+                                </div>
+                                <div class="caption-deviceDetails">
+                                    <div class="details">
+                                        <h3 class="productName">@device.DeviceName</h3>
+                                        <h2 class="productdisc">@device.DeviceModel</h2>
+                                        <div class="priceDetails">
+                                            <div class="margintop11">
+                                                <span class="price">@device.Costofdevice</span>
+                                            </div>
+                                            <div class="horizontal-devider"></div>
+                                            <div class="text-left">
+                                                <p>@device.Costofdevicepermonth</p>
+                                                <p>@Html.Raw(device.SIMDetails)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        @foreach (var colors in device.AvailableColours)
+                                        {
+                                            <div class="select-color" style="background: @colors.Color_Code"></div>
+                                        }
+                                    </div>
+                                </div>
+                            </a>
+                        }
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+}
+

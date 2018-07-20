@@ -1,0 +1,31 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IForms
+@using CaptchaMvc.HtmlHelpers
+
+<link rel="stylesheet" href="~/CSS/form_test.css">
+@Html.BeginForm("Index", "Form", FormMethod.Post, new { @class = "my_form" })
+{
+ @ViewBag.Message
+@*<form class="form-wrapper" id="@Model.SitecoreId" method="post">*@
+  @Html.Hidden("FormID", Model.SitecoreId.ToString());
+    @foreach (var fieldGroup in Model.FieldGroups)
+    {
+        <div class="@fieldGroup.Class">
+            @foreach (var formField in fieldGroup.Fields)
+            {
+                <div class="field-wrapper">
+                    @Html.Partial("~/Views/M1CP/Forms/Fields/" + formField.Type.Text + ".cshtml", formField)
+                </div>
+            }
+        </div>
+
+    }
+    @foreach (var buttonGroup in Model.ButtonGroups)
+    {
+        foreach (var btn in buttonGroup.Buttons)
+        {
+            @Html.Partial("~/Views/M1CP/Forms/Buttons/" + btn.Type + ".cshtml", btn)
+        }
+    }
+
+}
+

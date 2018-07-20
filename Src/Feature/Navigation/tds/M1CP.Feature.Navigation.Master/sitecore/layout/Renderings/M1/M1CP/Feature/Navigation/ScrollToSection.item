@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {86B5A011-2C02-4A22-AB3A-07D8551C5822}
+database: master
+path: /sitecore/layout/Renderings/M1/M1CP/Feature/Navigation/ScrollToSection
+parent: {96A35697-CB74-4AB6-9B6B-23726CC52FDA}
+name: ScrollToSection
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20180424T070252Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 46
+
+~/Views/M1CP/Navigation/ScrollToSection.cshtml
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 58
+
+<image mediaid="{70EAC09A-9F6C-4E87-9C3A-3D8C3832E568}" />
+----version----
+language: en
+version: 1
+revision: 682b490d-ef33-4684-8875-8504caede01a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180424T070252Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+682b490d-ef33-4684-8875-8504caede01a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180508T101032Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

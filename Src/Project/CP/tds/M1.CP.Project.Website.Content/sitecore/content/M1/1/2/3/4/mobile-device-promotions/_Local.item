@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {E937182D-1D44-4BAA-9620-68C430BC2590}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals/mobile-device-promotions/_Local
+parent: {0227A13D-B898-454C-B075-0C3F4BD8A96E}
+name: _Local
+master: {00000000-0000-0000-0000-000000000000}
+template: {9669259C-6AB5-4626-B5B6-BA063C47C576}
+templatekey: Local Datasource Folder
+created: 20180510T063750Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 5
+
+-1000
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{2568749C-D4FF-4081-8ED2-3B87BD0E4E2F}|{80B96A13-1EFD-429F-909E-BB934208421C}
+----version----
+language: en
+version: 1
+revision: 564ef55a-44ec-48f2-9791-e1827c09d700
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180507T090448Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+564ef55a-44ec-48f2-9791-e1827c09d700
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180507T094121Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

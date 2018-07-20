@@ -1,0 +1,22 @@
+﻿@using M1CP.Feature.Accordion
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model M1CP.Feature.Accordion.Models.AccordionSection
+
+ @{var isExpanded = Sitecore.Context.PageMode.IsExperienceEditor || Model.SectionActive;}
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="@Model.HeaderId">
+            <h4 class="panel-title font-body7">
+                <a class="collapsed " data-toggle="collapse" data-parent="#accordion" href="#@Model.PanelId" aria-expanded="false" aria-controls="@Model.PanelId">
+                    @Html.Sitecore().Field(Templates.Accordion_Section.Fields.Section_HeadingFieldId, Model.Item)
+                </a>
+            </h4>
+
+        </div>
+        <div id="@Model.PanelId" class="panel-collapse collapse @(isExpanded ? "in" : "")" role="tabpanel" aria-labelledby="@Model.HeaderId">
+            <div class="panel-body">
+                @Html.Sitecore().DynamicPlaceholder("col-narrow-1")
+            </div>
+
+        </div>
+    </div>

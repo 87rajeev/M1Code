@@ -1,0 +1,23 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Data.Items
+
+@model M1CP.Feature.Roaming.Models.IPackList
+<img src="@Model.packIcon.Src" />
+@Html.Glass().Editable(x => x.packTitle)
+@if (Model.packList != null)
+{
+
+    <div>
+        @Model.countryPackInfo
+        @foreach (var item in Model.packList)
+        {
+            <div>
+                @Html.Glass().Editable(item, x => x.Title)
+                @using (Html.Glass().BeginEditFrame(item, "EditLink", m => m.CTALink))
+                {
+                    <a href="@((item!=null && item.CTALink!=null && item.CTALink.Url != null) ?item.CTALink.Url:"#")" target="@((item!=null && item.CTALink!=null && item.CTALink.Target!=null)?item.CTALink.Target:"_blank")" class="btn btn-info">@item.CTALink.Text</a>
+                }
+            </div>
+        }
+    </div>
+}

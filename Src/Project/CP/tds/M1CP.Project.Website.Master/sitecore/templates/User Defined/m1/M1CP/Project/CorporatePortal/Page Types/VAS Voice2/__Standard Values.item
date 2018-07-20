@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {26FEB856-9312-4313-85C6-E41BC706651C}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/CorporatePortal/Page Types/VAS Voice2/__Standard Values
+parent: {FAE283BF-3C17-47BB-A324-9A5003FF3409}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {FAE283BF-3C17-47BB-A324-9A5003FF3409}
+templatekey: VAS Voice2
+created: 20180430T054654Z
+
+----version----
+language: en
+version: 1
+revision: 146d82da-8e12-4bff-a252-a6b88f5b3377
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 2975
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A1589AA8-A14F-41C9-8539-E91A699C4522}"><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="header-top" uid="{00463110-DCBD-4DEA-A0EC-AE679AE59BE3}" /><r ds="" id="{D0B2C8DD-9482-4F4B-A6A0-12DA0638C954}" par="CssClass Name=light" ph="Header-top/col-huge" uid="{F242BB96-27E1-4A7C-8CB2-BD1CB12A3818}" /><r id="{DA79D8CB-8FF1-4772-9F38-74A073C76908}" ph="Header-top/col-huge/navbar-center" uid="{FAB96372-176F-4184-A632-44EF89896E3D}" /><r id="{5711BC29-234E-46A0-BFF3-99EEE3E98701}" ph="Header-top/col-huge/navbar-right" uid="{196547A1-15D6-4600-A8DE-4C9D805BA556}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{ECD27F47-3ED2-46AC-91B2-D27B70C417D1}" /><r ds="" id="{855AE068-9F9D-49DE-AC37-7D5447B44C48}" par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;Orientation=%7BE3EE61A6-49C7-4CD3-8175-B47185833B42%7D" ph="/page-layout/col-huge_1" uid="{C2C35EFE-12BE-4F19-859F-29E0A2BD2307}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{089FAC3A-96CE-4E44-94A9-842E821821D5}" /><r ds="" id="{03431CC8-1DF6-4D3E-A74B-B279C318C585}" par="" ph="/page-layout/col-huge_2" uid="{A0CD1CA9-E209-4504-95B6-B3DBF7C5D21C}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{1741E901-1D10-42C0-8107-66332EB57F55}" /><r ds="" id="{B3B28EE0-E715-40AE-AC94-8CBD3110C963}" par="" ph="/page-layout/col-huge_3" uid="{9891C012-788D-49D5-847C-3B207CF181D1}" /><r ds="" id="{FA9569AE-85EE-40EB-8E8E-DC5870BB598F}" par="DesktopCount=%7BF5793236-BBE7-455A-9675-5F55CA331563%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D" ph="/page-layout/col-huge_3/Background_section" uid="{2BC5F7BD-0D8A-4345-BF4F-5086E47DA17F}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{1B85CE60-C98B-48DF-A936-2C7F5C6D649A}" /><r ds="" id="{B6712199-D496-459C-90FE-417556FF8E1E}" par="" ph="/page-layout/col-huge_4" uid="{DDA765BF-B182-4110-8402-460A3D52BF3A}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{E4BDC4E1-74C4-4846-85BC-8A7837219797}" /><r ds="" id="{795DE3F7-D054-4AE3-B936-23501BF94926}" par="DesktopCount=%7BF5793236-BBE7-455A-9675-5F55CA331563%7D&amp;MobileCount=%7BA9E21C39-23E5-401A-86B8-FC3169826B72%7D&amp;Theme=%7B03E264C8-053C-4A4F-9C84-BB4BE0A380F0%7D&amp;TextColor" ph="/page-layout/col-huge_5" uid="{74ECAFF1-5599-4AC1-8EEE-9274535B5D27}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{9F539B3A-9EC1-474A-AC1E-56A6C547D406}" /><r ds="" id="{04EBA3A5-92F0-400E-9AD4-3DAB5311DC65}" par="" ph="page-layout/col-huge_6" uid="{0F04011E-5993-4B87-9ACD-157DF18D18D4}" /><r ds="" id="{446B92E4-B571-449C-9B1C-136DB9464117}" par="" ph="page-layout/col-huge_6/Accordian_section" uid="{CA31EABC-B48B-479E-B9AA-1E6062958311}" /><r id="{1E6EA42E-AE21-4ABE-8196-F9FBFB49B008}" ph="page-Footer" uid="{306177FD-98AD-4B08-9095-C95492622369}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180430T054654Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+146d82da-8e12-4bff-a252-a6b88f5b3377
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180507T075908Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

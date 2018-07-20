@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {A68E6D70-CD9B-45CC-AB23-E4C5BBE4E566}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation/RequiredField
+parent: {FCDB2F4B-A379-49D0-BBF8-E6D24A14930E}
+name: RequiredField
+master: {00000000-0000-0000-0000-000000000000}
+template: {A458276D-BF18-41E9-BE67-BA132956595F}
+templatekey: RequiredFieldValidation
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 8ae1bda5-116f-4942-9614-2bf84c9d54cd
+
+----field----
+field: {387FB02B-C661-469D-B66C-CD17C24A2B56}
+name: Validation Message
+key: validation message
+content-length: 27
+
+Please enter value in field
+----field----
+field: {8C7FEDBC-3061-4E2A-A799-E55EFAA78DEC}
+name: IsRequired
+key: isrequired
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T081336Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8ae1bda5-116f-4942-9614-2bf84c9d54cd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180523T125010Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

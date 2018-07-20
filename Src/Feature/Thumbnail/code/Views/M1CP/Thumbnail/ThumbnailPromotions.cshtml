@@ -1,0 +1,71 @@
+﻿
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Feature.Thumbnail.Models
+@model M1CP.Feature.Thumbnail.Models.IThumbnailSection
+
+@if (Model != null)
+{
+    int i = 1;
+
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<IThumbnailPromotionParameter>();
+    var Promotioncount = RenderingParamaters.ThumbnailPromotionsCount.value;
+    <section class="thumbnail-type3-component @(RenderingParamaters!=null && RenderingParamaters.SelectedTheme!=null && RenderingParamaters.SelectedTheme.style!=null ? RenderingParamaters.SelectedTheme.style:"") text-theme-black" ng-init="numberOfCols_md='4'; numberOfCols_sm='2'">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 thumbnail-type3-content">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 component-heading">
+                @Html.Glass().Editable(Model, x => x.Title)
+            </div>
+            @foreach (var postpaidItem in Model.Thumbnail_Component)
+            {
+                var css = string.Empty;
+                if (i <= Promotioncount)
+                {
+                    css = "div-static";
+                }
+                else
+                {
+                    css = "div-dymanic hide-device-promortion";
+                }
+                <div class="@css">
+                    <div class="col-xs-12 col-sm-12 postpaid-promotion @(RenderingParamaters != null && RenderingParamaters.SelectedOrientation != null && RenderingParamaters.SelectedOrientation.style != null ? RenderingParamaters.SelectedOrientation.style : "") padding-false">
+                        <div class="col-xs-12 col-sm-3 padding-false">
+                            @if (@Html.Glass().IsInEditingMode)
+                            {
+                                @Html.Glass().RenderImage(postpaidItem, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "img-responsive" })
+                            }
+                            else
+                            {
+                                <img src="/images/loadgif.gif" class="img-responsive lazyload imagewidthloader" alt="@postpaidItem.Image_Desktop.Alt" data-src="@postpaidItem.Image_Desktop.Src" />
+                            }
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <div class="caption">
+                                <p class="font-body7">@Html.Glass().Editable(postpaidItem, x => x.Title)</p>
+                                <p class="font-body6">@Html.Glass().Editable(postpaidItem, x => x.Description)</p>
+                                @using (Html.Glass().BeginEditFrame(postpaidItem, "EditLink", m => m.CTALink))
+
+                                {
+                                    <a href="@((postpaidItem.CTALink != null && postpaidItem.CTALink.Url != null) ? postpaidItem.CTALink.Url : "#")" target="@(postpaidItem.CTALink != null && postpaidItem.CTALink.Target != null ? postpaidItem.CTALink.Target : "_blank")" class="btn btn-block btn-default  animated-button button-animated centered-align">@postpaidItem.CTATitle</a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                i = i + 1;
+
+            }
+
+            <div class="view-all text-center  component-viewall-Link" postpaid-view-all>
+                @using (Html.Glass().BeginEditFrame(Model, "EditLink", m => m.CTALink))
+                {
+                    <a class="viewall-link font-body8 expand-below">@Model.CTATitle</a>
+                }
+            </div>
+            <div class="view-less text-center  component-viewall-Link hide-device-promortion" postpaid-view-all>
+                @using (Html.Glass().BeginEditFrame(Model, "EditLink", m => m.CTALink))
+                {
+                    <a class="viewall-link font-body8 expand-below">@Model.ViewLessCTA</a>
+                }
+            </div>
+        </div>
+    </section>
+}

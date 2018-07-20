@@ -1,0 +1,97 @@
+﻿/*CSS for Button hover animation A10 */
+
+a.animated-button:link, a.animated-button:visited {
+    position: relative;
+    padding: 14px 15px;
+    color: #fff;
+    border-radius: 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+/* button-animated Buttons */
+
+
+a.animated-button.button-animated {
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+    border: 2px solid #e75e0d;
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+    a.animated-button.button-animated:hover {
+        color: #000;
+        background-color: transparent;
+    }
+
+        a.animated-button.button-animated:hover:before {
+            left: 0%;
+            right: auto;
+            width: 100%;
+        }
+
+    a.animated-button.button-animated:before {
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 50%;
+        left: 50%;
+        height: 100%;
+        width: 0px;
+        z-index: -1;
+        content: '';
+        color: #000;
+        background-color: #e75e0d;
+        transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+    }
+
+/* End of CSS for Button hover animation A10*/
+
+
+/*css for Main slider orange line animation A1*/
+
+.orange-line span {
+    background: #e75e0d;
+    height: 7px;
+    border-radius: 0px;
+    display: inline-block;
+    animation: orange-line-a1 1s ease forwards;
+}
+
+..orange-line .orange-line-a1 {
+    width: 70%;
+}
+
+@keyframes orange-line-a1 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+.slick-arrow{
+     -webkit-transform: inherit; 
+    -ms-transform:inherit;
+     transform:inherit;     
+}
+.slick-arrow:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);    
+}
+/*End of cssfor Main slider orange line animation A1*/ 
+/* start of css for A8 Carousel slider arrow click behavior */
+.slick-arrow:hover {
+    -webkit-transform: scale(1.08) ;
+    transform: scale(1.08);
+}
+/* End start of css for A8 Carousel slider arrow click behavior */

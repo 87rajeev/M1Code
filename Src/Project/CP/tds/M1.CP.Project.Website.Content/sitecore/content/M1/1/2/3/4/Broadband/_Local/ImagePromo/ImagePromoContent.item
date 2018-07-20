@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {5E3F1EAE-8ADD-4B7F-947C-EBF87EAF5BC0}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImagePromo/ImagePromoContent
+parent: {BC2C3012-E410-45B4-B7F6-73A64412BB67}
+name: ImagePromoContent
+master: {00000000-0000-0000-0000-000000000000}
+template: {5A4FA8DD-C870-45AC-B68D-9D0293269799}
+templatekey: ImagePromoContent
+created: 20180502T104332Z
+
+----version----
+language: en
+version: 1
+revision: 09e95507-e4d3-4dd5-ba26-dd1f6dab8da3
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 17
+
+ImagePromoContent
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 95
+
+<link text="Sign Up Now" linktype="external" url="http://www,google.com" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 14
+
+NOT Activation
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 53
+
+Just plugin your home phone and enjoy unlimited calls
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{5C187F31-ADD1-4826-B7B1-0794D472FAC5}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180427T070039Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09e95507-e4d3-4dd5-ba26-dd1f6dab8da3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T110510Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

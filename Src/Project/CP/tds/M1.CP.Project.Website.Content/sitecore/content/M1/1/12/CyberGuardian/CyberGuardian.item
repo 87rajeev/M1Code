@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {9E887629-C80D-46D6-A244-2AE7226B0AC3}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/CyberGuardian/CyberGuardian
+parent: {5D40BE39-0FBC-4065-8677-A3EAE0555C99}
+name: CyberGuardian
+master: {00000000-0000-0000-0000-000000000000}
+template: {9EF2B097-F80C-4A62-B871-B98620644E7B}
+templatekey: CyberGuardian Component
+created: 20180515T124257Z
+
+----version----
+language: en
+version: 1
+revision: ffc24114-568d-486f-b873-192fe87a14d7
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 91
+
+<p class="font-heading1">Categories </p>
+<p class="font-heading3">&nbsp;FILTERED</p>
+<br />
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 111
+
+Select from these 3 pre define  Categories or visit our cyber guardian portal to create your oun custome filter
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{B8B68DBD-423C-4242-B57D-0141814756FB}" ></image>
+----field----
+field: {503DC139-6B34-4795-8AFA-7E4F3294B1CD}
+name: CyberCategories
+key: cybercategories
+content-length: 116
+
+{AF1CC0EA-F87B-4C25-8A5D-A70F53D1D680}|{4820553A-C883-414F-A34B-75A3E950ECE5}|{D6E29C97-8CA9-43F1-B9E7-F08F7BC134D8}
+----field----
+field: {B0D6415D-1C14-4522-B476-36443F7E0C14}
+name: CyberSubCategories
+key: cybersubcategories
+content-length: 779
+
+{84B31CEE-74FE-4939-A84F-5CB7BF3B6363}|{31251C46-C4F6-4FE2-B4B1-23CD7015C470}|{8118AB0E-1932-4D58-B559-4CC96BE334D4}|{C2AC63B5-45DC-4A13-A7E6-F196ACBD1373}|{CCBFAFAA-6068-4BA4-83AB-9BB3C7743A60}|{A4DA2C60-655E-4D5A-93CC-5457537C7952}|{AD4A2584-3BA4-42D2-8927-F0347DB460DD}|{5E01CA87-390B-4373-8485-417CE71ADB89}|{FB0704F8-1452-4506-B03D-6FE55D1D929A}|{85F22E1E-1A92-4CEF-A7FD-0A23D61D6D94}|{DE9C91CF-EFD9-4F1D-8560-466309ABC7F0}|{79DBD744-FE92-45D5-8B59-472D4C0BA5D5}|{32BCBBEF-FD47-4604-AC7A-F669C3E7BC47}|{8B2E82D2-670B-410A-BB40-8EC9AD617ECA}|{A875C3D5-1AFF-4866-A8AC-2AC9E9094CDD}|{EA04E63D-FC5E-470D-B444-7A62636EE521}|{3E27ACEC-8599-498B-B70F-B2DF72621009}|{3425686C-4CBE-4F6C-97CD-D128A7ABFA2B}|{F2E07EAE-AE55-4185-92F0-A7B3BD765B51}|{F4EA8A6B-33F2-42F3-95AB-AA8E0B668721}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T030043Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ffc24114-568d-486f-b873-192fe87a14d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180522T063135Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

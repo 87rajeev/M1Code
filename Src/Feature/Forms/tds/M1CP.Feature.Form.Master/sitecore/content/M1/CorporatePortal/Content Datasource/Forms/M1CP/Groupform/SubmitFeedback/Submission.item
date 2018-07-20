@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {F96DA20D-4D2A-4401-AC7F-3430CF5923EE}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform/SubmitFeedback/Submission
+parent: {97ECCE39-8AD4-4666-8C83-3E46045400DF}
+name: Submission
+master: {00000000-0000-0000-0000-000000000000}
+template: {AC66CA13-4D41-4745-AE2E-CA6AF3DDFD71}
+templatekey: FormButton
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 2d843eb2-57ab-49f1-9c49-d060673e60d6
+
+----field----
+field: {CDF835FB-F750-4BCB-BC65-8DEC570A91EA}
+name: Type
+key: type
+content-length: 6
+
+Submit
+----field----
+field: {2A3D246B-DB9D-4BF3-BAB2-3E5CA3DAE387}
+name: Title
+key: title
+content-length: 15
+
+Submit Feedback
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180328T103859Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2d843eb2-57ab-49f1-9c49-d060673e60d6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180328T103918Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

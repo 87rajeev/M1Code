@@ -1,0 +1,107 @@
+﻿@using M1CP.Feature.StockInformation.Models
+@model Pricefeed
+
+
+<div class="width-100p padding-10 padding-left-0">
+    <table class="grey-box row-line width-100p">
+        <tbody>
+            <tr>
+                <th colspan="2"><strong>Quotes</strong></th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Last Trade:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.Currency.CurrencyCode&nbsp;
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.Last
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Tick Direction:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.TickDirection
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Change:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.Change
+                    (@Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.PercentChange)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Volume:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradeVolume.TotalVolume
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Bid:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.Bid
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Bid Volume:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradeVolume.BidVolume
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Offer:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.Offer
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Offer Volume:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradeVolume.OfferVolume
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Open/Low/High:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.Open /
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.Low /
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.High
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Previous Close:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.PreviousClose
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="bold text-align-left">Total Value:</div>
+                </td>
+                <td style="text-align: left;">
+                    @Model.Snap.EquityDomainGroup.EquityDomain.Currency.CurrencyCode&nbsp;
+                    @Model.Snap.EquityDomainGroup.EquityDomain.TradePrice.TotalValue
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="m1-h5 margin-top-6">Last update as of&nbsp;@Model.Header.DataDateTime</div>
+</div>

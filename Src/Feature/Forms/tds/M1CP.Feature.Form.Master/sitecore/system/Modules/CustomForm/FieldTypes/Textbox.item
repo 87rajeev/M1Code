@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {417E94EA-090F-4C30-9F57-A6A842D1B5AA}
+database: master
+path: /sitecore/system/Modules/CustomForm/FieldTypes/Textbox
+parent: {EE68D4F2-66F6-4AEB-8D96-8B061EBF987E}
+name: Textbox
+master: {00000000-0000-0000-0000-000000000000}
+template: {2ECB4A2C-C573-48C2-A931-6879EEBBCF98}
+templatekey: KeyValuePair
+created: 20180128T114751Z
+
+----version----
+language: en
+version: 1
+revision: 937305ae-296f-4743-a5f9-7226145c69f5
+
+----field----
+field: {0E0A7E31-8DF6-40B8-8C1D-77048C0E2DC7}
+name: Key
+key: key
+content-length: 7
+
+Textbox
+----field----
+field: {72CA4CAE-5157-48A2-92D5-FB38A80B6404}
+name: Text
+key: text
+content-length: 7
+
+Textbox
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180128T114751Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+937305ae-296f-4743-a5f9-7226145c69f5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180128T114751Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {DABE6050-8FD1-41DC-8E21-C82CAAAE6361}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/roaming-rates/_Local/DataRoamingLinks
+parent: {CDAA5039-87C6-48BF-89BD-9912ACFC29EA}
+name: DataRoamingLinks
+master: {00000000-0000-0000-0000-000000000000}
+template: {80B96A13-1EFD-429F-909E-BB934208421C}
+templatekey: CTAList
+created: 20180518T072353Z
+
+----version----
+language: en
+version: 1
+revision: 1ae5cfc3-773b-48d4-b0b1-a90a6b800735
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 155
+
+{68B79DAE-3D10-436A-B898-E57A91A8E61B}|{A76B230E-535C-4274-A372-2D925442BFAA}|{605FA35D-B4C9-43C5-8B01-3AD2D65026CE}|{48D24830-AF64-4EF1-8560-4A1BD725FBCE}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 45
+
+<strong>Quick links</strong> FOR DATA ROAMING
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180518T072353Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ae5cfc3-773b-48d4-b0b1-a90a6b800735
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180518T073024Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

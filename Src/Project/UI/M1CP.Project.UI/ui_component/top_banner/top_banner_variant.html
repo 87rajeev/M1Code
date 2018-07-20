@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="m1cp">
+<head>
+    <title>M1-Mobile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/top_banner.css">
+    <link rel="stylesheet" href="../../css/tab.css">
+    <link rel="stylesheet" href="../../css/animations.css">
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <!-- Topbanner component -->
+
+        <div class="row">
+            <div class="topbanner topbanner-variant theme-blue" ng-init="theme='theme-dark'; align='left'; backgroundType='image'; dotTheme='dots-show'; dotColor='Oval-LightBlue'; sliderColor='white'">
+                <!-- If the topbanner background is an image -->
+                <div ng-if="backgroundType==='image'" class="row {{ theme }} text-theme-black">
+                    <!-- Topbanner background -->
+                    <!-- Topbanner contents (left, right dots and text) -->
+                    <div class="col-xs-12 padding-false topbanner-contentvariant">
+                        
+                            <!-- Left-side dots. An offset of 1 column to the left so as to provide a margin -->
+                            <div class="col-xs-1"></div>
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false topbanner-dots-left {{ dotTheme }}">
+                                <img src="../../Images/{{ dotColor }}.png" alt="Dotted image" class="img-dots img-responsive pull-right">
+                            </div>
+
+                            <!-- Category, title, description and buttons as a part of the top banner content -->
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 topbanner-text topbanner-text-{{ dotTheme }}">
+                                    <!-- topbanner-text-left to align it to the left. topbanner-text-right to align it to the right. topbanner-text-center to align it to the center. -->
+                                    <div class="col-xs-12 col-sm-4 padding-false">
+                                        <!-- change according to font-size -->
+                                        <div class="topbanner-caption">
+                                            <p class="font-heading1">Investor</p>
+                                            <p class="font-heading2">FAQs</p>
+                                            <div class="{{ sliderColor }}-slider">
+                                                <span class="slider-a1"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-8 padding-false topbanner-description">
+                                        <!-- change according to font-size -->
+                                            <p class="font-body1">Thinking of gettingtopbanner the latest devices with one of our plans?Wanna stay faithful and do more on our SIM-only plans?Do it,Either way,you'll never run out of data again.</p>
+                                    </div>
+                            </div>
+                            <!-- Right-side dots. An offset of 1 column to the right so as to provide a margin -->
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 padding-false {{ dotTheme }}">
+                                <img src="../../images/{{ dotColor }}.png" alt="Dotted image" class="img-dots img-responsive pull-right">
+                            </div>
+                    </div>
+                </div>
+
+                <!-- If the topbanner background is a video -->
+                <div ng-if="backgroundType==='video'" class="row">
+                    <div class="col-xs-12 padding-false topbanner-background">
+                        <video class="topbanner-background" poster="../../images/hero-visual-Mobile-2x.jpg" controls loop>
+                            <source src="video/vid1.mp4" type="video/mp4">
+                            <source src="video/vid1.ogg" type="video/ogg">  <!-- any other type of video file -->
+                            <img src="../../images/hero-visual-Mobile-2x.jpg" alt="Video default image" class="img-responsive"> <!-- fallback image -->
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of topbanner-->
+
+    </div>
+
+    <!-- Accordion componernt ends here-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="../../scripts/slick-1.8.0/slick/slick.min.js"></script>
+    <script src="../../scripts/jquery.lazy-master/jquery.lazy.min.js"></script>
+    <script src="../../scripts/jquery.lazy-master/jquery.lazy.plugins.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js"></script>
+    <script src="../../scripts/app.js"></script>
+    <script src="../../scripts/app.common.js"></script>
+    <script src="../../scripts/core/app.core.js"></script>
+    <script src="../../scripts/core/app.core.directive.js"></script>
+    <script src="../../scripts/core/app.core.filter.js"></script>
+    <script src="../../scripts/core/app.core.service.js"></script>
+    <script src="../../scripts/core/app.core.controller.js"></script>
+    <script src="../../scripts/portal/app.portal.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.controller.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.directive.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.service.js"></script>
+    <script src="../../scripts/portal/forms/app.portal.forms.filter.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.controller.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.directive.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.service.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.filter.js"></script>
+    <script src="../../scripts/portal/microsites/app.portal.microsites.contactus.js"></script>
+
+</body>
+</html>

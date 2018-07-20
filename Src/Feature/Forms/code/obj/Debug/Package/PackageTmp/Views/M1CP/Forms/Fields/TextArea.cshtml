@@ -1,0 +1,18 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IListFormField
+<div>
+    <label for="" class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+        @*@Html.Raw(Model.IsRequired ? "<span class='req-field'>* </span>" : string.Empty)*@
+        @Html.Raw(Model.Title)
+    </label>
+    <div class="col-lg-4 col-md-4 col-sm-7 col-xs-12">
+@*        <textarea @Model.UIElements.ToUIAttributes()>@Request.Form[Model.UIElements.Name]</textarea>*@
+        <textarea name="@Model.SitecoreItemId.ToString()"> @Request.Form[Model.SitecoreItemId.ToString()]</textarea>
+        @if (Model.Validations != null)
+        {
+            foreach (var validation in Model.Validations)
+            {
+                <span class="error-message @validation.Class">@validation.Validation_Message</span>
+            }
+        }
+    </div>
+</div>

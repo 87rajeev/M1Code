@@ -1,0 +1,79 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Diagnostics
+
+@model M1CP.Feature.Navigation.Models.NavigationGroup
+
+@if (Model == null)
+{
+    Log.SingleError("Footer Navigation Model is Null" + Environment.StackTrace, this);
+    return;
+}
+
+
+<div class="container-fluid">
+    <div class="row top-arrow">
+        <a href="javaScript:void(0);"  ng-click="scrollToTop(1000)">
+            <img src="/Images/BackToTop-1x.png" class="center-block img-responsive gotopButton" alt="go up">
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-lg-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-xs-12 padding-zero-mobile">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                @foreach (var item in Model.Select_Navigation_Links)
+            {
+                    var navlink = item.Navigation_Link != null ? item.Navigation_Link.Url : "#";
+                    <div class="panel panel-default ">
+                        <div class="panel-heading">
+                           
+                            <div role="button" data-toggle="collapse" data-parent="#accordion" data-target="#@ViewBag.FooterId" class="accordion-toggle collapsed">
+                                <h4 class="panel-title">
+                                    <a href="@navlink">@Html.Glass().Editable(item, x => x.Navigation_Title)</a>
+                                </h4>
+                            </div>
+                        </div>
+                        <div id="#@ViewBag.FooterId" class="panel-collapse collapse" role="tabpanel" aria-expanded="false">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    @foreach (var submenu in item.Child_Navigation_Items)
+                                    {
+                                        var link = submenu.Navigation_Link != null ? submenu.Navigation_Link.Url : "#";
+                                        <li class="list-group-item"><a href="@link">@submenu.Navigation_Title</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class='row'>
+
+        <div class="col-md-10 col-md-offset-1 padding-zero">
+
+            <div class="col-xs-12 col-md-6 col-sm-6 col-lg-6 footer-download hidden-xs hidden-md hidden-sm hidden-lg">
+                <div class="col-xs-6 col-md-4 col-sm-4 padding-zero">
+                    <a href="javaScript:void(0);">
+                        <img src='/images/Footer-Download-icon-GooglePlay-1x.png' alt='Get it on Google Play' class="img img-responsive padding-zero">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-4 col-sm-4 padding-zero">
+                    <a href="javaScript:void(0);">
+                        <img src='/images/Footer-Download-icon-AppStore-1x.png' alt='Download on the App Store' class="img img-responsive padding-zero">
+                    </a>
+                </div>
+            </div>
+            <div class='col-xs-12 col-sm-12 pull-left footer-social col-md-12 col-lg-12'>
+                <span> <a href="javaScript:void(0);"><img src='/images/Social-Icon-Facebook-1x.png' alt='Facebook'></a></span>
+                <span> <a href="javaScript:void(0);"><img src='/images/Social-Icon-Youtube-1x.png' alt='YouTube'></a></span>
+                <span> <a href="javaScript:void(0);"><img src='/images/Social-Icon-Linkedin-1x.png' alt='LinkedIn'></a></span>
+
+            </div>
+        </div>
+
+    </div>
+</div>

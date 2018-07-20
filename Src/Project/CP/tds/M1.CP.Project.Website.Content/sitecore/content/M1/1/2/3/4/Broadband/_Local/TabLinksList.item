@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {A954117A-382C-4386-8FF8-FDF13884932F}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/TabLinksList
+parent: {6334B9BF-C4CC-4D47-A39E-DC51CB6E2882}
+name: TabLinksList
+master: {00000000-0000-0000-0000-000000000000}
+template: {80B96A13-1EFD-429F-909E-BB934208421C}
+templatekey: CTAList
+created: 20180502T104332Z
+
+----version----
+language: en
+version: 1
+revision: e6d8f58d-97fd-4d83-a773-f872e83c9e02
+
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 194
+
+{0C218F87-A460-4D6A-B6A4-B6AB08B58B00}|{7DAABCE8-B723-4F13-B29C-7840DE145771}|{0D17E4DB-1E50-4BEC-82E5-C9CA4D544B3F}|{F476C8B3-56A9-4763-9C25-118750B44190}|{3C86D0DD-4CA7-417F-A3F6-75AD668EF01D}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 55
+
+<p class="font-heading1">Slow or faster? YOU DECIDE</p>
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 6
+
+&nbsp;
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180426T124920Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e6d8f58d-97fd-4d83-a773-f872e83c9e02
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180427T062446Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

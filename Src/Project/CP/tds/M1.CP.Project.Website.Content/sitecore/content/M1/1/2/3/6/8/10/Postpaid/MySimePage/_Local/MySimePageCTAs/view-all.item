@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {A6D8C959-446E-4416-BAF0-0DBAD68255CB}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/phone-plans/Postpaid/MySimePage/_Local/MySimePageCTAs/view-all
+parent: {F40F2C1B-F945-4616-8836-B0184B2EAAEE}
+name: view-all
+master: {00000000-0000-0000-0000-000000000000}
+template: {347443B8-A1DC-48B9-AE7D-34B3709DFC52}
+templatekey: _CTA
+created: 20180419T095305Z
+
+----version----
+language: en
+version: 1
+revision: 4e8415bb-7f66-4567-b641-0a23872a3a0f
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 8
+
+View All
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{7485367C-99EA-4E7D-A31C-1EED32FF235A}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 8
+
+View ALL
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180412T140601Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4e8415bb-7f66-4567-b641-0a23872a3a0f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180419T095334Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

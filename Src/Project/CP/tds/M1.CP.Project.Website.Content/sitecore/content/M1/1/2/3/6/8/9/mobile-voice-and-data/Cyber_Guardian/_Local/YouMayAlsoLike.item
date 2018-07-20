@@ -1,0 +1,88 @@
+----item----
+version: 1
+id: {E923A834-8ABF-4018-9265-F2F4807794F7}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/Cyber_Guardian/_Local/YouMayAlsoLike
+parent: {EBB800C8-B078-4AD4-802C-A495981547E4}
+name: YouMayAlsoLike
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B5DDC1F-0239-4BA3-BCB2-0665159FE3B9}
+templatekey: Thumbnail
+created: 20180507T080348Z
+
+----version----
+language: en
+version: 1
+revision: f89931b9-025f-4468-a14d-46e580d5637c
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 23
+
+Thumbnail_CyberGuardian
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 76
+
+<link linktype="external" url="http://www.google.com" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 91
+
+<p class="font-heading1">Services you may</p>
+<p class="font-heading3">&nbsp; ALSO LIKE</p>
+----field----
+field: {7F951ECA-B94D-4A2D-B481-C42C1C3D51A3}
+name: Thumbnail Component Items
+key: thumbnail component items
+content-length: 155
+
+{5611C597-673C-4842-BD3A-38C937F2CD33}|{0B1710AB-DF02-489A-8C83-144C6F68D724}|{751C1D7D-E090-4A34-8080-CD2519CF8DD2}|{37E37DD1-5783-45E0-9697-15FA3531BDB8}
+----field----
+field: {7B2FE7B4-BD75-431B-8BBD-7809ADA81B30}
+name: Enable CTA
+key: enable cta
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T055545Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f89931b9-025f-4468-a14d-46e580d5637c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T102116Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

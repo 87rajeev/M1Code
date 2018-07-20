@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {94A14616-7B4D-484F-8E09-D8B0BAD8CB91}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Site Settings/Foundation/Text Color/Text Theme Orange
+parent: {6514EAE8-E80B-48DA-A6FA-55788F951249}
+name: Text Theme Orange
+master: {00000000-0000-0000-0000-000000000000}
+template: {9046A3F1-24E6-41A1-A902-0BE12D5AF702}
+templatekey: _Style
+created: 20180417T114503Z
+
+----version----
+language: en
+version: 1
+revision: 722d8bdf-64a8-472a-aec0-9ca4a856bef5
+
+----field----
+field: {3FEF19B5-6FE2-433C-BDAC-D5EB95CFF9A5}
+name: Class
+key: class
+content-length: 17
+
+text-theme-orange
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180417T114503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+722d8bdf-64a8-472a-aec0-9ca4a856bef5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180417T114525Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {815431CC-D378-44C1-9E04-12A2C4190595}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Promotions/_Local/Text Carousal/Toggle Prime
+parent: {163EC01A-9DD0-41C8-AC3B-7E6A71375228}
+name: Toggle Prime
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180503T101936Z
+
+----version----
+language: en
+version: 1
+revision: d88448ed-2a68-4dc3-80fb-15f32ded15b8
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 12
+
+Toggle Prime
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 69
+
+<link text="google" linktype="external" url="" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 38
+
+Share the joy your of Big Data Bundles
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 66
+
+Share you data with up to 2 mySIMs plans at only &amp;12/mth each.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180427T044241Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d88448ed-2a68-4dc3-80fb-15f32ded15b8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180507T062648Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {033F375A-7156-4296-AC6D-DB82EB359176}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/MLanding/_Local
+parent: {632845F8-8A00-4E51-974D-8653EF804724}
+name: _Local
+master: {00000000-0000-0000-0000-000000000000}
+template: {9669259C-6AB5-4626-B5B6-BA063C47C576}
+templatekey: Local Datasource Folder
+created: 20180425T041126Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 5
+
+-1000
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 155
+
+{AB03428B-2EE9-49F5-89EE-16F06A233E91}|{6B5DDC1F-0239-4BA3-BCB2-0665159FE3B9}|{BC55ED8F-6D13-4313-8A82-0E90FF57CB0B}|{28336C18-2098-4530-AF87-1EA37046416F}
+----version----
+language: en
+version: 1
+revision: a206446a-b1d6-498c-ae84-c30e5dda5300
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180425T041126Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a206446a-b1d6-498c-ae84-c30e5dda5300
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180425T041301Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

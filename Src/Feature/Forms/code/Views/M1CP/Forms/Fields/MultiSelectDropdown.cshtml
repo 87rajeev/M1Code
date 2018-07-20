@@ -1,0 +1,45 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IListFormField
+
+
+<link rel="stylesheet" href="~/scripts/Chosen/style.css">
+<link rel="stylesheet" href="~/scripts/Chosen/prism.css">
+<link rel="stylesheet" href="~/scripts/Chosen/chosen.css">
+@if (@Model.Items != null)
+{
+    @*<div @Model.Validations.ToUIAttributes()>*@
+        <div>
+            <label for="" class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                @Html.Raw(Model.Is_Required ? "<span class='req-field'>* </span>" : string.Empty)
+                @Html.Raw(Model.Title)
+            </label>
+            <div class="col-lg-4 col-md-4 col-sm-7 col-xs-12">
+                @*<select multiple class="chosen-select" @Model.UIElements.ToUIAttributes()>*@
+                    <select multiple class="chosen-select" name="@Model.SitecoreItemId.ToString()">
+                        <option disabled selected>@Model.PlaceholderText</option>
+                        @foreach (var item in Model.Items)
+                {
+                    if (Request.Form[Model.SitecoreItemId.ToString()] == item.Title)
+                    {
+                                <option selected="selected">@Html.Raw(item.Title)</option>
+                    }
+                     else
+                     {
+                                <option>@Html.Raw(item.Title)</option>}
+                     }
+                    </select>
+
+                <h3>@Model.ValidationMessage</h3>
+                @*@if (Model.Validations != null)
+                {
+                    foreach (var validation in Model.Validations)
+                    {
+                        <span class="error-message @validation.Class">@validation.Validation_Message</span>
+                    }
+                }*@
+            </div>
+        </div>
+}
+<script src="~/scripts/Chosen/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="~/scripts/Chosen/chosen.jquery.js" type="text/javascript"></script>
+<script src="~/scripts/Chosen/prism.js" type="text/javascript" charset="utf-8"></script>
+<script src="~/scripts/Chosen/init.js" type="text/javascript" charset="utf-8"></script>

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {6379039F-B4EF-473B-B822-E1AD9E6249D0}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Feature/Sitemap/Sitemap Page Settings/Sitemap Settings/Exclude From Sitemap
+parent: {FE3C6882-A643-4BAC-9C5B-3A9832730BB4}
+name: Exclude From Sitemap
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20180404T154308Z
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 8
+
+Checkbox
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+25
+----version----
+language: en
+version: 1
+revision: 7ecbd200-326e-4b39-a1ae-5ab4cbed101a
+
+----field----
+field: {577F1689-7DE4-4AD2-A15F-7FDC1759285F}
+name: __Long description
+key: __long description
+content-length: 65
+
+The page is excluded from the XML and HTML sitemaps when checked.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20151228T231227Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ecbd200-326e-4b39-a1ae-5ab4cbed101a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180404T154343Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

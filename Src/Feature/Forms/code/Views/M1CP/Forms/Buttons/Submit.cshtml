@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc
+@model M1CP.Feature.Forms.Models.M1CP.IFormButton
+
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-7 col-xs-12">
+        <button type="submit" class="@Model.Class" id="@Model.Id" name="@Model.Title">@Html.Raw(Model.Title)</button>
+        @*<button type="submit" class="clstest" id="frmid" name="@Model.UIElements.Name">@Html.Raw(Model.Title)</button>*@
+
+   </div>
+</div>
+
+
+

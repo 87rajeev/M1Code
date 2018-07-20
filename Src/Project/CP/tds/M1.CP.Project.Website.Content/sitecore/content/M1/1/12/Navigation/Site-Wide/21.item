@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {776F29AD-C5F9-404C-8B1C-212770699546}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/Left-header-navigation
+parent: {A591C4CB-BFF6-46A8-A5E6-838458821EEA}
+name: Left-header-navigation
+master: {00000000-0000-0000-0000-000000000000}
+template: {DE278B23-7249-414B-B596-4D14BC3B4E28}
+templatekey: Navigation
+created: 20180322T020515Z
+
+----version----
+language: en
+version: 1
+revision: 3ee6056a-064c-4501-8e28-37767e253d0d
+
+----field----
+field: {3486DBE7-2AAA-4AB9-B714-3BFB2D2B08CD}
+name: Select Navigation Links
+key: select navigation links
+content-length: 77
+
+{D815E8CF-21AB-41B6-B280-2524D0A0DE75}|{5F4A1422-ABD3-43A8-A9FF-FE61E6C0F3AE}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180322T020515Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ee6056a-064c-4501-8e28-37767e253d0d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180322T161541Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

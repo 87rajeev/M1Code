@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://m1cp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>05/21/2018 15:10:41</publishTime>
+    </File>
+    <File Include="App_Config/Include/M1CP/Foundation/M1CP.Feature.Forms.config">
+      <publishTime>05/23/2018 13:22:48</publishTime>
+    </File>
+    <File Include="App_Config/Include/M1CP/Foundation/M1CP.Foundation.FileUpload.config">
+      <publishTime>05/23/2018 12:43:46</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>05/22/2018 17:00:32</publishTime>
+    </File>
+    <File Include="bin/CaptchaMvc.dll">
+      <publishTime>11/04/2013 13:26:52</publishTime>
+    </File>
+    <File Include="bin/Castle.Core.dll">
+      <publishTime>05/03/2018 15:11:00</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.dll">
+      <publishTime>05/03/2018 15:11:14</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.dll">
+      <publishTime>05/03/2018 15:11:05</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.Mvc.dll">
+      <publishTime>05/03/2018 15:11:14</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>03/16/2018 13:22:54</publishTime>
+    </File>
+    <File Include="bin/Lucene.Net.dll">
+      <publishTime>03/16/2018 13:23:21</publishTime>
+    </File>
+    <File Include="bin/M1CP.Feature.Forms.dll">
+      <publishTime>05/24/2018 18:10:14</publishTime>
+    </File>
+    <File Include="bin/M1CP.Feature.Forms.pdb">
+      <publishTime>05/24/2018 18:10:14</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Base.dll">
+      <publishTime>05/24/2018 18:09:52</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Base.pdb">
+      <publishTime>05/24/2018 18:09:52</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Caching.dll">
+      <publishTime>05/24/2018 18:09:58</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Caching.pdb">
+      <publishTime>05/24/2018 18:09:58</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.DependencyInjection.dll">
+      <publishTime>05/24/2018 18:09:46</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.DependencyInjection.pdb">
+      <publishTime>05/24/2018 18:09:46</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.FileUpload.dll">
+      <publishTime>05/24/2018 18:09:47</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.FileUpload.pdb">
+      <publishTime>05/24/2018 18:09:47</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.GlassMapper.dll">
+      <publishTime>05/24/2018 18:09:45</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.GlassMapper.pdb">
+      <publishTime>05/24/2018 18:09:45</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Logging.dll">
+      <publishTime>05/24/2018 18:10:00</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Logging.pdb">
+      <publishTime>05/24/2018 18:10:00</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.ServiceContracts.dll">
+      <publishTime>05/24/2018 18:09:46</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.ServiceContracts.pdb">
+      <publishTime>05/24/2018 18:09:46</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Services.dll">
+      <publishTime>05/24/2018 18:10:10</publishTime>
+    </File>
+    <File Include="bin/M1CP.Foundation.Services.pdb">
+      <publishTime>05/24/2018 18:10:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>05/03/2018 15:11:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>05/03/2018 15:11:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>05/03/2018 15:11:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>05/03/2018 15:11:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>05/03/2018 15:11:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>05/03/2018 15:11:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>05/03/2018 15:11:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/03/2018 15:11:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>05/03/2018 15:11:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>05/03/2018 15:11:57</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/03/2018 15:13:14</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/03/2018 15:13:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/03/2018 15:12:31</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Client.dll">
+      <publishTime>05/03/2018 15:14:17</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>05/03/2018 15:14:36</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.Client.dll">
+      <publishTime>03/16/2018 13:23:26</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>03/16/2018 13:23:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>05/03/2018 15:14:38</publishTime>
+    </File>
+    <File Include="bin/Sitecore.NVelocity.dll">
+      <publishTime>03/16/2018 13:23:28</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Zip.dll">
+      <publishTime>03/16/2018 13:23:30</publishTime>
+    </File>
+    <File Include="bin/StackExchange.Redis.StrongName.dll">
+      <publishTime>05/03/2018 15:14:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/03/2018 15:11:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/03/2018 15:11:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>05/03/2018 15:11:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/03/2018 15:11:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/03/2018 15:11:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/03/2018 15:11:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/03/2018 15:11:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/22/2018 12:12:46</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Buttons/Cancel.cshtml">
+      <publishTime>01/28/2018 16:17:20</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Buttons/Submit.cshtml">
+      <publishTime>05/16/2018 17:27:52</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/Captcha.cshtml">
+      <publishTime>05/24/2018 18:08:22</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/Checkbox.cshtml">
+      <publishTime>05/24/2018 18:07:14</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/DateTime.cshtml">
+      <publishTime>05/24/2018 18:07:54</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/Disclaimer.cshtml">
+      <publishTime>05/24/2018 18:07:49</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/File.cshtml">
+      <publishTime>05/24/2018 18:07:43</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/HtmlContent.cshtml">
+      <publishTime>05/24/2018 18:08:40</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/MultiSelectDropdown.cshtml">
+      <publishTime>05/24/2018 18:08:44</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/Password.cshtml">
+      <publishTime>05/24/2018 18:08:50</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/RadioButton.cshtml">
+      <publishTime>05/24/2018 18:08:55</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/Select.cshtml">
+      <publishTime>05/24/2018 18:08:58</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/TextArea.cshtml">
+      <publishTime>05/24/2018 18:09:02</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Fields/TextBox.cshtml">
+      <publishTime>05/24/2018 18:34:11</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/Index.cshtml">
+      <publishTime>05/24/2018 18:33:55</publishTime>
+    </File>
+    <File Include="Views/M1CP/Forms/ValidateCaptcha.cshtml">
+      <publishTime>05/24/2018 18:09:23</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>05/08/2018 19:21:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

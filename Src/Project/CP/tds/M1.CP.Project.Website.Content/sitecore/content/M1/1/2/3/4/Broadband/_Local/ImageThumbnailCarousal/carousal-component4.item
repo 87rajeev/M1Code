@@ -1,0 +1,88 @@
+----item----
+version: 1
+id: {6E73B8D3-851B-4AD6-BFB1-B3602128C3B5}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals/Broadband/_Local/ImageThumbnailCarousal/carousal-component4
+parent: {95902575-AFB9-469F-ACA2-6D2DFD25C06A}
+name: carousal-component4
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180502T104332Z
+
+----version----
+language: en
+version: 1
+revision: 069a85be-1670-4a72-8089-6e984532eb4f
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 19
+
+Carousal Component4
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 93
+
+<link text="Sign Up Now" linktype="external" url="http://www.ggoog.le" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 6
+
+&nbsp;
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 114
+
+<p><strong>Linksys Velop</strong></p>
+<p><span>Enjoy fully strength Wi-Fi in every corner of your home.</span></p>
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F59D6728-43A2-4FA4-BCC4-5CA29FC98518}" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+Carousal Component4
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180502T060223Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+069a85be-1670-4a72-8089-6e984532eb4f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T110728Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

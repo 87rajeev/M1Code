@@ -1,0 +1,89 @@
+----item----
+version: 1
+id: {5F7CA23E-74C1-4504-9A24-FEC2A159DAA6}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage
+parent: {81B9D5FD-143E-470B-946D-87BBBC3C78A3}
+name: MySimePage
+master: {00000000-0000-0000-0000-000000000000}
+template: {5A7A90DE-1CF2-461E-9A4D-3A17E045DB9D}
+templatekey: Postpaid Plans
+created: 20180406T051832Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 396
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{C22451E6-7501-499C-B3FE-303611C732CC}" s:ds="{661494E9-B9A1-44E7-A07B-FD6CE76C8646}" s:par="" /><r uid="{13ADBDB0-100F-4B59-A0B9-F546BD13A73E}" s:ds="{E2D89305-547A-492F-8CE1-69939AC599F5}" /><r uid="{0ED2B29C-1C23-4486-9FC3-D5F4D83A9609}" s:ds="{18941FF6-BBFB-4824-86FA-12B6378E9ACF}" s:par="" /></d></r>
+----version----
+language: en
+version: 1
+revision: 3fc1a112-b0b9-4030-a01c-8dc912e72229
+
+----field----
+field: {958DB8CA-DF13-4794-AD9E-E4F65C8F9C63}
+name: CSS Includes
+key: css includes
+content-length: 23
+
+.home{
+color:black;
+}
+----field----
+field: {64DE0ED4-C9CC-47F1-A318-DAB2A4522238}
+name: JS Includes
+key: js includes
+content-length: 36
+
+$(".navtest").removeClass("active");
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1525
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D89C7A1D-B468-4A4F-B732-D53EA938445E}" s:ds="{C5CCCAF1-1804-49F0-96FD-30C684079613}" s:par="Theme=%7B0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB%7D&amp;Orientation=%7BE3EE61A6-49C7-4CD3-8175-B47185833B42%7D" /><r uid="{61A8BF1F-AA9C-4635-B6F4-30530309DF1A}" s:ds="{F9D48E75-873E-4EFE-BD7B-53B14F9CC7AC}" s:par="DesktopCount={F5793236-BBE7-455A-9675-5F55CA331563}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}" /><r uid="{F968B4B2-73FE-4616-ADAA-9F31FA1F19D0}" s:ds="{BC89730B-C8F5-4FEC-8C43-C2A8399008FA}" s:par="DesktopCount={8172D243-3E49-4DA8-A752-DCE5871F1DA7}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}&amp;TextColor" /><r uid="{B36DA77F-B3C7-4199-A5DF-DD1197763AE0}" s:ds="{BDD82BEA-5CF3-47C7-9669-319D224ADD7D}" s:par="DesktopCount={F5793236-BBE7-455A-9675-5F55CA331563}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}" /><r uid="{9112514D-BBAA-4907-AE18-E89E01692923}" s:ds="{44F1D20C-32F7-4515-976F-3E96E4343343}" s:par="Theme={0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB}&amp;Orientation={E3EE61A6-49C7-4CD3-8175-B47185833B42}" /><r uid="{6FA6949E-7028-4AC3-8D65-EA3B66E4F00B}" s:ds="{F40F2C1B-F945-4616-8836-B0184B2EAAEE}" s:par="DesktopCount={F5793236-BBE7-455A-9675-5F55CA331563}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}&amp;TextColor" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180406T051832Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3fc1a112-b0b9-4030-a01c-8dc912e72229
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180427T072110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

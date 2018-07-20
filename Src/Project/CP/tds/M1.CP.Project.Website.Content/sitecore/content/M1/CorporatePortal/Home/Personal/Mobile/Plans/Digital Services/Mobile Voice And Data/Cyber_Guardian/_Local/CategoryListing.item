@@ -1,0 +1,124 @@
+----item----
+version: 1
+id: {4AFFC709-D998-4217-9379-3BADF70380A1}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Cyber_Guardian/_Local/CategoryListing
+parent: {EBB800C8-B078-4AD4-802C-A495981547E4}
+name: CategoryListing
+master: {00000000-0000-0000-0000-000000000000}
+template: {9EF2B097-F80C-4A62-B871-B98620644E7B}
+templatekey: CategoryListing
+created: 20180507T075531Z
+
+----version----
+language: en
+version: 1
+revision: 4485c500-4da1-4ad7-b573-b6ff3bfb0324
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 91
+
+<p class="font-heading1">Categories </p>
+<p class="font-heading3">&nbsp;FILTERED</p>
+<br />
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 111
+
+Select from these 3 pre define  Categories or visit our cyber guardian portal to create your oun custome filter
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{B8B68DBD-423C-4242-B57D-0141814756FB}" ></image>
+----field----
+field: {69D537A8-8DF4-4383-9752-F8F370ECB77D}
+name: Category One Name
+key: category one name
+content-length: 4
+
+Lite
+----field----
+field: {8F46C2C7-837B-4BC5-A4DC-EAA7F1D8CABA}
+name: Category One Color
+key: category one color
+content-length: 38
+
+{63657047-FE34-4D6F-8CBF-268C1ED5749F}
+----field----
+field: {62D26B85-AABB-47CF-8CD8-069C16976220}
+name: Category Two Name
+key: category two name
+content-length: 5
+
+Teens
+----field----
+field: {E1EAFF79-2DF8-4AF1-8AF2-12D26067E4CB}
+name: Category Two Color
+key: category two color
+content-length: 38
+
+{8C96009C-791C-46D9-9E0C-DEBC96E5283C}
+----field----
+field: {14A4341F-9526-4EB4-8536-3C0E993D902C}
+name: Category Three Name
+key: category three name
+content-length: 5
+
+Child
+----field----
+field: {ACCF657C-E0BC-4CF0-A3E6-33E4A2A0C7D3}
+name: Category Three Color
+key: category three color
+content-length: 38
+
+{32348D1D-F76F-4DB3-9E15-EF8EDB335228}
+----field----
+field: {B0D6415D-1C14-4522-B476-36443F7E0C14}
+name: Select SubCategory
+key: select subcategory
+content-length: 779
+
+{83EA0B75-3D9F-4FA6-90B2-4C2D64E4CF97}|{F10FA06B-C082-4B21-8F93-495FF1FD649B}|{1A30F199-9B05-4044-B801-1F42E09F72A6}|{430EA277-A008-4FBA-8635-F5D948661B65}|{B94AA40A-4E27-4A12-A979-A91B15E1F0C2}|{969AB7FC-0F62-42EE-A6B5-5955D3948217}|{A047D876-7750-4393-85EA-B91660399D35}|{CF739AFF-A428-445E-A484-6C3495BCCA28}|{B59E3A5F-3FE3-4751-8E19-A7BF1FF9CFA2}|{CC950CA2-AF30-410B-8651-9F25B5D0C27F}|{3A3BF856-14F0-47E8-8AD8-507E3C0459AD}|{14B231C2-E590-4BEB-8FD4-58C4EC3E7E89}|{C998B45A-E73D-4BAA-B3A1-CC6E89EB9A33}|{E1A640A5-117E-487F-94DD-6BDA5903CEA7}|{013FB72D-5F36-4930-83F7-B50D85DD3DD1}|{5A4B2023-3CCB-423D-ADE8-8EA6E9447F78}|{D28B18C3-CD5A-4A78-A7B1-5B08A3AC043C}|{1D337D03-CD18-48A1-97D1-A7C36A16BBD8}|{576A01D6-1374-47ED-91DA-689BC21B7191}|{89FC1BB2-5618-4CBF-8C3C-20057A5229C8}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T030043Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4485c500-4da1-4ad7-b573-b6ff3bfb0324
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180507T145945Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

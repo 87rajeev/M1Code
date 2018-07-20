@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {ABF6A14B-AB34-475D-ADD8-A82E6893DA9A}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/Common/Folder Types/Content/Content Folder
+parent: {482F2584-5CFD-4656-B9EA-58ACF6BA3510}
+name: Content Folder
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20180403T135126Z
+
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{A29E12C8-B360-4BD3-9A83-599620A77AF8}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 34
+
+Applications/32x32/folder_edit.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{8E137141-8165-4236-B4BC-E4F249133C26}|{D84A6C34-2F1F-426D-8620-C36948C4A9E7}
+----version----
+language: en
+version: 1
+revision: e1eec246-cd30-4185-afd1-23427e70ca51
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180403T135126Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e1eec246-cd30-4185-afd1-23427e70ca51
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180403T141404Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

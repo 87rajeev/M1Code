@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {C3E05E28-C7FF-4B47-9A6C-BE0912DAE0F6}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/FAQ/M1 Fiber Broadband
+parent: {FCD6C5B5-02B4-4390-BDE0-B3324693409C}
+name: M1 Fiber Broadband
+master: {00000000-0000-0000-0000-000000000000}
+template: {7E49A1C2-026D-45BA-BE98-494B17D798B5}
+templatekey: FAQ
+created: 20180313T090752Z
+
+----version----
+language: en
+version: 1
+revision: cc22888a-25c7-4c46-9c8f-f16abe5c7421
+
+----field----
+field: {B050FA74-5407-49C3-8347-4ED7FB5E4A59}
+name: Question
+key: question
+content-length: 86
+
+Are there any monthly bandwidth caps or data usage limitations for M1 Fiber Broadband?
+----field----
+field: {B1D3456E-65E1-4F88-8648-AB7C159C0025}
+name: Answer
+key: answer
+content-length: 49
+
+No, all the plans come with unlimited data usage.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180313T090752Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc22888a-25c7-4c46-9c8f-f16abe5c7421
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180417T101449Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

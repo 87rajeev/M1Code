@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {ACFD320E-7D55-42A7-B184-882D71C59D2F}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local
+parent: {3DF3028F-6076-4033-9FF3-504D28611E47}
+name: _Local
+master: {00000000-0000-0000-0000-000000000000}
+template: {9669259C-6AB5-4626-B5B6-BA063C47C576}
+templatekey: Local Datasource Folder
+created: 20180426T104258Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 5
+
+-1000
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 116
+
+{7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}|{6B5DDC1F-0239-4BA3-BCB2-0665159FE3B9}|{8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+----version----
+language: en
+version: 1
+revision: 1621a611-1e8f-439a-a949-8ad707c75b74
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180426T104258Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1621a611-1e8f-439a-a949-8ad707c75b74
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180426T111916Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

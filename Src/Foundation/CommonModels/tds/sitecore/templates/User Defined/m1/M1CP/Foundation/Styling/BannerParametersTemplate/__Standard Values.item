@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {E665A87E-8122-4AFB-BB2D-6041F4A02640}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Foundation/Styling/BannerParametersTemplate/__Standard Values
+parent: {6E4216DE-6085-410D-8E2A-417C3FEE33CC}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {6E4216DE-6085-410D-8E2A-417C3FEE33CC}
+templatekey: BannerParametersTemplate
+created: 20180309T071758Z
+
+----field----
+field: {E42027F4-766D-45A7-8CF4-29E5C94326F7}
+name: Placeholder
+key: placeholder
+content-length: 11
+
+page-layout
+----field----
+field: {0793DCFF-0EE7-48AD-B9D4-EF1DD24EB59B}
+name: Data Source
+key: data source
+content-length: 38
+
+{F07D04C8-78CC-46DE-9B9D-66AAF56FCDE2}
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 86d485d2-5550-447a-ab65-3b64984ccf6c
+
+----field----
+field: {4E10325F-75DF-4376-A256-C130B2B6A078}
+name: ComponentTheme
+key: componenttheme
+content-length: 20
+
+Banner Primary Color
+----field----
+field: {AA2C9B6C-2437-4273-B396-E00BCE18C83B}
+name: ComponentOrientation
+key: componentorientation
+content-length: 21
+
+Banner Left Alignment
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180309T071758Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+86d485d2-5550-447a-ab65-3b64984ccf6c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180314T073627Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

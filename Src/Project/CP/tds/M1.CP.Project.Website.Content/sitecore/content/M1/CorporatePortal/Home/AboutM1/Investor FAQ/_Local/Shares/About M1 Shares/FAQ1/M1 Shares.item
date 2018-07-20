@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {7556E99C-783B-4BBC-B81C-EF3A515B8CD8}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ/_Local/Shares/About M1 Shares/FAQ1/M1 Shares
+parent: {9F7BD900-DF4E-4CAD-8ADF-3B920F8216FB}
+name: M1 Shares
+master: {00000000-0000-0000-0000-000000000000}
+template: {7E49A1C2-026D-45BA-BE98-494B17D798B5}
+templatekey: FAQ
+created: 20180503T043843Z
+
+----version----
+language: en
+version: 1
+revision: 726a81a7-3f56-4c1f-a91e-40143b905633
+
+----field----
+field: {B050FA74-5407-49C3-8347-4ED7FB5E4A59}
+name: Question
+key: question
+content-length: 9
+
+M1 Shares
+----field----
+field: {B1D3456E-65E1-4F88-8648-AB7C159C0025}
+name: Answer
+key: answer
+content-length: 41
+
+M1 shares are publicly traded<br /><br />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T043843Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+726a81a7-3f56-4c1f-a91e-40143b905633
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T092834Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

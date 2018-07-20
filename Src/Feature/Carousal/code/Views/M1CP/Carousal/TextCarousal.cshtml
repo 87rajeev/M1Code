@@ -1,0 +1,64 @@
+﻿@using M1CP.Feature.Carousal
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+
+@model M1CP.Feature.Carousal.Models.ICarousal
+
+@if (Model != null)
+{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Carousal.Models.ICarousalParameter>();
+
+    <div class="row">
+        @if (Html.Glass().IsInEditingMode)
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Glass().Editable(Model, x => x.Title)
+                <p class="topbanner-description font-body1"></p>
+            </div>
+        }
+        else if (!String.IsNullOrEmpty(Model.Title))
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Glass().Editable(Model, x => x.Title)
+                <p class="topbanner-description font-body1"></p>
+            </div>
+        }
+        <div class="col-md-10 col-md-offset-1 col-xs-12 padding-zero-mobile">
+            @{
+                var desktopCount = (RenderingParamaters != null && RenderingParamaters.desktopCount.value != 0) ? RenderingParamaters.desktopCount.value : 1;
+                var mobileCount = (RenderingParamaters != null && RenderingParamaters.mobileCount.value != 0) ? RenderingParamaters.mobileCount.value : 1;
+
+                <div class="slider text-crausel-type-1" carousel-component maxItem="@desktopCount" minItem="@mobileCount" speed="@((RenderingParamaters != null && RenderingParamaters.Carousal_Speed != 0) ? RenderingParamaters.Carousal_Speed : 0)" autoplay="@((RenderingParamaters.AutoScroll.Equals(true)) ? "true" : "false")" infinite="@((RenderingParamaters.InfiniteScroll.Equals(true)) ? "true" : "false")" autoplaySpeed="@((RenderingParamaters != null && RenderingParamaters.AutoPlaySpeed != 0) ? RenderingParamaters.AutoPlaySpeed : 0)" dots="@(desktopCount>=Model.CarousalComponent.Count()?"false":"true")" slidesToScroll="@RenderingParamaters.desktopCount.value">
+
+                    @foreach (var Component in Model.CarousalComponent)
+                    {
+                        var maxValue = 12 / desktopCount;
+                        var minValue = 12 / mobileCount;
+                        <div class="slick-slide thumbnail arrow-position col-md-@maxValue col-sm-@minValue col-lg-@maxValue col-xs-@minValue">
+                            @using (Html.Glass().BeginEditFrame(Component, "editimage", m => m.CTALink))
+                            {
+                                <a href="@((Component.CTALink != null && Component.CTALink.Url != null) ? Component.CTALink.Url : "#")" target="@((Component.CTALink != null && Component.CTALink.Target != null) ? Component.CTALink.Target : "_blank")">
+                                    <div class="caption">
+                                        <p class="heading font-body7">@Html.Glass().Editable(Component, x => x.Title)</p>
+                                        <p class="description font-body6">@Html.Glass().Editable(Component, x => x.Description)</p>
+                                    </div>
+                                </a>
+                            }
+                        </div>
+                    }
+
+                </div>
+            }
+            <div class="col-md-12 col-xs-12 component-viewall-Link">
+                @using (Html.Glass().BeginEditFrame(Model, "EditLink", m => m.CTALink))
+                {
+                    <a href="@(Model.CTALink != null && Model.CTALink.Url != null ? Model.CTALink.Url : "#")" target="@(Model.CTALink != null && Model.CTALink.Target != null ? Model.CTALink.Target : "_blank")" class="viewall-link font-body8 @(Model.ExpandCTA?"expand-below":"")">@(Model.CTALink != null && Model.CTALink.Text != null ? Model.CTALink.Text : "")</a>
+                }
+            </div>
+        </div>
+    </div>
+                }

@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {B41D7E8C-A0EC-439B-AC66-84145E3712A4}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Enquiry/Expecting Recontract/No
+parent: {EEA3A0BA-51E6-49E4-97F7-9805BD084C95}
+name: No
+master: {00000000-0000-0000-0000-000000000000}
+template: {4F526D34-7DFE-4444-8B89-0616DE873203}
+templatekey: FieldData
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: b19c13e1-5e5f-4716-bf57-8a0f4228b367
+
+----field----
+field: {14E9EB32-4478-410B-94D1-AF64DAF16636}
+name: Title
+key: title
+content-length: 2
+
+No
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T094717Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b19c13e1-5e5f-4716-bf57-8a0f4228b367
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180423T102603Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,424 @@
+﻿
+/*start of Gradient-thumbnail css*/
+.gradient-thumbnail .thumbnail{
+ padding:5px;
+ border:0;
+ margin-bottom:inherit;
+}
+.gradient-thumbnail .linear-background{
+padding:45px 0px;
+min-height:230px;
+max-height:230px;
+}
+.gradient-thumbnail .thumbnail a{
+text-align:center;
+text-decoration:none;
+color:#FFFFFF;
+}
+.gradient-thumbnail .thumbnail .content{
+line-height:1;
+}
+.gradient-thumbnail .thumbnail .content span{
+display:inline-block;
+font-size: 100px;
+line-height:1;
+font-family:Gotham-Bold;
+}
+.gradient-thumbnail .thumbnail .content span sup{
+    font-size: 32px;
+    vertical-align: super;
+    line-height:1.7;
+	font-family:Gotham-Bold;
+}
+.gradient-thumbnail .thumbnail .content p{
+font-size:25px;
+ font-family:Gotham;
+}
+.gradient-thumbnail .thumbnail .content .gradient-thumb-heading2{	
+font-size:31px;
+padding:35px 0px;
+}
+.gradient-thumbnail .linear-background.theme-blue{
+background:linear-gradient(to bottom right,#2C5AA5,#4088FF);
+
+}
+.gradient-thumbnail .linear-background.theme-green{
+background:linear-gradient(to bottom right,#17B9B4,#78CFAA);
+
+}
+.gradient-thumbnail .linear-background.theme-violet{
+background:linear-gradient(to bottom right,#3023AE,#C86DD7);
+
+}
+.gradient-thumbnail .linear-background.theme-red{
+background:linear-gradient(to bottom right,#B24592,#F15F79);
+
+}
+
+.gradient-thumbnail .thumbnail:nth-child(1) .linear-background{
+border-radius:43px 0px 0px 43px;
+}
+.gradient-thumbnail .thumbnail:nth-last-child(1) .linear-background{
+border-radius:0px 43px 43px 0px;
+}
+@media only screen and (max-width : 767px) {
+    .gradient-thumbnail .thumbnail.col-xs-12 .linear-background{
+	min-height: 110px;
+	max-height:110px;
+	padding: 5px 0px;
+    box-sizing: border-box;
+}
+.gradient-thumbnail .thumbnail.col-sm-6.col-xs-6 .linear-background{
+	min-height: 130px;
+	max-height:130px;
+	padding: 15px 0px;
+    box-sizing: border-box;
+}
+.gradient-thumbnail .thumbnail .content span{
+font-size: 70px;
+}
+
+.gradient-thumbnail .thumbnail .content span sup{
+    font-size:21px;
+    vertical-align: super;
+    line-height:1.7;
+	font-family:Gotham-Bold;
+}
+.gradient-thumbnail .thumbnail .content p.gradient-thumb-description{
+font-size:14px;
+ font-family:Gotham;
+}
+.gradient-thumbnail .thumbnail .content .gradient-thumb-heading2{	
+font-size:21px;
+padding: 25px 0px;
+}
+
+   .gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(1) .linear-background{
+border-radius:23px 0px 0px 0px;
+}
+.gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(2) .linear-background{
+border-radius:0px 23px 0px 0px;
+}
+.gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(3) .linear-background{
+border-radius:0px 0px 0px 23px;
+}
+.gradient-thumbnail .thumbnail.col-sm-6.col-xs-6:nth-child(4) .linear-background{
+border-radius:0px 0px 23px 0px;
+}
+.gradient-thumbnail .thumbnail.col-sm-12.col-xs-12:nth-child(1) .linear-background{
+border-radius:23px 23px 0px 0px;
+}
+.gradient-thumbnail .thumbnail.col-sm-12.col-xs-12:nth-last-child(1) .linear-background{
+border-radius:0px 0px 23px 23px;
+}
+
+}
+
+/*End of Gradient-thumbnail css*/
+
+
+/* start of thumbnail type3 component */
+
+/* to postion dotted images */
+.thumbnail-type3-component {
+    position: relative;
+}
+
+.thumbnail-type3-component .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.thumbnail-type3-component .row1, .thumbnail-type3 {
+    padding: 10px 0;
+}
+
+
+.thumbnail-type3-component .thumbnail-type3-content {
+    margin-top: 50px;
+}
+
+.thumbnail-type3-component .thumbnail-type3-caption .font-body1 {
+    margin: 10px 0 0 0; /* CSS to be provided ? */
+}
+
+.thumbnail-type3-item {
+    padding: 0 10px;
+}
+
+.thumbnail-type3-item-image img {
+    height: 85px;
+}
+
+.thumbnail-type3-item .font-body7 {
+    margin-bottom: 3px;
+}
+
+
+
+
+
+/* common css ??? */
+.thumbnail-type3-content .btn {
+    max-width: 300px;
+    width: 50%;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .thumbnail-type3-content {
+        padding: 0 10px;
+    }
+
+    .thumbnail-type3 .thumbnail-type3-item .thumbnail-type3-item-image {
+        display: block;
+        min-height: 100px;
+    }
+    
+    .thumbnail-type3 .thumbnail-type3-item .thumbnail-type3-item-image img {
+        margin: auto;
+    }
+    
+    .thumbnail-type3 .thumbnail-type3-item {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 768px) {       
+    .thumbnail-type3-center {
+        text-align: center;
+    }
+
+    .thumbnail-type3-item-center {
+        display: inline-block;
+        float: none;
+    }
+
+    .thumbnail-type3-content .ticked-list ul {
+        text-align: center
+    }
+
+    .thumbnail-type3-content .ticked-list li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 767px) {
+    .thumbnail-type3 {
+        padding: 10px 55px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+	.thumbnail-type3-content {
+		padding: 0 30px;
+	}
+	
+    .thumbnail-type3-component .font-body7 {
+        font-size: 14px;
+    }
+
+    .thumbnail-type3-component .font-body1 {
+        font-size: 13px;
+    }
+
+    .thumbnail-type3-item {
+        padding: 0 5px;
+    }
+
+    .thumbnail-type3-item-image img {
+        height: 45px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .thumbnail-type3-component .font-body7 {
+        font-size: 17px;
+    }
+
+    .thumbnail-type3-component .font-body1 {
+        font-size: 15px;
+    }
+}
+
+/*vaibhav css*/
+.thumbnail-component-col3 .thumbnail .caption-bottom {
+    margin-top: -30px;
+}
+.component-heading h1,.component-heading h3{
+    display: inline-block;
+}
+
+/* end vaibhav css*/
+/* end of thumbnail type3 component */
+
+
+/*start of text-gradient*/
+.text-gradient .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.text-gradient .text-gradient-item {
+    padding: 20px 0;
+}
+
+.text-gradient .text-gradient-heading {
+    font-family: Gotham-Black;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin: 0px;
+}
+
+.text-gradient .text-gradient-description {
+    font-family: Gotham;
+    font-size: 25px;
+}
+
+
+/* start of common css */
+/* start of common gradient colors */
+.blue-gradient .text-gradient-heading span {    
+    background-image: linear-gradient(to right, #2c5aa5, #4088ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #4088ff; /* fallback color */
+}
+
+.green-gradient .text-gradient-heading span{
+    background: linear-gradient(to right, #17b9b4, #78cfaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #78cfaa; /* fallback color */
+}
+
+.purple-gradient .text-gradient-heading span{
+    background: linear-gradient(to right, #3023ae, #c86dd7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #c86dd7; /* fallback color */
+}
+
+.pink-gradient .text-gradient-heading span{
+    background: linear-gradient(to right, #b24592, #f15f79);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #f15f79; /* fallback color */
+}
+
+.orange-gradient .text-gradient-heading span{
+    background: linear-gradient(to right, #e75e0d, #ff9454) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #e75e0d; /* fallback color */
+}
+
+.grey-gradient .text-gradient-heading span{
+    background: linear-gradient(to right, #09203f, #537895) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #537895; /* fallback color */
+}
+/* end of common gradient colors */
+
+/* start of common colors */
+.blue-gradient .text-gradient-description {
+    color: #4088ff;
+}
+
+.green-gradient .text-gradient-description {
+    color: #78cfaa;
+}
+
+.purple-gradient .text-gradient-description {
+    color: #c86dd7;
+}
+
+.pink-gradient .text-gradient-description {
+    color: #f15f79;
+}
+
+.orange-gradient .text-gradient-description {
+    color: #e75e0d;
+}
+
+.grey-gradient .text-gradient-description {
+    color: #537895;
+}
+
+
+
+@media (max-width: 767px) {
+    .text-gradient {
+        margin: 0 10px;
+    }
+
+    .text-gradient .text-gradient-item {
+        border-bottom: 2px solid #f6f7f9;
+    }
+
+    .text-gradient-item:last-child {
+        border: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-gradient .text-gradient-item {
+        border-right: 2px solid #f6f7f9;
+    }
+
+    .text-gradient-item:last-child {
+        border: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-gradient .text-gradient-heading {
+        font-size: 40px
+    }
+}
+/*css for thumbnailComponent*/
+
+	
+.thumbnail .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.thumbnail .centered-align{
+   display: inline-block;
+    float: none;
+}
+.thumbnailTopMargin{
+    margin-top: 15%;
+}
+.thumbnailbottomMargin{
+    margin-bottom:4%;	
+}
+
+
+
+/*end of  thumbnailComponent*/
+
+
+
+.thumbnail-component-col3 .caption-Image {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-family: Gotham-Black;
+    color: #ffffff;
+}
+
+
+/*end of thumbnailComponent*/
+
+/*end of text-gradient*/
+

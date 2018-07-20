@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {163EC01A-9DD0-41C8-AC3B-7E6A71375228}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/Promotions/_Local/text-carousal
+parent: {0D90A3F0-9C36-42FF-8C3C-B71E6751989F}
+name: text-carousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180503T101935Z
+
+----version----
+language: en
+version: 1
+revision: f393191d-a50e-408e-8059-f1eb83cbdbd9
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 194
+
+{D6A21B00-6B99-4F67-9718-B54A6A2B81EA}|{755930F9-8525-44B9-B86C-8454C9ED0325}|{D3688BBF-BA87-45CF-963E-7D089CF1C954}|{815431CC-D378-44C1-9E04-12A2C4190595}|{D9EEE979-ADA1-4736-BC04-59119DB19B79}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 8
+
+VIEW ALL
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 71
+
+<link text="View All" linktype="external" url="" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 85
+
+<p class="font-heading1">Latest</p>
+<p class="font-heading3">&nbsp; M1 PROMOTIONS</p>
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+Text Carousal
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180309T085503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f393191d-a50e-408e-8059-f1eb83cbdbd9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180507T063040Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

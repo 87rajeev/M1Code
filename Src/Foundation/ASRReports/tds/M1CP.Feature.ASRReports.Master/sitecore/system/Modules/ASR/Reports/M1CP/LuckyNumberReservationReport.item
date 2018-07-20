@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {482860F1-D7F7-42FC-83A8-5CF1431487BE}
+database: master
+path: /sitecore/system/Modules/ASR/Reports/M1CP/LuckyNumberReservationReport
+parent: {8C0B98F2-B11F-4488-9733-3B26259E6CF8}
+name: LuckyNumberReservationReport
+master: {00000000-0000-0000-0000-000000000000}
+template: {55ECC766-BF85-4E85-92CB-53AE306F0414}
+templatekey: Report
+created: 20180318T040058Z
+
+----version----
+language: en
+version: 1
+revision: 88535842-8a37-426b-88e1-8c6750505c55
+
+----field----
+field: {F4033239-E21D-488D-990D-78E45760FCE3}
+name: Scanners
+key: scanners
+content-length: 38
+
+{53E8EBFD-B0DA-4D27-B1B1-EBD38DB0E085}
+----field----
+field: {9DE630AE-6A85-4821-9842-E90D900769B0}
+name: Viewers
+key: viewers
+content-length: 38
+
+{57A31E21-995B-401D-A4A9-3277F8C5DCCD}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180318T040058Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+88535842-8a37-426b-88e1-8c6750505c55
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180318T040641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

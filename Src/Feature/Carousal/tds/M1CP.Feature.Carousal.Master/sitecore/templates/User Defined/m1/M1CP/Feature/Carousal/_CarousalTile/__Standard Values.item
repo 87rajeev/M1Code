@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {281A1827-A343-47F4-B84F-55CFA8CE7762}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Feature/Carousal/_CarousalTile/__Standard Values
+parent: {F3D37C3C-0203-42A1-BA21-7A9062B79B0D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F3D37C3C-0203-42A1-BA21-7A9062B79B0D}
+templatekey: _CarousalTile
+created: 20180418T020819Z
+
+----version----
+language: en
+version: 1
+revision: 5c15a6d1-15d0-4fce-bd9e-491cd73ae8e6
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 18
+
+$carousalitemtitle
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 33
+
+description of $carousalitemtitle
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180418T020820Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c15a6d1-15d0-4fce-bd9e-491cd73ae8e6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180418T073208Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

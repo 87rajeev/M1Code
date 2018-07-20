@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {E0AE3E36-9DE8-4EF3-8C38-40CF925B1806}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Deals
+parent: {CBB39CC7-0314-4CB3-8978-C30C5617981F}
+name: Deals
+master: {00000000-0000-0000-0000-000000000000}
+template: {21DFD307-8233-414F-8CF1-972363004700}
+templatekey: Mobile
+created: 20180426T112547Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 32
+
+Applications/32x32/text_lock.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 80bb8deb-3b83-4657-887f-7a1c55805467
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180426T112547Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+80bb8deb-3b83-4657-887f-7a1c55805467
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180518T064137Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

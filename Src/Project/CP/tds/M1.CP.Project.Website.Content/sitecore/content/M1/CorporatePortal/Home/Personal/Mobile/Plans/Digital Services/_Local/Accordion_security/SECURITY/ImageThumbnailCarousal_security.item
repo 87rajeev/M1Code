@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {FA7859D3-AE96-4387-A927-63E93E3D4428}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/_Local/Accordion_security/SECURITY/ImageThumbnailCarousal_security
+parent: {7A119B3C-3248-4450-B64F-554131F470AA}
+name: ImageThumbnailCarousal_security
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180504T042430Z
+
+----version----
+language: en
+version: 1
+revision: af3834fa-98dc-42e6-94bc-6375e6c2276e
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 116
+
+{06BDCC08-F1D3-4718-896D-1CE9AC19C289}|{B3C721C7-30A6-4837-A253-0E8425E684A3}|{753D67F8-C0F2-453E-8D3D-7AF51EE9FC04}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 31
+
+ImageThumbnailCarousal_security
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 71
+
+<link text="View All" linktype="external" url="" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T042430Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+af3834fa-98dc-42e6-94bc-6375e6c2276e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T092644Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

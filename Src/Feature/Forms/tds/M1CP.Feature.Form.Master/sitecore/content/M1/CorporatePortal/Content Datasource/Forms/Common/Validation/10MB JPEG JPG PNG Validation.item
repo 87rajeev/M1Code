@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {ABDA8CB1-24C5-482F-AACD-D934F1362E6E}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation/10MB JPEG JPG PNG Validation
+parent: {FCDB2F4B-A379-49D0-BBF8-E6D24A14930E}
+name: 10MB JPEG JPG PNG Validation
+master: {00000000-0000-0000-0000-000000000000}
+template: {317990DF-2B81-4703-81D9-4EE876D10D03}
+templatekey: UploadFileValidation
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 55df9831-30cd-4de8-b2ba-c0c2416b20f4
+
+----field----
+field: {387FB02B-C661-469D-B66C-CD17C24A2B56}
+name: Validation Message
+key: validation message
+content-length: 24
+
+Please upload valid file
+----field----
+field: {C1AB47EE-6D96-4398-BF19-EAABFD304698}
+name: MaximumUploadedFileSize
+key: maximumuploadedfilesize
+content-length: 8
+
+10485760
+----field----
+field: {D3FE685C-D866-4D37-8EF7-E34CC48A0648}
+name: UploadedFileFormat
+key: uploadedfileformat
+content-length: 15
+
+.jpg,.jpeg,.png
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T081409Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55df9831-30cd-4de8-b2ba-c0c2416b20f4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180423T124143Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

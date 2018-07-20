@@ -1,0 +1,140 @@
+﻿/* start of pagebanner css */
+.pagebanner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pagebanner-background img {
+    width: 100%;
+}
+
+.pagebanner .pagebanner-right {
+    right: 130px;
+}
+
+.col-md-6 .pagebanner .pagebanner-center {
+    transform: translate(50%, -50%);
+}
+
+.col-md-12 .pagebanner .pagebanner-center {
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.pagebanner .font-body1, .pagebanner .btn.btn-default {
+    margin: 10px 0px 0px;
+}
+
+
+@media (max-width: 767px) {
+    .pagebanner {
+        min-height: 207px;
+    }
+
+    .pagebanner .btn.btn-default {
+        padding: 5px 0;
+    }
+
+    .pagebanner .pagebanner-content.pagebanner-left {
+        margin-left: 40px;
+    }
+
+    .pagebanner .pagebanner-content.pagebanner-right {
+        right: 40px;
+    }  
+
+}
+
+@media (min-width: 768px) {
+    .pagebanner {
+        min-height: 249px;
+    }
+
+    .col-md-12 .pagebanner .pagebanner-content {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .pagebanner .font-heading1, .halftile .font-heading1 {
+        font-size: 20px;
+    }
+
+    .pagebanner .font-heading3, .halftile .font-heading3 {
+        font-size: 25px;
+    }
+
+    .pagebanner .font-body1, .halftile .font-body1 {
+        font-size: 13px;
+    }
+
+    .pagebanner .btn.btn-default {
+        padding: 5px 0;
+    }
+
+   .pagebanner .pagebanner-content.pagebanner-left {
+        margin-left: 70px;
+    }
+
+   .pagebanner .pagebanner-content.pagebanner-right {
+       right: 70px;
+    }
+
+
+   
+
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .pagebanner .font-heading1, .halftile .font-heading1 {
+        font-size: 25px;
+    }
+
+    .pagebanner .font-heading3, .halftile .font-heading3 {
+        font-size: 30px;
+    }
+
+    .pagebanner .font-body1, .halftile .font-body1 {
+        font-size: 15px;
+    }
+
+    .pagebanner .btn.btn-default {
+        padding: 7px 0;
+    }
+
+    .pagebanner .pagebanner-content.pagebanner-left {
+        margin-left: 90px;
+    }
+
+    .pagebanner .pagebanner-content.pagebanner-right {
+        right: 90px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .pagebanner .pagebanner-content.pagebanner-left {
+        margin-left: 130px;
+    }
+}
+/* end of pagebanner css */
+
+/*DataPassport css*/
+.halftile.textcontent-background-theme-blue .textcontent{background: -webkit-linear-gradient(-45deg, #3023AE 0%,#C86DD7 100%);}
+.halftile.textcontent-background-theme-pink .textcontent{background: -webkit-linear-gradient(-45deg, #B24592 0%,#F15F79 100%);}
+.halftile.textcontent-background-theme-transparent .textcontent{background: transparent;}
+.halftile.textcontent-right .textcontent{display:table;}
+ .halftile.textcontent-left .textcontent{display:table;}
+.halftile .textcontent .mainbody{padding:30px;}
+.halftile .textcontent>div{display:table-cell;vertical-align:middle;}
+@media (min-width: 768px){
+   .halftile.textcontent-right .textcontent{float:right}
+   .halftile .textcontent-left .textcontent{float:left} 
+   .halftile.textcontent-right .mainbody{margin-left: 15%;}
+   .halftile.textcontent-left .mainbody{margin-left: 25%;}
+}
+
+
+
+
+/*end of DataPassport css*/

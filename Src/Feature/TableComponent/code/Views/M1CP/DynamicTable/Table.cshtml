@@ -1,0 +1,72 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Data.Items;
+@using Sitecore.Data.Fields;
+@model M1CP.Feature.TableComponent.Models.ITableList
+<div>@Model.Title</div>
+<table border="1">
+
+    @if (Model.TableList != null)
+
+    {
+        <tr>
+            @foreach (Field coln in Model.TableList.First().Fields.Where(i => i.Section.Equals("Data")).OrderBy(j => j.Sortorder))
+            {
+                <th>@coln.Title</th>
+            }
+
+        </tr>
+
+
+        foreach (Item row in Model.TableList)
+
+        {
+
+            <tr>
+
+                @foreach (Field fldValue in row.Fields.Where(i => i.Section.Equals("Data")).OrderBy(j => j.Sortorder))
+                {
+                    <td align="left">
+
+                        @fldValue
+
+                    </td>
+
+                }
+            </tr>
+
+        }
+
+    }
+
+</table>
+
+<table border="1">
+    @{ var count = 0;}
+    @foreach (Item i in Model.TableList)
+    {
+        if (count == 0)
+        {
+            <th>Hello</th>
+            <th>@i.Name</th>
+            ++count;
+        }
+        else
+        {
+            <th>@i.Name</th>}
+    }
+    @{
+        var fieldList = Model.TableList.FirstOrDefault().Fields.Where(i => i.Section.Equals("Data")).OrderBy(j => j.Sortorder);
+    }
+
+    @for (int item = 0; item < fieldList.Count(); item++)
+    {
+        <tr>
+            <td>@fieldList.ToList()[item].Title</td>
+            @foreach (Item row in Model.TableList)
+            {
+                var value = row.Fields.Where(k => k.Section.Equals("Data")).OrderBy(j => j.Sortorder).ToList()[item].Value;
+                <td>@value</td>
+            }
+        </tr>
+    }
+</table>

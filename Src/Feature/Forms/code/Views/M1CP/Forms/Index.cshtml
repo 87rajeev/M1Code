@@ -1,0 +1,26 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IForms
+@using M1CP.Feature.Forms;
+
+@(Html.BeginForm("Index", "Form", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{ 
+    @Html.Hidden("FormID", Model.SitecoreId.ToString())
+    @foreach (var fieldGroup in Model.FieldGroups)
+    {
+        <div class="@fieldGroup.Class">
+            @foreach (var formField in fieldGroup.Fields)
+            {
+                <div class="field-wrapper">
+                    @Html.Partial(Constants.Views.FieldView + formField.Type.Text + Constants.Views.ViewExtension, formField)
+                </div>
+            }
+        </div>
+
+    }
+    @foreach (var buttonGroup in Model.ButtonGroups)
+    {
+        foreach (var btn in buttonGroup.Buttons)
+        {
+            @Html.Partial(Constants.Views.ButtonView + btn.Type + Constants.Views.ViewExtension, btn)
+        }
+    }
+}

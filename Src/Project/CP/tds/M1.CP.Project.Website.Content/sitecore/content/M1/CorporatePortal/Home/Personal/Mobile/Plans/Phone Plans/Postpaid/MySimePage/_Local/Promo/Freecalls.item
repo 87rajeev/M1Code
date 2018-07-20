@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {2A6C2A16-7B06-4D06-993E-217054175E0C}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Phone Plans/Postpaid/MySimePage/_Local/Promo/Freecalls
+parent: {6F834508-AB81-477C-B891-CC2BB005E2A1}
+name: Freecalls
+master: {00000000-0000-0000-0000-000000000000}
+template: {5A4FA8DD-C870-45AC-B68D-9D0293269799}
+templatekey: ImagePromoContent
+created: 20180510T060425Z
+
+----version----
+language: en
+version: 1
+revision: 57d9f5c7-6231-43c2-ad86-5963ebb98abf
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 18
+
+ImagePromoContent1
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 107
+
+<link text="Google" linktype="external" url="http://google.com" anchor="" title="Google" target="_blank" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 10
+
+M1 Numbers
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 37
+
+Unlimited free calls to 3 M1 numbers.
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{D22128CB-D6F4-4640-A483-06E82AA56837}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180320T131509Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57d9f5c7-6231-43c2-ad86-5963ebb98abf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180510T060613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

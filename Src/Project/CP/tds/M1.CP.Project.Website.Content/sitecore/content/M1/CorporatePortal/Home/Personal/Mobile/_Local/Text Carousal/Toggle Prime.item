@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {F5302249-B61B-40E5-B117-871EF949C933}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal/Toggle Prime
+parent: {ED22D4D0-F50A-4C51-BE9B-91EDDA5EF783}
+name: Toggle Prime
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BE8F515-21F2-4EAC-920C-D83AD428B84B}
+templatekey: Carousal Component
+created: 20180427T033557Z
+
+----version----
+language: en
+version: 1
+revision: dc008c23-2dcb-48d0-b70d-0ebc23bca54d
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 12
+
+Toggle Prime
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 12
+
+Toggle Prime
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 87
+
+No more rushing home to catch your favorite shows. You can do it right on your devices.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180427T033557Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dc008c23-2dcb-48d0-b70d-0ebc23bca54d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180427T033703Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

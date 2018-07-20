@@ -1,0 +1,17 @@
+﻿@using M1CP.Foundation.Base.Helpers
+<div class="@Model.Rendering.GetContainerClass()">
+  <div class="row">
+    <div class="col-md-2 col-sm-6">
+      @Html.Sitecore().DynamicPlaceholder(M1CP.Project.Common.Contants.ColumnNarrowOne)
+    </div>
+    <div class="col-md-2 col-sm-6">
+      @Html.Sitecore().DynamicPlaceholder(M1CP.Project.Common.Contants.ColumnNarrowOne)
+    </div>
+    <div class="col-md-4 col-sm-6">
+      @Html.Sitecore().DynamicPlaceholder(M1CP.Project.Common.Contants.ColumnNarrowThree)
+    </div>
+    <div class="col-md-4 col-sm-6">
+      @Html.Sitecore().DynamicPlaceholder(M1CP.Project.Common.Contants.ColumnNarrowFour)
+    </div>
+  </div>
+</div>

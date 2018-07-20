@@ -1,0 +1,60 @@
+﻿@using M1CP.Feature.TabLinks
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using M1CP.Feature.TabLinks.Models
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model M1CP.Feature.TabLinks.Models.ITabLink
+@{
+    var renderingParamaters = Html.Glass().GetRenderingParameters<ITabLinksParamater>();
+}
+<div class="row">
+    <div class="col-xs-12">
+        <div class="component-heading theme-dark1">
+            @Html.Glass().Editable(Model, i => i.Title)
+            @Html.Glass().Editable(Model, i => i.Description)
+        </div>
+        @Html.Sitecore().DynamicPlaceholder("col-wide-1")
+        <!--Start of tabs -->
+
+        <div class="col-xs-12">
+            @{
+                var theme = ((renderingParamaters != null && renderingParamaters.SelectedTheme != null) ? renderingParamaters.SelectedTheme.style : theme-light);
+                var btnTheme = ((renderingParamaters != null && renderingParamaters.txtColor != null) ? renderingParamaters.txtColor.style : text-theme-black);
+            }
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 align-item-center-desktop-tab @theme @btnTheme">
+                @if (Model.CTATitle != null)
+                {
+                    var maxItem = ((renderingParamaters != null && renderingParamaters.desktopCount.value != 0) ? renderingParamaters.desktopCount.value : 4);
+                    var minItem = ((renderingParamaters != null && renderingParamaters.mobileCount.value != 0) ? renderingParamaters.mobileCount.value : 1);
+                    foreach (var item in Model.CTATitle)
+                    {
+                        using (Html.Glass().BeginEditFrame(item, "EditLink", m => m.CTATitle, m => m.CTALink))
+                        {
+                            @if (btnTheme == "text-theme-orange")
+                            {
+                                <div class="col-xs-@(12/minItem) col-sm-6 col-md-@(12/maxItem)">
+                                    <div class="tab">
+                                        <a role="button" href="@((item.CTALink != null) ? item.CTALink.Url : " #")" class="btn btn-default btn-block animated-button button-animated">@item.CTATitle</a>
+                                        @*@Html.Glass().RenderLink(item,i=>i.CTALink,isEditable:true)*@
+                                    </div>
+                                </div>
+                            }
+                            else
+                            {
+                                <a role="button" href="@((item.CTALink != null) ? item.CTALink.Url : " #")" class="btn btn-default btn-block animated-button button-animated">@item.CTATitle</a>
+                            }
+                        }
+                    }
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

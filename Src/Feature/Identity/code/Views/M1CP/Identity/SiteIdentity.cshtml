@@ -1,0 +1,40 @@
+﻿@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Feature.Identity
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Mvc
+@model M1CP.Feature.Identity.Models.LogoItem
+
+
+<div class="navbar-header">
+    <a class="navbar-brand" href="#" style="padding: 0px 0px; margin-right: -32px;">
+
+        @Html.Glass().RenderImage(x => x.Logo, new { Class = "img-circle img-responsive", }, isEditable: true)
+
+
+
+    </a>
+
+    <ul class="nav navbar-nav list-inline peronalbussiness hidden-xs" style="padding-top: 7px;">
+        <li class=""><a class="peronalbussinesslink active" href="javaScript:void(0)" style="padding: 0px 8px" id="navpersonal" ng-click="navbarToggle($event)">Personal</a></li>
+        <li class=""><a class="peronalbussinesslink" href="javaScript:void(0)" id="navbusiness" ng-click="navbarToggle($event)" style="padding: 0px 8px">Business</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav toplinksheader">
+        <li><a href="#"><span class="glyphicon glyphicon-map-marker hidden-xs hidden-sm"></span> </a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> </a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+
+    </ul>
+
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" data-label-expanded="Close" aria-expanded="false">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+    </button>
+
+</div>

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D28B18C3-CD5A-4A78-A7B1-5B08A3AC043C}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/Cyber_Guardian/_Local/CategoryListing/social-network
+parent: {4AFFC709-D998-4217-9379-3BADF70380A1}
+name: social-network
+master: {00000000-0000-0000-0000-000000000000}
+template: {CA268D3B-CAB6-47E6-B71D-0B9ABE3A729A}
+templatekey: CyberGuardian SubCategories
+created: 20180507T075532Z
+
+----version----
+language: en
+version: 1
+revision: dd26dc65-7469-402e-913c-f0bee713ae44
+
+----field----
+field: {C4DC7085-37F0-4B6E-8318-C8BFCB145DB1}
+name: SubCategory Color
+key: subcategory color
+content-length: 38
+
+{32348D1D-F76F-4DB3-9E15-EF8EDB335228}
+----field----
+field: {3D4817D5-4DE6-4927-A80F-6387EC2FFE06}
+name: SubCategory Name
+key: subcategory name
+content-length: 15
+
+Social networks
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Social network
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T131145Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dd26dc65-7469-402e-913c-f0bee713ae44
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T131249Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

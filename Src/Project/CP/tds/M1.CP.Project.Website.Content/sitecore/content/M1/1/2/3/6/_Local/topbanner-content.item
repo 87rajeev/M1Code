@@ -1,0 +1,157 @@
+----item----
+version: 1
+id: {F07D04C8-78CC-46DE-9B9D-66AAF56FCDE2}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/topbanner-content
+parent: {ACFD320E-7D55-42A7-B184-882D71C59D2F}
+name: topbanner-content
+master: {00000000-0000-0000-0000-000000000000}
+template: {7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}
+templatekey: HeroBanner
+created: 20180306T123101Z
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 36
+
+applications/16x16/photo_scenery.png
+----version----
+language: en
+version: 1
+revision: 10c36e05-5eac-41b2-9877-c9754b1d5096
+
+----field----
+field: {0ED77FDC-77B7-44B9-B76B-30C04474899A}
+name: Banner Main Heading
+key: banner main heading
+content-length: 12
+
+SOME CONTENT
+----field----
+field: {DEFE043D-E4AB-4D7D-8DF1-27CD3D4E5785}
+name: Banner Heading
+key: banner heading
+content-length: 18
+
+For whatever plans
+----field----
+field: {0217E3D6-12EF-45B9-93D5-480841400D91}
+name: Banner Sub Heading
+key: banner sub heading
+content-length: 12
+
+YOU MAY HAVE
+----field----
+field: {F8E22791-9719-4312-AE4F-FF18FEE45476}
+name: Banner Promo Text
+key: banner promo text
+content-length: 0
+
+
+----field----
+field: {8F00C23B-7EBE-4B9F-B262-841652D0889A}
+name: Banner Promo SubText
+key: banner promo subtext
+content-length: 0
+
+
+----field----
+field: {9B3EC423-1B54-4C55-BC3E-2C6F26B2C374}
+name: Enable Dot Theme
+key: enable dot theme
+content-length: 1
+
+1
+----field----
+field: {7B44F754-9A75-498A-96BB-198E7B5EA932}
+name: Dot Image
+key: dot image
+content-length: 58
+
+<image mediaid="{B68D585F-A919-4B25-B918-0F761FB4D2BF}" />
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 77
+
+{E4F292BC-2671-4169-953A-4748E746C1BB}|{CA0714E3-F3E0-4BE2-B250-5BE4445AB50E}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 7
+
+Mobiles
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 167
+
+Thinking of getting the latest devices with one of our plans?Wanna stay faithful and do more on our SIM-only plans?Do it,Either way,you'll never run out of data again.
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{25B21C39-9083-4893-9D3B-D31B4E7FDCCA}" />
+----field----
+field: {15197F74-BE43-4301-8192-2FD22280F837}
+name: Video URL
+key: video url
+content-length: 89
+
+<link linktype="external" url="/sitecore/media library/M1/M1CP/Feature/Banner/mov_bbb" />
+----field----
+field: {6EF85F21-B413-4F6B-80D0-1F88CCAD6E78}
+name: IsVideo
+key: isvideo
+content-length: 0
+
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+TopBanner Content
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180306T123101Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+10c36e05-5eac-41b2-9877-c9754b1d5096
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180522T044323Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

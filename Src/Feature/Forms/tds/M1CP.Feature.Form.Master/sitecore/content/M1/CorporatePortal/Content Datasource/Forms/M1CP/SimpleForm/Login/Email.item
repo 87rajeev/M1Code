@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {A618C5C3-1C5C-4B28-882D-AD0E23CC33BA}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/SimpleForm/Login/Email
+parent: {35562445-C9EC-4AF6-BD6B-C7C4734EB79E}
+name: Email
+master: {00000000-0000-0000-0000-000000000000}
+template: {03B63407-7FAA-43F4-A7C2-926ED8E9B8CE}
+templatekey: FormField
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 95d345ba-c24e-471f-b0a9-f31bbd65721b
+
+----field----
+field: {C571731C-BA08-406C-8648-EBC7237AABBD}
+name: Title
+key: title
+content-length: 5
+
+Email
+----field----
+field: {0C07886D-701E-450D-927E-5B848200E205}
+name: Type
+key: type
+content-length: 38
+
+{417E94EA-090F-4C30-9F57-A6A842D1B5AA}
+----field----
+field: {08B562FA-7EBF-43A4-8569-32514105108E}
+name: Is Required
+key: is required
+content-length: 1
+
+1
+----field----
+field: {744F0565-C9AB-4CD0-9171-06DA182D8E14}
+name: SQL ColoumnName
+key: sql coloumnname
+content-length: 7
+
+EmailID
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180128T123952Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+95d345ba-c24e-471f-b0a9-f31bbd65721b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180202T081320Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

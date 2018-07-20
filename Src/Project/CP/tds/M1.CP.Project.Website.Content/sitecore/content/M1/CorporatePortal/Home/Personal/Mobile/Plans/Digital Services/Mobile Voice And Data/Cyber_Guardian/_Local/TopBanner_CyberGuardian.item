@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {D473146D-AF8E-46C6-9E0B-1588AB8B9D44}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Cyber_Guardian/_Local/TopBanner_CyberGuardian
+parent: {EBB800C8-B078-4AD4-802C-A495981547E4}
+name: TopBanner_CyberGuardian
+master: {00000000-0000-0000-0000-000000000000}
+template: {7F769626-4ADB-4E2D-9236-3EE1EA88F0F4}
+templatekey: HeroBanner
+created: 20180507T080318Z
+
+----version----
+language: en
+version: 1
+revision: d1c4b3dc-976e-4878-982d-017b702041a0
+
+----field----
+field: {0ED77FDC-77B7-44B9-B76B-30C04474899A}
+name: Banner Main Heading
+key: banner main heading
+content-length: 0
+
+
+----field----
+field: {DEFE043D-E4AB-4D7D-8DF1-27CD3D4E5785}
+name: Banner Heading
+key: banner heading
+content-length: 27
+
+Protect your kids the&nbsp;
+----field----
+field: {0217E3D6-12EF-45B9-93D5-480841400D91}
+name: Banner Sub Heading
+key: banner sub heading
+content-length: 9
+
+SMART WAY
+----field----
+field: {F8E22791-9719-4312-AE4F-FF18FEE45476}
+name: Banner Promo Text
+key: banner promo text
+content-length: 5
+
+Promo
+----field----
+field: {9B3EC423-1B54-4C55-BC3E-2C6F26B2C374}
+name: Enable Dot Theme
+key: enable dot theme
+content-length: 1
+
+1
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 38
+
+{8B6294C6-DD73-4C38-85BC-43D416B33D38}
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 14
+
+Cyber Guardian
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 118
+
+M1 Cyber Guardian helps develop a healthy Internet lifestyle for your children, keeping them safe from online threats.
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T044139Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1c4b3dc-976e-4878-982d-017b702041a0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180507T081258Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

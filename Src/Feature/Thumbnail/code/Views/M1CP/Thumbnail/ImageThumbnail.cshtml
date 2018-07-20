@@ -1,0 +1,98 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+
+
+@model M1CP.Feature.Thumbnail.Models.IThumbnailSection
+
+@{
+
+    if (Model != null)
+    {
+        var noOfThumbnailItems = 0;
+
+        foreach (var thumb in Model.Thumbnail_Component)
+        {
+            noOfThumbnailItems++;
+        }
+        var RenderingParameters = Html.Glass().GetRenderingParameters<M1CP.Feature.Thumbnail.Models.IThumbnailParameter>();
+        var MaxCol = 12 / RenderingParameters.desktopCount.value;
+        var MinCol = 12 / RenderingParameters.mobileCount.value;
+
+            <div class="col-md-12 padding-zero" equal-height>
+                    <!--<noOfColumns_md value depends on no of loop repeatation>-->
+                    <div class="col-md-12 col-xs-12 ">
+                        @if (Html.Glass().IsInEditingMode)
+                {
+                            <div class="component-heading theme-dark1">
+                                @Html.Glass().Editable(Model, m => m.Title)
+
+                                <p class="font-body1">@Html.Glass().Editable(Model, m => m.Description)</p>
+                            </div>
+                        }
+                        else if (Model.Title != null || Model.Description != null)
+                        {
+                            <div class="component-heading theme-dark1">
+                                @Html.Glass().Editable(Model, m => m.Title)
+
+                                <p class="font-body1">@Html.Glass().Editable(Model, m => m.Description)</p>
+                            </div>
+                        }
+                    </div>
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 padding-zero text-center thumbnail-component-col3 theme-light text-theme-black">
+                        <!--<thumbnail-component  max-images="3"> </thumbnail-component>-->
+
+
+                        <div class="thumbnail padding-zero col-xs-12">
+                            @foreach (var thumbNailItem in Model.Thumbnail_Component)
+                            {
+                    <!--<Repeating content>-->
+                                <div class="col-md-@MaxCol col-sm-6 col-xs-@MinCol thumbnailbottomMargin">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                                            @if (@Html.Glass().IsInEditingMode)
+                                            {
+                                                @Html.Glass().RenderImage(thumbNailItem, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "border-dottedimage" })
+                                            }
+                                            else
+                                            {
+                                                <img src="/images/thumb.gif" class="img-responsive lazyload imagewidthloader border-dottedimage" data-src="@thumbNailItem.Image_Desktop.Src" />
+                                            }
+                                            <p class="hide-content-beforeload font-heading4 caption-Image">@Html.Glass().Editable(thumbNailItem, m => m.Title)</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        @if (Html.Glass().IsInEditingMode)
+                                        {
+                                            <p class="font-body6">@Html.Glass().Editable(thumbNailItem, m => m.Description)</p>
+
+
+                                        }
+                                        else if (!String.IsNullOrEmpty(thumbNailItem.Description))
+                                        {
+                                            <p class="font-body6">@Html.Glass().Editable(thumbNailItem, m => m.Description)</p>
+                                        }
+
+                                        @if (Html.Glass().IsInEditingMode && Model.EnableCTA)
+                                        {
+                                            using (Html.Glass().BeginEditFrame(thumbNailItem, "EditLink", m => m.CTALink))
+                                            {
+                                                <a href="@((thumbNailItem.CTALink != null && thumbNailItem.CTALink.Url != null) ? thumbNailItem.CTALink.Url : "#")" target="@(thumbNailItem.CTALink != null && thumbNailItem.CTALink.Target != null ? thumbNailItem.CTALink.Target : "_blank")" class="btn btn-block btn-default  animated-button button-animated centered-align">@(thumbNailItem.CTALink!=null && thumbNailItem.CTALink.Text!=null ?thumbNailItem.CTALink.Text:"")</a>
+                                            }
+                                        }
+                                        else if (Model.EnableCTA)
+                                        {
+                                            <a href="@((thumbNailItem.CTALink != null && thumbNailItem.CTALink.Url != null) ? thumbNailItem.CTALink.Url : "#")" target="@(thumbNailItem.CTALink != null && thumbNailItem.CTALink.Target != null ? thumbNailItem.CTALink.Target : "_blank")" class="btn btn-block btn-default  animated-button button-animated centered-align">@(thumbNailItem.CTALink != null && thumbNailItem.CTALink.Text != null ? thumbNailItem.CTALink.Text:"")</a>
+                                        }
+
+                                    </div>
+                                </div>
+                            }
+
+
+                        </div>
+                    </div>
+            </div>
+
+
+    }
+}

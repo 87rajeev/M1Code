@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {DBD14428-C980-4EE9-BB1D-360A41E1AB2A}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Feedback forms/Submit Feddback
+parent: {D5A2EDFE-8808-4134-87D4-418257EA45C8}
+name: Submit Feddback
+master: {00000000-0000-0000-0000-000000000000}
+template: {C30649B4-1E4C-4647-B011-F07AEA0E4CFA}
+templatekey: FormButtonGroup
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 13a64473-2c93-4afe-ae50-61c914d8c06c
+
+----field----
+field: {7E8831C0-B470-4BAF-A022-BF04490C3E5A}
+name: Buttons
+key: buttons
+content-length: 38
+
+{A248EF9E-FA25-42CA-8504-BACA3EA0092A}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180205T035734Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13a64473-2c93-4afe-ae50-61c914d8c06c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180205T041906Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

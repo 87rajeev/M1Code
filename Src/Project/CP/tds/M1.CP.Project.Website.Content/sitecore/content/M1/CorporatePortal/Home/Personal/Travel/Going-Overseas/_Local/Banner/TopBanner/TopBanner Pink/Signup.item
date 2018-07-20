@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {25BE6C33-B128-4123-9E17-590DFE12E0FB}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Travel/Going-Overseas/_Local/Banner/TopBanner/TopBanner Pink/Signup
+parent: {FE136710-A21A-400D-A624-8F5A89B028D3}
+name: Signup
+master: {00000000-0000-0000-0000-000000000000}
+template: {0BD7345A-485A-4012-B7F0-635C5D0523CB}
+templatekey: CTA
+created: 20180504T044338Z
+
+----version----
+language: en
+version: 1
+revision: df970d75-e29c-4303-93a8-3a460f197c77
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 6
+
+Signup
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 136
+
+<link text="Signup" linktype="external" url="http://www.google.com" anchor="" class="btn btn-block btn-default font-button" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180307T041145Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df970d75-e29c-4303-93a8-3a460f197c77
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180416T070718Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

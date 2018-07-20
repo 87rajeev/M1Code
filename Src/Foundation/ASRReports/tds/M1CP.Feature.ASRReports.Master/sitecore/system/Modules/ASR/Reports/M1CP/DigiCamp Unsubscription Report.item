@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {F8C927A4-2BD5-45D5-BDA8-1C9E009AC72A}
+database: master
+path: /sitecore/system/Modules/ASR/Reports/M1CP/DigiCamp Unsubscription Report
+parent: {8C0B98F2-B11F-4488-9733-3B26259E6CF8}
+name: DigiCamp Unsubscription Report
+master: {00000000-0000-0000-0000-000000000000}
+template: {55ECC766-BF85-4E85-92CB-53AE306F0414}
+templatekey: Report
+created: 20180318T041217Z
+
+----version----
+language: en
+version: 1
+revision: 79dc2e25-109a-4526-8cb5-074fbf7baf28
+
+----field----
+field: {F4033239-E21D-488D-990D-78E45760FCE3}
+name: Scanners
+key: scanners
+content-length: 38
+
+{EE465168-C75D-4300-8817-12EDE659B6CF}
+----field----
+field: {9DE630AE-6A85-4821-9842-E90D900769B0}
+name: Viewers
+key: viewers
+content-length: 38
+
+{38DAD1B7-F68D-4F54-A4FA-097CC32F477C}
+----field----
+field: {B5EBDC93-C3AB-4438-89FB-A8D7F5552110}
+name: Filters
+key: filters
+content-length: 38
+
+{DA86E47D-BD5D-4FD2-94D7-6189641C3FC4}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180318T041217Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79dc2e25-109a-4526-8cb5-074fbf7baf28
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180318T041906Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

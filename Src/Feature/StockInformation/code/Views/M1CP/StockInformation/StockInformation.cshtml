@@ -1,0 +1,94 @@
+﻿@using M1CP.Feature.StockInformation.Models
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Feature.StockInformation
+@using Sitecore.Mvc
+
+@model IStockInformation
+
+@if (Model != null)
+{
+    <div>
+        <table>
+            <tr>
+                <td><b>Profile</b></td>
+            </tr>
+            <tr>
+                <td>
+                    Exchange :
+                </td>
+                <td>
+                    @Html.Glass().Editable(x => x.Exchange)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Industry :
+                </td>
+                <td>
+                    @Html.Glass().Editable(x => x.Industry)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Issued Shares :
+                </td>
+                <td>
+                    @Html.Glass().Editable(x => x.IssuedShares)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Issued Capital :
+                </td>
+                <td>
+                    @Html.Glass().Editable(x => x.IssuedCapital)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.Glass().Editable(x => x.ProfileLastUpdate)
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <div>
+        <table>
+            <tr>
+                <td><b>Major Shareholders</b></td>
+            </tr>
+            <tr>
+                <td>
+                    Axiata Investments :
+                </td>
+                <td>
+                    @Html.Glass().Editable(x => x.Exchange)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Keppel Telecoms:
+                </td>
+                <td>
+                    @Html.Glass().Editable(x => x.Industry)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    SPH Multimedia :
+                </td>
+                <td>
+                    @Html.Glass().Editable(x => x.IssuedShares)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.Glass().Editable(x => x.MajorShareholderLastUpdate)
+                </td>
+            </tr>
+        </table>
+    </div>
+}

@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {9827BE82-6C1F-4656-9CAB-FA7B7CBEB5B4}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/ThumbnailPromotions/Broadband
+parent: {3C6D8D5A-5CD7-460D-BF78-6BB82BC67261}
+name: Broadband
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B5DDC1F-0239-4BA3-BCB2-0665159FE3B9}
+templatekey: Thumbnail
+created: 20180516T045532Z
+
+----version----
+language: en
+version: 1
+revision: a261928b-e992-4ebc-8770-5d175185536a
+
+----field----
+field: {C4EBA568-7A69-4E44-B7EF-6B2C88CA47ED}
+name: ViewLess CTA
+key: viewless cta
+content-length: 9
+
+VIEW LESS
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 8
+
+VIEW ALL
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 84
+
+<link text="View All" linktype="external" url="" anchor="" title="test" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 77
+
+<p class="font-heading1">Postpaid</p>
+<p class="font-heading3">PROMOTIONS</p>
+----field----
+field: {7F951ECA-B94D-4A2D-B481-C42C1C3D51A3}
+name: Thumbnail Component Items
+key: thumbnail component items
+content-length: 77
+
+{4452CF3E-EB57-4109-B74D-F53B37DD1985}|{27AC3D5B-A77E-47B9-9033-5129606A3EEC}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180426T080605Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a261928b-e992-4ebc-8770-5d175185536a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180516T055736Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

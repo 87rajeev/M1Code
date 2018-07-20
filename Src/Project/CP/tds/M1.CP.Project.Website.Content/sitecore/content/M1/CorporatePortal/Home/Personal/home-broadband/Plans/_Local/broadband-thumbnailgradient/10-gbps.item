@@ -1,0 +1,74 @@
+----item----
+version: 1
+id: {57DA49C8-F052-4A1C-84B4-2E7898099B3B}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/Plans/_Local/broadband-thumbnailgradient/10-gbps
+parent: {99033A59-3F71-4D13-8832-55299762F353}
+name: 10-gbps
+master: {00000000-0000-0000-0000-000000000000}
+template: {28508DAD-7C48-4963-9D00-662CEE842507}
+templatekey: Thumbnail Gradient Item
+created: 20180503T144439Z
+
+----version----
+language: en
+version: 1
+revision: a92e697b-52ff-4654-a85b-69c15cffdc55
+
+----field----
+field: {69D5A12B-8123-4708-84D4-66248267874C}
+name: GradientColor
+key: gradientcolor
+content-length: 38
+
+{95E5A44D-5B1C-464C-9DC9-3626253C6497}
+----field----
+field: {DC583DF5-E7D1-484E-BA6F-26B599FF4DED}
+name: Title
+key: title
+content-length: 62
+
+<span class="gradient-thumb-heading1">10<sup>GBPS</sup></span>
+----field----
+field: {3D312E90-BED8-4F93-88D1-C9EBF7727B85}
+name: ShortSummary
+key: shortsummary
+content-length: 51
+
+<p class="gradient-thumb-description">$189/mth</p>
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 7
+
+10 Gbps
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T144439Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a92e697b-52ff-4654-a85b-69c15cffdc55
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T122401Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

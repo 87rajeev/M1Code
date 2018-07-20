@@ -1,0 +1,122 @@
+----item----
+version: 1
+id: {581E7B8E-67A6-41B6-9F0E-15130DA648B0}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/MLanding/_Local/Banner/TopBannerWithLinks/HeroBannerWithLinks
+parent: {BA51DC58-5DE4-41A5-8D2D-58AF7C7F9BBD}
+name: HeroBannerWithLinks
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB03428B-2EE9-49F5-89EE-16F06A233E91}
+templatekey: HeroBannerWithLinks
+created: 20180425T062410Z
+
+----version----
+language: en
+version: 1
+revision: 43602f00-0c35-49c3-9d9f-8ffd5631119a
+
+----field----
+field: {D412EFBA-1CB9-47D7-AD56-EE90D4F18892}
+name: Banner Heading
+key: banner heading
+content-length: 19
+
+We've got big plans
+----field----
+field: {93ED1D70-BF02-43EA-B0E1-CC759FA6CDF0}
+name: Banner Sub Heading
+key: banner sub heading
+content-length: 8
+
+FOR DATA
+----field----
+field: {D799C4ED-AACD-40F9-A399-527A08382BC1}
+name: Enable Dot Theme
+key: enable dot theme
+content-length: 1
+
+1
+----field----
+field: {5EF156E0-1297-4FC0-8B96-088BB3F9C91C}
+name: Dot Image
+key: dot image
+content-length: 58
+
+<image mediaid="{F4AD3325-1DC4-447C-911A-DE08F3AF9BEF}" />
+----field----
+field: {FDD6E5FD-42C3-4D5C-BCDE-E05D0DC115FF}
+name: CTA Group
+key: cta group
+content-length: 77
+
+{9BFF8346-28A7-4A62-835F-5427D0374ABE}|{EC83229F-BF17-4825-A744-09F416D9E532}
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{958055BB-B086-4CED-8768-C930D7B82221}" />
+----field----
+field: {B3C2C9C2-49CA-4D48-BE23-BF7780422E4A}
+name: NavigationHeader
+key: navigationheader
+content-length: 24
+
+Popular Digital Services
+----field----
+field: {4F352FAA-4DB9-403D-932E-AF0B2A2A3FF2}
+name: NavigationLinks
+key: navigationlinks
+content-length: 116
+
+{300497BB-2EC4-4B75-A98F-D825D62B9402}|{9F553F43-26A0-42B5-8C9E-B17D2C006DF5}|{2DC7CF99-B370-477B-ACE9-ABE9D9A01E2C}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T113107Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+43602f00-0c35-49c3-9d9f-8ffd5631119a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T104737Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

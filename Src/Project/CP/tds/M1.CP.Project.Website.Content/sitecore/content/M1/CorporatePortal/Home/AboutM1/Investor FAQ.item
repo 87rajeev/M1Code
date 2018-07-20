@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {70360971-7670-4D3A-A1FB-8E7261A1D7E0}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/AboutM1/Investor FAQ
+parent: {1B4D27E4-CF84-4120-9118-5E2E0214B670}
+name: Investor FAQ
+master: {00000000-0000-0000-0000-000000000000}
+template: {5838CBA6-A26A-4461-B1B4-5FFFB90B049D}
+templatekey: FAQ
+created: 20180502T152350Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 478
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1E8DCFD3-EDB3-454B-913C-49AEDB23D7A8}" s:par="Theme={0DFED203-A66E-4FE4-8AAC-F4FB4EF1FBDB}&amp;GradientColor={95E5A44D-5B1C-464C-9DC9-3626253C6497}" /><r uid="{E01F6754-437F-451E-A265-692AAEF7BC11}" s:par="DesktopCount={8172D243-3E49-4DA8-A752-DCE5871F1DA7}&amp;MobileCount={A9E21C39-23E5-401A-86B8-FC3169826B72}&amp;Theme={03E264C8-053C-4A4F-9C84-BB4BE0A380F0}&amp;TextColor" /></d></r>
+----version----
+language: en
+version: 1
+revision: 55ba5c49-cfcb-4559-ae41-ae21784ac252
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1220
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{619A63D1-9FAF-4CC9-9561-E7F9BE4B3CC5}" p:before="*" s:ds="{E75C723E-3ECD-4834-A805-F759C9D4B5E4}" s:id="{795DE3F7-D054-4AE3-B936-23501BF94926}" s:ph="/page-layout/col-huge_4/background-section" /><r uid="{D4E394D0-6FCD-4675-9124-732022633208}" p:after="r[@uid='{619A63D1-9FAF-4CC9-9561-E7F9BE4B3CC5}']" s:ds="{1F0E659E-57E2-49BE-B997-049EEBA63E7D}" s:id="{890F1B11-B358-4B40-A3C9-540CFF3F9AF6}" s:par="" s:ph="/page-layout/col-huge_2/accordion-section/col-narrow-1" /><r uid="{1E8DCFD3-EDB3-454B-913C-49AEDB23D7A8}" s:ds="{BF3B7D7F-02BD-4095-AF70-029D00F79018}" /><r uid="{E8F9DC68-CD62-42E2-BD3E-4B19EB3F2F3B}" s:ds="{971057FC-C86C-4BD8-896F-FA0B9692C968}" /><r uid="{FD990874-669B-4362-B4AB-3323C5772895}" s:ds="{A3F2F089-F07A-4FC7-A629-4ED3B2BB78D4}" s:par="" /><r uid="{CE4671F5-C8AE-4B10-AA6E-40A2594A26E2}"><p:d /></r><r uid="{2A119CA1-53BB-4F6E-8B69-21D675584C36}" s:ds="{2259B290-DC2D-45D8-B997-74978387DEE4}" s:par="" /><r uid="{C884A353-24DE-4C2F-92B8-73FAAB45A0D8}" s:ds="{3835F0C2-BFBA-469B-A910-9618900D2561}" /><r uid="{AC506111-255B-4778-869D-1B2E10EABA4F}" s:ds="{9F7BD900-DF4E-4CAD-8ADF-3B920F8216FB}" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180502T152350Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55ba5c49-cfcb-4559-ae41-ae21784ac252
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T102545Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

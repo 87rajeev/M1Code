@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {56D7E333-7065-416E-8E2B-98B2516E430D}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Enquiry Form/Copy of Enquiry/Product Type
+parent: {E541D78A-92FC-4A46-A892-A84D7DD18153}
+name: Product Type
+master: {00000000-0000-0000-0000-000000000000}
+template: {3EC74F3E-E8BB-46A3-8E2A-6AEE60D63D61}
+templatekey: ListFormField
+created: 20180515T081338Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+800
+----version----
+language: en
+version: 1
+revision: 4c404e3f-fe9c-4b36-ac80-6fe8cdea1be0
+
+----field----
+field: {A9179DFA-AFA7-48D6-B12A-88D6997F0D59}
+name: Items
+key: items
+content-length: 233
+
+{85B6C9C4-0F17-4056-8EA2-6E023DCA7B63}|{91BD8BD7-5CB5-461A-81F4-8CAFEA89AFB7}|{AD685685-581B-4A49-97FF-726EC315C4A7}|{46AC07B5-65C6-4EF0-A63E-7BB256955913}|{43D581C2-522D-4E44-A0A4-467D724423A8}|{C9724FA1-9AB5-40BD-976B-886956250B06}
+----field----
+field: {22846744-77DF-4498-8476-7CDC341C9FAB}
+name: Validation
+key: validation
+content-length: 38
+
+{73087064-BAF9-4EDA-BBD6-56673D4EA8DF}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T094748Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4c404e3f-fe9c-4b36-ac80-6fe8cdea1be0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180423T122014Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

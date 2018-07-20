@@ -1,0 +1,61 @@
+﻿@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Diagnostics
+@using M1CP.Foundation.Base.Helpers
+@using M1CP.Feature.Thumbnail.Models
+
+@model M1CP.Feature.Thumbnail.Models.IThumbnailIcon
+
+@{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<IThumbnailGradientRenderingParamater>();
+}
+
+<div class="col-xs-12 padding-false thumbnail-type3-component theme-dark theme-grey text-theme-black">
+    <!-- Thumbnail type3 content -->
+    <div class="col-xs-offset-1 col-xs-10 col-sm-10 padding-false thumbnail-type3-content">
+
+        <!-- Thumbnail type3 heading -->
+        <div class="col-xs-12 padding-false thumbnail-type3-caption component-heading">
+            <div>@Html.Glass().Editable(m => m.Title)</div>
+            <p class="font-body1"></p>
+        </div>
+        @if (Model.Iconthumbnaillist != null)
+        {
+        <!-- Thumbnail type3 image and description -->
+            <div class="col-xs-12 padding-false thumbnail-type3 thumbnail-type3-variant">
+                @{ var maxItem = ((RenderingParamaters != null && RenderingParamaters.desktopCount.value != 0) ? RenderingParamaters.desktopCount.value : 4);
+                var minItem = ((RenderingParamaters != null && RenderingParamaters.mobileCount.value != 0) ? RenderingParamaters.mobileCount.value : 1);
+                }
+
+                <!-- Repeating content 1 -->
+                @foreach (var item in Model.Iconthumbnaillist)
+                {
+                    <div class="col-xs-12 col-sm-6 col-md-@(12 / maxItem) thumbnail-type3-item">
+                        <div class="col-xs-12 thumbnail-type3-image">
+                            @if (@Html.Glass().IsInEditingMode)
+                            {
+                                @Html.Glass().RenderImage(item, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "img-responsive" })
+                            }
+                            else
+                            {
+                                <img src="/images/thumb.gif" class="img-responsive lazyload imagewidthloader " alt="@item.Image_Desktop.Alt" data-src="@item.Image_Desktop.Src" />
+                            }
+                        </div>
+
+                        <div class="col-xs-12 thumbnail-type3-text padding-false">
+                            <!-- Change classes for p tags based on style guide and change same in CSS -->
+                            <!-- CSS: check for resolution - 768px (min-height) after getting style guide -->
+                            <div>@Html.Glass().Editable(item, m => m.Title)</div>
+                            <div>@Html.Glass().Editable(item, m => m.Description)</div>
+                        </div>
+
+                    </div>
+                }
+            </div>
+                    }
+    </div>
+
+</div>

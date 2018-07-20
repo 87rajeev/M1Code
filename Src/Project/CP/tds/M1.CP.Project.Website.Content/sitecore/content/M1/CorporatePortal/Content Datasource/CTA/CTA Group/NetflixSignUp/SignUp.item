@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {F11DE4D5-9AF6-42C8-8D35-527A994212C3}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/CTA/CTA Group/NetflixSignUp/SignUp
+parent: {4BACA314-C34D-4FFB-B4FB-343B050F004C}
+name: SignUp
+master: {00000000-0000-0000-0000-000000000000}
+template: {347443B8-A1DC-48B9-AE7D-34B3709DFC52}
+templatekey: _CTA
+created: 20180412T140657Z
+
+----version----
+language: en
+version: 1
+revision: 12b2e110-2397-4ecd-ac6d-5c35dfe3a5ba
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 6
+
+SignUp
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 28
+
+<link linktype="internal" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180412T140657Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+12b2e110-2397-4ecd-ac6d-5c35dfe3a5ba
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180412T142838Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {7B11EAEC-34A3-48B1-9101-E89AD19752DD}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/home-broadband/_Local/plans-textcarousal
+parent: {31EA608E-B828-42E5-BB7F-C180DE43C59D}
+name: plans-textcarousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180503T161936Z
+
+----version----
+language: en
+version: 1
+revision: 5ebd5d38-0041-42bc-b970-8f4fe9d3d916
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 155
+
+{94822E02-6A61-4550-B32D-6156BAE46A23}|{944F4A87-7C86-4CEC-8CA6-FB16ADE91C4D}|{32380929-DE3C-4D1E-B7FA-B2322B7E8917}|{3E896BD9-BED4-4796-95C4-5E873DCAEE85}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 18
+
+Plans TextCarousal
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 67
+
+<link text="View" linktype="external" url="" anchor="" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 119
+
+  <p class="font-heading1">Make It better with these</p>
+                    <p class="font-heading3">&nbsp;ADD-ONS</p>
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Plans TextCarousal
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180503T161936Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5ebd5d38-0041-42bc-b970-8f4fe9d3d916
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T133434Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

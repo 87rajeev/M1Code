@@ -1,0 +1,205 @@
+﻿
+
+
+
+
+/*css for Main page-Banner Component ---Both page banner and half-page banner---*/
+
+
+.mainpage-banner .thumbnail {
+    max-height: 467px;
+    overflow: hidden;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.mainpage-banner {
+    position: relative;
+}
+
+    .mainpage-banner .thumbnail {
+        /*position:relative;*/
+        border: 0;
+    }
+
+        .mainpage-banner .thumbnail .caption {
+            position: absolute;
+            text-align: left;
+            top: 10%;
+            transform: translateY(-50%);
+            left: 10%;
+            color: black;
+            padding: 0 35px;
+            margin-top: 27px;
+        }
+
+    .mainpage-banner .caption p {
+        margin-bottom: 11px;
+        line-height: 25px;
+    }
+
+    .mainpage-banner .caption.center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .mainpage-banner .caption.left {
+        position: absolute;
+        top: 50%;
+        left: 40px;
+        transform: translateY(-50%);
+    }
+
+    .mainpage-banner .caption.right {
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        ;
+        transform: translateY(-50%);
+    }
+
+    .mainpage-banner .row .caption {
+        width: 250px;
+    }
+
+@media only screen and (min-width: 320px) and (max-width: 529px) {
+    .mainpage-banner .row .caption {
+        width: 190px;
+    }
+
+    .mainpage-banner .caption p {
+        line-height: 18px;
+    }
+
+    .mainpage-banner .caption.left {
+        position: absolute;
+        top: 50%;
+        left: 35px;
+        transform: translateY(-50%);
+    }
+
+    .mainpage-banner .caption.right {
+        position: absolute;
+        top: 50%;
+        right: 35px;
+        ;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 767px) {
+    .mainpage-banner .row .caption {
+        width: 300px;
+    }
+
+    .mainpage-banner .caption.left {
+        position: absolute;
+        top: 50%;
+        left: 35px;
+        transform: translateY(-50%);
+    }
+
+    .mainpage-banner .caption.right {
+        position: absolute;
+        top: 50%;
+        right: 35px;
+        ;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .mainpage-banner .row .caption {
+        width: 420px;
+    }
+
+    .mainpage-banner .caption.left {
+        position: absolute;
+        top: 50%;
+        left: 35px;
+        transform: translateY(-50%);
+    }
+
+    .mainpage-banner .caption.right {
+        position: absolute;
+        top: 50%;
+        right: 35px;
+        ;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .mainpage-banner .row .caption {
+        width: 550px;
+    }
+
+    .mainpage-banner .caption.left {
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        transform: translateY(-50%);
+    }
+
+    .mainpage-banner .caption.right {
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        ;
+        transform: translateY(-50%);
+    }
+}
+
+/*  @media only screen and (min-width: 1366px) { 
+.mainpage-banner  .row .caption {
+	width:550px;
+}
+.mainpage-banner .caption.left {
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    transform: translateY(-50%);
+}
+.mainpage-banner .caption.right {
+    position: absolute;
+    top: 50%;
+    right: 70px;;
+    transform: translateY(-50%);
+}
+
+  }*/
+
+/*media query for tablet range*/
+@media only screen and (min-width: 992px) and (max-width: 1042px) {
+    .mainpage-banner .caption .font-button {
+        padding: 6px;
+    }
+}
+
+/*media query for tablet range*/
+@media only screen and (min-width: 992px) and (max-width: 1042px) {
+    .mainpage-banner .caption h1 {
+        font-size: 32px;
+    }
+
+    .mainpage-banner .caption h3 {
+        font-size: 28px;
+    }
+
+    .mainpage-banner .caption p {
+        font-size: 15px;
+    }
+}
+
+.mainpage-banner .caption .font-button {
+    min-width: 100%;
+}
+
+/*end of main page-Banner Component*/
+
+
+
+
+

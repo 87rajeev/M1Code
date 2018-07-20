@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {B59E3A5F-3FE3-4751-8E19-A7BF1FF9CFA2}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Digital Services/Mobile Voice And Data/Cyber_Guardian/_Local/CategoryListing/Forums
+parent: {4AFFC709-D998-4217-9379-3BADF70380A1}
+name: Forums
+master: {00000000-0000-0000-0000-000000000000}
+template: {CA268D3B-CAB6-47E6-B71D-0B9ABE3A729A}
+templatekey: SubCategory
+created: 20180507T075532Z
+
+----version----
+language: en
+version: 1
+revision: 1babb8e8-5628-42ad-8da7-a6173bc970b8
+
+----field----
+field: {C4DC7085-37F0-4B6E-8318-C8BFCB145DB1}
+name: SubCategory Color
+key: subcategory color
+content-length: 38
+
+{32348D1D-F76F-4DB3-9E15-EF8EDB335228}
+----field----
+field: {3D4817D5-4DE6-4927-A80F-6387EC2FFE06}
+name: SubCategory Name
+key: subcategory name
+content-length: 6
+
+Forums
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T130521Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1babb8e8-5628-42ad-8da7-a6173bc970b8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180504T130528Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

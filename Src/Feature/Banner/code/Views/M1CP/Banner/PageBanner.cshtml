@@ -1,0 +1,66 @@
+﻿@model M1CP.Feature.Banner.Models.IPageBanner
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.Base.Helpers
+
+
+@if (Model != null)
+{
+
+
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<M1CP.Feature.Banner.Models.IBannerParameterTemplateFields>();
+
+
+    <div class="row">
+        @if (Html.Glass().IsInEditingMode)
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Glass().Editable(Model, x => x.BannerMainHeading)
+            </div>
+        }
+        else if (!String.IsNullOrEmpty(Model.BannerMainHeading) && Model.BannerMainHeading.Length > 0)
+        {
+            <div class="component-heading theme-dark1">
+                @Html.Glass().Editable(Model, x => x.BannerMainHeading)
+            </div>
+        }
+        <!--End of heading-->
+        <!--Start of main page banner-->
+        <!--<div class="row" style="position:relative">-->
+        <div class="col-xs-12 padding-false pagebanner @(RenderingParamaters != null && RenderingParamaters.SelectedTheme != null && RenderingParamaters.SelectedTheme.style != null ? RenderingParamaters.SelectedTheme.style : "") text-theme-black">
+            <div class="col-xs-12 padding-false pagebanner-background">
+                @using (Html.Glass().BeginEditFrame(Model, "editimage", m => m.Image_Desktop))
+                {
+                    @Html.Raw(HTMLHelper.BuildPictureTag(Model.Image_Desktop, "lazyload"))
+                }
+            </div>
+
+            <div class="col-xs-6 padding-false pagebanner-content pagebanner-@(RenderingParamaters != null && RenderingParamaters.SelectedOrientation != null && RenderingParamaters.SelectedOrientation.style != null ? RenderingParamaters.SelectedOrientation.style : "")">
+                <p class="font-heading1 animation-element slide-bottom">@Html.Glass().Editable(Model, x => x.Title)</p>
+                <p class="font-heading3 animation-element slide-bottom">@Html.Glass().Editable(Model, x => x.SupportText)</p>
+                <p class="font-body1 animation-element slide-bottom">@Html.Glass().Editable(x => x.Description)</p>
+                @if (Model.CTATitle != null)
+                {
+                    foreach (var CTAmodel in Model.CTATitle)
+                    {
+                        if (Html.Glass().IsInEditingMode)
+                        {
+                            using (Html.Glass().BeginEditFrame(CTAmodel, "EditLink", m => m.CTATitle, m => m.CTALink))
+                            {
+                        <a  role="button" href="@((CTAmodel != null && CTAmodel.CTALink != null) ? CTAmodel.CTALink.Url : "#")" class="btn btn-block btn-default animated-button button-animated">@CTAmodel.CTATitle</a>
+                            }
+                        }
+                        else
+                        {
+                            if (CTAmodel != null && CTAmodel.CTALink != null && CTAmodel.CTALink.Url != null && !String.IsNullOrEmpty(CTAmodel.CTALink.Url))
+                            {
+                            <a role="button" href="@((CTAmodel != null && CTAmodel.CTALink != null) ? CTAmodel.CTALink.Url : "#")" class="btn btn-block btn-default animated-button button-animated">@CTAmodel.CTATitle</a>
+                            }
+                        }
+                    }
+
+                }
+            </div>
+        </div>
+    </div>
+}

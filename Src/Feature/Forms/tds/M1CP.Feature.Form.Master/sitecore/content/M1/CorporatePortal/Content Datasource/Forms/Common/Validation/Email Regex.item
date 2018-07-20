@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {3193747F-1080-4BEA-BCE3-AE9E32AEA15E}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/Common/Validation/Email Regex
+parent: {FCDB2F4B-A379-49D0-BBF8-E6D24A14930E}
+name: Email Regex
+master: {00000000-0000-0000-0000-000000000000}
+template: {93E1A72C-0EF0-44E5-8CB9-FBFB8D14F309}
+templatekey: RegexFieldValidation
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: b492614e-3eb8-4827-8803-23ffddc2b683
+
+----field----
+field: {B310EA74-0537-43EE-AE0C-18214403942E}
+name: Regex
+key: regex
+content-length: 426
+
+(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])
+----field----
+field: {387FB02B-C661-469D-B66C-CD17C24A2B56}
+name: Validation Message
+key: validation message
+content-length: 27
+
+Please enter valid email id
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180423T081310Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b492614e-3eb8-4827-8803-23ffddc2b683
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180423T082300Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,45 @@
+﻿@using M1CP.Feature.ImagePromo.Models
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+@using M1CP.Foundation.Base.Helpers
+
+@model M1CP.Feature.ImagePromo.Models.IImagePromoInfo
+
+@if (Model != null)
+{
+    var RenderingParamaters = Html.Glass().GetRenderingParameters<IImagePromoParamater>();
+    var Theme = (RenderingParamaters!=null && RenderingParamaters.SelectedTheme!=null && RenderingParamaters.SelectedTheme.style!=null ? RenderingParamaters.SelectedTheme.style:"");
+    var MaxCol = 12 / (RenderingParamaters.desktopCount != null ? RenderingParamaters.desktopCount.value : 2);
+    var MinCol = 12 / (RenderingParamaters.mobileCount != null ? RenderingParamaters.mobileCount.value : 2);  
+        <section class="thumbnail-type3-component @Theme text-theme-black">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 thumbnail-type3-content">
+                <div class="thumbnail-type3">
+                    @foreach (var item in Model.Select)
+                    {
+                        <div class="col-xs-@MinCol col-md-@MaxCol thumbnail-type3-item">
+                            <div class="media">
+                                <div class="media-left thumbnail-type3-item-image">                                    
+                                    @if (@Html.Glass().IsInEditingMode)
+                                    {
+                                        @Html.Glass().RenderImage(item, m => m.Image_Desktop, isEditable: true, parameters: new { @class = "media-object" })
+                                    }
+                                    else
+                                    {
+                                        <img src="/images/thumb.png" alt="Thumbnail icon image" class="lazyload media-object" data-src="@item.Image_Desktop.Src" />
+                                    }
+                                </div>
+                                <div class="media-body media-middle">
+                                    <p class="font-body7">@Html.Glass().Editable(item, x => x.Title)</p>
+                                    <p class="font-body1">@Html.Glass().Editable(item, x => x.Description)</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    @Html.Glass().Editable(x => x.Description)
+                </div>
+            </div>
+        </section>    
+}

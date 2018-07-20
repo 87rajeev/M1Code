@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {A00AA047-72BF-4652-BFD2-EF924ED03DB0}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/Plan With Device/_Local/Device Carousal/Device Details 1
+parent: {262D46CF-D4FA-43EA-8FDF-0BA03D23B468}
+name: Device Details 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {042CBBAA-754F-43BC-B872-BF7ABE17686E}
+templatekey: Device Details
+created: 20180410T104511Z
+
+----version----
+language: en
+version: 1
+revision: b5e60d9b-fe50-4485-a69c-7f7db0825969
+
+----field----
+field: {1DBF18A4-A103-4CB6-AE06-8DF7956D54BC}
+name: Name
+key: name
+content-length: 5
+
+APPLE
+----field----
+field: {55D798CB-60FB-4CC0-8E77-6253A125343E}
+name: Device Model
+key: device model
+content-length: 13
+
+iPhone 8 64GB
+----field----
+field: {2A983145-E504-429E-9FCD-103814952DEB}
+name: Cost of device
+key: cost of device
+content-length: 4
+
+$398
+----field----
+field: {81C6ADB6-A1A5-43FC-974C-5E2504F5E167}
+name: Cost of device per month
+key: cost of device per month
+content-length: 9
+
+$70/Month
+----field----
+field: {3030F33D-9337-49E9-BDCA-B57ED7B0AC4A}
+name: SIM Details
+key: sim details
+content-length: 23
+
+on mySIM<sup>e</sup> 70
+----field----
+field: {03C4168C-5D10-4B34-9DE4-F8264EDC0BD2}
+name: Available Colours
+key: available colours
+content-length: 155
+
+{1608EA0A-E067-44B3-BD66-FFEAADDB5893}|{592A1833-FDB5-498E-8ED3-C73EC7D0FF9A}|{F94D9B8C-5281-495F-A87F-397DD59C9F91}|{0449022A-3F74-45B2-9270-6DA49FCA79F6}
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{5E06029F-0F7E-4808-A13C-744D2795A513}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180410T103042Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5e60d9b-fe50-4485-a69c-7f7db0825969
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180410T113233Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

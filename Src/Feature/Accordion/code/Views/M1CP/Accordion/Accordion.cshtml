@@ -1,0 +1,29 @@
+﻿@using M1CP.Feature.Accordion
+@using M1CP.Foundation.SitecoreExtensions.Extensions
+@using System.Collections.Specialized
+@using M1CP.Foundation.Base
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+@using Sitecore.Mvc
+@model M1CP.Feature.Accordion.Repositories.AccordionRepository
+
+
+<div class="row">
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 accordion-properties">
+        <div class="component-heading theme-dark1 ">
+            @Html.Sitecore().Field(Templates.AccordionTemplate.Fields.TitleFieldId, Model.AccordionHeading)
+        </div>
+        <div class="panel-group accodionPadding" role="tablist" aria-multiselectable="true">
+            @if (Model != null & Model.Items != null)
+            {
+                foreach (var element in Model.Items)
+                {
+
+                    @Html.Sitecore().DynamicPlaceholder("accordion-section")
+
+                }
+            }
+        </div>
+    </div>
+</div>

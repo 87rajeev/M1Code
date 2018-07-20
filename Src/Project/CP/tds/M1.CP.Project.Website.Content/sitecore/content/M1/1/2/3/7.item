@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {8CF5929E-83EE-4FC7-B752-0E49CD83FE2C}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Travel
+parent: {CBB39CC7-0314-4CB3-8978-C30C5617981F}
+name: Travel
+master: {00000000-0000-0000-0000-000000000000}
+template: {3A2B18B6-480B-4961-A9EA-1D807B63D627}
+templatekey: Travel
+created: 20180504T073624Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----version----
+language: en
+version: 1
+revision: 7469871b-0633-4dee-83c0-49bf12ffb6bf
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180504T073624Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7469871b-0633-4dee-83c0-49bf12ffb6bf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180518T064137Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

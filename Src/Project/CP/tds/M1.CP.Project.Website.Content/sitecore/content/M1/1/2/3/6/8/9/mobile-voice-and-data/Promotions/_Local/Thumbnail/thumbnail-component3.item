@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {D3BD6E6B-A171-41CA-9D43-72A87482DD40}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/mobile-voice-and-data/Promotions/_Local/Thumbnail/thumbnail-component3
+parent: {682BEE3F-ACAE-4696-B081-8CD5478B3109}
+name: thumbnail-component3
+master: {00000000-0000-0000-0000-000000000000}
+template: {DE3E9E1F-034A-4808-8F04-084C968AF461}
+templatekey: Thumbnail Component
+created: 20180504T134315Z
+
+----version----
+language: en
+version: 1
+revision: 8e1b7b0e-61c8-4f96-ab87-085d71129e85
+
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 13
+
+View Pldffans
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 0
+
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 61
+
+&lt;p class="font-heading1"&gt;Rewards &amp; Treats&lt;/p&gt;
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 70
+
+From SunPerks to Move Rewards and Birthday Treats, we got you covered.
+----field----
+field: {1CC8685D-FEF3-48CB-B88F-0FCE1E57B25B}
+name: Image
+key: image
+content-length: 64
+
+<image mediaid="{78603FED-6402-424B-A8A5-DAD52AFA9FAD}"></image>
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 20
+
+Thumbnail Component3
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180329T112846Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e1b7b0e-61c8-4f96-ab87-085d71129e85
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180521T125645Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

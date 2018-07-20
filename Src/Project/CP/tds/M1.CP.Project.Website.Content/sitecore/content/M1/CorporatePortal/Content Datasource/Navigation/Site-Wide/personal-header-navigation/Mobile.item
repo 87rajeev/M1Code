@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {576A4AE8-177E-4754-8CCC-6B63EBD33D24}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Navigation/Site-Wide/personal-header-navigation/Mobile
+parent: {49077E75-4DA3-46DF-9C22-C26059DB25B2}
+name: Mobile
+master: {00000000-0000-0000-0000-000000000000}
+template: {25DCF332-316C-4157-BF69-01EA7A9789CF}
+templatekey: Navigation Link
+created: 20180227T143305Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: 9b36988a-001d-46a9-9add-ca54ec9092cf
+
+----field----
+field: {13F88561-E76E-463E-A19D-E97C0B1E9502}
+name: Navigation Title
+key: navigation title
+content-length: 6
+
+Mobile
+----field----
+field: {07C62E92-E84F-40EF-B5AF-CD7D89EF25FC}
+name: Navigation Link
+key: navigation link
+content-length: 92
+
+<link linktype="external" url="https://www.m1.com.sg/personal/mobile" anchor="" target="" />
+----field----
+field: {38C0DAC4-EB82-49BF-B801-EC903FEFC454}
+name: Child Navigation Items
+key: child navigation items
+content-length: 233
+
+{057BB315-86E5-432D-B873-91DA1F29E4F9}|{B08711E3-1DCF-4A10-82EE-96461D1F0128}|{99F090F2-F26F-49B5-948D-98DFB19FED2C}|{40CB4688-79E8-427A-A96D-BB10BB6A6956}|{95C103A8-99C2-408F-AB0B-4D56C895F087}|{4A445DC0-0913-43D6-ADB6-211783DE73D5}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180227T143305Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9b36988a-001d-46a9-9add-ca54ec9092cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180316T062643Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

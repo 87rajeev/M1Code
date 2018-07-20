@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D9769815-325C-4E0D-82D3-3A38D4B9A4D9}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Project/CorporatePortal/Page Types/Roaming Rates/__Standard Values
+parent: {561062F1-726A-4300-9757-87C6C2B4349C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {561062F1-726A-4300-9757-87C6C2B4349C}
+templatekey: Roaming Rates
+created: 20180518T064146Z
+
+----version----
+language: en
+version: 1
+revision: 1423d777-6019-467c-8f9e-f5eda0775532
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1796
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A1589AA8-A14F-41C9-8539-E91A699C4522}"><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="" uid="{82FBB1FD-8256-46B8-929F-01F6851C49C4}" /><r ds="" id="{D0B2C8DD-9482-4F4B-A6A0-12DA0638C954}" par="CssClass Name=light" ph="/header-top/col-huge" uid="{2FE18565-5A45-4DAC-8DC6-B56CBF636484}" /><r ds="" id="{DA79D8CB-8FF1-4772-9F38-74A073C76908}" par="" ph="/header-top/col-huge/navbar-center" uid="{27BDF131-3AE7-47F8-9DE9-CCE863271561}" /><r ds="" id="{5711BC29-234E-46A0-BFF3-99EEE3E98701}" par="" ph="/header-top/col-huge/navbar-right" uid="{E5A2282F-3E4E-4576-8F2F-9E82476486C4}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{755CCA41-1ACC-4806-AFBE-3CCB4481D316}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{D64009C6-8403-42C4-B800-4168136BC045}" /><r ds="" id="{091AF005-4276-405A-BFA9-9EB48594FE83}" par="" ph="/page-layout/col-huge_2" uid="{CDE35461-5449-45D1-9146-6044E83C42DA}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{9C7BB72C-EC61-4E59-9D77-61FC3306C63B}" /><r id="{795DE3F7-D054-4AE3-B936-23501BF94926}" ph="/page-layout/col-huge_3" uid="{229C0863-5D04-4D59-950B-44F28FAE7593}" /><r id="{FF0A0061-DC13-4ECD-AD67-0535FEFD194D}" ph="Page-layout" uid="{EA51D9B6-48F7-4CFD-A4C3-2ECE3F18677E}" /><r ds="" id="{04EBA3A5-92F0-400E-9AD4-3DAB5311DC65}" par="" ph="/page-layout/col-huge_4" uid="{D4E8B557-BBDE-48EF-83F4-B4935F41360D}" /><r ds="" id="{446B92E4-B571-449C-9B1C-136DB9464117}" par="" ph="/page-layout/col-huge_4/accordion-section" uid="{CFA2A8AC-A50D-450A-8FF1-2100991445ED}" /><r id="{1E6EA42E-AE21-4ABE-8196-F9FBFB49B008}" ph="page-Footer" uid="{7CBB34EC-0BE3-4D2D-8E56-483E07756690}" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180518T064146Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1423d777-6019-467c-8f9e-f5eda0775532
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180518T070733Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

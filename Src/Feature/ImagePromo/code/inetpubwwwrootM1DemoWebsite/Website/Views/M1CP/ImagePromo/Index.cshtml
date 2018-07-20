@@ -1,0 +1,27 @@
+﻿@using M1CP.Feature.ImagePromo.Models
+@using System.Collections.Specialized
+@using M1CP.Foundation.Core
+@using Glass.Mapper
+@using Glass.Mapper.Sc.Fields
+@using Glass.Mapper.Sc.Web.Mvc
+
+@model M1CP.Feature.ImagePromo.Models.IImagePromoInfo
+
+<div>
+    <h4>@Html.Glass().Editable(x => x.Title)</h4>
+    <p>@Html.Glass().Editable(x => x.Description)</p>
+
+    @if (null != Model)
+    {
+        <ul>
+            @foreach (var item in Model.Select)
+            {         
+                <li onclick="location.href = '@Html.Raw(item.CTALink.Url)'" style="cursor:pointer;">
+                    @Html.Glass().RenderImage(item, x => x.Image_Desktop, true)
+                    <p>@Html.Glass().Editable(item, x => x.Title)</p>
+                    <p>@Html.Glass().Editable(item, x => x.Description)</p>
+                </li>
+            }
+        </ul>
+    }
+</div>

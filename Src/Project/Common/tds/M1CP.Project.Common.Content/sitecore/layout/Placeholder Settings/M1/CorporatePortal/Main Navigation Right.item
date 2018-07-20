@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {856E9EC6-85E5-41D0-BEAD-5A654C4AE05C}
+database: master
+path: /sitecore/layout/Placeholder Settings/M1/CorporatePortal/Main Navigation Right
+parent: {42E8FC00-C4B5-45CE-8051-4B179B9FA1B5}
+name: Main Navigation Right
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20180303T041441Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 12
+
+navbar-right
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 38
+
+{5711BC29-234E-46A0-BFF3-99EEE3E98701}
+----version----
+language: en
+version: 1
+revision: 44d55217-55f7-49ff-babc-2c8b780123ad
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180303T041441Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44d55217-55f7-49ff-babc-2c8b780123ad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180403T033723Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

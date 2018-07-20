@@ -1,0 +1,96 @@
+----item----
+version: 1
+id: {ED22D4D0-F50A-4C51-BE9B-91EDDA5EF783}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/_Local/Text Carousal
+parent: {ACFD320E-7D55-42A7-B184-882D71C59D2F}
+name: Text Carousal
+master: {00000000-0000-0000-0000-000000000000}
+template: {8C122B0C-046E-4E47-8196-A6E4992FDFD8}
+templatekey: Carousal
+created: 20180404T121543Z
+
+----version----
+language: en
+version: 1
+revision: d56bf45d-00fe-42a4-874a-d27c747ea3ce
+
+----field----
+field: {365BC1C6-9D55-4DCC-B9A7-5907BEDCDE0A}
+name: Carousal Component Items
+key: carousal component items
+content-length: 155
+
+{07255559-896F-46B2-877C-25CE8B6B2F1D}|{F5302249-B61B-40E5-B117-871EF949C933}|{ED24EDE0-960B-4755-B4F3-E184B57AF7EF}|{55F92836-C829-48D6-9238-8E6B1DC4549D}
+----field----
+field: {54157107-9B6D-436F-9FD5-D6A247C0DF1E}
+name: CTATitle
+key: ctatitle
+content-length: 16
+
+VIEW ALL SPECIAL
+----field----
+field: {B3EAA68C-885E-442B-9BBE-8859D555422F}
+name: CTALink
+key: ctalink
+content-length: 124
+
+<link text="VIEW ALL SPECIAL" linktype="external" url="" anchor="" class="viewall-link font-body8 expand-below" target="" />
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 112
+
+  <p class="font-heading1">Special benefits</p>
+
+                <p class="font-heading3">&nbsp;JUST FOR YOU</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180309T085503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d56bf45d-00fe-42a4-874a-d27c747ea3ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180427T033936Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

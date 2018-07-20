@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {09F83708-EB7D-45E9-869B-538A2C63386E}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Content Datasource/Forms/M1CP/Groupform
+parent: {240BD572-8F1A-4153-8D40-1830A34E5668}
+name: Groupform
+master: {00000000-0000-0000-0000-000000000000}
+template: {EE860BA8-C8F2-4F5A-A146-8A0E1A23E2AC}
+templatekey: Form
+created: 20180508T062554Z
+
+----version----
+language: en
+version: 1
+revision: 2cccbfef-ee35-4853-aba8-ac5c7d2b29bc
+
+----field----
+field: {709B0481-6690-4E72-AF08-1A3B7F2DFEE1}
+name: Field Groups
+key: field groups
+content-length: 116
+
+{536142B2-42D3-4399-9C60-2D6F36B54A7B}|{DB0CC011-7890-434E-AEDA-2E8C73A546A7}|{B7E29710-0E05-46F6-94BD-B02D37961FA8}
+----field----
+field: {BC286FB0-C648-4E06-A6EF-11A0E6708539}
+name: Button Groups
+key: button groups
+content-length: 38
+
+{3E1D3E4E-C50B-4B51-8E1E-F4BC0D595513}
+----field----
+field: {A26A6B3B-C793-443C-B8D9-DAAC95CE39A8}
+name: Form Events
+key: form events
+content-length: 38
+
+{3F9F90AD-D8D4-4CBC-BF18-E1E9435EB7A7}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180328T103046Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2cccbfef-ee35-4853-aba8-ac5c7d2b29bc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180328T112851Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

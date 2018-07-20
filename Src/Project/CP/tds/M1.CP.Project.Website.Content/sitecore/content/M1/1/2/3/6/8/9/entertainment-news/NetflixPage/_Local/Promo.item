@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {AC0B47E8-F397-4769-B573-17360AF25F7E}
+database: master
+path: /sitecore/content/M1/CorporatePortal/Home/Personal/Mobile/Plans/digital-services/entertainment-news/NetflixPage/_Local/Promo
+parent: {01BCAA77-DC5E-4601-BD0B-0A4B706E69C7}
+name: Promo
+master: {00000000-0000-0000-0000-000000000000}
+template: {C3666A8C-E579-4EFD-B200-51191BC01DD1}
+templatekey: ImagePromoInfo
+created: 20180419T070622Z
+
+----version----
+language: en
+version: 1
+revision: a2831e89-bce9-45eb-8787-750061d1c83a
+
+----field----
+field: {D6BDF7B3-9657-4E11-937D-940001FFE237}
+name: Title
+key: title
+content-length: 0
+
+
+----field----
+field: {64500D65-2403-4D70-8211-ED85D86CA0E4}
+name: Description
+key: description
+content-length: 781
+
+<div class="row row1 ticked-list">
+<div class="col-xs-12">
+<ul>
+    <li class="font-body9">Free incoming calls</li>
+    <li class="font-body9">Free 4G VAS</li>
+    <li class="font-body9">Voicemail Service</li>
+    <li class="font-body9">Unlimited free calls to 3 M1 numbers</li>
+    <li class="font-body9">100 mins and 100 SMS/MMS</li>
+    <li class="font-body9">Share plan with up to 2 mySIM<sup>s</sup> plans<sup>*</sup> at $12/mth each</li>
+    <li class="font-body9">Add 200 min ($5/mth), 800 min ($10/mth), and Unlimited Talktime ($15/mth)</li>
+</ul>
+</div>
+</div>
+<div class="row text-center">
+<p class="promo-text"><span class="promo" style="font-size: 14px;">PROMO</span><span class="promo-details font-body8">&nbsp;Lorem ipsum dolor sit amet, consectetur</span></p>
+</div>
+----field----
+field: {CE928FB3-E18C-48DD-B983-956CA7BB6E36}
+name: Select
+key: select
+content-length: 155
+
+{F81AF280-5707-4877-8BF7-C3ED6161A657}|{8BB87908-E8E3-4D79-AFC5-CEE3150670A7}|{021EA9F1-8C13-4E57-838E-EC91A7682FEE}|{9126987B-244F-4A02-A6D0-BAC5F2F6F9D8}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180320T131002Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a2831e89-bce9-45eb-8787-750061d1c83a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180419T074117Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

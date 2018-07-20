@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {AF320FE9-98A8-4596-9C38-DCD82F929631}
+database: master
+path: /sitecore/templates/User Defined/m1/M1CP/Feature/Table/_TableList/__Standard Values
+parent: {038441F0-3234-4C50-8A0C-606CCE457701}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {038441F0-3234-4C50-8A0C-606CCE457701}
+templatekey: _TableList
+created: 20180509T102013Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{B0C686F4-6FAB-41D7-8B86-0802053DF02F}
+----version----
+language: en
+version: 1
+revision: a9c1aae2-f50e-45b9-afe8-32c5d9fd9a94
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180509T102013Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a9c1aae2-f50e-45b9-afe8-32c5d9fd9a94
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180509T102257Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

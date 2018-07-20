@@ -1,0 +1,40 @@
+﻿@model M1CP.Feature.Forms.Models.M1CP.IListFormField
+
+@if (Model.Items != null)
+{
+    <label>
+        @Html.Raw(Model.Is_Required ? "<span class='req-field'>* </span>" : string.Empty)
+        @Html.Raw(Model.Title)
+    </label>
+    string[] selectedvalues = null;
+    if (Request.Form[Model.SitecoreItemId.ToString()] != null)
+    {
+        selectedvalues = Request.Form[Model.SitecoreItemId.ToString()].Split(',');
+    }
+    for (int i = 0; i < Model.Items.Count(); i++)
+    {
+        @*<div class="@Model.UIElements.Class" @Model.Validations.ToUIAttributes()>*@
+            <div>
+                <label>
+                    @if (selectedvalues != null && selectedvalues.Contains(Model.Items.ElementAt(i).Title))
+                    {
+                        <input type="checkbox" checked="checked" name="@Model.SitecoreItemId" class="multiChk" value="@Model.Items.ElementAt(i).Title">@Html.Raw(Model.Items.ElementAt(i).Title)
+                    }
+                    else
+                    {
+                    @*<input type="checkbox" name="@Model.UIElements.Name" class="multiChk" value="@Model.Items.ElementAt(i).Title">@Html.Raw(Model.Items.ElementAt(i).Title)*@
+                    <input type="checkbox" value="@Html.Raw(Model.Items.ElementAt(i).Title)" name="@Model.SitecoreItemId">@Html.Raw(Model.Items.ElementAt(i).Title)
+                    }
+                </label>
+            </div>
+    }
+
+    <h4>@Model.ValidationMessage</h4>
+    if (Model.Validations != null)
+    {
+        foreach (var validation in Model.Validations)
+        {
+            @*<span class="error-message @validation.Class">@validation.Validation_Message</span>*@
+        }
+    }
+}
